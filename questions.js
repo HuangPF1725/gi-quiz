@@ -172,7 +172,7 @@ const rawQuestions = [
     "no": 10,
     "question": "有關食道Caustic injury(corrosive esophagitis)之描述,何者不正確?",
     "statements": [
-      "(1) 強鹼(lye.button battery)造成較深的liquefaction necrosis,食道損傷較重, 食道易狹窄.",
+      "(1) 強鹼(lye.button battery)造成較深的liquefaction necrosis,食道損傷較重, D 食道易狹窄.",
       "(2) 強酸(鹽酸 硫酸)造成較淺的coagulation necrosis,胃損傷較重,前庭幽 門部易狹窄,易acidosis,死亡率較強鹼高.",
       "(3) 內視鏡檢查(EGD)要在24至48小時以內進行,可評估黏膜受損程度.",
       "(4) 食道穿孔易於1-2星期時發生,而食道或胃之狹窄易於3-4星期以後產生.",
@@ -185,7 +185,7 @@ const rawQuestions = [
       "D. 以上皆正確",
       "E. 以上皆不正確"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "106年度",
@@ -5424,11 +5424,7 @@ const rawQuestions = [
     "no": 14,
     "question": "下列有關慢性萎縮性胃炎(Chronic atrophic gastritis)之敘述,下列何者為非?",
     "statements": [
-      "(1) 包含environmental metaplastic atrophic gastritis 與autoimmune metaplastic atrophic gastritis "
-      "(2) autoimmune metaplastic atrophic gastritis 之 atrophic gastritis 主要發生於胃竇部（gastric antrum）",
-      "(3)  autoimmune metaplastic atrophic gastritis 常與 anti-parietal cell antibody 的產生有關 ",
-      "(4) environmental metaplastic atrophic gastritis 常與幽門螺旋桿菌感染有關 ",
-      "(5)  autoimmune metaplastic atrophic gastritis患者少有hypergastrinemia之情形"
+      "(1) 包含environmental metaplastic atrophic gastritis 與autoimmune"
     ],
     "options": [
       "A. (2)+(5)",
@@ -5437,7 +5433,7 @@ const rawQuestions = [
       "D. (2)+(3)+(5)",
       "E. (1)+(2)+(5)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -7723,7 +7719,7 @@ const rawQuestions = [
   {
     "year": "110年度",
     "no": 42,
-    "question": "一名25歲男性出現出血性腹瀉3個月.大腸鏡檢查顯示左側大腸有中度發炎, 從直腸(rectum)延伸至脾彎曲處(the splenic flexure).其餘大腸粘膜正常.迴腸末端正常。大腸切片病理報告顯示隱窩結構不規則（crypt architectural irregularity），未發現肉芽腫（granulomas）。糞便檢查對感染為陰性結果。以下哪項為最可能的診斷？",
+    "question": "一名25歲男性出現出血性腹瀉3個月.大腸鏡檢查顯示左側大腸有中度發炎, 從直腸(rectum)延伸至脾彎曲處(the splenic flexure).其餘大腸粘膜正常.",
     "statements": [],
     "options": [
       "A. 潰瘍性結腸炎(ulcerative colitis)",
@@ -7732,7 +7728,7 @@ const rawQuestions = [
       "D. 阿米巴大腸炎(Amebic colitis)",
       "E. 困難梭狀芽孢桿菌感染症(Clostridium difficile infection)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "110年度",
@@ -8387,7 +8383,7 @@ const rawQuestions = [
     "no": 80,
     "question": "關於HCC image diagnostic performance 的敘述,下列何者正確?",
     "statements": [
-      "(1) Dynamic plus hepatobiliary phase MRI had a higher sensitivity and negative predictive value than multiphasic CT and dynamic phase MRI alone",
+      "(1) Dynamic plus hepatobiliary phase MRI had a higher sensitivity and negative B predictive value than multiphasic CT and dynamic phase MRI alone",
       "(2) Gadoxetic acid is unique in that approximately 50% of the administrated dose is taken up by the hepatocytes and excreted into the bile ducts",
       "(3) On gadoxetic acid enhanced MRI, hyper-intensity on hepatobiliary phase is regarded as an ancillary finding favoring malignancy",
       "(4) Gadoxetic acid-enhanced MRI has a higher sensitivity for detecting nodules that are either HCC not displaying the typical features of imaging hallmarks or high-grade dysplastic nodules"
@@ -8399,7 +8395,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)",
       "E. (2)+(4)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "110年度",
@@ -11943,9 +11939,7 @@ const rawQuestions = [
     "question": "依據BCLC 2022 update,下列何者正確?",
     "statements": [
       "(1) For solitary HCC, the presence of CSPH (defined by a hepatic venous D pressure gradient [HVPG] > 10 mmHg) is the key consideration to decide treatment option",
-      "(2) BCLC A is defined as solitary HCC irrespective of size or as a multifocal  HCC up to 3 nodules (none of them > 3 cm), without macrovascular  invasion, extrahepatic spread or cancer-related symptoms "
-      "(3) The 2022 version of the BCLC staging system does not recommend  resection for multinodular HCC within Milan criteria  "
-      "(4) MW (microwave) achieves more extensive tumour necrosis than RF  (radiofrequency) and is potentially the best option for those patients with  HCC > 4 cm  "
+      "(2) BCLC"
     ],
     "options": [
       "A. (1)",
@@ -11954,7 +11948,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -12124,10 +12118,7 @@ const rawQuestions = [
     "no": 87,
     "question": "下列有關外科手術治療肝門膽管癌(hilar cholangiocarcinoma)的描述何者為真:",
     "statements": [
-      "(1) 由於腫瘤容易浸潤附近肝臟,要達到R0 切除的目標,肝門必須和附近肝臟一起切除，所以除左或右肝切除外，尾葉（caudate lobe）也一定要一併切除"
-      "(2) 廣泛肝臟切除（extended hepatectomy）術前，建議膽道引流直到膽紅素 2 mg%以下，再進行手術"
-      "(3) PTCD 或ENBD是比較接受的術前引流方式"
-      "(4) 廣泛肝臟切除（extended hepatectomy）術前如評估剩餘肝臟太小，有肝功能不足疑慮時，可以先進行經導管肝動脈栓塞 "
+      "(1) 由於腫瘤容易浸潤附近肝臟,要達到R0 切除的目標,肝門必須和附近肝臟"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -12136,7 +12127,7 @@ const rawQuestions = [
       "D. (1)+(2)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "112年度",
