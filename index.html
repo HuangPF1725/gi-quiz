@@ -258,7 +258,6 @@
             justify-content: space-between;
         }
     </style>
-    <!-- 讀取同層資料夾中的題庫檔 -->
     <script src="questions.js"></script>
 </head>
 <body>
@@ -280,7 +279,6 @@
             <option value="mistakes" style="color: #b45309; font-weight: bold;">★ 我的錯題本</option>
         </select>
 
-        <!-- 自訂區間專用下拉選單 -->
         <div class="range-container" id="range-box">
             <select id="start-year" onchange="onFilterChange()">
                 <option value="106">106 年</option>
@@ -328,13 +326,14 @@
     </div>
 
     <div class="stats-bar">
-        <span id="bank-info">可抽題數：0 題</span>
+        <span id="bank-info">進度：0 / 0 題</span>
         <span id="score-box">答對率：0 / 0 (0%)</span>
     </div>
 </div>
 
 <script>
-let currentPool = [];
+let currentPool = [];          // 當前範圍所有題目
+let remainingIndices = [];     // 牌堆：本輪尚未抽過的題目索引
 let currentQuestion = null;
 let selectedOption = null;
 let stats = { total: 0, correct: 0 };
@@ -379,6 +378,7 @@ function toggleCurrentBookmark() {
 
     if (document.getElementById("mode-select").value === "mistakes") {
         filterPool();
+        loadRandomQuestion();
     }
 }
 
@@ -418,7 +418,7 @@ function importMistakes(event) {
             const imported = JSON.parse(e.target.result);
             if (!Array.isArray(imported)) throw new Error("格式不正確");
             const current = getMistakeKeys();
-            const shouldMerge = confirm(`成功讀取！共有 ${imported.length} 筆紀錄。\n\n按「確定」與目前紀錄【合併】\n按「取消」將【覆蓋】目前的紀錄`);
+            const shouldMerge = confirm(`成功讀取！共有 ${imported.length} 筆紀錄。\n\n按「確定」將檔案與目前紀錄【合併】\n按「取消」將【覆蓋】目前的紀錄`);
             
             let finalList = shouldMerge ? Array.from(new Set([...current, ...imported])) : imported;
             saveMistakeKeys(finalList);
@@ -482,9 +482,7 @@ function initBank() {
 function onModeChange() {
     const mode = document.getElementById("mode-select").value;
     const rangeBox = document.getElementById("range-box");
-    // 只有在「自訂年份區間」模式時才顯示「某年 到 某年」選單
     rangeBox.style.display = (mode === "range") ? "inline-flex" : "none";
-    
     onFilterChange();
 }
 
@@ -493,11 +491,12 @@ function onFilterChange() {
     loadRandomQuestion();
 }
 
+// 建立題目池並執行 Fisher-Yates 洗牌
 function filterPool() {
     const mode = document.getElementById("mode-select").value;
 
     if (mode === "all") {
-        currentPool = rawQuestions;
+        currentPool = [...rawQuestions];
     } else if (mode === "mistakes") {
         const mistakeKeys = getMistakeKeys();
         currentPool = rawQuestions.filter(q => mistakeKeys.includes(getQuestionKey(q)));
@@ -515,7 +514,24 @@ function filterPool() {
         });
     }
 
-    document.getElementById("bank-info").innerText = `可抽題數：${currentPool.length} 題`;
+    // 重設牌堆並進行隨機洗牌
+    shuffleRemaining();
+    updateProgressUI();
+}
+
+function shuffleRemaining() {
+    remainingIndices = currentPool.map((_, idx) => idx);
+    for (let i = remainingIndices.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [remainingIndices[i], remainingIndices[j]] = [remainingIndices[j], remainingIndices[i]];
+    }
+}
+
+function updateProgressUI() {
+    const total = currentPool.length;
+    const remaining = remainingIndices.length;
+    const done = total - remaining;
+    document.getElementById("bank-info").innerText = `進度：${done} / ${total} 題 (剩餘 ${remaining} 題)`;
 }
 
 function skipQuestion() {
@@ -525,11 +541,9 @@ function skipQuestion() {
 function loadRandomQuestion() {
     if (currentPool.length === 0) {
         const mode = document.getElementById("mode-select").value;
-        if (mode === "mistakes") {
-            document.getElementById("question-text").innerText = "太棒了！錯題本內目前沒有任何題目。";
-        } else {
-            document.getElementById("question-text").innerText = "所選年份區間內目前無符合之題目。";
-        }
+        document.getElementById("question-text").innerText = (mode === "mistakes")
+            ? "太棒了！錯題本內目前沒有任何題目。"
+            : "所選年份區間內目前無符合之題目。";
         document.getElementById("question-statements").style.display = "none";
         document.getElementById("options-container").innerHTML = "";
         document.getElementById("source-badge").innerText = "無題目";
@@ -538,7 +552,14 @@ function loadRandomQuestion() {
         document.getElementById("next-btn").style.display = "none";
         document.getElementById("result-box").style.display = "none";
         updateStarUI();
+        updateProgressUI();
         return;
+    }
+
+    // 本輪題目全部抽完時的處理
+    if (remainingIndices.length === 0) {
+        alert("🎉 太強了！所選範圍內的題目已全數刷完一輪！系統已為您重新洗牌，即將展開新的一輪。");
+        shuffleRemaining();
     }
 
     selectedOption = null;
@@ -548,10 +569,12 @@ function loadRandomQuestion() {
     document.getElementById("next-btn").style.display = "none";
     document.getElementById("result-box").style.display = "none";
 
-    const randomIndex = Math.floor(Math.random() * currentPool.length);
-    currentQuestion = currentPool[randomIndex];
+    // 從洗好的牌堆中取出一張，保證當輪絕不重複
+    const nextIdx = remainingIndices.pop();
+    currentQuestion = currentPool[nextIdx];
 
     updateStarUI();
+    updateProgressUI();
 
     document.getElementById("source-badge").innerText = `${currentQuestion.year} 第 ${currentQuestion.no} 題`;
     document.getElementById("question-text").innerText = currentQuestion.question;
