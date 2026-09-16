@@ -20,7 +20,7 @@
             background-color: var(--bg);
             color: var(--text);
             margin: 0;
-            padding: 20px;
+            padding: 16px;
             display: flex;
             justify-content: center;
         }
@@ -31,7 +31,7 @@
             background: var(--card);
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-            padding: 24px 30px;
+            padding: 24px;
             box-sizing: border-box;
         }
 
@@ -40,12 +40,12 @@
             justify-content: space-between;
             align-items: center;
             border-bottom: 2px solid #e2e8f0;
-            padding-bottom: 14px;
-            margin-bottom: 20px;
+            padding-bottom: 12px;
+            margin-bottom: 16px;
         }
 
         .header h1 {
-            font-size: 1.25rem;
+            font-size: 1.15rem;
             margin: 0;
             color: var(--primary);
         }
@@ -53,13 +53,13 @@
         .header-right {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 8px;
         }
 
         .badge {
             background-color: #e0f2fe;
             color: #0369a1;
-            padding: 4px 12px;
+            padding: 4px 10px;
             border-radius: 12px;
             font-size: 0.85rem;
             font-weight: 600;
@@ -82,15 +82,21 @@
 
         .filter-row {
             display: flex;
-            gap: 10px;
+            gap: 8px;
             align-items: center;
-            margin-bottom: 18px;
-            font-size: 0.95rem;
+            margin-bottom: 16px;
+            font-size: 0.9rem;
             flex-wrap: wrap;
         }
 
+        .range-container {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
         select {
-            padding: 6px 12px;
+            padding: 6px 10px;
             border-radius: 6px;
             border: 1px solid #cbd5e1;
             font-size: 0.9rem;
@@ -101,9 +107,9 @@
             background: #ffffff;
             border: 1px solid #cbd5e1;
             color: #475569;
-            padding: 5px 12px;
+            padding: 5px 10px;
             border-radius: 6px;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             cursor: pointer;
             transition: all 0.15s ease;
         }
@@ -136,6 +142,10 @@
             font-size: 0.92rem;
         }
 
+        .statements div {
+            margin-bottom: 4px;
+        }
+
         .options-group {
             display: flex;
             flex-direction: column;
@@ -153,6 +163,7 @@
             transition: all 0.15s ease;
             color: var(--text);
             line-height: 1.4;
+            -webkit-tap-highlight-color: transparent;
         }
 
         .option-btn:hover:not(:disabled) {
@@ -180,8 +191,8 @@
         }
 
         .result-panel {
-            margin-top: 20px;
-            padding: 14px 18px;
+            margin-top: 18px;
+            padding: 14px 16px;
             border-radius: 8px;
             display: none;
             line-height: 1.5;
@@ -200,7 +211,7 @@
         }
 
         .actions {
-            margin-top: 22px;
+            margin-top: 20px;
             display: flex;
             justify-content: flex-end;
             gap: 10px;
@@ -210,7 +221,7 @@
             background-color: var(--primary);
             color: white;
             border: none;
-            padding: 9px 22px;
+            padding: 9px 20px;
             font-size: 0.95rem;
             border-radius: 6px;
             cursor: pointer;
@@ -247,7 +258,7 @@
             justify-content: space-between;
         }
     </style>
-    <!-- 引入題庫檔案 -->
+    <!-- 讀取同層資料夾中的題庫檔 -->
     <script src="questions.js"></script>
 </head>
 <body>
@@ -262,21 +273,40 @@
     </div>
 
     <div class="filter-row">
-        <label for="year-select">練習範圍：</label>
-        <select id="year-select" onchange="onYearChange()">
-            <option value="all">全部年度 (隨機)</option>
+        <label for="mode-select">練習範圍：</label>
+        <select id="mode-select" onchange="onModeChange()">
+            <option value="range">自訂年份區間</option>
+            <option value="all">全部年度 (106 ~ 113)</option>
             <option value="mistakes" style="color: #b45309; font-weight: bold;">★ 我的錯題本</option>
-            <option value="113">113 年度</option>
-            <option value="112">112 年度</option>
-            <option value="111">111 年度</option>
-            <option value="110">110 年度</option>
-            <option value="109">109 年度</option>
-            <option value="108">108 年度</option>
-            <option value="107">107 年度</option>
-            <option value="106">106 年度</option>
         </select>
-        <button class="btn-tool" onclick="exportMistakes()" title="下載錯題本記錄檔">匯出錯題</button>
-        <button class="btn-tool" onclick="document.getElementById('import-file').click()" title="載入錯題本記錄檔">匯入錯題</button>
+
+        <!-- 自訂區間專用下拉選單 -->
+        <div class="range-container" id="range-box">
+            <select id="start-year" onchange="onFilterChange()">
+                <option value="106">106 年</option>
+                <option value="107">107 年</option>
+                <option value="108">108 年</option>
+                <option value="109">109 年</option>
+                <option value="110">110 年</option>
+                <option value="111">111 年</option>
+                <option value="112">112 年</option>
+                <option value="113" selected>113 年</option>
+            </select>
+            <span>至</span>
+            <select id="end-year" onchange="onFilterChange()">
+                <option value="106">106 年</option>
+                <option value="107">107 年</option>
+                <option value="108">108 年</option>
+                <option value="109">109 年</option>
+                <option value="110">110 年</option>
+                <option value="111">111 年</option>
+                <option value="112">112 年</option>
+                <option value="113" selected>113 年</option>
+            </select>
+        </div>
+
+        <button class="btn-tool" onclick="exportMistakes()" title="下載錯題紀錄備份">匯出錯題</button>
+        <button class="btn-tool" onclick="document.getElementById('import-file').click()" title="載入錯題備份檔">匯入錯題</button>
         <input type="file" id="import-file" style="display: none;" accept=".json" onchange="importMistakes(event)">
         <button class="btn-tool danger" onclick="clearAllMistakes()">清空錯題</button>
     </div>
@@ -292,7 +322,6 @@
     </div>
 
     <div class="actions">
-        <!-- 新增：跳過此題按鈕 -->
         <button class="action-btn secondary" id="skip-btn" onclick="skipQuestion()">跳過此題</button>
         <button class="action-btn" id="submit-btn" disabled>送出答案</button>
         <button class="action-btn" id="next-btn" style="display: none;">下一題</button>
@@ -348,7 +377,7 @@ function toggleCurrentBookmark() {
     saveMistakeKeys(list);
     updateStarUI();
 
-    if (document.getElementById("year-select").value === "mistakes") {
+    if (document.getElementById("mode-select").value === "mistakes") {
         filterPool();
     }
 }
@@ -387,24 +416,17 @@ function importMistakes(event) {
     reader.onload = function(e) {
         try {
             const imported = JSON.parse(e.target.result);
-            if (!Array.isArray(imported)) {
-                throw new Error("格式不正確");
-            }
+            if (!Array.isArray(imported)) throw new Error("格式不正確");
             const current = getMistakeKeys();
-            const shouldMerge = confirm(`成功讀取檔案！\n檔案內共有 ${imported.length} 筆錯題紀錄。\n\n按「確定」將檔案與目前紀錄【合併】\n按「取消」將【覆蓋】目前的紀錄`);
+            const shouldMerge = confirm(`成功讀取！共有 ${imported.length} 筆紀錄。\n\n按「確定」與目前紀錄【合併】\n按「取消」將【覆蓋】目前的紀錄`);
             
-            let finalList = [];
-            if (shouldMerge) {
-                finalList = Array.from(new Set([...current, ...imported]));
-            } else {
-                finalList = imported;
-            }
-
+            let finalList = shouldMerge ? Array.from(new Set([...current, ...imported])) : imported;
             saveMistakeKeys(finalList);
             alert(`匯入完成！目前錯題本共有 ${finalList.length} 題。`);
             
-            if (document.getElementById("year-select").value === "mistakes") {
-                onYearChange();
+            if (document.getElementById("mode-select").value === "mistakes") {
+                filterPool();
+                loadRandomQuestion();
             } else {
                 updateStarUI();
             }
@@ -420,8 +442,9 @@ function clearAllMistakes() {
     if (confirm("確定要清空所有已收藏的錯題嗎？")) {
         localStorage.removeItem(STORAGE_KEY);
         updateMistakesOptionText();
-        if (document.getElementById("year-select").value === "mistakes") {
-            onYearChange();
+        if (document.getElementById("mode-select").value === "mistakes") {
+            filterPool();
+            loadRandomQuestion();
         } else {
             updateStarUI();
         }
@@ -430,7 +453,7 @@ function clearAllMistakes() {
 
 function updateMistakesOptionText() {
     const count = getMistakeKeys().length;
-    const opt = document.querySelector("#year-select option[value='mistakes']");
+    const opt = document.querySelector("#mode-select option[value='mistakes']");
     if (opt) {
         opt.innerText = `★ 我的錯題本 (${count} 題)`;
     }
@@ -453,39 +476,59 @@ function initBank() {
         return;
     }
     updateMistakesOptionText();
-    onYearChange();
+    onModeChange();
 }
 
-function onYearChange() {
+function onModeChange() {
+    const mode = document.getElementById("mode-select").value;
+    const rangeBox = document.getElementById("range-box");
+    // 只有在「自訂年份區間」模式時才顯示「某年 到 某年」選單
+    rangeBox.style.display = (mode === "range") ? "inline-flex" : "none";
+    
+    onFilterChange();
+}
+
+function onFilterChange() {
     filterPool();
     loadRandomQuestion();
 }
 
 function filterPool() {
-    const mode = document.getElementById("year-select").value;
+    const mode = document.getElementById("mode-select").value;
+
     if (mode === "all") {
         currentPool = rawQuestions;
     } else if (mode === "mistakes") {
         const mistakeKeys = getMistakeKeys();
         currentPool = rawQuestions.filter(q => mistakeKeys.includes(getQuestionKey(q)));
-    } else {
-        currentPool = rawQuestions.filter(q => q.year.includes(mode));
+    } else if (mode === "range") {
+        const y1 = parseInt(document.getElementById("start-year").value, 10);
+        const y2 = parseInt(document.getElementById("end-year").value, 10);
+        const minYear = Math.min(y1, y2);
+        const maxYear = Math.max(y1, y2);
+
+        currentPool = rawQuestions.filter(q => {
+            const m = q.year.match(/\d{3}/);
+            if (!m) return false;
+            const y = parseInt(m[0], 10);
+            return y >= minYear && y <= maxYear;
+        });
     }
+
     document.getElementById("bank-info").innerText = `可抽題數：${currentPool.length} 題`;
 }
 
-// 跳過此題功能：不計入統計，直接抽下一題
 function skipQuestion() {
     loadRandomQuestion();
 }
 
 function loadRandomQuestion() {
     if (currentPool.length === 0) {
-        const mode = document.getElementById("year-select").value;
+        const mode = document.getElementById("mode-select").value;
         if (mode === "mistakes") {
             document.getElementById("question-text").innerText = "太棒了！錯題本內目前沒有任何題目。";
         } else {
-            document.getElementById("question-text").innerText = "該類別目前無題目。";
+            document.getElementById("question-text").innerText = "所選年份區間內目前無符合之題目。";
         }
         document.getElementById("question-statements").style.display = "none";
         document.getElementById("options-container").innerHTML = "";
@@ -578,7 +621,6 @@ function checkAnswer() {
     const rate = Math.round((stats.correct / stats.total) * 100);
     document.getElementById("score-box").innerText = `答對率：${stats.correct} / ${stats.total} (${rate}%)`;
 
-    // 送出後：隱藏「送出」與「跳過」，顯示「下一題」
     document.getElementById("submit-btn").style.display = "none";
     document.getElementById("skip-btn").style.display = "none";
     document.getElementById("next-btn").style.display = "inline-block";

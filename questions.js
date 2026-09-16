@@ -4,10 +4,10 @@ const rawQuestions = [
     "no": 1,
     "question": "對於胃食道逆流性疾病(GERD)之敘述,何者不正確?",
     "statements": [
-      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD",
+      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD(Non-Erosive E Reflux Disease)或ENRD(Endoscopic Negative Reflux Disease)",
       "(2) Ambulatory 24-hour esophageal PH monitoring 如為正常,則可確定排除 GERD之診斷.",
-      "(3) 西方國家常以PPI",
-      "(4) GERD之臨床症狀嚴重程度,常以LA分期",
+      "(3) 西方國家常以PPI(proton pump inhibitor)做2星期之empirical therapy, 依反應來認定是否GERD.",
+      "(4) GERD之臨床症狀嚴重程度,常以LA分期(A B C D)來判定,並可預 測其治療反應成效.",
       "(5) 臨床上出現dysphagia 時即表示 GERD已進行成BE,很可能再惡化為 adenocarcinoma."
     ],
     "options": [
@@ -17,18 +17,18 @@ const rawQuestions = [
       "D. (1)+(3)+(5)",
       "E. (2)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "106年度",
     "no": 2,
     "question": "有關GERD(Gastro-Esophageal Reflux Disease)之描述,何者不正確?",
     "statements": [
-      "(1) 臨床上最常見症狀為火燒心",
-      "(2) 內視鏡下 GERD 呈現NERD,ERD",
+      "(1) 臨床上最常見症狀為火燒心(heartburn)及溢酸水(acid regurgitation).",
+      "(2) 內視鏡下 GERD 呈現NERD,ERD(RE EE Erosive Esophagits)及 BE(Barrett's Esophagus)三種變化.",
       "(3) GERD 與H. pylori感染關係密切,幽門桿菌除菌成功,GERD隨之改善.",
-      "(4) 西方國家九十年代以來,食道麟狀上皮癌",
-      "(5) GERD 若合併H. pylori感染,則不可給除菌治療,以免增加食道癌"
+      "(4) 西方國家九十年代以來,食道麟狀上皮癌(SCC)減少,腺癌增加,歸功於 PPI 對GERD療效佳.",
+      "(5) GERD 若合併H. pylori感染,則不可給除菌治療,以免增加食道癌(SCC) 之機率."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -45,7 +45,7 @@ const rawQuestions = [
     "question": "何者不會降低LESP(Lower Esophageal Sphincter Pressure)?",
     "statements": [
       "(1) Nitrates, Calcium channel blockers",
-      "(2) Progesterone, Sildenafil",
+      "(2) Progesterone, Sildenafil (Viagra)",
       "(3) Mosapride, Prucalopride",
       "(4) Gastrin",
       "(5) Smoking, alcohol, fat, coffee, chocolate, peppermint"
@@ -64,11 +64,11 @@ const rawQuestions = [
     "no": 4,
     "question": "關於Barrett’s Esophagus(BE)之描述,何者不正確?",
     "statements": [
-      "(1) BE病患有較高的hiatal hernia 盛行率",
-      "(2) 長度大於 5 mm之BE稱為 long segment BE",
-      "(3) LSBE 病例每年有10%會進展為adenocarcinoma",
+      "(1) BE病患有較高的hiatal hernia 盛行率(prevalence).",
+      "(2) 長度大於 5 mm之BE稱為 long segment BE(LSBE).",
+      "(3) LSBE 病例每年有10%會進展為adenocarcinoma(annual incidence of adenocarcinoma).",
       "(4) Bile acid, bile salt 對BE之癌變,扮演腫瘤促進之角色,因此口服 ursodeoxycholic acid,可防止BE之進展或癌變.",
-      "(5) 使用PPI 或抗胃酸逆流手術,並無法防止癌變或改善腸上皮化生"
+      "(5) 使用PPI 或抗胃酸逆流手術,並無法防止癌變或改善腸上皮化生 (intestinal metaplasia)."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -85,10 +85,10 @@ const rawQuestions = [
     "question": "有關食道動力學(esophageal motility)之敘述,何者正確?",
     "statements": [
       "(1) 食道上段是平滑肌,下段是橫紋肌.",
-      "(2) 食道平滑肌由一氧化氮",
+      "(2) 食道平滑肌由一氧化氮(NO)或乙醯膽鹼(acetylcholine)釋放來調節.",
       "(3) 食道次發性蠕動由周邊神經控制.",
-      "(4) 食道高壓性蠕動",
-      "(5) 全身性硬皮症"
+      "(4) 食道高壓性蠕動(hypertensive esophagus 或nutcracker esophagus)較常 發生在年輕人.",
+      "(5) 全身性硬皮症(scleroderma, systemic sclerosis),會減弱遠端 2/3的食道 蠕動壓力."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -132,11 +132,11 @@ const rawQuestions = [
     "no": 8,
     "question": "有關食道賁門失弛緩症(賁門不張)(achalasia)的敘述,何者不正確?",
     "statements": [
-      "(1) Manometry常見aperistalsis,下食道括約肌resting LESP 高,relaxation放 鬆不全之變化.",
+      "(1) Manometry常見aperistalsis,下食道括約肌resting LESP 高,relaxation放 B 鬆不全之變化.",
       "(2) 病人固體及液體食物經常吞嚥困難,平躺時易有acid regurgitation 及heart burn.",
-      "(3) 口服Nitrate或Calcium channel blocker",
+      "(3) 口服Nitrate或Calcium channel blocker(nifedipine, diltiazem, verapamil) 可減緩輕症病人之症狀.",
       "(4) Barium esophagogram 可見食道擴大,‟bird's beak”及air in stomach fundus 等情形.",
-      "(5) 近年來POEM"
+      "(5) 近年來POEM(peroral endoscopic myotomy), Botox"
     ],
     "options": [
       "A. (1)+(3)",
@@ -145,7 +145,7 @@ const rawQuestions = [
       "D. (1)+(4)",
       "E. (4)+(5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "106年度",
@@ -154,7 +154,7 @@ const rawQuestions = [
     "statements": [
       "(1) Helicobacter pylori infection",
       "(2) Long-standing caustic strictures due to lye ingestion",
-      "(3) 長期接觸香檳酒",
+      "(3) 長期接觸香檳酒(tobacco betel nut alcohol)者",
       "(4) Laryngo-oropharyngeal cancer patient",
       "(5) Barrett's esophagus"
     ],
@@ -172,11 +172,11 @@ const rawQuestions = [
     "no": 10,
     "question": "有關食道Caustic injury(corrosive esophagitis)之描述,何者不正確?",
     "statements": [
-      "(1) 強鹼",
-      "(2) 強酸",
-      "(3) 內視鏡檢查",
+      "(1) 強鹼(lye.button battery)造成較深的liquefaction necrosis,食道損傷較重, D 食道易狹窄.",
+      "(2) 強酸(鹽酸 硫酸)造成較淺的coagulation necrosis,胃損傷較重,前庭幽 門部易狹窄,易acidosis,死亡率較強鹼高.",
+      "(3) 內視鏡檢查(EGD)要在24至48小時以內進行,可評估黏膜受損程度.",
       "(4) 食道穿孔易於1-2星期時發生,而食道或胃之狹窄易於3-4星期以後產生.",
-      "(5) 曾有caustic esophageal injury 病人,40年以後產生食道癌"
+      "(5) 曾有caustic esophageal injury 病人,40年以後產生食道癌(SCC)的機率 會增加."
     ],
     "options": [
       "A. (1)+(2)",
@@ -185,7 +185,7 @@ const rawQuestions = [
       "D. 以上皆正確",
       "E. 以上皆不正確"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "106年度",
@@ -212,11 +212,11 @@ const rawQuestions = [
     "no": 12,
     "question": "有關十二指腸潰瘍的致病機轉下列何者正確?",
     "statements": [
-      "(1) 患者之基礎胃酸分泌量",
-      "(2) 患者之基礎胃泌素產生量",
+      "(1) 患者之基礎胃酸分泌量(basal acid secretion)增加",
+      "(2) 患者之基礎胃泌素產生量(basal gastrin production)升高",
       "(3) 與幽門螺旋桿菌引起之corpus-predominant gastritis 相關",
       "(4) 與幽門螺旋桿菌引起之antrum-predominant gastritis 相關",
-      "(5) 患者之刺激後胃酸分泌量"
+      "(5) 患者之刺激後胃酸分泌量(stimulated acid secretion)增加"
     ],
     "options": [
       "A. (1)+(2)+(4)",
@@ -232,11 +232,11 @@ const rawQuestions = [
     "no": 13,
     "question": "治療幽門螺旋桿菌感染時,在clairthromycin 抗藥率高(> 15%)的地區,需選 擇下列何除菌處方才能達到良好之除菌率?",
     "statements": [
-      "(1) 14 天之混合療法",
-      "(2) 14 天之共伴療法",
-      "(3) 14 天之標準三合療法",
-      "(4) 14 天之鉍劑四合療法",
-      "(5) 7天之標準三合療法"
+      "(1) 14 天之混合療法(hybrid therapy)",
+      "(2) 14 天之共伴療法(concomitant therapy)",
+      "(3) 14 天之標準三合療法(standard triple therapy)",
+      "(4) 14 天之鉍劑四合療法(bismuth quadruple therapy)",
+      "(5) 7天之標準三合療法(standard triple therapy)"
     ],
     "options": [
       "A. (1)+(2)+(5)",
@@ -270,7 +270,7 @@ const rawQuestions = [
   {
     "year": "106年度",
     "no": 15,
-    "question": "一位70歲長期使用clopidogrel(Plavix)之男性冠狀動脈疾病患因胃潰瘍者出血 入院,在胃潰瘍止血後,若需繼續使用clopidogrel預防冠狀動脈疾病,你可以使 用下列那一種藥品以有效避免其胃潰瘍或胃潰瘍出血之再發生?",
+    "question": "一位70歲長期使用clopidogrel(Plavix)之男性冠狀動脈疾病患因胃潰瘍者出血 入院,在胃潰瘍止血後,若需繼續使用clopidogrel預防冠狀動脈疾病,你可以使",
     "statements": [],
     "options": [
       "A. Proton pump inhibitor",
@@ -279,7 +279,7 @@ const rawQuestions = [
       "D. Antacid",
       "E. Misoprostol"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "106年度",
@@ -304,7 +304,7 @@ const rawQuestions = [
       "(2) 患者常有上腹痛及便秘之現象",
       "(3) 位於十二指腸之gastrinoma最常發生於first portion",
       "(4) 患者胃內可能出現large gastric folds",
-      "(5) 常為multiple endocrine neoplasia type II"
+      "(5) 常為multiple endocrine neoplasia type II(MEN-II)的表現之一"
     ],
     "options": [
       "A. (3)+(4)",
@@ -388,10 +388,10 @@ const rawQuestions = [
     "no": 22,
     "question": "第5版馬斯垂克共識有關胃癌與幽門螺旋桿菌關係的敘述,何者為是?",
     "statements": [
-      "(1) 排除食道和EG junction的腺癌後再分析發現 H. pylori也是近端胃癌的胃癌 因子",
+      "(1) 排除食道和EG junction的腺癌後再分析發現 H. pylori也是近端胃癌的胃癌 E 因子",
       "(2) 環境因子較H. pylori於胃癌發生上更為重要",
       "(3) screen-and-treat策略所進行的mass eradication不可能造成H. pylori以外抗 藥性的selection pressure",
-      "(4) H. pylori同時增加腸道型",
+      "(4) H. pylori同時增加腸道型(intestinal type)和瀰漫型(diffuse type)胃癌的 風險",
       "(5) 最新研究在胃癌的attributable risk 估計為89%"
     ],
     "options": [
@@ -401,7 +401,7 @@ const rawQuestions = [
       "D. (2)+(4)+(5)",
       "E. (1)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "106年度",
@@ -488,7 +488,7 @@ const rawQuestions = [
       "(2) 有BRAF突變者選擇imatinib",
       "(3) 沒有已知突變者治療效果較差",
       "(4) 此類藥物屬tyrosine kinase inhibitor",
-      "(5) 此類藥物也可在無法手術患者使用"
+      "(5) 此類藥物也可在無法手術患者使用(neoadjuvant)以改善存活及可切除性"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -505,7 +505,7 @@ const rawQuestions = [
     "question": "無症狀患者因健康檢查發現胃底部有如圖之腫瘤,同時有autoimmnue gastritis 及thyroiditis.下列敘述何者為真?",
     "statements": [
       "(1) 此病罹患者男多於女",
-      "(2) 可以多發性",
+      "(2) 可以多發性(multiple)",
       "(3) 轉移風險不高",
       "(4) 常合併有 carcinoid syndrome",
       "(5) 血清gastrin 值升高"
@@ -629,7 +629,7 @@ const rawQuestions = [
       "(2) 內視鏡常常會看到環狀潰瘍",
       "(3) 在北台灣,腹部結核的病患中以消化道結核多於結核性腹膜炎",
       "(4) 內視鏡合併微生物及病理切片檢查的診斷率為 60%",
-      "(5) 只有少部分的病人"
+      "(5) 只有少部分的病人(低於30%)合併有肺結核"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -713,10 +713,10 @@ const rawQuestions = [
     "no": 41,
     "question": "發炎性腸道疾病(Inflammatory bowel disease)的病患,發生大腸直腸癌 (colorectal cancer)的風險會提高,以下何者為是?",
     "statements": [
-      "(1) 亞洲地區發炎性腸道疾病",
+      "(1) 亞洲地區發炎性腸道疾病(Inflammatory bowel disease)病患的大腸直腸癌 (colorectal cancer)盛行率,比西方國家的低.",
       "(2) 被診斷腸炎後的8-10 年,產生大腸癌的風險開始顯著上升.",
       "(3) 危險因子包括患病的時間長短和大腸發炎的範圍及嚴重度.",
-      "(4) 全結腸炎"
+      "(4) 全結腸炎(Pancolitis)的病人風險比左側腸炎(left-side colitis)的病人來的 低."
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -733,8 +733,8 @@ const rawQuestions = [
     "statements": [
       "(1) 建議在腸炎症狀出現的隔年開始進行篩檢大腸鏡檢查",
       "(2) 建議在腸炎症狀出現的第八年之後開始進行篩檢大腸鏡檢查",
-      "(3) 有Post-inflammatory polyps 的病患建議2-3年後接受追蹤大腸鏡檢查",
-      "(4) 有併存原發性膽汁性肝硬化"
+      "(3) 有Post-inflammatory polyps 的病患建議2-3年後接受追蹤大腸鏡檢查 (surveillance colonoscopy)",
+      "(4) 有併存原發性膽汁性肝硬化(Primary Biliary Cirrhosis)的病患建議2-3年後 接受追蹤大腸鏡檢查(surveillance colonoscopy)"
     ],
     "options": [
       "A. (1)+(3)+(4)",
@@ -749,10 +749,10 @@ const rawQuestions = [
     "no": 43,
     "question": "對於診斷遺傳性非息肉大腸直腸癌(Hereditary Nonpolyposis Colorectal Cancer)的阿姆斯特丹準則(Amsterdam II Criteria),以下何者為是?",
     "statements": [
-      "(1) 家族成員中有3人以上罹患大腸直腸癌",
-      "(2) 至少有二個世代以上的家族成員罹患大腸直腸癌",
+      "(1) 家族成員中有3人以上罹患大腸直腸癌(colorectal cancer),其中一位患者 是其他2位病患的一等親",
+      "(2) 至少有二個世代以上的家族成員罹患大腸直腸癌(colorectal cancer)",
       "(3) 病患中至少有一人之年齡必須小於40歲",
-      "(4) 病患必須確定不是家族性腺性息肉症"
+      "(4) 病患必須確定不是家族性腺性息肉症(Familial adenomatous polyposis; FAP)"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -767,10 +767,10 @@ const rawQuestions = [
     "no": 44,
     "question": "以下何者為大腸直腸癌(colorectal cancer)的高風險族群?",
     "statements": [
-      "(1) 遺傳性大腸息肉症",
-      "(2) 黑斑息肉症候群",
-      "(3) 幼年型多發性息肉症候群",
-      "(4) 增生性多發息肉症候群"
+      "(1) 遺傳性大腸息肉症(Familial adenomatous polyposis)病患",
+      "(2) 黑斑息肉症候群(Peutz-Jeghers syndrome)病患",
+      "(3) 幼年型多發性息肉症候群(Juvenile polyposis syndrome)病患",
+      "(4) 增生性多發息肉症候群(Hyperplastic polyposis syndrome)病患"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -785,10 +785,10 @@ const rawQuestions = [
     "no": 45,
     "question": "以下何者為大腸直腸癌(colorectal cancer)患者較佳的預後因子?",
     "statements": [
-      "(1) 無症狀,因篩檢所發現的大腸直腸癌",
-      "(2) 基因分子診斷有微衛星不穩定性",
-      "(3) 基因分子診斷在8號染色體",
-      "(4) 診斷大腸直腸癌"
+      "(1) 無症狀,因篩檢所發現的大腸直腸癌(Screening detected colorectal cancer)",
+      "(2) 基因分子診斷有微衛星不穩定性(microsatellite instability;MSI)",
+      "(3) 基因分子診斷在8號染色體(chromosome 8 (8p))有基因座缺失(loss of heterozygosity;LOH)",
+      "(4) 診斷大腸直腸癌(colorectal cancer)時,年齡小於30歲"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -880,7 +880,7 @@ const rawQuestions = [
     "statements": [
       "(1) 每一位anti-HCV 陽性患者都應該接受抗病毒藥物治療",
       "(2) 所有慢性 C型肝炎患者都可以接受peginterferon+ribavirin 組合治療",
-      "(3) 經治療後有很高機會",
+      "(3) 經治療後有很高機會(> 95%)可以完全根治C型肝炎病毒",
       "(4) 肝纖維化患者經peginterferon+ribavirin治療後有機會使肝內纖維組織減少",
       "(5) 慢性C型肝炎患者經peginterferon+ribavirin 治療後可以減少肝細胞癌的 發生"
     ],
@@ -913,9 +913,10 @@ const rawQuestions = [
     "statements": [],
     "options": [
       "A. 肝功能失代償發生與否與治療時機以及藥物選擇都有密切相關",
-      "B. 肝臟移植前若已經發生嚴重肝功能失代償(CTP class B or C)時,建議可以 先評估進行肝臟移植",
+      "B. 肝臟移植前若已經發生嚴重肝功能失代償(CTP class",
+      "B. or C)時,建議可以 先評估進行肝臟移植",
       "C. 感染第1型C型肝炎肝功能失代償患者可以考慮使用Sofosbuvir / Ledipasvir 或是Sofosbuvir+Daclatasvir+低劑量 ribavirin(600 mg/day)",
-      "D. 感染第2型C型肝炎肝功能失代償患者可以考慮使用 Sofosbuvir+Daclatasvir+低劑量ribavirin(600 mg/day)",
+      "D. 感染第2型C型肝炎肝功能失代償患者可以考慮使用 Sofosbuvir+ Daclatasvir+低劑量ribavirin(600 mg/day)",
       "E. 感染第1型C型肝炎肝功能失代償患者可以考慮使用 Ombitasvir / Paritaprevir / Ritonavir+Dasabuvir"
     ],
     "answer": "E"
@@ -950,14 +951,8 @@ const rawQuestions = [
   {
     "year": "106年度",
     "no": 56,
-    "question": "45歲女性病患來門診時,主訴疲倦(malaise),鞏膜汎黃(icteric sclera),急診 檢驗資料顯示血清albumin level: 3.6 g/dL(reference value > 3.5),total bilirubin level: 5.6 mg/dL(reference value < 1.0),direct bilirubin level: 2.4 mg/dL (reference value < 0.3),ALT level 1240 U/L(reference value < 40),AST level 1380 U/L(reference value < 40),ALP level 89 U/L(reference value < 100), PT INR 1.6(reference value 0.9~1.1),以下何項訊息對病情診斷有幫忙?",
-    "statements": [
-      "(1) 藥物史",
-      "(2) 喝酒史",
-      "(3) 過去肝炎病史",
-      "(4) 疫苗接種史",
-      "(5) 接觸危險行為史"
-    ],
+    "question": "45歲女性病患來門診時,主訴疲倦(malaise),鞏膜汎黃(icteric sclera),急診 檢驗資料顯示血清albumin level: 3.6 g/dL(reference value > 3.5),total bilirubin",
+    "statements": [],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
       "B. (1)+(2)+(3)+(4)",
@@ -965,7 +960,7 @@ const rawQuestions = [
       "D. (1)+(3)+(4)+(5)",
       "E. (1)+(2)+(3)+(5)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "106年度",
@@ -976,7 +971,7 @@ const rawQuestions = [
       "(2) 台灣為B型肝炎盛行國家,慢性 B型肝炎急性發作相當常見,需列入鑑別診 斷,未來PT INR恢復正常之後,應考慮肝穿刺檢查幫忙判斷",
       "(3) 急性C型肝炎是可能診斷之一,建議檢測anti-HCV,若呈現陽性反應,可進 一步檢測HCV RNA",
       "(4) 患者ALP數值在正常範圍之內,因急性膽道阻塞而引起肝炎的機會並不大",
-      "(5) 患者為中年女性,須考慮自體免疫性肝炎"
+      "(5) 患者為中年女性,須考慮自體免疫性肝炎(autoimmune hepatitis),檢測 globulin 和 ANA level 可作為參考"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -993,9 +988,9 @@ const rawQuestions = [
     "question": "承上題,經本次急診抽血檢測發現患者血清HBsAg呈現陰性反應,anti-HCV 呈 現陽性反應,去年患者曾經接受健康檢查報告顯示當時anti-HCV 為陰性反應, 病史方面患者曾經於一個月前到某個私人診所接受關節軟骨生成刺激素注射治 療.針對本病患,以下診斷與進一步處置規劃方面,何項是合理的?",
     "statements": [
       "(1) 患者可能因注射器械未消毒得到急性C型肝炎",
-      "(2) 臨床上已經出現黃疸,患者有較高機會發生C型肝炎自行痊癒",
+      "(2) 臨床上已經出現黃疸,患者有較高機會發生C型肝炎自行痊癒(spontaneous recovery)",
       "(3) 急性期觀察3-4個月後,若HCV RNA持續存在,可以考慮給予抗 C型肝炎 病毒藥物治療",
-      "(4) 藥物選擇方面,單一使用長效型干擾素",
+      "(4) 藥物選擇方面,單一使用長效型干擾素(peginterferon)是沒有用的",
       "(5) 藥物選擇方面,針對急性C型肝炎,有研究支持使用全口服抗病毒藥物治療"
     ],
     "options": [
@@ -1012,11 +1007,11 @@ const rawQuestions = [
     "no": 59,
     "question": "病人因慢性C型肝炎來門診,在評估肝臟纖維化嚴重程度時,下列那一項目是您 可以選擇的評估項目?",
     "statements": [
-      "(1) Liver biopsy",
-      "(2) Fibroscan",
-      "(3) ARFI",
-      "(4) FIB-4",
-      "(5) APRI"
+      "(1) Liver biopsy(肝穿刺)",
+      "(2) Fibroscan(肝纖維檢測儀)",
+      "(3) ARFI(Acoustic radiation force impulse)elastography",
+      "(4) FIB-4(Fibrosis-4)index",
+      "(5) APRI(AST-to-platelet ratio index)"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -1032,10 +1027,10 @@ const rawQuestions = [
     "no": 60,
     "question": "50歲HBeAg陽性慢性B型肝炎男性病患來門診追蹤,無任何症狀.檢驗資料顯 示血清albumin 4.0 g/dL(reference value > 3.5),total bilirubin level: 0.5 mg/dL (reference value < 1.0),ALT level 60 IU/L (reference value < 40),AST level 42 IU/L(reference value < 40),ALP level 97 IU/L(reference value < 100), 根據2015 年出版的亞太慢性B型肝炎治療共識(APASL consensus statement on the management of chronic hepatitis B),以下何項針對病患治療之建議是不 合理的?",
     "statements": [
-      "(1) 肝硬化",
+      "(1) 肝硬化(cirrhosis)存在但無肝功能失代償的情形下,只要病患血清HBV DNA 濃度高於偵測值下限,不論ALT 值高低,都應該考慮給予抗病毒治療.",
       "(2) 若肝臟組織學呈現肝硬化不存在時,當血清HBV DNA濃度高於2000 IU/mL ,不論ALT值異常與否,都應該考慮接受抗病毒治療.",
-      "(3) 除了肝穿刺以外,可以考慮使用非侵入性方法",
-      "(4) e抗原陽性病患接受口服抗病毒藥物治療時,若達e抗原血清陰轉",
+      "(3) 除了肝穿刺以外,可以考慮使用非侵入性方法(如Fibroscan or APRI)評估 肝臟纖維化嚴重程度.",
+      "(4) e抗原陽性病患接受口服抗病毒藥物治療時,若達e抗原血清陰轉(HBeAg seroconversion)且血清HBV DNA偵測不到之狀態持續3個月時,即可考慮 停藥.",
       "(5) 肝硬化患者經口服抗病毒藥物治療後可完全避免肝細胞癌的發生,因此不需 要再進行肝細胞癌的監測."
     ],
     "options": [
@@ -1052,9 +1047,9 @@ const rawQuestions = [
     "no": 61,
     "question": "有關預測與預防母嬰垂直感染B型肝炎病毒方面,下列何者為非?",
     "statements": [
-      "(1) 孕婦血清中B型肝炎病毒超過200,000 IU/mL 時,生產過程中母嬰垂直傳染 B型肝炎病毒的機會顯著增加至60%.",
+      "(1) 孕婦血清中B型肝炎病毒超過200,000 IU/mL 時,生產過程中母嬰垂直傳染 C B型肝炎病毒的機會顯著增加至60%.",
       "(2) 孕婦血清中B型肝炎病毒超過2,000 IU/mL時,可以考慮在懷孕第三期使用 口服抗病毒藥物減少母嬰垂直傳染B型肝炎病毒的機會.",
-      "(3) 若檢測B型肝炎病毒濃度有困難,定量血清B型肝炎病毒表面抗原",
+      "(3) 若檢測B型肝炎病毒濃度有困難,定量血清B型肝炎病毒表面抗原(HBsAg) 也可以當作垂直感染風險預測評估的參考.",
       "(4) 預防母嬰垂直感染方面,生產後一個月內即可停止使用抗病毒藥物,不會發 生肝炎復發.",
       "(5) 生產後一年內不應餵母乳,因為經母乳餵食會使嬰兒曝露於高濃度的抗病毒 藥物."
     ],
@@ -1065,7 +1060,7 @@ const rawQuestions = [
       "D. (2)+(5)",
       "E. (2)+(4)+(5)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "106年度",
@@ -1094,8 +1089,8 @@ const rawQuestions = [
     "statements": [
       "(1) HDV 可以與HBV 急性共同感染,或是重覆感染於HBV帶原者.",
       "(2) 重覆感染 HDV,對HBV帶原者而言有不好的影響,可能促進肝臟疾病快速 惡化或是造成肝衰竭.",
-      "(3) Interferon",
-      "(4) Sodium Taurocholate Cotransporting Polypeptide",
+      "(3) Interferon(或是peginterferon)是目前唯一被證實有效治療HDV的方式, 根治率極高(> 80%)而且不容易復發.",
+      "(4) Sodium Taurocholate Cotransporting Polypeptide(NTCP)是最近被發現 HBV進入肝細胞的功能性受體(functional receptor),針對HBV 和HDV共 同感染患者使用myrcludex B(NTCP inhibitor)治療可同時控制HBV和HDV 的複製.",
       "(5) 研發治療 HDV感染的藥物中,針對複製生活史farnesyl transferase 抑制劑 的開發是潛在標的之一."
     ],
     "options": [
@@ -1112,7 +1107,7 @@ const rawQuestions = [
     "no": 64,
     "question": "下列關於C型肝炎病毒全口服藥物治療之新興問題說明,何者為非?",
     "statements": [
-      "(1) 同時合併慢性C型肝炎與B型肝炎患者,在使用全口服藥物治療 C型肝炎病 毒過程中有可能發生B型肝炎病毒復發.",
+      "(1) 同時合併慢性C型肝炎與B型肝炎患者,在使用全口服藥物治療 C型肝炎病 E 毒過程中有可能發生B型肝炎病毒復發.",
       "(2) 若是B型肝炎表面抗原陽性,使用全口服藥物治療C型肝炎病毒過程中B型 肝炎復發機會更高.",
       "(3) 肝細胞癌患者在根治肝細胞癌之後,若接受全口服藥物治療C型肝炎,肝細 胞癌復發機會大增,而且所有臨床觀察結果都一致.",
       "(4) 全口服藥物治療C型肝炎之安全性極高,沒有任何副作用或風險.",
@@ -1125,18 +1120,18 @@ const rawQuestions = [
       "D. (2)+(3)+(4)",
       "E. (3)+(4)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "106年度",
     "no": 65,
     "question": "下列有關於非酒精性脂肪肝病(non-alcoholic fatty liver disease, NAFLD)之自 然病史與治療方式之敘述,何者是正確的?",
     "statements": [
-      "(1) 非酒精性脂肪肝病為一症候群,涵蓋單純脂肪變性",
-      "(2) 非酒精性脂肪肝病發生與肥胖以及胰島素抗性",
-      "(3) 單純脂肪變性",
-      "(4) 非酒精性脂性肝炎",
-      "(5) 臨床試驗結果指出證實metformin以及ursodeoxycholic acid"
+      "(1) 非酒精性脂肪肝病為一症候群,涵蓋單純脂肪變性(simple steatosis) 非酒 精性脂性肝炎(non-alcoholic steatohepatitis, NASH) 纖維化以及肝硬化.",
+      "(2) 非酒精性脂肪肝病發生與肥胖以及胰島素抗性(insulin resistance)有密切相 關.",
+      "(3) 單純脂肪變性(simple steatosis)之臨床預後良好,控制重點在於改變生活 習慣,改善代謝症候群與胰島素抗性.",
+      "(4) 非酒精性脂性肝炎(non-alcoholic steatohepatitis, NASH)存在時,患者有 較高機會得到肝硬化.",
+      "(5) 臨床試驗結果指出證實metformin以及ursodeoxycholic acid(UDCA)有機 會改善非酒精性脂性肝炎患者之胰島素抗性以及肝內纖維化,並且已經得到 美國FDA 核准上市使用."
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -1153,10 +1148,10 @@ const rawQuestions = [
     "question": "關於肝細胞癌之偵測及鑑別診斷,下列敘述何者錯誤?",
     "statements": [
       "(1) 傳統灰階超音波可用來篩檢,但無法確認肝內腫瘤之性質",
-      "(2) 使用強力都卜勒超音波影像",
-      "(3) 對比劑強化之超音波影像",
+      "(2) 使用強力都卜勒超音波影像(power Doppler ultrasound imaging)偵測肝腫 瘤內之微血流(microflow),效益甚佳",
+      "(3) 對比劑強化之超音波影像(contrast enhanced ultrasound, CEUS)之敏感度 及特異性仍比不上電腦斷層(CT)及核磁造影(MRI)",
       "(4) CEUS 可用來觀察肝內的macrovasculatures 及microvasculatures",
-      "(5) CEUS 與triphasic CT"
+      "(5) CEUS 與triphasic CT(computed tomography)一樣,可觀察肝腫瘤在 arterial phase portal-venous phase及late phase 之影像特徵 (6) 超音波對比劑是將gas bubbles 穩定存在於 shell 內而形成microbubbles,其 大小一般大於10 microns,故可通過肺部微血管而一再循環全身"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -1280,7 +1275,7 @@ const rawQuestions = [
       "(2) 不可服用 estrogen-containing medications",
       "(3) 不會變大",
       "(4) 不會有malignant transformation",
-      "(5) 應以肝動脈栓塞法"
+      "(5) 應以肝動脈栓塞法(transcatheter arterial embolization,TAE)處理之 (6) 通常不必開刀切除"
     ],
     "options": [
       "A. (1)+(3)+(5)",
@@ -1298,8 +1293,8 @@ const rawQuestions = [
     "statements": [
       "(1) 目前之證據顯示FNH不會有 malignant transformation",
       "(2) 長期追蹤觀察可能發現FNH 會變小或消失",
-      "(3) FNH是因服用OCP",
-      "(4) 電腦斷層",
+      "(3) FNH是因服用OCP(Oral Contraceptive Pills)而產生",
+      "(4) 電腦斷層(CT)及磁振造影(MRI)之診斷準確度(accuracy)優於超音波 掃描",
       "(5) 使用Gadoxetate disodium 對比劑於磁振造影檢查,仍無法有效分辨 FNH及 hepatic adenoma"
     ],
     "options": [
@@ -1316,11 +1311,11 @@ const rawQuestions = [
     "no": 76,
     "question": "下列關於惡性腫瘤之敘述,何者錯誤?",
     "statements": [
-      "(1) 腫瘤組織內包含腫瘤細胞",
-      "(2) 基質細胞包括新生血管 纖維母細胞",
+      "(1) 腫瘤組織內包含腫瘤細胞(tumor cells)及各種基質細胞(stromal cells)",
+      "(2) 基質細胞包括新生血管 纖維母細胞(fibroblast)以及各種免疫細胞,除了 提供生長因子(growth factors)及能量,也營造一個immunostimulating microenvironment",
       "(3) 在腫瘤的 microenvironment 中,對抗宿主免疫攻擊的inhibitory receptors, 如:CTLA-4及PD-1,是表現在B細胞表面",
-      "(4) PD-L1表現在癌瘤細胞表面或tumor associated macrophage",
-      "(5) Small molecule inhibitors 是作用於癌瘤細胞內的aberrant kinase or driver genes"
+      "(4) PD-L1表現在癌瘤細胞表面或tumor associated macrophage(TAM)或 tumor associated neutrophil(TAN)表面",
+      "(5) Small molecule inhibitors 是作用於癌瘤細胞內的aberrant kinase or driver genes (6) Immune checkpoint inhibitors主要是在抑制癌瘤內部新血管之形成"
     ],
     "options": [
       "A. (6)+(5)+(4)",
@@ -1336,7 +1331,7 @@ const rawQuestions = [
     "no": 77,
     "question": "下列有關Radiation therapy(RT)之敘述,何者正確?",
     "statements": [
-      "(1) 近年來之動物研究顯示RT能激發宿主之 innate & adaptive immune responses",
+      "(1) 近年來之動物研究顯示RT能激發宿主之 innate & adaptive immune C responses",
       "(2) 傳統上認為,RT效果之發揮主要是經由radiation-induced DNA single-strand breaks",
       "(3) RT也會誘發癌瘤細胞及基質細胞之apoptosis",
       "(4) RT能改變癌瘤之microenvironment,使其無法對抗人體之免疫攻擊",
@@ -1349,7 +1344,7 @@ const rawQuestions = [
       "D. (2)+(4)+(5)",
       "E. (3)+(4)+(5)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "106年度",
@@ -1368,7 +1363,7 @@ const rawQuestions = [
   {
     "year": "106年度",
     "no": 79,
-    "question": "一位病人因突發黃疸而就醫,其檢驗結果如下:Bilirubin (T)/(D)=11.5/8.5 mg/dL, AST=80 (< 37), ALT=70 (< 41), ALP=1200 (< 104), GGT=540 (< 50), Albumin=3.5 (> 3.5), Prothrombin time (PT) INR=1.1.超音波檢查發現肝臟兩側 膽管明顯脹大,但總膽管則未脹大.下列何者最可能為其病因?",
+    "question": "一位病人因突發黃疸而就醫,其檢驗結果如下:Bilirubin (T)/(D)=11.5/8.5 mg/dL, AST=80 (< 37), ALT=70 (< 41), ALP=1200 (< 104), GGT=540 (< 50),",
     "statements": [],
     "options": [
       "A. Klatskin tumor",
@@ -1377,7 +1372,7 @@ const rawQuestions = [
       "D. Drug-induced cholestasis",
       "E. Primary biliary cirrhosis"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "106年度",
@@ -1385,10 +1380,10 @@ const rawQuestions = [
     "question": "關於Hepatic adenoma 之敘述,何者錯誤?",
     "statements": [
       "(1) 大多發生於男性",
-      "(2) 常因使用 OCPs",
+      "(2) 常因使用 OCPs(oral contraceptive pills)而發生",
       "(3) 常發生於 glycogen storage disease type I 及type III",
-      "(4) Adenomatosis",
-      "(5) Echo-guided liver biopsy 是確認診斷之最好方法"
+      "(4) Adenomatosis(> 10 tumors)應以肝臟移植處置,預後很好",
+      "(5) Echo-guided liver biopsy 是確認診斷之最好方法 (6) 大於5公分或有-catenin activation之hepatic adenoma較易發生malignant transformation"
     ],
     "options": [
       "A. (1)+(3)+(5)",
@@ -1404,10 +1399,10 @@ const rawQuestions = [
     "no": 81,
     "question": "一位40歲女性,主訴右上腹間歇性疼痛多月,肝功能檢查發現AST 100U/L (normal < 35U/L),ALT 120U/L(normal < 40U/L).HBsAg,anti-HCV 及ANA 均為陰性.超音波檢查除總膽管0.6cm 外,無其他異常.下列敘述何者有誤?",
     "statements": [
-      "(1) 可能是俄狄氏括約肌功能異常",
+      "(1) 可能是俄狄氏括約肌功能異常(sphincter of Oddi dysfunction)",
       "(2) 屬第一型膽道疼痛",
-      "(3) 此病人必須作俄狄氏括約肌測壓",
-      "(4) 俄狄氏括約肌基礎壓力",
+      "(3) 此病人必須作俄狄氏括約肌測壓(sphincter of Oddi manometry)",
+      "(4) 俄狄氏括約肌基礎壓力(basal pressure)> 40mmHg為異常",
       "(5) 此病人接受經內視鏡括約肌切開術後,症狀緩解率可達90%"
     ],
     "options": [
@@ -1464,7 +1459,7 @@ const rawQuestions = [
     "no": 84,
     "question": "下列關於膽囊癌(Gallbladder cancer)的敘述何者正確?",
     "statements": [
-      "(1) Anomalous pancreaticobiliary duct union",
+      "(1) Anomalous pancreaticobiliary duct union(APBDU)是其危險因子",
       "(2) Gallbladder polyp 有機會形成膽囊癌,應盡早施行膽囊切除術",
       "(3) 患者常見腹痛和黃疸,但大多數患者在早期是沒有症狀的",
       "(4) 除了手術切除,化療合併放射線治療也有不錯的效果",
@@ -1499,7 +1494,7 @@ const rawQuestions = [
     "question": "下列關於膽管癌(Cholangiocarcinoma)的敘述何者有誤?",
     "statements": [
       "(1) 最常見的分型為肝內膽管癌",
-      "(2) Bismuth-Corlette type IIIa tumors主要侵犯左右肝管之聯合部",
+      "(2) Bismuth-Corlette type IIIa tumors主要侵犯左右肝管之聯合部(the union of the right and left hepatic duct),並延伸至左側肝內膽管",
       "(3) Primary sclerosing cholangitis 是膽管癌的危險因子之一",
       "(4) 除了膽管癌,CA 19-9 在細菌性膽管炎和總膽管結石也會上升",
       "(5) 因成功率極低,若病人同時合併有PSC 和perihilar cholangiocarcinoma,不 建議做肝臟移植"
@@ -1518,8 +1513,8 @@ const rawQuestions = [
     "no": 87,
     "question": "下列關於壺腹癌(ampullary carcinoma)的敘述何者有誤?",
     "statements": [
-      "(1) Familial adenomatous polyposis",
-      "(2) Extramural protruding",
+      "(1) Familial adenomatous polyposis(FAP),neurofibromatosis type 1 和Lynch E syndrome皆為壺腹癌的重要危險因子",
+      "(2) Extramural protruding(periampullary)type 有最高的淋巴轉移機率",
       "(3) 最常見的組織型態為adenocarcinoma",
       "(4) Ampullary adenocarcinoma根據組織病理型態分為pancreaticobiliary type和 intestinal type,high cytokeratin 20 expression 在pancreaticobiliary type 較 常見",
       "(5) 壺腹癌在 MRI/MRCP T2-weighted image 表現為hyperdense mass"
@@ -1531,7 +1526,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(5)",
       "E. (1)+(2)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "106年度",
@@ -1601,7 +1596,7 @@ const rawQuestions = [
     "options": [
       "A. 以gemcitabine 為主的藥物是目前標準的第一線化療藥物",
       "B. FOLFIRINOX(a regimen contained by combination of 5FU, leucovorin, irinotecan, and oxaliplatin)是目前腫瘤反應率及存活率最好的藥物,但因為 健保未給付且骨髓抑制的副作用明顯,所以台灣很少使用",
-      "C. gemcitabine併用TS-1可以顯著提升腫瘤反應率(response rate: gemcitabine alone 13%  gemcitabine+TS-1 29%)及無惡化存活率,但是對於整體存 活率無顯著提升",
+      "C. gemcitabine併用TS-1可以顯著提升腫瘤反應率(response rate: gemcitabine alone 13%  gemcitabine + TS-1 29%)及無惡化存活率,但是對於整體存 活率無顯著提升",
       "D. 近年已有第三期臨床試驗證實化學治療合併免疫藥物(Programed cell death receptor, PD-1)對於mismatch repair enzyme deficiency 的胰臟腺癌患者治 療效果顯著優於單用化學治療"
     ],
     "answer": "D"
@@ -1639,9 +1634,9 @@ const rawQuestions = [
     "statements": [],
     "options": [
       "A. Has a pH of 7.5 because of its high concentration of carbonic acid",
-      "B. Has an elevated concentration of Na+and a marked decreased concentration of K+",
+      "B. Has an elevated concentration of Na+ and a marked decreased concentration of K+",
       "C. Has an elevated concentration of bicarbonate (HCO ) and a much lower 3 concentration of Chloride (Cl)",
-      "D. Has a K+concentration twice that of the Na+concentration"
+      "D. Has a K+ concentration twice that of the Na+ concentration"
     ],
     "answer": "C"
   },
@@ -1735,7 +1730,7 @@ const rawQuestions = [
     "question": "依病變所在部位而言,下列何者是位於食道上端(upper third portion)者?",
     "statements": [
       "(1) Zenker’s diverticulum",
-      "(2) Plummer-Vinson syndrome",
+      "(2) Plummer-Vinson syndrome(Paterson-Kelly syndrome)",
       "(3) Mallory-Weiss syndrome",
       "(4) Schatzki’s ring",
       "(5) Barrett's esophagus"
@@ -1754,10 +1749,10 @@ const rawQuestions = [
     "no": 2,
     "question": "對於胃食道逆流性疾病(GERD)之敘述,何者不正確?",
     "statements": [
-      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD",
+      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD(Non-Erosive E Reflux Disease)或ENRD(Endoscopic Negative Reflux Disease)",
       "(2) Ambulatory 24-hour esophageal PH monitoring 如為正常,則可確定排除 GERD之診斷",
-      "(3) 西方國家常以PPI",
-      "(4) GERD之臨床症狀程度,常以LA分期",
+      "(3) 西方國家常以PPI(proton pump inhibitor)做2星期之empirical therapy, 依反應來認定GERD",
+      "(4) GERD之臨床症狀程度,常以LA分期(A B C D)來判定,可預測其治 療反應成效",
       "(5) 臨床上出現dysphagia 時即表示 GERD已進行成BE,很可能再惡化為 adenocarcinoma"
     ],
     "options": [
@@ -1767,18 +1762,18 @@ const rawQuestions = [
       "D. (1)+(3)+(5)",
       "E. (2)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "107年度",
     "no": 3,
     "question": "有關GERD(Gastro-Esophageal Reflux Disease)之描述,何者不正確?",
     "statements": [
-      "(1) 臨床上最常見症狀為胸口灼熱",
-      "(2) 內視鏡下 GERD 呈現NERD,ERD",
+      "(1) 臨床上最常見症狀為胸口灼熱(heartburn火燒心)及酸水逆流(acid C regurgitation)",
+      "(2) 內視鏡下 GERD 呈現NERD,ERD(RE Reflux Esophagitis;EE Erosive Esophagits)及BE(Barrett's Esophagus)三種變化",
       "(3) GERD 與H. pylori感染關係密切,幽門桿菌除菌成功,GERD隨之改善",
-      "(4) 西方國家九十年代以來,食道鱗狀細胞癌",
-      "(5) GERD 若合併H. pylori感染,則不可給除菌治療,以免增加食道癌"
+      "(4) 西方國家九十年代以來,食道鱗狀細胞癌(SCC)減少,腺癌增加,歸因於 PPI 對GERD療效佳",
+      "(5) GERD 若合併H. pylori感染,則不可給除菌治療,以免增加食道癌(SCC) 之機率"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -1787,7 +1782,7 @@ const rawQuestions = [
       "D. (2)+(4)+(5)",
       "E. 以上皆非"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "107年度",
@@ -1809,7 +1804,7 @@ const rawQuestions = [
     "question": "何者不會降低LESP(Lower Esophageal Sphincter Pressure)?",
     "statements": [
       "(1) Nitrates, Calcium channel blockers",
-      "(2) Progesterone, Sildenafil",
+      "(2) Progesterone, Sildenafil(Viagra)",
       "(3) Mosapride, Prucalopride",
       "(4) Gastrin",
       "(5) Smoking, alcohol, fat, coffee, chocolate, peppermint"
@@ -1828,11 +1823,11 @@ const rawQuestions = [
     "no": 6,
     "question": "有關食道賁門失弛緩症(賁門不張)(achalasia)的敘述,何者不正確?",
     "statements": [
-      "(1) Manometry常見aperistalsis,下食道括約肌resting LESP 高,relaxation放 鬆不全之變化",
+      "(1) Manometry常見aperistalsis,下食道括約肌resting LESP 高,relaxation放 B 鬆不全之變化",
       "(2) 病人固體及液體食物皆吞嚥困難,平躺時易有 acid regurgitation",
-      "(3) Nitrate或calcium channel blocker",
+      "(3) Nitrate或calcium channel blocker(nifedipine diltiazem verapamil)可減 緩症狀",
       "(4) Barium esophagogram 可見食道擴大,‟bird's beak”及air in stomach fundus 等情形",
-      "(5) 近年來POEM"
+      "(5) 近年來POEM(peroral endoscopic myotomy),Botox"
     ],
     "options": [
       "A. (1)+(3)",
@@ -1841,7 +1836,7 @@ const rawQuestions = [
       "D. (1)+(4)",
       "E. (4)+(5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "107年度",
@@ -1862,11 +1857,11 @@ const rawQuestions = [
     "no": 8,
     "question": "有關食道Caustic injury(corrosive esophagitis)之描述,何者不正確?",
     "statements": [
-      "(1) 強鹼",
-      "(2) 強酸",
-      "(3) 內視鏡檢查",
+      "(1) 強鹼(如lye.button battery)造成較深的 liquefactive necrosis,及皂化,食 D 道損傷較重,食道易狹窄",
+      "(2) 強酸(如鹽酸 硫酸)造成較淺的coagulative necrosis,形成eschar,胃損 傷較重,前庭幽門部易狹窄,易acidosis,死亡率較強鹼高",
+      "(3) 內視鏡檢查(EGD)要在12至48小時以內進行,可評估黏膜受損程度",
       "(4) 食道穿孔易於數日至一~二星期時發生,而食道或胃之狹窄易於 3至4星期 以後發生,80%在8星期內發生",
-      "(5) 曾有caustic esophageal injury 病人,十幾至二 三十年後產生食道癌"
+      "(5) 曾有caustic esophageal injury 病人,十幾至二 三十年後產生食道癌(鱗 狀細胞癌及腺癌)之機率會增加"
     ],
     "options": [
       "A. (1)+(2)",
@@ -1875,7 +1870,7 @@ const rawQuestions = [
       "D. 以上皆正確",
       "E. 以上皆不正確"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "107年度",
@@ -1884,7 +1879,7 @@ const rawQuestions = [
     "statements": [
       "(1) Helicobacter pylori infection",
       "(2) Long-standing caustic strictures due to lye ingestion",
-      "(3) 長期接觸香檳酒",
+      "(3) 長期接觸香檳酒(cigaret betel nut alcohol)",
       "(4) Laryngo-oropharyngeal cancer patient",
       "(5) Barrett's esophagus"
     ],
@@ -1919,7 +1914,7 @@ const rawQuestions = [
       "(1) 患者常有腹痛症狀",
       "(2) 好發年齡為20-30 歲",
       "(3) 患者血清中之IgA濃度常有增高之情形",
-      "(4) 內視鏡切片病理診斷之依據為eosinophil count>20 Eo/HPF",
+      "(4) 內視鏡切片病理診斷之依據為eosinophil count>20 Eo/HPF(high power field)",
       "(5) Corticosteroids 可有效治療約80%之患者"
     ],
     "options": [
@@ -1978,7 +1973,7 @@ const rawQuestions = [
     "no": 15,
     "question": "下列有關質子幫浦抑制劑(proton pump inhibitor)之使用何者正確?",
     "statements": [
-      "(1) 具症狀之Barrett’s esophagus患者可長期使用質子幫浦抑制劑來改善症狀及 預防食道癌之發生",
+      "(1) 具症狀之Barrett’s esophagus患者可長期使用質子幫浦抑制劑來改善症狀及 E 預防食道癌之發生",
       "(2) 長期使用質子幫浦抑制劑之患者不必例行追蹤血清magnesium 或vitamin B12",
       "(3) 長期使用質子幫浦抑制劑之患者不必例行追蹤 bone mineral density",
       "(4) 長期使用質子幫浦抑制劑之患者不必例行給予 probiotics 以避免腸道感染"
@@ -1990,7 +1985,7 @@ const rawQuestions = [
       "D. (1)+(3)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "107年度",
@@ -2017,11 +2012,11 @@ const rawQuestions = [
     "no": 17,
     "question": "依據台灣幽門螺旋桿菌之治療共識,在幽門螺旋桿菌clairthromycin 抗藥率高 (> 15%)的地區,可選擇下列何除菌處方以達到良好之除菌率?",
     "statements": [
-      "(1) 14 天之混合療法",
-      "(2) 14 天之共伴療法",
-      "(3) 14 天之levofloxacin三合療法",
-      "(4) 14 天之鉍劑四合療法",
-      "(5) 14 天之標準三合療法"
+      "(1) 14 天之混合療法(hybrid therapy)",
+      "(2) 14 天之共伴療法(concomitant therapy)",
+      "(3) 14 天之levofloxacin三合療法(levofloxacin-based triple therapy)",
+      "(4) 14 天之鉍劑四合療法(bismuth quadruple therapy)",
+      "(5) 14 天之標準三合療法(standard triple therapy)"
     ],
     "options": [
       "A. (1)+(2)+(5)",
@@ -2055,7 +2050,7 @@ const rawQuestions = [
   {
     "year": "107年度",
     "no": 19,
-    "question": "一位68歲需長期使用clopidogrel(Plavix)預防腦中風復發之病患因胃潰瘍者出 血入院,於其胃潰瘍止血及癒合後,若仍有必要繼續使用 clopidogrel來預防腦血 管疾病,可以選用下列那一種藥品來避免胃潰瘍出血之復發?",
+    "question": "一位68歲需長期使用clopidogrel(Plavix)預防腦中風復發之病患因胃潰瘍者出 血入院,於其胃潰瘍止血及癒合後,若仍有必要繼續使用 clopidogrel來預防腦血",
     "statements": [],
     "options": [
       "A. Proton pump inhibitor",
@@ -2064,7 +2059,7 @@ const rawQuestions = [
       "D. Antacid",
       "E. Misoprostol"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "107年度",
@@ -2159,9 +2154,9 @@ const rawQuestions = [
     "no": 25,
     "question": "關於胃癌最近的相關研究,以下何者為正確?",
     "statements": [
-      "(1) 幽門螺旋桿菌感染後導致的胃炎及後續的小腸化生,將會大幅提高胃癌的風 險",
+      "(1) 幽門螺旋桿菌感染後導致的胃炎及後續的小腸化生,將會大幅提高胃癌的風 B 險",
       "(2) 早期根除幽門螺旋桿菌可以有效減少胃癌的發生率.隨著幽門螺旋桿菌根除 時間越久,胃癌發生比率減少的越明顯",
-      "(3) 對於感染幽門螺旋桿菌的病患,非類固醇抗發炎藥物",
+      "(3) 對於感染幽門螺旋桿菌的病患,非類固醇抗發炎藥物(NSAIDs)可減少胃癌 的發生率",
       "(4) 對於感染幽門螺旋桿菌的病患,五年內接受胃鏡相較未接受胃鏡者,胃癌的 死亡率相對較低"
     ],
     "options": [
@@ -2171,7 +2166,7 @@ const rawQuestions = [
       "D. (1)+(2)+(4)",
       "E. 以上皆非"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "107年度",
@@ -2206,7 +2201,7 @@ const rawQuestions = [
     "no": 28,
     "question": "有關胃癌與幽門螺旋桿菌的敘述,何者正確?",
     "statements": [
-      "(1) 幽門螺旋桿菌會透過許多分子活化致癌相關訊息傳遞機制,從而改變細胞週 期及細胞生長",
+      "(1) 幽門螺旋桿菌會透過許多分子活化致癌相關訊息傳遞機制,從而改變細胞週 B 期及細胞生長",
       "(2) 早期根除幽門螺旋桿菌可以有效減少胃癌的發生率",
       "(3) 幽門螺旋桿菌根除時間越久,胃癌發生率減少的越明顯",
       "(4) 根除幽門螺旋桿菌,可以有效減少八成多胃癌風險",
@@ -2219,7 +2214,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)",
       "E. (1)+(3)+(4)+(5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "107年度",
@@ -2256,8 +2251,8 @@ const rawQuestions = [
     "statements": [
       "(1) IBD的診斷為一種綜合判斷包括臨床表現 影像學 内視鏡等",
       "(2) IBD的治療目標為deep remission",
-      "(3) Budesonide 有口服或灌腸等兩種劑型,屬於高肝臟首渡效應",
-      "(4) 使用anti-TNFa 治療IBD,不需要screening tuberculosis, hepatitis B",
+      "(3) Budesonide 有口服或灌腸等兩種劑型,屬於高肝臟首渡效應(first pass effect)的短效類固醇",
+      "(4)使用anti-TNFa 治療IBD,不需要screening tuberculosis, hepatitis B",
       "(5) Combination of biologic agent and immunomodulator is more efficacious than biologic agent alone"
     ],
     "options": [
@@ -2274,8 +2269,8 @@ const rawQuestions = [
     "no": 32,
     "question": "下列關於胃腸發炎的機制敘述,何者正確?",
     "statements": [
-      "(1) Intestinal epithelial cells create various kinds of mucosal barriers for gut homeostasis",
-      "(2) Innate lymphoid cells",
+      "(1) Intestinal epithelial cells create various kinds of mucosal barriers for gut E homeostasis",
+      "(2) Innate lymphoid cells (ILCs) play an important role in immunity and inflammation",
       "(3) Nutrients , metabolites from diet and/or gut bacteria influenced development and maintenance of ILCs",
       "(4) Imbalance between host immunity and intestinal microbiota may cause infection and inflammation",
       "(5) Dysfunction of intestinal barriers is one of the causes for IBD development"
@@ -2287,7 +2282,7 @@ const rawQuestions = [
       "D. (2)+(3)+(4)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "107年度",
@@ -2295,8 +2290,8 @@ const rawQuestions = [
     "question": "下列有關食物過敏敘述,何者正確?",
     "statements": [
       "(1) 基因改造食物不會引起過敏免疫疾病",
-      "(2) 食物不良反應",
-      "(3) 臨床上常見過敏反應之症狀有皮膚紅疹 發癢 嘴唇眼皮呼吸道腫脹",
+      "(2) 食物不良反應(Adverse reactions to food)可分三類:耐受不良症候群 過 敏免疫疾病 自體免疫疾病",
+      "(3) 臨床上常見過敏反應之症狀有皮膚紅疹 發癢 嘴唇眼皮呼吸道腫脹(俗稱 血管性水腫) 嚴重者會休克(稱為過敏性休克)",
       "(4) Coeliac disease 是典型食物誘發引起的自體免疫疾病",
       "(5) 診斷食物過敏疾病包括家族史 皮下皮膚測試 serum IgG level 食物排除 試驗及食物誘發試驗"
     ],
@@ -2315,8 +2310,8 @@ const rawQuestions = [
     "question": "Meckel’s diverticulum 有下列幾個臨床上的特性,其中何者為非?",
     "statements": [
       "(1) 最常見的症狀是出血",
-      "(2) 成年人若核子醫學檢查",
-      "(3) 好發位置在遠端迴腸,距離迴盲瓣",
+      "(2) 成年人若核子醫學檢查(Tc-99m pertechnetate scintigraphy 稱為Meckel’s scan)為陰性,幾乎可以排除Meckel’s diverticulum 的可能性",
+      "(3) 好發位置在遠端迴腸,距離迴盲瓣(ileocecal valve)不到100公分處",
       "(4) 為先天性病灶",
       "(5) 有症狀的人比完全沒有症狀的人還多"
     ],
@@ -2354,7 +2349,7 @@ const rawQuestions = [
     "no": 36,
     "question": "下列關於gut microbiota 敘述,何者正確?",
     "statements": [
-      "(1) Development of non-alcoholic fatty liver disease was influenced by host genetic polymorphisms, diet, gut microbiota",
+      "(1) Development of non-alcoholic fatty liver disease was influenced by host E genetic polymorphisms, diet, gut microbiota",
       "(2) Gut-liver axis plays important role in metabolism, immune system education, tolerance development and prevention of pathogen colonization",
       "(3) Gut dysbiosis correlated with mortality in acute on chronic liver failure",
       "(4) Decreasing gastrointestinal motility in cirrhotic patient contributes to bacterial overgrowth",
@@ -2367,18 +2362,15 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "107年度",
     "no": 37,
     "question": "下列關於Host-Microbes relationships 敘述,何者不正確?",
     "statements": [
-      "(1) For most infants, human microbiome is seeded by vertical",
-      "(2) If delivery is by cesarean section, the founding bacteria resemble those of cutaneous origin, predominantly lactic acid-producing bacteria",
-      "(3) A healthy intestine is characterized by a diverse and versatile microbiota",
-      "(4) Disturbances of host-microbe interaction by antibiotics during infancy, increases the risk of immuno-allergic disorders",
-      "(5) Bacteroidetes and Firmicutes contribute to ≈ 90% of the species in the proximal bowel"
+      "(1) For most infants, human microbiome is seeded by vertical (maternal) D transmission during birth",
+      "(2) If delivery is by cesarean section, the founding bacteria resemble those of cutaneous origin, predominantly lactic acid-producing bacteria"
     ],
     "options": [
       "A. (1)+(2)",
@@ -2387,7 +2379,7 @@ const rawQuestions = [
       "D. (2)+(5)",
       "E. (3)+(4)+(5)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "107年度",
@@ -2397,7 +2389,7 @@ const rawQuestions = [
       "(1) Clostridium difficile is anaerobic spore-forming bacillus",
       "(2) Disturbance of gut microbiota diversity by antibiotics may lead to Clostridium difficile overgrow",
       "(3) Metronidazole or Vancomycin is first line treatment for CDI",
-      "(4) CDI can be completely cured by single episode of Fecal microbiota transplantation",
+      "(4) CDI can be completely cured by single episode of Fecal microbiota transplantation(FMT)",
       "(5) Recurrence rate of CDI 可高達40-60% with subsequent antibiotic exposure"
     ],
     "options": [
@@ -2414,9 +2406,9 @@ const rawQuestions = [
     "no": 39,
     "question": "下列關於Obesity敘述,何者正確?",
     "statements": [
-      "(1) Obesity increases risk of cardiovascular disease, type 2 diabetes, fatty liver, certain type of cancers",
+      "(1) Obesity increases risk of cardiovascular disease, type 2 diabetes, fatty liver, C certain type of cancers",
       "(2) Increase ratio of Fimicutes to Bacteroidetes is found in obese people",
-      "(3) Dual specificity phosphatase 6",
+      "(3) Dual specificity phosphatase 6 ( dusp 6) deficiency promotes insulin sensitivity confer host resistance to diet-induced obesity",
       "(4) Gut microbiota altered mucosal immunity host metabolism and energy balance",
       "(5) Dusp 6 now considered an important regulator of hepatic gluconeogenesis and lipid metabolism"
     ],
@@ -2427,7 +2419,7 @@ const rawQuestions = [
       "D. (1)+(3)+(4)",
       "E. (1)+(2)+(3)+(5)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "107年度",
@@ -2454,10 +2446,10 @@ const rawQuestions = [
     "no": 41,
     "question": "發炎性腸道疾病(Inflammatory bowel disease)的病患,發生大腸直腸癌 (colorectal cancer)的風險會提高,以下何者為是?",
     "statements": [
-      "(1) 亞洲的發炎性腸道疾病",
+      "(1) 亞洲的發炎性腸道疾病(Inflammatory bowel disease)病患的大腸直腸癌 (colorectal cancer)盛行率,比西方國家的低",
       "(2) 被診斷腸炎後的8-10 年,產生大腸癌的風險開始顯著上升",
       "(3) 臨床上克隆氏症盛行率比潰瘍性大腸炎高",
-      "(4) 全結腸炎"
+      "(4) 全結腸炎(Pancolitis)的病人風險比左側腸炎(left-side colitis)的病人來的 低"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -2474,7 +2466,7 @@ const rawQuestions = [
     "statements": [
       "(1) 建議在腸炎症狀出現的隔年開始每一至兩年進行一次大腸鏡檢查,以監控疾 病活性",
       "(2) 建議在腸炎症狀出現的第八年之後開始進行篩檢大腸鏡檢查",
-      "(3) 有Post-inflammatory polyps 的病患建議2-3年後接受追蹤大腸鏡檢查",
+      "(3) 有Post-inflammatory polyps 的病患建議2-3年後接受追蹤大腸鏡檢查 (surveillance colonoscopy)",
       "(4) Pseudo-polyp 應施行息肉切除術,以免進展為大腸癌"
     ],
     "options": [
@@ -2490,10 +2482,10 @@ const rawQuestions = [
     "no": 43,
     "question": "對於診斷遺傳性非息肉大腸直腸癌(Hereditary Nonpolyposis Colorectal Cancer)的阿姆斯特丹準則(Amsterdam II Criteria),以下何者為是?",
     "statements": [
-      "(1) 家族成員中有3人以上罹患大腸直腸癌",
-      "(2) 至少有二個世代以上的家族成員罹患大腸直腸癌",
+      "(1) 家族成員中有3人以上罹患大腸直腸癌(colorectal cancer),其中一位患者 是其他2位病患的一等親",
+      "(2) 至少有二個世代以上的家族成員罹患大腸直腸癌(colorectal cancer)",
       "(3) 病患中至少有一人之年齡必須小於40歲",
-      "(4) 家族性腺性息肉症"
+      "(4) 家族性腺性息肉症(Familial adenomatous polyposis;FAP)亦可屬之"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -2526,10 +2518,10 @@ const rawQuestions = [
     "no": 45,
     "question": "以下何者為大腸直腸癌(colorectal cancer)的高風險族群?",
     "statements": [
-      "(1) 遺傳性大腸息肉症",
-      "(2) 黑斑息肉症候群",
-      "(3) 增生性多發性息肉症候群",
-      "(4) 鋸齒狀多發息肉症候群"
+      "(1) 遺傳性大腸息肉症(Familial adenomatous polyposis)病患",
+      "(2) 黑斑息肉症候群(Peutz-Jeghers syndrome)病患",
+      "(3) 增生性多發性息肉症候群(Hyperplastic polyposis syndrome)病患",
+      "(4) 鋸齒狀多發息肉症候群(Serrated polyposis syndrome)病患"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -2544,10 +2536,10 @@ const rawQuestions = [
     "no": 46,
     "question": "以下何者為大腸直腸癌(colorectal cancer)患者較佳的預後因子?",
     "statements": [
-      "(1) 無症狀,因篩檢所發現的大腸直腸癌",
-      "(2) 基因分子診斷有微衛星不穩定性",
-      "(3) 位於直腸",
-      "(4) 診斷大腸直腸癌"
+      "(1) 無症狀,因篩檢所發現的大腸直腸癌(Screening detected colorectal cancer)",
+      "(2) 基因分子診斷有微衛星不穩定性(microsatellite instability;MSI)",
+      "(3) 位於直腸(rectum)",
+      "(4) 診斷大腸直腸癌(colorectal cancer)時,年齡小於30歲"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -2562,10 +2554,10 @@ const rawQuestions = [
     "no": 47,
     "question": "下列關於小腸腫瘤的敘述,何者為對?",
     "statements": [
-      "(1) 小腸是淋巴結外淋巴癌",
+      "(1) 小腸是淋巴結外淋巴癌(extranodal lymphoma)最常出現的器官之一",
       "(2) 淋巴癌是小腸最常出現的惡性腫瘤",
-      "(3) 類癌",
-      "(4) 小腸類癌",
+      "(3) 類癌(carcinoid)是小腸第二常見的惡性腫瘤",
+      "(4) 小腸類癌(carcinoid)幾乎都發生在迴腸",
       "(5) 小腸淋巴癌最常好發在迴腸末端"
     ],
     "options": [
@@ -2586,7 +2578,7 @@ const rawQuestions = [
       "(2) 紅肉",
       "(3) 肥胖",
       "(4) 雌激素",
-      "(5) 多環胺"
+      "(5) 多環胺(heterocyclic amines)"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -2603,8 +2595,8 @@ const rawQuestions = [
     "question": "下列各種大腸直腸癌篩檢工具,何者已被證明可以有效降低大腸直腸癌死亡率?",
     "statements": [
       "(1) Colonoscopy",
-      "(2) FIT",
-      "(3) gFOBT",
+      "(2) FIT (fecal immunochemical test)",
+      "(3) gFOBT (guaiac fecal occult blood test)",
       "(4) Flexible sigmoidoscopy",
       "(5) CT colonography"
     ],
@@ -2622,7 +2614,7 @@ const rawQuestions = [
     "no": 50,
     "question": "下列關於Peutz-Jeghers syndrome的敘述,何者為對?",
     "statements": [
-      "(1) 是一種缺陷瘤",
+      "(1) 是一種缺陷瘤(hamartoma)",
       "(2) 突變基因為PTEN",
       "(3) 嘴巴和皮膚上可能出現色素沉著",
       "(4) 可能出現胰臟癌或乳癌",
@@ -2744,7 +2736,7 @@ const rawQuestions = [
       "A. 每一位HCV RNA 陽性患者都應該接受抗病毒藥物治療",
       "B. 全口服抗病毒藥物經治療後有很高機會(> 90%)可以根治病毒",
       "C. 早期肝硬化患者經抗病毒藥物治療治療後有機會改善肝纖維化",
-      "D. 國內健保資料庫統計分析顯示慢性C型肝炎患者經Peginterferon+Ribavirin 治療後肝臟疾病預後會改善,但肝外表現如腎臟病跟腦中風的預後變化不大",
+      "D. 國內健保資料庫統計分析顯示慢性C型肝炎患者經Peginterferon + Ribavirin 治療後肝臟疾病預後會改善,但肝外表現如腎臟病跟腦中風的預後變化不大",
       "E. 台灣目前已經有全基因型口服藥物可以使用"
     ],
     "answer": "D"
@@ -2754,10 +2746,10 @@ const rawQuestions = [
     "no": 59,
     "question": "全口服藥物(DAA)治療C型肝炎之選擇,以下何者正確?",
     "statements": [
-      "(1) Daclatasvir+Asunaprevir 對1b型C型肝炎病毒有效,但需檢測 resistance-associated substitutions",
+      "(1) Daclatasvir+Asunaprevir 對1b型C型肝炎病毒有效,但需檢測 E resistance-associated substitutions(RASs)",
       "(2) Ombitasvir / Paritaprevir / Ritonavir+Dasabuvir 對第1和4型C型肝炎病毒 有效",
       "(3) Sofosbuvir / Ledipasvir 對第1型 第4型和第6型C型肝炎病毒有效",
-      "(4) Elbasvir / Grazoprevir 治療第1b型C型肝炎病毒前,不需要檢測 resistance-associated substitutions"
+      "(4) Elbasvir / Grazoprevir 治療第1b型C型肝炎病毒前,不需要檢測 resistance-associated substitutions(RASs)"
     ],
     "options": [
       "A. (1)+(2)+(4)",
@@ -2766,18 +2758,13 @@ const rawQuestions = [
       "D. (1)+(3)+(4)",
       "E. 以上皆是"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "107年度",
     "no": 60,
-    "question": "林女士,70歲,40年前因開刀輸血感染 C型肝炎,目前AST 125 U/L,ALT 150 U/L,HCV genotype 2,肝生檢顯示為第三期(Metavir F3)之肝纖維化.下列 敘述何者正確?",
-    "statements": [
-      "(1) 林女士應定期接受肝癌篩檢,包括腹部超音波和胎兒蛋白",
-      "(2) 林女士應接受抗病毒治療",
-      "(3) 目前C型肝炎genotype 2之標準治療為長效型干擾素",
-      "(4) 若能清除 C型肝炎病毒,可減少肝硬化 肝癌和淋巴瘤之風險"
-    ],
+    "question": "林女士,70歲,40年前因開刀輸血感染 C型肝炎,目前AST 125 U/L,ALT 150 U/L,HCV genotype 2,肝生檢顯示為第三期(Metavir F3)之肝纖維化.下列",
+    "statements": [],
     "options": [
       "A. (1)+(2)+(4)",
       "B. (1)+(2)+(3)",
@@ -2785,14 +2772,14 @@ const rawQuestions = [
       "D. (1)+(3)+(4)",
       "E. 以上皆是"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "107年度",
     "no": 61,
     "question": "關於失代償肝硬化(decompensated liver cirrhosis)C 型肝炎治療之評估與藥物 選擇,以下何者正確?",
     "statements": [
-      "(1) 肝臟移植前若已經發生嚴重肝功能失代償",
+      "(1) 肝臟移植前若已經發生嚴重肝功能失代償(CTP class C or MELD score > 20)時,可以先做肝臟移植評估",
       "(2) 第1型C型肝炎失代償肝硬化患者可以考慮使用Sofosbuvir / Ledipasvir+ Ribavirin",
       "(3) 第3型C型肝炎肝功能失代償患者可以考慮使用Sofosbuvir+Daclatasvir+ Ribavirin",
       "(4) 第1型C型肝炎肝功能失代償患者可以考慮使用Paritaprevir / Ritonavir/Ombitasvir /+Dasabuvir"
@@ -2830,8 +2817,8 @@ const rawQuestions = [
     "no": 63,
     "question": "慢性B型肝炎病患接受口服抗B型肝炎病毒藥物治療,關於停止治療之時間點, 下列敘述何者正確?",
     "statements": [
-      "(1) 肝硬化患者應長期用藥,但表面抗原",
-      "(2) e抗原陽性病患治療到e抗原血清轉換",
+      "(1) 肝硬化患者應長期用藥,但表面抗原(HbsAg)消失時,可以嘗試停藥,但 應密切追蹤",
+      "(2) e抗原陽性病患治療到e抗原血清轉換(seroconversion),血清HBV DNA 呈現陰性反應後,需要加上鞏固療法12個月,才可停藥",
       "(3) e抗原陰性病患治療到血清HBV DNA呈陰性反應,加上 ALT 正常,即可停 藥",
       "(4) e抗原陰性病患治療到血清HBV DNA 呈陰性反應,ALT正常,需要加上鞏 固療法6個月才可停藥"
     ],
@@ -2868,10 +2855,10 @@ const rawQuestions = [
     "no": 65,
     "question": "下列關於降血脂藥物statins對肝臟之影響,何者正確?",
     "statements": [
-      "(1) 使用statins,10%患者會有肝指數",
-      "(2) 使用statins,建議於使用前及使用中監測肝指數",
+      "(1) 使用statins,10%患者會有肝指數(AST/ALT)升高",
+      "(2) 使用statins,建議於使用前及使用中監測肝指數(AST/ALT)",
       "(3) 對於高血脂症合併脂肪性肝炎的病人,仍可使用statins",
-      "(4) statins所造成的無症狀肝指數",
+      "(4) statins所造成的無症狀肝指數(AST/ALT)升高,與胰島素抗性有關",
       "(5) statins極少造成嚴重的肝臟傷害"
     ],
     "options": [
@@ -2908,7 +2895,7 @@ const rawQuestions = [
     "no": 67,
     "question": "下列有關Hepatic metastases,何者為非?",
     "statements": [
-      "(1) 肝臟是腫瘤轉移性擴散的最常見目標,原發處以lung breast pancreas stomach colon較常見",
+      "(1) 肝臟是腫瘤轉移性擴散的最常見目標,原發處以lung breast pancreas B stomach colon較常見",
       "(2) 約50%的患者在肝轉移出現後3個月存活,不到10%存活超過1年",
       "(3) Contrast enhanced doppler US 無法用於肝轉移的診斷",
       "(4) 切除結腸直腸癌患者的肝轉移可實現長期存活,其中相當多的人可治癒或甚 至獲得長達20年的無病存活",
@@ -2921,7 +2908,7 @@ const rawQuestions = [
       "D. (3)+(4)",
       "E. (2)+(3)+(4)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "107年度",
@@ -2968,8 +2955,8 @@ const rawQuestions = [
     "no": 70,
     "question": "下列有關intrahepatic cholangiocarcinoma 之診斷,何者為非?",
     "statements": [
-      "(1) 肝生化血液檢查通常只有血清鹼性磷酸酶",
-      "(2) 在劉易斯",
+      "(1) 肝生化血液檢查通常只有血清鹼性磷酸酶(Alkaline phosphatase)水平會 C 升高",
+      "(2) 在劉易斯(Lewis)血型陰性的7%人群中總是檢測不到CA 19-9",
       "(3) MRI scan影像下,腫瘤在T1加權圖像上呈高信號,在T2加權圖像上呈低 強度",
       "(4) Dynamic vascular 影像,腫瘤通常在動脈,門靜脈和延遲期中逐漸增強",
       "(5) 如果腫瘤可能可切除,應避免經皮活組織檢查"
@@ -2981,7 +2968,7 @@ const rawQuestions = [
       "D. (4)",
       "E. (5)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "107年度",
@@ -2989,7 +2976,7 @@ const rawQuestions = [
     "question": "下列有關intrahepatic cholangiocarcinoma 之治療,何者為非?",
     "statements": [
       "(1) 若能開刀,是治癒的唯一機會.五年存活率達 50%",
-      "(2) 具有可疑淋巴結時,經內視鏡超音波細針穿刺",
+      "(2) 具有可疑淋巴結時,經內視鏡超音波細針穿刺(EUS+FNA)可以在多達 20%的病例中檢測到未被CT scan 識別的轉移,但是應當避免原發病灶的 經胃或經十二指腸活檢,因為針道接種的風險很大",
       "(3) 如果患者的預期存活超過3至6個月,則可擴張金屬支架的放置通常優於塑 料支架",
       "(4) Cisplatin和Gemcitabine 聯合應用對局部晚期或轉移性膽道癌的生存獲益約 為6個月",
       "(5) 單獨肝移植或與新輔助化療和輔助化療聯合使用大於50%的5年生存率"
@@ -3147,10 +3134,10 @@ const rawQuestions = [
     "question": "膽管癌分為肝內膽管癌(intrahepatic cholangiocarcinoma, iCCA),肝門周邊膽 管癌(perihilar CCA, pCCA)和末端膽管癌(distal CCA, dCCA),以下敘述何 者正確?",
     "statements": [
       "(1) dCCA 發生率最高",
-      "(2) dCCA 是指膽囊管",
-      "(3) dCCA 以治癒性切除",
+      "(2) dCCA 是指膽囊管(cystic duct)以下的總膽管癌",
+      "(3) dCCA 以治癒性切除(curative resection)手術治療,可得超過50%的5年 存活",
       "(4) 評估pCCA最好的影像工具是 MRI 和MRCP",
-      "(5) 評估pCCA時,MRI 發現雙側肝動脈已被腫瘤侵犯,已經無法實行治癒性切 除"
+      "(5) 評估pCCA時,MRI 發現雙側肝動脈已被腫瘤侵犯,已經無法實行治癒性切 除 (6) 為無法手術的pCCA 病患執行有效的引流計畫,目標是引流 50%以上的肝臟 範圍"
     ],
     "options": [
       "A. (1)+(3)+(4)+(5)+(6)",
@@ -3168,9 +3155,9 @@ const rawQuestions = [
     "statements": [
       "(1) 肝膽寄生蟲感染",
       "(2) 慢性胰臟炎",
-      "(3) 總膽管囊腫",
+      "(3) 總膽管囊腫(choledochocyst)",
       "(4) 肝內結石慢性膽管炎",
-      "(5) 鬱血性心臟衰竭"
+      "(5) 鬱血性心臟衰竭(congestive heart failure) (6) 原發性硬化膽管炎(primary sclerosing cholangitis)"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -3189,8 +3176,8 @@ const rawQuestions = [
       "(1) 胰臟為最常影響的器官約佔45%",
       "(2) 85%集中於胰臟 膽管 唾腺 淚腺 腎臟 後腹腔和脾臟等7器官",
       "(3) 膽管為第二好發器官約佔20%",
-      "(4) 目前IgG4相關膽管炎,通稱為IgG4硬化膽管炎",
-      "(5) IgG4相關膽管炎,如發生於肝門或肝內膽管,膽管影像會和膽管癌與原發性 膽管硬化"
+      "(4) 目前IgG4相關膽管炎,通稱為IgG4硬化膽管炎(IgG4 sclerosing cholangitis, IgG4-SC)",
+      "(5) IgG4相關膽管炎,如發生於肝門或肝內膽管,膽管影像會和膽管癌與原發性 膽管硬化(primary biliary cirrhosis)相似"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -3206,7 +3193,7 @@ const rawQuestions = [
     "no": 84,
     "question": "膽固醇結石發生的機轉大致分為三類,以下的描述下列何者為真?",
     "statements": [
-      "(1) 過多的膽固醇分泌與正常的膽鹽",
+      "(1) 過多的膽固醇分泌與正常的膽鹽(bile salt)和磷脂(phospholipid)分泌, D 常見於肥胖者",
       "(2) 正常的膽固醇分泌與膽鹽分泌下降,常見非肥胖者,膽鹽流失病患",
       "(3) 過多的膽固醇與膽鹽分泌下降,如祕魯人",
       "(4) 膽鹽的來源全部來自肝臟的合成"
@@ -3218,18 +3205,18 @@ const rawQuestions = [
       "D. (1)+(2)+(3)",
       "E. (1)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "107年度",
     "no": 85,
     "question": "有關膽結石的描述,下列敘述何者為真?",
     "statements": [
-      "(1) 溶血疾病會產生黑膽結石",
+      "(1) 溶血疾病會產生黑膽結石(black stones)",
       "(2) 快速減重會產生黑膽結石",
       "(3) 肝硬化容易產生黑膽結石",
       "(4) 懷孕容易產生膽固醇結石",
-      "(5) 棕色結石"
+      "(5) 棕色結石(brown stones)和膽汁鬱積與細菌感染有關 (6) 迴腸疾病與迴腸切除與黑膽結石有關"
     ],
     "options": [
       "A. (1)+(3)+(4)+(5)",
@@ -3249,7 +3236,7 @@ const rawQuestions = [
       "(2) 每天都會發生",
       "(3) 疼痛的程度會中斷日常工作,需要到急診治療",
       "(4) 常常會伴隨腹瀉",
-      "(5) 坐起來疼痛會比較改善"
+      "(5) 坐起來疼痛會比較改善 (6) 牽引痛(refer pain)到背部或右肩胛骨"
     ],
     "options": [
       "A. (1)+(3)+(4)+(5)",
@@ -3282,8 +3269,8 @@ const rawQuestions = [
       "(1) 是一種先天的異常,也可以成年後因狹窄發生",
       "(2) 定義是胰管與膽管匯流處的解剖位置在十二指腸壁外",
       "(3) 致病機轉為膽汁或胰液會互相流通,因為膽道壓力較低,常發現胰液會逆流 進入膽管與膽囊",
-      "(4) 診斷可以在ERCP時發現較長的膽胰管共同通道",
-      "(5) 內視鏡超音波"
+      "(4) 診斷可以在ERCP時發現較長的膽胰管共同通道(common channel),括約 肌收縮時無法分流",
+      "(5) 內視鏡超音波(EUS)無法診斷 PBM 診斷 (6) 核磁共振膽胰管造影(MRCP)對較短的共同通道仍需要以ERCP來確定"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -3323,7 +3310,7 @@ const rawQuestions = [
       "(2) 術前或術後馬上使用indomethacin 100mg塞劑",
       "(3) 術前或術後馬上使用diclofenac 100mg 塞劑",
       "(4) 口服diclofenac 50mg",
-      "(5) 高風險者預防性胰臟支架放置"
+      "(5) 高風險者預防性胰臟支架放置 (6) Lactated ringer 積極輸液(3ml/kg/hr)"
     ],
     "options": [
       "A. (1)+(2)+(3)+(5)+(6)",
@@ -3434,9 +3421,9 @@ const rawQuestions = [
     "question": "60歲女性經EUS-FNA確診為胰臟癌,腫瘤大小為 3.5cm,已超出胰臟範圍但無 血管侵犯.局部淋巴腺腫大經判斷為轉移,但並無轉移至其他器官的證據.依照 AJCC分期,此病人為第幾期?",
     "statements": [],
     "options": [
-      "A. Stage I B",
-      "B. Stage II A",
-      "C. Stage II B",
+      "A. Stage I",
+      "B. Stage II",
+      "C. Stage II",
       "D. Stage III"
     ],
     "answer": "C"
@@ -3506,7 +3493,7 @@ const rawQuestions = [
       "(2) Lye stricture",
       "(3) Achalasia",
       "(4) Glycogenic acanthosis",
-      "(5) Barrett’s esophagus"
+      "(5) Barrett’s esophagus(BE)"
     ],
     "options": [
       "A. (1)+(2)",
@@ -3522,11 +3509,11 @@ const rawQuestions = [
     "no": 3,
     "question": "有關食道賁門失弛緩症(賁門不張)(achalasia)的敘述,何者不正確?",
     "statements": [
-      "(1) Manometry常見aperistalsis,下食道括約肌",
+      "(1) Manometry常見aperistalsis,下食道括約肌(LES)relaxation不全之變化",
       "(2) 病人固體及液體食物皆吞嚥困難,平躺時易有 acid regurgitation",
-      "(3) Nitrate或calcium channel blocker",
+      "(3) Nitrate或calcium channel blocker(nifedipine diltiazem verapamil)可減 緩症狀",
       "(4) Barium esophagogram 可見食道擴大,\"bird's beak\"及air in stomach fundus 等情形",
-      "(5) 近年來POEM"
+      "(5) 近年來POEM(peroral endoscopic myotomy),Botox"
     ],
     "options": [
       "A. (1)+(3)",
@@ -3556,11 +3543,11 @@ const rawQuestions = [
     "no": 5,
     "question": "有關食道Caustic Injury(corrosive esophagitis)之描述,何者不正確?",
     "statements": [
-      "(1) 強鹼",
-      "(2) 強酸",
-      "(3) 內視鏡檢查",
+      "(1) 強鹼(lye. button battery)造成較深的liquefactive necrosis,皂化,食道損 D 傷較重,食道易狹窄",
+      "(2) 強酸(鹽酸 硫酸)造成較淺的coagulative necrosis,形成eschar,胃損傷 較重,前庭幽門部易狹窄,易acidosis,死亡率較強鹼高",
+      "(3) 內視鏡檢查(EGD)要在12至48小時以內進行,來評估黏膜受損程度",
       "(4) 食道穿孔易於1-2星期時發生,而食道或胃之狹窄易於3-4星期以後產生",
-      "(5) 曾有caustic esophageal injury 病人,20-30 年以後產生食道癌"
+      "(5) 曾有caustic esophageal injury 病人,20-30 年以後產生食道癌(SCC及腺 癌)的機率會增加"
     ],
     "options": [
       "A. (1)+(2)",
@@ -3569,7 +3556,7 @@ const rawQuestions = [
       "D. 以上皆正確",
       "E. 以上皆不正確"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "108年度",
@@ -3610,10 +3597,10 @@ const rawQuestions = [
     "no": 8,
     "question": "對於胃食道逆流性疾病(GERD)之敘述,何者不正確?",
     "statements": [
-      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD",
+      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD(Non-Erosive E Reflux Disease)或ENRD(Endoscopic Negative Reflux Disease)",
       "(2) Ambulatory 24-hour esophageal PH monitoring 如為正常,則可確定排除 GERD之診斷",
-      "(3) 西方國家常以PPI",
-      "(4) GERD之臨床症狀程度,常以LA分期",
+      "(3) 西方國家常以PPI(proton pump inhibitor)做2星期之empirical therapy, 依反應來認定GERD",
+      "(4) GERD之臨床症狀程度,常以LA分期(A B C D)來判定,可預測其治 療反應成效",
       "(5) 臨床上出現dysphagia 時即表示 GERD已進行成BE,很可能再惡化為 adenocarcinoma"
     ],
     "options": [
@@ -3623,18 +3610,18 @@ const rawQuestions = [
       "D. (1)+(3)+(5)",
       "E. (2)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "108年度",
     "no": 9,
     "question": "有關GERD(Gastro-Esophageal Reflux Disease)之描述,何者不正確?",
     "statements": [
-      "(1) 臨床上最常見症狀為燒心",
-      "(2) 內視鏡下 GERD 呈現NERD,ERD",
+      "(1) 臨床上最常見症狀為燒心(heartburn)及返酸(acid regurgitation)",
+      "(2) 內視鏡下 GERD 呈現NERD,ERD(RE Reflux Esophagitis EE Erosive Esophagitis)及BE(Barrett's Esophagus)三種變化",
       "(3) GERD 與H. pylori感染關係密切,幽門桿菌除菌成功,GERD隨之改善",
-      "(4) 西方國家九十年代以來,食道鱗狀細胞癌",
-      "(5) GERD 若合併H. pylori感染,則不可給除菌治療,以免增加食道癌"
+      "(4) 西方國家九十年代以來,食道鱗狀細胞癌(SCC)減少,腺癌增加,歸功於 PPI 對GERD療效佳",
+      "(5) GERD 若合併H. pylori感染,則不可給除菌治療,以免增加食道癌(SCC) 之機率"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -3651,10 +3638,10 @@ const rawQuestions = [
     "question": "有關食道動力學(esophageal motility)敘述何者正確?",
     "statements": [
       "(1) 食道上段是平滑肌 下段是橫紋肌",
-      "(2) 食道平滑肌由一氧化氮",
+      "(2) 食道平滑肌由一氧化氮(NO)或乙醯膽鹼(acetylcholine)釋放來調節",
       "(3) 食道次發性蠕動由周邊神經控制",
-      "(4) 食道高壓性蠕動",
-      "(5) 全身性硬皮症"
+      "(4) 食道高壓性蠕動(Hypertensive esophagus 或nutcracker esophagus) 較常發生在年輕人",
+      "(5) 全身性硬皮症(scleroderma, systemic sclerosis)會減弱遠端 2/3的食道蠕 動壓力"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -3674,7 +3661,7 @@ const rawQuestions = [
       "(2) 對於大量出血休克的病人必須注意保護其呼吸道",
       "(3) 核醫檢查 Tagged RBC Scintigraphy 可以偵測 > 0.1 mL/min的出血量",
       "(4) 出血量 > 2 mL/min才可以血管攝影順利診斷",
-      "(5) 對於黑色潰瘍底部Hemorrhagic base"
+      "(5) 對於黑色潰瘍底部Hemorrhagic base(Forrest IIc)應立即進行內視鏡止血"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -3694,7 +3681,7 @@ const rawQuestions = [
       "(2) 對於胃潰瘍都必須在潰瘍底部切片以排除惡性可能",
       "(3) 十二指腸潰瘍病人的胃酸分泌較高,而胃潰瘍可能正常",
       "(4) 十二指腸潰瘍病人的空腹胃泌素 Fasting gastrin 昇高",
-      "(5) 大部分的消化性潰瘍出血"
+      "(5) 大部分的消化性潰瘍出血(80%~90%)會自行停止出血"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -3877,8 +3864,8 @@ const rawQuestions = [
     "question": "根據Lauren’s classification 瀰漫型胃癌(Diffuse type gastric cancer)與腸型胃 癌(Intestinal type gastric cancer)有何不同?下列何者為正確?",
     "statements": [
       "(1) 瀰漫型較常發生在年紀較大的人,尤其是女性",
-      "(2) 整體外觀上,腸型胃癌較常形成突起型腫瘤",
-      "(3) 腸型胃癌常合併小腸化生",
+      "(2) 整體外觀上,腸型胃癌較常形成突起型腫瘤(elevated fungating)",
+      "(3) 腸型胃癌常合併小腸化生(intestinal metaplasia)",
       "(4) 腸型胃癌比瀰漫型胃癌較常合併肝臟轉移",
       "(5) 預後方面,瀰漫型胃癌的五年存活率約為20%,而腸型胃癌則較差,通常小 於10%"
     ],
@@ -3896,11 +3883,11 @@ const rawQuestions = [
     "no": 25,
     "question": "關於胃的黏膜下腫瘤(submucosal tumor)之敘述,下列何者為是?",
     "statements": [
-      "(1) 胰異位瘤",
-      "(2) 脂肪瘤最常發生在胃竇部",
-      "(3) 大多源自於胃壁的間質組織,其中最常見的是平滑肌瘤",
-      "(4) 平滑肌瘤",
-      "(5) Glomus tumor 是一種良性的腫瘤性血管病變,其外圍由平滑肌所圍繞,形成 一個硬的假性包膜"
+      "(1) 胰異位瘤(ectopic pancreas)最常發生在遠端胃竇部(distal antrum)的胃 D 大彎(greater curvature),它比正常的胰臟組織更容易發生惡性變化",
+      "(2) 脂肪瘤最常發生在胃竇部(antrum),在內視鏡超音波下為高回音,位在第 三層",
+      "(3) 大多源自於胃壁的間質組織,其中最常見的是平滑肌瘤(leiomyoma)",
+      "(4) 平滑肌瘤(leiomyoma)在內視鏡超音波下,為低回音,境界明顯,位於第 三層",
+      "(5) Glomus tumor 是一種良性的腫瘤性血管病變,其外圍由平滑肌所圍繞,形成 一個硬的假性包膜(pseudocapsule)"
     ],
     "options": [
       "A. (1)+(2)+(4)",
@@ -3909,18 +3896,18 @@ const rawQuestions = [
       "D. (2)+(3)+(5)",
       "E. (3)+(4)+(5)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "108年度",
     "no": 26,
     "question": "關於胃的息肉之敘述,下列何者為是?",
     "statements": [
-      "(1) 腺性息肉",
-      "(2) 底腺息肉",
-      "(3) 底腺息肉",
-      "(4) 增生性息肉",
-      "(5) 青年型息肉"
+      "(1) 腺性息肉(adenomatous polyp)約佔胃部息肉的30%,是一種癌前病變 B (precancerous lesion),建議切除",
+      "(2) 底腺息肉(fundic gland polyp)較常在胃的近端",
+      "(3) 底腺息肉(fundic gland polyp)常和家族多發性息肉症候群(familial polyposis syndrome)有相關,癌化機會不高,一般不需要切除",
+      "(4) 增生性息肉(hyperplastic polyp)通常是多發性的,最常發生在胃竇部 (antrum)",
+      "(5) 青年型息肉(juvenile polyp)是一種畸瘤(harmatoma),是一種癌前病變 (precancerous lesion)"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -3929,7 +3916,7 @@ const rawQuestions = [
       "D. (2)+(4)+(5)",
       "E. (1)+(2)+(5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "108年度",
@@ -3937,9 +3924,9 @@ const rawQuestions = [
     "question": "關於小腸腫瘤的發生率,下列何者為非?",
     "statements": [
       "(1) 小腸惡性腫瘤約佔整個消化道惡性腫瘤的 1-2%",
-      "(2) 小腸的惡性腫瘤中,以淋巴癌",
-      "(3) 小腸的良性腫瘤中,以腺瘤",
-      "(4) 小腸的類癌"
+      "(2) 小腸的惡性腫瘤中,以淋巴癌(lymphoma)最常見",
+      "(3) 小腸的良性腫瘤中,以腺瘤(adenoma)最常見",
+      "(4) 小腸的類癌(carcinoid)最常發生在空腸(jejunum)"
     ],
     "options": [
       "A. (1)+(2)",
@@ -3969,9 +3956,9 @@ const rawQuestions = [
     "no": 29,
     "question": "關於Peutz–Jeghers syndrome 的敘述,下列何者為是?",
     "statements": [
-      "(1) 是一種體染色體隱性",
-      "(2) 患者有腸胃道對多發性之腺瘤性息肉",
-      "(3) 息肉最常發生在空腸",
+      "(1) 是一種體染色體隱性(autosomal recessive)遺傳疾病",
+      "(2) 患者有腸胃道對多發性之腺瘤性息肉(adenomatous polyp)",
+      "(3) 息肉最常發生在空腸(jejunum)及迴腸(ileum)",
       "(4) 與第19對染色體上之STK 11/LKBI 基因突變有關",
       "(5) 口腔黏膜上之色素沉著在青春期之後常會消褪,但皮膚上的色素沉著則不會 消褪"
     ],
@@ -3990,10 +3977,10 @@ const rawQuestions = [
     "question": "下列哪些因素可能會有較高之機會形成胃癌?",
     "statements": [
       "(1) 有胃黏膜萎縮及腸上皮化生的人",
-      "(2) 遺傳性非息肉型大腸癌",
+      "(2) 遺傳性非息肉型大腸癌(Hereditary Non-polyposis Colon Cancer)",
       "(3) 血型O型的人",
-      "(4) 幽門螺旋桿菌",
-      "(5) 血清中胃蛋白酵素-I"
+      "(4) 幽門螺旋桿菌(Helicobacter pylori)與非賁門胃癌(non-cardiac gastric cancer)",
+      "(5) 血清中胃蛋白酵素-I(pepsinogen I -PGI)< 30 ng/ml和PG I/PG II比值 ≤ 3"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -4092,7 +4079,7 @@ const rawQuestions = [
       "(1) 好發於年紀大及有心血管疾病患者",
       "(2) 腹痛,血便為最常見之臨床表現",
       "(3) 內視鏡所見為非特異性紅腫,出血和潰瘍",
-      "(4) 常侵犯在肝彎附近",
+      "(4) 常侵犯在肝彎附近(hepatic flexure) 必須立即手術治療",
       "(5) 常見造成 colonic ischemia 的藥物包括hormonal therapies diuretics laxatives Nonsteroidal Anti-inflammatory Drugs"
     ],
     "options": [
@@ -4109,7 +4096,7 @@ const rawQuestions = [
     "no": 36,
     "question": "有關gut microbiota,以下何者正確?",
     "statements": [
-      "(1) Microbiota may influence carcinogenesis by altering host cell proliferation and death",
+      "(1) Microbiota may influence carcinogenesis by altering host cell proliferation E and death",
       "(2) Gut microbiota can ferment complex dietary residues that are resistant to digestion by enteric enzyme",
       "(3) Butyrate has neoplastic properties",
       "(4) Microbiota metabolized protein residues and fat-stimulated bile acids to carcinogenic metabolites",
@@ -4122,17 +4109,17 @@ const rawQuestions = [
       "D. (3)+(4)+(5)",
       "E. (1)+(2)+(4)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "108年度",
     "no": 37,
     "question": "有關small intestine bleeding 之敘述,以下何者為正確?",
     "statements": [
-      "(1) Commonest cause of obscure gastro-intestinal bleeding",
+      "(1) Commonest cause of obscure gastro-intestinal bleeding (OGIB)",
       "(2) May require multiple blood transfusion",
       "(3) Cause of repeated hospitalization because of recurrent gastro-intestinal bleeding",
-      "(4) In overt OGIB, performed video capsule endoscopy",
+      "(4) In overt OGIB, performed video capsule endoscopy (VCE) as soon as possible",
       "(5) If VCE not available, contra-indicated, suggest deep enteroscopy"
     ],
     "options": [
@@ -4209,10 +4196,10 @@ const rawQuestions = [
     "no": 41,
     "question": "根據美國多數醫學會大腸癌研究組織特別小組(the US Multi-Society Task Force on Colorectal Cancer)之建議,以下何者為是?",
     "statements": [
-      "(1) 經過根治性切除結腸癌或直腸癌",
-      "(2) 大腸直腸癌患者應在手術前,或在阻塞性大腸直腸癌的情況下於術後 3至6 個月內進行高品質的手術期清除性大腸鏡",
+      "(1) 經過根治性切除結腸癌或直腸癌(curative resection of either colon or rectal cancer)的患者應在手術後6個月接受首次追蹤性大腸鏡檢查(surveillance colonoscopy)",
+      "(2) 大腸直腸癌患者應在手術前,或在阻塞性大腸直腸癌的情況下於術後 3至6 個月內進行高品質的手術期清除性大腸鏡(high-quality perioperative clearing with colonoscopy)",
       "(3) 第一次追蹤性大腸鏡檢查後,下次追蹤性大腸鏡檢查的間隔時間應為 3年, 然後為5年",
-      "(4) 如果追蹤性大腸鏡偵測到腫瘤性息肉,追蹤性大腸鏡之間隔應符合息肉監測 間隔指引"
+      "(4) 如果追蹤性大腸鏡偵測到腫瘤性息肉,追蹤性大腸鏡之間隔應符合息肉監測 間隔指引(polyp surveillance intervals)"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -4228,8 +4215,8 @@ const rawQuestions = [
     "question": "對於大腸鏡術後之大腸癌(post-colonoscopy colorectal cancer; PCCRC), 以下何者為是?",
     "statements": [
       "(1) 大腸鏡術後之大腸癌發生率是大腸鏡檢查品質和大腸直腸癌之預防的重要 指標",
-      "(2) 應常規性收集醫師的相關性指標,如盲腸到達率",
-      "(3) 應經由免疫組織化學或聚合酶鏈反應,評估所有大腸鏡術後之大腸癌病例的 微衛星穩定性/微衛星不穩定性狀態",
+      "(2) 應常規性收集醫師的相關性指標,如盲腸到達率(cecal intubation rates) 腺瘤偵測率(adenoma detection rates) 和盲腸退出時間(cecal withdrawal times),可用於協助審查大腸鏡術後之大腸癌之病例",
+      "(3) 應經由免疫組織化學或聚合酶鏈反應,評估所有大腸鏡術後之大腸癌病例的 微衛星穩定性/微衛星不穩定性狀態(Microsatellite stability/microsatellite instability (MSI) status)",
       "(4) 對於大腸鏡術後之大腸癌發生率,其主要評估的層級應為每位醫師,而非醫 院層級"
     ],
     "options": [
@@ -4246,8 +4233,8 @@ const rawQuestions = [
     "question": "對於診斷Lynch綜合症(Lynch syndrome; Hereditary Nonpolyposis Colorectal Cancer)的Bethesda Criteria,以下何者為是?",
     "statements": [
       "(1) CRC 診斷年齡小於50歲",
-      "(2) 患有大腸癌或其他Lynch綜合症相關的癌症",
-      "(3) 小於60歲的大腸直腸癌患者,其腫瘤具有MSI-高病理相關特徵",
+      "(2) 患有大腸癌或其他Lynch綜合症相關的癌症(同時性synchronous 或是異時 性metachronous)",
+      "(3) 小於60歲的大腸直腸癌患者,其腫瘤具有MSI-高病理相關特徵(Crohn-like lymphocytic reaction, mucinous/signet cell differentiation, or medullary growth pattern)",
       "(4) 一等親的家人罹患Lynch綜合症相關的癌症"
     ],
     "options": [
@@ -4274,30 +4261,26 @@ const rawQuestions = [
   {
     "year": "108年度",
     "no": 45,
-    "question": "美國多數醫學會組織特別小組(US MultiSociety Task Force; USMSTF),對於接 受息肉切除術(Polypectomy)術後的病患,所建議的大腸鏡追蹤檢查 (Colonoscopy Surveillance),以下何者為是?",
-    "statements": [
-      "(1) 1~2個小於10 mm 的低度分化不良性",
-      "(2) 若有高度分化不良性",
-      "(3) 無蒂鋸齒狀腺瘤",
-      "(4) 一個以上的絨毛腺瘤"
-    ],
+    "question": "美國多數醫學會組織特別小組(US MultiSociety Task Force; USMSTF),對於接 受息肉切除術(Polypectomy)術後的病患,所建議的大腸鏡追蹤檢查",
+    "statements": [],
     "options": [
+      "A. (Colonoscopy Surveillance),以下何者為是? (1) 1~2個小於10 mm 的低度分化不良性(low grade dysplasia)管狀腺瘤 (tubular adenomas),應在息肉切除(Polypectomy)後5~10 年接受全大 腸鏡檢查 (2) 若有高度分化不良性(High grade dysplasia)管狀腺瘤(tubular adenomas),應在息肉切除(Polypectomy)後3年接受全大腸鏡檢查 (3) 無蒂鋸齒狀腺瘤(Sessile serrated polyp),且大小為10 mm以上,應在息 肉切除(Polypectomy)後3年接受全大腸鏡檢查 (4) 一個以上的絨毛腺瘤(villous adenoma),應在息肉切除(Polypectomy)後 3年接受全大腸鏡檢查",
       "A. (1)+(2)+(3)+(4)",
       "B. (1)+(2)+(3)",
       "C. (1)+(2)+(4)",
       "D. (2)+(3)+(4)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "108年度",
     "no": 46,
     "question": "根據美國多數醫學會大腸癌研究組織特別小組(the US Multi-Society Task Force on Colorectal Cancer)對於免疫法糞便潛血檢查(Fecal Immunochemical Test; FIT)之大腸癌篩檢建議,以下何者為是?",
     "statements": [
-      "(1) 免疫法糞便潛血檢查",
+      "(1) 免疫法糞便潛血檢查(Fecal Immunochemical Test; FIT)完成率應該達到 60%以上",
       "(2) 實驗室所無法處理的回收免疫法糞便潛血檢查之樣本其比例應小於 5%",
       "(3) 對於潛血檢查陽性的患者,確診大腸鏡檢查完成率應為80%以上",
-      "(4) 免疫法糞便潛血檢查若以使用血紅蛋白"
+      "(4) 免疫法糞便潛血檢查若以使用血紅蛋白(hemoglobin)為20 mg/g為陽性的 閾值,在確診大腸鏡檢查時,男性的腺瘤偵測率(Adenoma detection rate) 應大於30%,女性的偵測率應大於15%"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -4314,8 +4297,8 @@ const rawQuestions = [
     "statements": [
       "(1) 若有一等親在小於60歲的年齡被診斷患有大腸直腸癌或是進階型腺瘤,則須 每5年進行一次大腸鏡檢查,且開始篩檢年齡為40歲或是比一等親患病年齡 小10歲,以較早者為準",
       "(2) 若有一等親在大於60歲的年齡被診斷患有大腸直腸癌或是進階型腺瘤,則須 每10年進行一次大腸鏡檢查,且建議40歲開始篩檢",
-      "(3) 若有一等親被診斷患有大腸直腸癌或是進階型腺瘤,對於拒絕接受大腸鏡的 人,可以建議每年接受一次免疫法糞便潛血檢查",
-      "(4) 小於50歲的成人若有大腸直腸出血症狀"
+      "(3) 若有一等親被診斷患有大腸直腸癌或是進階型腺瘤,對於拒絕接受大腸鏡的 人,可以建議每年接受一次免疫法糞便潛血檢查(Fecal Immunochemical Test; FIT)",
+      "(4) 小於50歲的成人若有大腸直腸出血症狀(便血,原因不明的缺鐵性貧血,黑 便但上消化道內視鏡檢查為陰性者)需接受大腸鏡檢查"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -4330,8 +4313,8 @@ const rawQuestions = [
     "no": 48,
     "question": "根據美國多數醫學會大腸癌研究組織特別小組(the US Multi-Society Task Force on Colorectal Cancer)對於免疫法糞便潛血檢查(Fecal Immunochemical Test; FIT)之大腸癌篩檢建議,以下何者為是?",
     "statements": [
-      "(1) 單一次免疫法糞便潛血檢查對大腸直腸癌",
-      "(2) 單一次免疫法糞便潛血檢查對進階型腺瘤",
+      "(1) 單一次免疫法糞便潛血檢查對大腸直腸癌(colorectal cancer)檢測敏感度約 為50%",
+      "(2) 單一次免疫法糞便潛血檢查對進階型腺瘤(Advanced adenoma)檢測敏感 度(Sensitivity)約為20%-30%",
       "(3) 為了增強先進的腺瘤檢測,需要重複應用免疫法糞便潛血檢查.因此,建議 重複檢測,以提高癌症檢測和有效地預防大腸直腸癌",
       "(4) 應明確告知患者他們需調整飲食或藥物以完成免疫法糞便潛血檢查"
     ],
@@ -4348,9 +4331,9 @@ const rawQuestions = [
     "no": 49,
     "question": "對於高品質的大腸鏡檢查(High-quality colonoscopy),以下何者為是?",
     "statements": [
-      "(1) 完整到達盲腸或是吻合處",
-      "(2) 執行大腸鏡的醫師其腺瘤偵測率",
-      "(3) 適當的清腸準備",
+      "(1) 完整到達盲腸或是吻合處(anastomosis)",
+      "(2) 執行大腸鏡的醫師其腺瘤偵測率(adenoma detection rate)對於一般風險族 群能達到25%以上",
+      "(3) 適當的清腸準備(adequate bowel preparation)",
       "(4) 所有發現的腺瘤都被徹底清除"
     ],
     "options": [
@@ -4398,9 +4381,9 @@ const rawQuestions = [
     "no": 52,
     "question": "慢性B型肝炎自然病程中,下列何者為e抗原陰性慢性B型肝炎的特性?",
     "statements": [
-      "(1) 血中高濃度的B型肝炎表面抗原",
-      "(2) 血中B型肝炎病毒去氧核醣核酸",
-      "(3) 血中丙胺酸轉胺酶",
+      "(1) 血中高濃度的B型肝炎表面抗原(HBsAg)",
+      "(2) 血中B型肝炎病毒去氧核醣核酸(HBV DNA)的濃度 > 2,000 IU/mL",
+      "(3) 血中丙胺酸轉胺酶(Alanine transaminase, ALT,亦即麩胺酸丙酮酸轉胺酶, SGPT)上升",
       "(4) 肝臟組織呈現中度或重度的傷害"
     ],
     "options": [
@@ -4417,9 +4400,9 @@ const rawQuestions = [
     "no": 53,
     "question": "慢性B型肝炎病患是否需要接受抗B型肝炎病毒藥物治療,主要取決於下列何種 因素?",
     "statements": [
-      "(1) 血中B型肝炎病毒去氧核醣核酸",
-      "(2) 血中B型肝炎表面抗原",
-      "(3) 血中丙胺酸轉胺酶",
+      "(1) 血中B型肝炎病毒去氧核醣核酸(HBV DNA)濃度",
+      "(2) 血中B型肝炎表面抗原(HBsAg)濃度",
+      "(3) 血中丙胺酸轉胺酶(Alanine transaminase, ALT,亦即麩胺酸丙酮酸轉胺酶, SGPT)濃度",
       "(4) 肝臟損傷的嚴重度"
     ],
     "options": [
@@ -4436,10 +4419,10 @@ const rawQuestions = [
     "no": 54,
     "question": "e抗原陽性慢性B型肝炎病患接受口服抗B型肝炎病毒藥物治療時,下列何種情 形可以考慮停藥?",
     "statements": [
-      "(1) 血中B型肝炎病毒去氧核醣核酸",
-      "(2) 血中B型肝炎表面抗原",
-      "(3) 血中B型肝炎e抗原",
-      "(4) 血中B型肝炎e抗原"
+      "(1) 血中B型肝炎病毒去氧核醣核酸(HBV DNA)濃度呈陰性反應",
+      "(2) 血中B型肝炎表面抗原(HBsAg)消失(loss)",
+      "(3) 血中B型肝炎e抗原(HBeAg)轉換(seroconversion)",
+      "(4) 血中B型肝炎e抗原(HBeAg)轉換(seroconversion),再至少繼續治療 12個月"
     ],
     "options": [
       "A. (1)+(2)",
@@ -4455,10 +4438,10 @@ const rawQuestions = [
     "no": 55,
     "question": "e抗原陰性慢性B型肝炎病患接受抗B型肝炎病毒藥物治療時,下列何種情形可 以考慮停藥?",
     "statements": [
-      "(1) 血中B型肝炎表面抗原",
-      "(2) 血中B型肝炎病毒去氧核醣核酸",
-      "(3) 血中丙胺酸轉胺酶",
-      "(4) 血中B型肝炎病毒去氧核醣核酸"
+      "(1) 血中B型肝炎表面抗原(HBsAg)消失(loss)",
+      "(2) 血中B型肝炎病毒去氧核醣核酸(HBV DNA)濃度呈陰性反應",
+      "(3) 血中丙胺酸轉胺酶(Alanine transaminase, ALT,亦即麩胺酸丙酮酸轉胺酶, SGPT)濃度持續正常",
+      "(4) 血中B型肝炎病毒去氧核醣核酸(HBV DNA)濃度連續3次檢測均呈陰性反 應(檢測間隔為6個月),且至少治療兩年"
     ],
     "options": [
       "A. (1)+(2)",
@@ -4474,10 +4457,10 @@ const rawQuestions = [
     "no": 56,
     "question": "對於合併慢性B型肝炎和C型肝炎病毒感染之病患,下列敘述何者為正確?",
     "statements": [
-      "(1) 對於慢性B型肝炎病毒感染病患,不管血中B型肝炎病毒去氧核醣核酸",
+      "(1) 對於慢性B型肝炎病毒感染病患,不管血中B型肝炎病毒去氧核醣核酸(HBV B DNA)濃度高低或丙胺酸轉胺酶(Alanine transaminase, ALT)是否正常, 都需要做C型肝炎的檢查",
       "(2) 如果病人合併有慢性B型肝炎和C型肝炎病毒感染,治療抗C型肝炎病毒藥 物之選擇和單一C型肝炎病毒感染之病患一樣",
       "(3) 治療好慢性C型肝炎之後,才需評估是否需要治療慢性B型肝炎",
-      "(4) 對於B型肝炎表面抗原"
+      "(4) 對於B型肝炎表面抗原(HBsAg)陰性,B型肝炎核心抗體(Anti-HCV)陽 性之慢性C型肝炎病毒感染病患,接受抗C型肝炎病毒藥物治療時,不須例 行接受血中B型肝炎病毒去氧核醣核酸(HBV DNA)之檢測"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -4486,15 +4469,15 @@ const rawQuestions = [
       "D. (2)+(3)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "108年度",
     "no": 57,
     "question": "對於預防B型肝炎病毒之母嬰感染(垂直感染),下列敘述何者為正確?",
     "statements": [
-      "(1) e抗原陰性之慢性B型肝炎病毒感染母親,不需接受口服抗B型肝炎病毒藥 物預防母嬰感染",
-      "(2) 預防B型肝炎病毒之母嬰感染,可以使用貝樂克",
+      "(1) e抗原陰性之慢性B型肝炎病毒感染母親,不需接受口服抗B型肝炎病毒藥 E 物預防母嬰感染",
+      "(2) 預防B型肝炎病毒之母嬰感染,可以使用貝樂克(Entecavir)或惠立妥 (Tenofovir disoproxil fumarate)",
       "(3) 以口服抗 B型肝炎病毒藥物預防母嬰感染,應在懷孕第28至32週就開始 給藥",
       "(4) 以口服抗 B型肝炎病毒藥物預防母嬰感染,在生產後12週即可停藥"
     ],
@@ -4505,17 +4488,17 @@ const rawQuestions = [
       "D. (2)+(3)",
       "E. (3)+(4)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "108年度",
     "no": 58,
     "question": "下列何者為非酒精性脂肪性肝炎(Non-alcoholic steatohepatitis)之組織學診斷 依據?",
     "statements": [
-      "(1) 脂肪變性",
-      "(2) 粥狀壞死",
-      "(3) 氣球樣變性",
-      "(4) 纖維化"
+      "(1) 脂肪變性(steatosis)",
+      "(2) 粥狀壞死(碎片狀壞死,piecemeal necrosis)",
+      "(3) 氣球樣變性(ballooning)",
+      "(4) 纖維化(fibrosis)"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -4531,10 +4514,10 @@ const rawQuestions = [
     "no": 59,
     "question": "下列何者可做為評估肝臟纖維化之血清生物標幟?",
     "statements": [
-      "(1) 玻尿酸",
-      "(2) 膠原蛋白酶",
-      "(3) 基質金屬蛋白酶",
-      "(4) 丙胺酸轉胺酶"
+      "(1) 玻尿酸(透明質酸,Hyaluronate)",
+      "(2) 膠原蛋白酶(Collagenase)",
+      "(3) 基質金屬蛋白酶(Matrix metalloprotease)",
+      "(4) 丙胺酸轉胺酶(Alanine transaminase)"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -4550,10 +4533,10 @@ const rawQuestions = [
     "no": 60,
     "question": "下列何者可用於基因型1b慢性C型肝炎之治療?",
     "statements": [
-      "(1) Zepatier",
-      "(2) Harvoni",
-      "(3) Maviret",
-      "(4) Epclusa"
+      "(1) Zepatier (Elbasvir plus Grazoprevir)",
+      "(2) Harvoni (Ledipasvir plus Sofosbuvir)",
+      "(3) Maviret (Glecaprevir plus Pibrentasvir)",
+      "(4) Epclusa (Sofosbuvir plus Velpatasvir)"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -4569,10 +4552,10 @@ const rawQuestions = [
     "no": 61,
     "question": "下列何者可用於基因型1b慢性C型肝炎合併代償不全(decompensation)肝硬 化病患之治療?",
     "statements": [
-      "(1) Zepatier",
-      "(2) Harvoni",
-      "(3) Maviret",
-      "(4) Epclusa"
+      "(1) Zepatier (Elbasvir plus Grazoprevir)",
+      "(2) Harvoni (Ledipasvir plus Sofosbuvir)",
+      "(3) Maviret (Glecaprevir plus Pibrentasvir)",
+      "(4) Epclusa (Sofosbuvir plus Velpatasvir)"
     ],
     "options": [
       "A. (1)+(2)",
@@ -4588,10 +4571,10 @@ const rawQuestions = [
     "no": 62,
     "question": "下列何者為治療基因型1b慢性C型肝炎合併終末期腎臟疾病(end stage renal disease)肝硬化病患之建議使用藥物?",
     "statements": [
-      "(1) Zepatier",
-      "(2) Harvoni",
-      "(3) Maviret",
-      "(4) Epclusa"
+      "(1) Zepatier (Elbasvir plus Grazoprevir)",
+      "(2) Harvoni (Ledipasvir plus Sofosbuvir)",
+      "(3) Maviret (Glecaprevir plus Pibrentasvir)",
+      "(4) Epclusa (Sofosbuvir plus Velpatasvir)"
     ],
     "options": [
       "A. (1)+(2)",
@@ -4607,10 +4590,10 @@ const rawQuestions = [
     "no": 63,
     "question": "下列何者為經過非NS5A口服抗 C型肝炎病毒藥物治療失敗和Sofosbuvir 治療 失敗,基因型第一型C型肝炎病患之治療建議藥物?",
     "statements": [
-      "(1) Zepatier",
-      "(2) Maviret",
-      "(3) Epclusa",
-      "(4) Vosevi"
+      "(1) Zepatier (Elbasvir plus Grazoprevir)",
+      "(2) Maviret (Glecaprevir plus Pibrentasvir)",
+      "(3) Epclusa (Sofosbuvir plus Velpatasvir)",
+      "(4) Vosevi (Sofosbuvir plus Velpatasvir plus Voxilaprevir, SOF/VEL/VOX)"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -4626,10 +4609,10 @@ const rawQuestions = [
     "no": 64,
     "question": "下列何者不建議使用於經過NS5A 口服抗C型肝炎病毒藥物治療失敗,基因型第 一型C型肝炎病患之治療?",
     "statements": [
-      "(1) Zepatier",
-      "(2) Maviret",
-      "(3) Epclusa",
-      "(4) Vosevi"
+      "(1) Zepatier (Elbasvir plus Grazoprevir)",
+      "(2) Maviret (Glecaprevir plus Pibrentasvir)",
+      "(3) Epclusa (Sofosbuvir plus Velpatasvir)",
+      "(4) Vosevi (Sofosbuvir plus Velpatasvir plus Voxilaprevir, SOF/VEL/VOX)"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -4645,10 +4628,10 @@ const rawQuestions = [
     "no": 65,
     "question": "下列何者為經過Sofosbuvir 和雷巴威林(Ribavirin)合併治療失敗,基因型第二 型C型肝炎病患治療之建議藥物?",
     "statements": [
-      "(1) Zepatier",
-      "(2) Maviret",
-      "(3) Epclusa",
-      "(4) Vosevi"
+      "(1) Zepatier (Elbasvir plus Grazoprevir)",
+      "(2) Maviret (Glecaprevir plus Pibrentasvir)",
+      "(3) Epclusa (Sofosbuvir plus Velpatasvir)",
+      "(4) Vosevi (Sofosbuvir plus Velpatasvir plus Voxilaprevir, SOF/VEL/VOX)"
     ],
     "options": [
       "A. (1)+(2)",
@@ -4718,10 +4701,7 @@ const rawQuestions = [
     "no": 69,
     "question": "肝癌患者接受surgical resection 時,下列何者為良好預後的預測因子?",
     "statements": [
-      "(1) Child cirrhosis A",
-      "(2) ICG retention >15% at 15 min",
-      "(3) Normal bilirubin level",
-      "(4) HVPG <12 mmHg"
+      "(1) Child"
     ],
     "options": [
       "A. (1)+(3)",
@@ -5023,7 +5003,8 @@ const rawQuestions = [
     "options": [
       "A. Gallstone以成分分為cholesterol stone,pigment stone, mixed stone與rare stone,西方國家以cholesterol stone mixed stone 為主",
       "B. Pigment stone包含brown stone 與black stone,其中brown stone 成分複雜 ,臨床上以溶血性貧血病患常見的表現",
-      "C. Pigment stone中之black stone在亞洲常見,可因膽管內寄生蟲或細菌如 E coli感染所致",
+      "C. Pigment stone中之black stone在亞洲常見,可因膽管內寄生蟲或細菌如",
+      "E. coli感染所致",
       "D. 懷孕婦女由於體內progesterone 的濃度上升透過sterol-regulatory element binding protein-1c (SREBP-1c)路徑提高膽汁內 cholesterol飽和度,造成膽 結石的生成",
       "E. 快速增胖,服用HMG-CoA reductase抑制劑,酗酒都是膽結石生成的風險 因子"
     ],
@@ -5102,7 +5083,7 @@ const rawQuestions = [
     "question": "針對一位有pancreas divisum 的病患,如有需要施行內視鏡治療術時,其必備的 適應條件如下,除了:",
     "statements": [
       "(1) All other causes of pancreatitis should be excluded",
-      "(2) Evidence of chronic pancreatitis",
+      "(2) Evidence of chronic pancreatitis(e.g.: pancreatic calcifications)should be documented",
       "(3) Discrete episodes of proven clinical pancreatitis recur",
       "(4) Evidence of obstruction of Santorini duct should be provided"
     ],
@@ -5205,7 +5186,7 @@ const rawQuestions = [
       "(2) Lye stricture",
       "(3) Achalasia",
       "(4) Glycogenic acanthosis",
-      "(5) Barrett’s esophagus"
+      "(5) Barrett’s esophagus(BE)"
     ],
     "options": [
       "A. (1)+(2)",
@@ -5221,11 +5202,11 @@ const rawQuestions = [
     "no": 2,
     "question": "有關食道賁門失弛緩症(賁門不張)(achalasia)的敘述,何者不正確?",
     "statements": [
-      "(1) Manometry常見aperistalsis,下食道括約肌",
+      "(1) Manometry常見aperistalsis,下食道括約肌(LES)relaxation不全之變化",
       "(2) 病人固體及液體食物皆吞嚥困難,平躺時易有 acid regurgitation",
-      "(3) Nitrate或calcium channel blocker",
+      "(3) Nitrate或calcium channel blocker(nifedipine diltiazem verapamil)可 減緩症狀",
       "(4) Barium esophagogram 可見食道擴大,”bird’s beak”及air in stomach fundus 等情形",
-      "(5) 近年來POEM"
+      "(5) 近年來POEM(peroral endoscopic myotomy),BotoxA Injection,pneumatic balloon dilation 已有不錯的成效,但仍無法完全取代Esophagomyotomy (Heller’s cardiomyotomy)的外科治療"
     ],
     "options": [
       "A. (1)+(3)",
@@ -5242,7 +5223,7 @@ const rawQuestions = [
     "question": "何者不會降低LESP(Lower Esophageal Sphincter Pressure)?",
     "statements": [
       "(1) Nitrates, Calcium channel blockers",
-      "(2) Progesterone, Sildenafil",
+      "(2) Progesterone, Sildenafil(Viagra)",
       "(3) Mosapride, Prucalopride",
       "(4) Gastrin",
       "(5) Smoking, alcohol, fat, chocolate, peppermint"
@@ -5262,10 +5243,10 @@ const rawQuestions = [
     "question": "有關食道動力學(esophageal motility)敍述何者正確?",
     "statements": [
       "(1) 食道下段是平滑肌 上段是橫紋肌",
-      "(2) 食道平滑肌由一氧化氮",
+      "(2) 食道平滑肌由一氧化氮(NO)或乙醯膽鹼(Acetylcholine)釋放來調節",
       "(3) 食道次發性蠕動由周邊神經控制",
-      "(4) 食道高壓性蠕動",
-      "(5) 全身性硬皮症"
+      "(4) 食道高壓性蠕動(Hypertensive esophagus 或nutcracker esophagus)較 常發生在年輕人",
+      "(5) 全身性硬皮症(systemic sclerosis)會減弱上端1/3的食道蠕動壓力"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -5281,11 +5262,11 @@ const rawQuestions = [
     "no": 5,
     "question": "有關GERD(Gastro-Esophageal Reflux Disease)之描述,何者不正確?",
     "statements": [
-      "(1) 臨床上最常見症狀為火燒心",
-      "(2) 內視鏡下 GERD 呈現NERD,ERD",
+      "(1) 臨床上最常見症狀為火燒心(heartburn)及胃酸逆流(acid regurgitation)",
+      "(2) 內視鏡下 GERD 呈現NERD,ERD(RE:Reflux Esophagitis EE:Erosive Esophagits)及BE(Barrett's Esophagus)三種變化",
       "(3) GERD 與H. pylori感染關係密切,幽門桿菌除菌成功,GERD隨之改善",
-      "(4) 西方國家九十年代以來,食道鱗狀細胞癌",
-      "(5) GERD 若合併H. pylori感染,則不可給除菌治療,以免增加食道癌"
+      "(4) 西方國家九十年代以來,食道鱗狀細胞癌(SCC)減少,腺癌增加,歸功於 PPI 對GERD療效佳",
+      "(5) GERD 若合併H. pylori感染,則不可給除菌治療,以免增加食道癌(SCC) 之機率"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -5301,10 +5282,10 @@ const rawQuestions = [
     "no": 6,
     "question": "對於胃食道逆流性疾病(GERD)之敘述,何者不正確?",
     "statements": [
-      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD",
+      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD(Non-Erosive E Reflux Disease)或ENRD(Endoscopic Negative Reflux Disease)",
       "(2) Ambulatory 24-hour esophageal PH monitoring 如為正常,則可確定排除 GERD之診斷",
-      "(3) 西方國家常以PPI",
-      "(4) GERD之臨床症狀程度,常以LA分期",
+      "(3) 西方國家常以PPI(proton pump inhibitor)做2星期之empirical therapy, 依反應來認定GERD",
+      "(4) GERD之臨床症狀程度,常以LA分期(A B C D)來判定,可預測其治 療反應成效",
       "(5) 臨床上出現dysphagia 時即表示 GERD已進行成BE,很可能再惡化為 adenocarcinoma"
     ],
     "options": [
@@ -5314,7 +5295,7 @@ const rawQuestions = [
       "D. (1)+(3)+(5)",
       "E. (2)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -5363,11 +5344,11 @@ const rawQuestions = [
     "no": 10,
     "question": "有關食道Caustic Injury(corrosive esophagitis)之描述,何者不正確?",
     "statements": [
-      "(1) 強鹼",
-      "(2) 強酸",
-      "(3) 內視鏡檢查",
+      "(1) 強鹼(lye. button battery)造成較深的liquefactive necrosis,皂化,食道損 D 傷較重,食道易狹窄",
+      "(2) 強酸(鹽酸 硫酸)造成較淺的coagulative necrosis,形成eschar,胃損傷 較重,前庭部易狹窄,易acidosis,死亡率較強鹼高",
+      "(3) 內視鏡檢查(EGD)要在12至48小時以內進行,來評估黏膜受損程度",
       "(4) 食道穿孔易於1-2星期時發生,而食道或胃之狹窄易於3-4星期以後產生",
-      "(5) 曾有caustic esophageal injury 病人,20-30 年以後產生食道癌"
+      "(5) 曾有caustic esophageal injury 病人,20-30 年以後產生食道癌(SCC及腺 癌)的機率會增加"
     ],
     "options": [
       "A. (1)+(2)",
@@ -5376,7 +5357,7 @@ const rawQuestions = [
       "D. 以上皆正確",
       "E. 以上皆不正確"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -5443,11 +5424,7 @@ const rawQuestions = [
     "no": 14,
     "question": "下列有關慢性萎縮性胃炎(Chronic atrophic gastritis)之敘述,下列何者為非?",
     "statements": [
-      "(1) 包含environmental metaplastic atrophic gastritis 與autoimmune metaplastic atrophic gastritis",
-      "(2) autoimmune metaplastic atrophic gastritis 之atrophic gastritis 主要發生於胃 竇部",
-      "(3) autoimmune metaplastic atrophic gastritis 常與anti-parietal cell antibody 的 產生有關",
-      "(4) environmental metaplastic atrophic gastritis 常與幽門螺旋桿菌感染有關",
-      "(5) autoimmune metaplastic atrophic gastritis患者少有hypergastrinemia之情形"
+      "(1) 包含environmental metaplastic atrophic gastritis 與autoimmune"
     ],
     "options": [
       "A. (2)+(5)",
@@ -5456,18 +5433,18 @@ const rawQuestions = [
       "D. (2)+(3)+(5)",
       "E. (1)+(2)+(5)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "109年度",
     "no": 15,
     "question": "依據台灣幽門螺旋桿菌之治療共識,在幽門螺旋桿菌clairthromycin 抗藥率18% 的地區,可選擇下列何除菌處方以達到良好之除菌率?",
     "statements": [
-      "(1) 7天之標準三合療法",
-      "(2) 14 天之標準三合療法",
-      "(3) 14 天之共伴療法",
-      "(4) 14 天之混合療法",
-      "(5) 14 天之鉍劑四合療法"
+      "(1) 7天之標準三合療法(standard triple therapy)",
+      "(2) 14 天之標準三合療法(standard triple therapy)",
+      "(3) 14 天之共伴療法(concomitant therapy)",
+      "(4) 14 天之混合療法(hybrid therapy)",
+      "(5) 14 天之鉍劑四合療法(bismuth quadruple therapy)"
     ],
     "options": [
       "A. (2)+(3)+(4)+(5)",
@@ -5543,11 +5520,11 @@ const rawQuestions = [
     "no": 19,
     "question": "有關十二指腸潰瘍的致病機轉下列何敘述正確?",
     "statements": [
-      "(1) 患者之基礎胃酸分泌量",
-      "(2) 患者之基礎胃泌素產生量",
+      "(1) 患者之基礎胃酸分泌量(basal acid secretion)正常",
+      "(2) 患者之基礎胃泌素產生量(basal gastrin production)升高",
       "(3) 與幽門螺旋桿菌引起之antrum-predominant gastritis 相關",
       "(4) 與CMV virus 引起之antrum-predominant gastritis 相關",
-      "(5) 患者之刺激後胃酸分泌量"
+      "(5) 患者之刺激後胃酸分泌量(stimulated acid secretion)增加"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -5577,9 +5554,9 @@ const rawQuestions = [
     "no": 21,
     "question": "關於胃癌危險因子的敘述,下列何者為非:",
     "statements": [
-      "(1) 幽門螺旋桿菌",
+      "(1) 幽門螺旋桿菌(H. pylori)是胃癌相當重要的致病因子",
       "(2) 肥胖是非賁門胃癌的重要危險因子",
-      "(3) 長期服用非類固醇消炎止痛藥",
+      "(3) 長期服用非類固醇消炎止痛藥(NSAID)會增加胃癌的風險",
       "(4) 有Familial adenomatous polyposis 的人,若有胃的fundic gland polyps 時, 胃癌的發生風險也會增加",
       "(5) Peutz-Jeghers syndrome是胃癌的危險因子"
     ],
@@ -5597,11 +5574,11 @@ const rawQuestions = [
     "no": 22,
     "question": "關於胃腺癌的臨床病理表徵,下列何者為非?",
     "statements": [
-      "(1) 瀰漫性胃腺癌",
+      "(1) 瀰漫性胃腺癌(diffuse type)的預後與腸型胃腺癌(intestinal type)沒有 E 差別",
       "(2) 腸型胃腺癌是經過慢性胃炎 萎縮性胃炎 胃腸上皮化生等過程逐漸癌化而 成,目前每個階段的相關基因突變已經確立",
-      "(3) DNA damage repair",
-      "(4) 依Siewert 分類",
-      "(5) 有CDH1基因突變的人"
+      "(3) DNA damage repair(DDR)pathway 與瀰漫型及腸型胃癌的發生皆有相關",
+      "(4) 依Siewert 分類(Siewert classification),EG junction 的junctional cancer 可分成三類,其中第三型(junction 以下2-5公分的胃腺癌)與幽門螺旋桿菌 有相關",
+      "(5) 有CDH1基因突變的人(CDH1 germline mutation),約有70%的人會發生 瀰漫型胃癌"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -5610,7 +5587,7 @@ const rawQuestions = [
       "D. (2)+(3)+(4)",
       "E. (1)+(2)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -5637,10 +5614,10 @@ const rawQuestions = [
     "no": 24,
     "question": "關於原發性胃腸道淋巴癌(Primary GI lymphoma,PGIL)下列敘述何者不正確?",
     "statements": [
-      "(1) 在台灣,胃是原發性胃腸道淋巴癌",
+      "(1) 在台灣,胃是原發性胃腸道淋巴癌(PGIL)最好發的位置,占50-70%左右",
       "(2) 在西歐及北美,小腸是PGIL最好發的部位",
       "(3) 細胞穿刺的細胞學檢查不足以確立原發性胃腸道淋巴癌之診斷",
-      "(4) 胃的淋巴癌中,有38%-48%是mucosa associated lymphoid tissue",
+      "(4) 胃的淋巴癌中,有38%-48%是mucosa associated lymphoid tissue(MALT) lymphoma",
       "(5) 在性別方面,胃淋巴癌與胃腺癌類似,在男生的發生率高於女生,約為 2:1"
     ],
     "options": [
@@ -5657,7 +5634,7 @@ const rawQuestions = [
     "no": 25,
     "question": "關於黏膜相關淋巴組織淋巴癌(MALT lymphoma)或簡稱MALToma的治療及預 後,下列何者為非?",
     "statements": [
-      "(1) 幽門螺旋桿菌",
+      "(1) 幽門螺旋桿菌(HP)是胃MALToma的重要致病因子,所以有HP感染之胃 MALToma患者,皆建議給予除菌治療",
       "(2) 已有足夠之隨機分派臨床試驗證實胃MALToma的患者,在接受幽門螺旋桿 菌除菌治療後,有大約60%-80%的患者可達complete remission",
       "(3) 胃MALToma的重要病理特徵是“lymphoepithelial lesions”",
       "(4) 胃MALToma 5年的存活率大約為80%-95%",
@@ -5675,9 +5652,9 @@ const rawQuestions = [
   {
     "year": "109年度",
     "no": 26,
-    "question": "關於胃的Diffuse large cell lymphomas(DLBCLs)的敘述,下列何者為非?",
+    "question": "關於胃的Diffuse large B cell lymphomas(DLBCLs)的敘述,下列何者為非?",
     "statements": [
-      "(1) 胃的淋巴癌中,有大約50%是DLBCLs D",
+      "(1) 胃的淋巴癌中,有大約50%是DLBCLs",
       "(2) 有25%-40%的DLBCLs,可能是由 MALT演變而來",
       "(3) Lugano Stage III 的患者,手術治療的disease-free survival 優於化學治療",
       "(4) Lugano Stage I 的患者,若有幽門螺旋桿菌感染,在除菌治療後有70%的病 人可達complete remission",
@@ -5690,14 +5667,14 @@ const rawQuestions = [
       "D. (3)+(4)+(5)",
       "E. (3)+(5)"
     ],
-    "answer": "B"
+    "answer": "D"
   },
   {
     "year": "109年度",
     "no": 27,
     "question": "關於胃息肉之敘述,下列何者為非?",
     "statements": [
-      "(1) 胃的息肉中,約50%是fundic gland polyp,40%是hyperplastic polyp, 10%是adenomatous polyp",
+      "(1) 胃的息肉中,約50%是fundic gland polyp,40%是hyperplastic polyp, C 10%是adenomatous polyp",
       "(2) 持續使用 proton pump inhibitor 超過5年,hyperplastic polyp的發生風險會 增加4倍",
       "(3) 所有的fundic gland polyp 轉變為胃癌的風險皆很低,都不需要切除",
       "(4) 有症狀的息肉,有dysplasia及所有的胃腺瘤都建議切除",
@@ -5710,18 +5687,18 @@ const rawQuestions = [
       "D. (3)+(4)+(5)",
       "E. (3)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "109年度",
     "no": 28,
     "question": "下列關於胃腺癌的敘述,何者為非?",
     "statements": [
-      "(1) CEA及CA19-9在胃癌的診斷及預後預測上敏感度及特異度皆很低,不具臨 床用途,不需檢測",
+      "(1) CEA及CA19-9在胃癌的診斷及預後預測上敏感度及特異度皆很低,不具臨 D 床用途,不需檢測",
       "(2) CA72-4在胃癌的診斷特異度與敏感度不高",
-      "(3) 大多數的胃腺癌對F-18 fiuorodeoxyglucose",
-      "(4) 磁振造影",
-      "(5) 現有的研究證據皆支持接受較廣泛的淋巴結擴清術"
+      "(3) 大多數的胃腺癌對F-18 fiuorodeoxyglucose(FDG)的uptake偏低",
+      "(4) 磁振造影(MRI)對於胃癌T及N的分期優於電腦斷層,因此手術前分期宜 優先選擇MRI",
+      "(5) 現有的研究證據皆支持接受較廣泛的淋巴結擴清術(D2 resection),病人的 復發率及死亡率皆比D1 resection 低"
     ],
     "options": [
       "A. (1)+(2)+(4)",
@@ -5730,17 +5707,17 @@ const rawQuestions = [
       "D. (1)+(4)+(5)",
       "E. (1)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "109年度",
     "no": 29,
     "question": "關於胃癌分子變化的敘述,下列何者為正確?",
     "statements": [
-      "(1) 大約50%的胃癌組織,有Trefoil factor 1的功能喪失",
-      "(2) E-cadherin 在50%的胃癌組織中有表現下降的現象",
+      "(1) 大約50%的胃癌組織,有Trefoil factor 1的功能喪失(Loss of TFF1)",
+      "(2) E-cadherin 在50%的胃癌組織中有表現下降的現象(decreased expression)",
       "(3) 高達90%的腸型胃癌組織中,E-cadherin 的表現量會下降",
-      "(4) 大約40%腸型胃癌組織中,microsatellite 的activity是低的",
+      "(4) 大約40%腸型胃癌組織中,microsatellite 的activity是低的(MSI-low)",
       "(5) 依Filipes group 的分類,第1型的胃腸上皮化生是complete type IM,其發 生胃癌的風險最高"
     ],
     "options": [
@@ -5757,11 +5734,11 @@ const rawQuestions = [
     "no": 30,
     "question": "關於胃腸道基質瘤(GIST)的敘述下列何者為非?",
     "statements": [
-      "(1) 大部分的 GIST都有C-kit",
-      "(2) 最好發部位胃部",
-      "(3) 免疫組織染色C-kit 蛋白",
+      "(1) 大部分的 GIST都有C-kit(CD117)基因的突變,導致 C-kit 蛋白在腫瘤細 B 胞表現大量減少",
+      "(2) 最好發部位胃部(占50-60%)及小腸(占25-30%)",
+      "(3) 免疫組織染色C-kit 蛋白(-),DOG-1(-),Desmin(+)",
       "(4) 分子病理上,80%有C-kit基因突變,10%是PDGFR的突變,10%是wild type",
-      "(5) 腫瘤細胞的來源可能是來自胃腸壁肌肉層的類幹細胞"
+      "(5) 腫瘤細胞的來源可能是來自胃腸壁肌肉層的類幹細胞(ICC cell,intestinal cell of Cajal)"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -5770,7 +5747,7 @@ const rawQuestions = [
       "D. (1)+(4)+(5)",
       "E. (3)+(4)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -5791,8 +5768,8 @@ const rawQuestions = [
     "question": "有關發炎性大腸疾病(inflammatory bowel disease)中潰瘍性腸炎(ulcerative colitis)和克隆氏病(Crohn's disease)的敘述,何者正確?",
     "statements": [
       "(1) 抽煙會增加潰瘍性腸炎的發生",
-      "(2) 盲腸闌尾切除手術",
-      "(3) 使用口服避孕藥",
+      "(2) 盲腸闌尾切除手術(appendectomy)可以減少潰瘍性腸炎的發生",
+      "(3) 使用口服避孕藥(oral contraceptive)會增加克隆氏病發生",
       "(4) 除了15-30 歲外,兩者在60-80 歲有另一好發高峰",
       "(5) 克隆氏病女性發生機會高於男性"
     ],
@@ -5921,8 +5898,8 @@ const rawQuestions = [
     "no": 41,
     "question": "根據美國多數醫學會大腸癌研究組織特別小組(the US Multi-Society Task Force on Colorectal Cancer)對於免疫法糞便潛血檢查(Fecal Immunochemical Test; FIT)之大腸癌篩檢建議,以下何者為是?",
     "statements": [
-      "(1) 單一次免疫法糞便潛血檢查對大腸直腸癌",
-      "(2) 單一次免疫法糞便潛血檢查對進行型腺瘤",
+      "(1) 單一次免疫法糞便潛血檢查對大腸直腸癌(colorectal cancer)檢測敏感度約 為50%",
+      "(2) 單一次免疫法糞便潛血檢查對進行型腺瘤(Advanced adenoma)檢測敏感 度(Sensitivity)約為20%-30%",
       "(3) 為了增強篩檢的效益,因該建議規律以免疫法糞便潛血檢查定期篩檢,以有 效預防大腸直腸癌相關死亡",
       "(4) 應明確告知患者並不需要調整飲食或藥物即可接受糞便檢查"
     ],
@@ -5939,9 +5916,9 @@ const rawQuestions = [
     "no": 42,
     "question": "對於高品質的大腸鏡檢查(High-quality colonoscopy),以下何者為是?",
     "statements": [
-      "(1) 完整到達盲腸或是吻合處",
-      "(2) 在FIT screening program 當中執行大腸鏡的醫師其腺瘤偵測率",
-      "(3) 適當的清腸準備",
+      "(1) 完整到達盲腸或是吻合處(anastomosis)",
+      "(2) 在FIT screening program 當中執行大腸鏡的醫師其腺瘤偵測率(adenoma detection rate)能達到25%以上",
+      "(3) 適當的清腸準備(adequate bowel preparation)",
       "(4) 所有發現的腺瘤都被徹底清除"
     ],
     "options": [
@@ -5976,10 +5953,10 @@ const rawQuestions = [
     "no": 44,
     "question": "發炎性腸道疾病(Inflammatory bowel disease)的病患,發生大腸直腸癌 (colorectal cancer)的風險會提高,以下何者為是?",
     "statements": [
-      "(1) 亞洲的發炎性腸道疾病",
+      "(1) 亞洲的發炎性腸道疾病(Inflammatory bowel disease)病患的大腸直腸癌 (colorectal cancer)盛行率,比西方國家的低",
       "(2) 被診斷腸炎後的8-10 年,產生大腸癌的風險開始顯著上升",
       "(3) 臨床上克隆氏症盛行率比潰瘍性大腸炎高",
-      "(4) 全結腸炎"
+      "(4) 全結腸炎(Pancolitis)的病人風險比左側腸炎(left-side colitis)的病人來的 低"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -5994,10 +5971,10 @@ const rawQuestions = [
     "no": 45,
     "question": "以下何者為大腸直腸癌(colorectal cancer)的高風險族群?",
     "statements": [
-      "(1) 遺傳性大腸息肉症",
-      "(2) 黑斑息肉症候群",
-      "(3) 增生性多發性息肉症候群",
-      "(4) 鋸齒狀多發息肉症候群"
+      "(1) 遺傳性大腸息肉症(Familial adenomatous polyposis)病患",
+      "(2) 黑斑息肉症候群(Peutz-Jeghers syndrome)病患",
+      "(3) 增生性多發性息肉症候群(Hyperplastic polyposis syndrome)病患",
+      "(4) 鋸齒狀多發息肉症候群(Serrated polyposis syndrome)病患"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -6033,8 +6010,8 @@ const rawQuestions = [
     "question": "下列各種大腸直腸癌篩檢工具,何者已被證明可以有效降低大腸直腸癌死亡率?",
     "statements": [
       "(1) Colonoscopy",
-      "(2) FIT",
-      "(3) gFOBT",
+      "(2) FIT(fecal immunochemical test)",
+      "(3) gFOBT(guaiac fecal occult blood test)",
       "(4) Flexible sigmoidoscopy",
       "(5) Double contrast barium enema"
     ],
@@ -6052,10 +6029,10 @@ const rawQuestions = [
     "no": 48,
     "question": "根據2020 年最新的美國多醫學會工作小組(US Multi-Society Task Force; USMSTF)大腸鏡後適當追蹤間隔的建議,對於接受息肉切除術(Polypectomy) 後的病患,所建議的適當大腸鏡追蹤檢查(Colonoscopy Surveillance),以下何 者為是?",
     "statements": [
-      "(1) 1至2個小於10mm 的無蒂鋸齒狀腺瘤",
-      "(2) 10 顆腺瘤當中有一顆管狀絨毛腺瘤,其餘為管狀腺瘤,應在息肉切除",
-      "(3) 無蒂鋸齒狀腺瘤",
-      "(4) 1個7mm 管狀絨毛腺瘤"
+      "(1) 1至2個小於10mm 的無蒂鋸齒狀腺瘤(Sessile serrated polyp),應在息肉 切除(Polypectomy)後5~10 年接受全大腸鏡檢查",
+      "(2) 10 顆腺瘤當中有一顆管狀絨毛腺瘤,其餘為管狀腺瘤,應在息肉切除 (Polypectomy)後3年接受全大腸鏡檢查",
+      "(3) 無蒂鋸齒狀腺瘤(Sessile serrated polyp),且大小為10mm 以上,應在息肉 切除(Polypectomy)後3年接受全大腸鏡檢查",
+      "(4) 1個7mm 管狀絨毛腺瘤(villous adenoma),應在息肉切除(Polypectomy) 後5年接受全大腸鏡檢查"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -6070,10 +6047,10 @@ const rawQuestions = [
     "no": 49,
     "question": "關於免疫法糞便潛血檢查(Fecal Immunochemical Test; FIT)用於大腸直腸癌篩 檢,以下何者為是?",
     "statements": [
-      "(1) 免疫法糞便潛血檢查",
+      "(1) 免疫法糞便潛血檢查(Fecal Immunochemical Test; FIT)陽性,只要施行大 腸鏡即可,並不需要施行胃鏡",
       "(2) 採檢的糞便在避免日曬之室溫可以放置一個月",
       "(3) 潛血檢查陽性者如不接受大腸鏡確診,其死亡率會高於有接受大腸鏡者 60% 以上",
-      "(4) 免疫法糞便潛血檢查若以20 mg / g stool為陽性切值"
+      "(4) 免疫法糞便潛血檢查若以20 mg / g stool為陽性切值(cutoff),則確診大腸 鏡檢查男性的腺瘤偵測率(Adenoma detection rate)應大於20%,女性的 偵測率應大於15%"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -6116,10 +6093,10 @@ const rawQuestions = [
     "no": 52,
     "question": "B型肝炎抗病毒藥物治療的敘述,下列何者正確?",
     "statements": [
-      "(1) 長效干擾素",
-      "(2) 長效干擾素",
+      "(1) 長效干擾素(pegylated interferon-alfa)一年療程,對於HBeAg陽性的慢性 C B型肝炎患者,治療結束6個月,HBeAg seroconversion rate 約為29-32%",
+      "(2) 長效干擾素(pegylated interferon-alfa)一年療程,對於HBeAg陰性的慢性 B型肝炎患者,HBsAg seroclearance rate 4年可達30%",
       "(3) Entecavir 對於treatment-naïve chronic hepatitis B,5年的抗藥性約1.2%",
-      "(4) Tenofovir alafenamide非renal organic anion transporters"
+      "(4) Tenofovir alafenamide非renal organic anion transporters(OATs)的 substrate,可以減少腎毒性"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -6128,7 +6105,7 @@ const rawQuestions = [
       "D. (3)+(4)",
       "E. (3)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -6173,8 +6150,8 @@ const rawQuestions = [
     "no": 55,
     "question": "HBV/HIV coinfection 的敘述,下列何者正確?",
     "statements": [
-      "(1) HBV/HIV coinfection會加速liver fibrosis progression,增加肝硬化及肝癌的 風險",
-      "(2) 治療的藥物以NRTI",
+      "(1) HBV/HIV coinfection會加速liver fibrosis progression,增加肝硬化及肝癌的 E 風險",
+      "(2) 治療的藥物以NRTI(nucleos(t)ide reverse transcriptase inhibitors)為主成 分",
       "(3) NA 藥物中TAF 有anti-HIV effect",
       "(4) Entecavir 沒有anti-HIV effect"
     ],
@@ -6185,16 +6162,16 @@ const rawQuestions = [
       "D. (3)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "109年度",
     "no": 56,
     "question": "B型肝炎mother-to-child transmission 的敘述,下列何者正確?",
     "statements": [
-      "(1) 懷孕婦女,若是HBV高病毒量",
-      "(2) NA",
-      "(3) 懷孕婦女 NA的選擇以 TDF",
+      "(1) 懷孕婦女,若是HBV高病毒量(>200000 IU/ml),會增加B型肝炎 C mother-to-child transmission 的風險",
+      "(2) NA(nuceos(t)ide analogous)治療可以減少mother-to-child transmission的 風險",
+      "(3) 懷孕婦女 NA的選擇以 TDF(tenofovir disoproxil fumarate)為首選",
       "(4) 預防mother-to-child transmission,對於高病毒量孕婦,應於懷孕第 28-32 起給予NA,直到分娩後4周,但不可以哺乳"
     ],
     "options": [
@@ -6204,14 +6181,14 @@ const rawQuestions = [
       "D. (2)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "109年度",
     "no": 57,
     "question": "B型肝炎病毒reactivation 的定義,依據2018 AASLD guidance,下列何者正確?",
     "statements": [
-      "(1) Baseline HBsAg+/HBV DNA detectable: a 10-fold increase in HBV DNA as compared to the baseline level",
+      "(1) Baseline HBsAg+/HBV DNA detectable: a 10-fold increase in HBV DNA as B compared to the baseline level",
       "(2) Baseline HBsAg+/HBV DNA undetectable: HBV DNA >1000 IU/ml",
       "(3) HBsAg+/baseline HBV DNA not available: HBV DNA > 10000 IU/ml",
       "(4) HBsAg-neg/anti-HBc positive: HBsAg reverse seroconversion or HBV DNA becomes detectable"
@@ -6223,7 +6200,7 @@ const rawQuestions = [
       "D. (2)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -6249,7 +6226,7 @@ const rawQuestions = [
     "no": 59,
     "question": "B型肝炎病毒血清標記的敘述,下列何者正確?",
     "statements": [
-      "(1) HBV core-related antigen",
+      "(1) HBV core-related antigen(HbcrAg)包括HBcAg,HBeAg,及precore protein C (p22cr)",
       "(2) HBcrAg 與intrahepatic cccDNA 有正相關",
       "(3) Baseline HBcrAg 較低的e陽性B肝患者接受antiviral治療,會比高HBcrAg 的患者,較可能達到HBeAg seroconversion",
       "(4) HBsAg-negative/anti-HBc-positive的diffuse large B cell lymphoma病患,若 是其baseline anti-HBc titer 高,應該較不會發生rituximab導致的HBV reactivation"
@@ -6261,7 +6238,7 @@ const rawQuestions = [
       "D. (2)+(3)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -6306,7 +6283,7 @@ const rawQuestions = [
     "no": 62,
     "question": "HCV/HBV coinfection 的敘述,下列何者正確?",
     "statements": [
-      "(1) 相較HCV monoinfection,HCV/HBV coinfection 有較高cirrhosis/HCC的風 險",
+      "(1) 相較HCV monoinfection,HCV/HBV coinfection 有較高cirrhosis/HCC的風 C 險",
       "(2) 在DAA治療下,HBV reactivation 的風險在 HBsAg陽性患者可以高達24%",
       "(3) 以DAA治療,HCV SVR rate依然很高,不會受HBV影響",
       "(4) 以干擾素治療,就不會有HBV reactivation 風險"
@@ -6318,14 +6295,14 @@ const rawQuestions = [
       "D. (2)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "109年度",
     "no": 63,
     "question": "HCV Direct acting antiviral(DAA)治療的敘述,下列何者正確?",
     "statements": [
-      "(1) DAA治療decompensated liver cirrhosis 前,可以採用BE3A score來預測 DAA治療後,肝功能是否有機會進步",
+      "(1) DAA治療decompensated liver cirrhosis 前,可以採用BE3A score來預測 C DAA治療後,肝功能是否有機會進步",
       "(2) BE3A score越高,恢復到Child-Pugh A的機會越高",
       "(3) BE3A score包括BMI,Albumin,Bilirubin,ALT,Ascites",
       "(4) C型肝炎肝硬化病患,DAA 治療後仍然有HCC的風險"
@@ -6337,7 +6314,7 @@ const rawQuestions = [
       "D. (2)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -6363,9 +6340,9 @@ const rawQuestions = [
     "no": 65,
     "question": "關於Primary Biliary Cholangitis(PBC)的敘述,下列何者正確?",
     "statements": [
-      "(1) 診斷依賴 antimitochondrial antibody",
+      "(1) 診斷依賴 antimitochondrial antibody(AMA),liver biopsy 能更確定診斷",
       "(2) 經常有出現IgM升高",
-      "(3) 治療以ursodeoxycholic acid",
+      "(3) 治療以ursodeoxycholic acid(UDCA)或obeticholic acid(OCA)為主",
       "(4) UDCA 劑量為13-15 mg/kg/day"
     ],
     "options": [
@@ -6438,8 +6415,8 @@ const rawQuestions = [
     "statements": [
       "(1) 可包含加強已存在或刺激新的免疫反應",
       "(2) Check point inhibitors 包含針對PD-1, PD-L1和CTLA-4等抑制",
-      "(3) 一般不建議與其他藥物如TKI",
-      "(4) T-cell immunoglobin and mucin-domain containing-3",
+      "(3) 一般不建議與其他藥物如TKI(Tyrosine kinase inhibitor)合併使用",
+      "(4) T-cell immunoglobin and mucin-domain containing-3(TIM-3)及Lymphocyte activation gene-3(LAG-3)屬於antigen targeting antibodies 之機轉",
       "(5) 腫瘤疫苗為針對腫瘤抗原增強特定免疫反應之物質,方法包含dendritic cells, peptide vaccines, and oncolytic viruses"
     ],
     "options": [
@@ -6473,8 +6450,8 @@ const rawQuestions = [
       "(1) HCC 風險並未隨年齡增加",
       "(2) 肝硬化患者比無肝硬化患者有更高的HCC風險",
       "(3) AASLD指引建議沒有肝硬化的情況下對於50歲以上的亞洲男性和55歲以上 的亞洲女性進行HCC 監測",
-      "(4) 口服抗病毒藥",
-      "(5) HCC 的危險因素包括人口統計學"
+      "(4) 口服抗病毒藥(NA)與CHB患者降低HCC的風險有關",
+      "(5) HCC 的危險因素包括人口統計學(如男性,HCC家族史),病毒(如HBV DNA level 較高;ALT較高;合併感染HCV,HIV或HDV),和環境(如接觸 黃麴毒素,大量飲酒或咖啡及吸煙)因素"
     ],
     "options": [
       "A. (1)+(2)+(4)",
@@ -6490,11 +6467,11 @@ const rawQuestions = [
     "no": 72,
     "question": "有關肝癌的肝移植治療中,下列敘述何者是正確的?",
     "statements": [
-      "(1) 米蘭",
-      "(2) 血清AFP尚未確立其作為HCC重要預後指標的作用,主因為大約1/3的HCC 腫瘤是非AFP產生者",
-      "(3) 局部治療",
+      "(1) 米蘭(Milan)標準取決於腫瘤的大小和數量(1個病灶5≤cm 或2–3個病灶, B 且不超過3cm)",
+      "(2) 血清AFP尚未確立其作為HCC重要預後指標的作用,主因為大約1/3的HCC 腫瘤是非AFP產生者(non-AFP producers)",
+      "(3) 局部治療(loco-reginal therapy)導致腫瘤壞死後可Downstaging至Milan 標準使部分患者獲得肝移植的機會增加",
       "(4) 肝移植治療的肝癌患者的預後預測模型中,腫瘤標誌包括AFP 或CEA或 DCP / PIVKA 值等為重要指標",
-      "(5) 化學栓塞"
+      "(5) 化學栓塞(Chemoembolization)與放射治療(Radiotherapy)皆可是 Downstaging 替代治療選擇"
     ],
     "options": [
       "A. (1)+(2)+(5)",
@@ -6503,7 +6480,7 @@ const rawQuestions = [
       "D. (2)+(3)+(4)",
       "E. (1)+(4)+(5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -6548,7 +6525,8 @@ const rawQuestions = [
       "A. 熱消融(thermal ablation)術優於乙醇注射(ethanol injection)術",
       "B. 熱消融(thermal ablation)術處理最大直徑小於 7公分的腫瘤具有最佳療效",
       "C. 熱消融(thermal ablation)術後患者復發的風險高,應每3-6個月用造影劑 增強CT或 MRI 進行追蹤監測",
-      "D. BCLC stage B HCC病患,局部治療比不治療有較佳之預後,TACE是最佳實 證之治療方式",
+      "D. BCLC stage",
+      "B. HCC病患,局部治療比不治療有較佳之預後,TACE是最佳實 證之治療方式",
       "E. 病患不適合TACE / TARE或 TACE / TARE治療後惡化者,應考慮使用全身性 治療(systemic therapy)"
     ],
     "answer": "B"
@@ -6558,11 +6536,7 @@ const rawQuestions = [
     "no": 76,
     "question": "有關關於肝癌之BCLC(Barcelona Clinic Liver Cancer)分期系統何者正確?",
     "statements": [
-      "(1) 主要分為 stage 0, ,B, C, D B",
-      "(2) ECOG Performance status 0-2分的病患為stage C期肝癌",
-      "(3) 分期根據為performance status, tumor staging 和Child-Pugh classification",
-      "(4) 末期肝癌之病患應積極治療,評估肝臟移植的可能性",
-      "(5) Stage 0 是指Child-Pugh A,單一腫瘤小3公分,ECOG Performance status 0-1分之very early HCC"
+      "(1) 主要分為 stage 0,"
     ],
     "options": [
       "A. (1)+(2)",
@@ -6571,14 +6545,14 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
     "year": "109年度",
     "no": 77,
     "question": "針對栓塞術治療肝細胞癌的敘述何者有誤?",
     "statements": [
-      "(1) TACE 對於BCLC 病患為標準治療",
+      "(1) TACE 對於BCLC B 病患為標準治療(the standard of care)",
       "(2) TACE 在肝功能Child C級仍可接受治療,但需特別注意安全",
       "(3) 栓塞後病人會有發燒及右上腹痛等副作用",
       "(4) Radioembolization 如Y90對於門脈栓塞肝細胞癌可能改善存活",
@@ -6591,7 +6565,7 @@ const rawQuestions = [
       "D. (3)+(5)",
       "E. (2)+(5)"
     ],
-    "answer": "B"
+    "answer": "E"
   },
   {
     "year": "109年度",
@@ -6599,9 +6573,9 @@ const rawQuestions = [
     "question": "下列何項有關血管肉瘤(angiosarcoma)的敘述何者錯誤?",
     "statements": [
       "(1) 最常見於六十到七十歲的年齡,女性居多",
-      "(2) 與多種環境致癌物有關,例如工業暴露於氯乙烯單體",
+      "(2) 與多種環境致癌物有關,例如工業暴露於氯乙烯單體(vinyl chloride monomers),長期暴露於砷化合物(arsenical compounds)等",
       "(3) 可能與神經纖維瘤病和血色素沉著症等疾病相關",
-      "(4) 組織學上,腫瘤細胞會沿著先前存在的血管通道",
+      "(4) 組織學上,腫瘤細胞會沿著先前存在的血管通道(例如sinusoids, terminal hepatic venules and portal vein branches)擴散,並替代正常的內皮細胞",
       "(5) 治療的主要內容包括根治性腫瘤切除術或肝切除術,放射療法對治療無益, 預後一般良好"
     ],
     "options": [
@@ -6638,11 +6612,11 @@ const rawQuestions = [
     "no": 80,
     "question": "下列有關肝細胞癌的敘述,何者為非?",
     "statements": [
-      "(1) AFP與AFP-L3%或des-γ-羧基凝血酶原的組合可改善AFP對早期HCC診斷 的能力",
+      "(1) AFP與AFP-L3%或des-γ-羧基凝血酶原的組合可改善AFP對早期HCC診斷 E 的能力",
       "(2) 幾種與HCC相關的生物標記物,包括DNA, messenger RNAs, non-coding RNAs 等已進入臨床 phase 3期試驗",
       "(3) Glypican 3, GP73, osteopontin, squamous cell carcinoma antigen和insulin growth factor-1是目前正在評估的生物標誌物的實例",
       "(4) 每6個月接受一次監測肝癌的患者,比接受年度監測的患者,較容易發現早 期腫瘤,也有較好的總生存率",
-      "(5) GALAD的預測模型,評估了包括性別 喝酒有無 AFP-L3 AFP和des-γ- 羧基凝血酶原"
+      "(5) GALAD的預測模型,評估了包括性別 喝酒有無 AFP-L3 AFP和des-γ- 羧基凝血酶原(Des-carboxy-prothrombin; DCP)等"
     ],
     "options": [
       "A. (1)+(2)",
@@ -6651,7 +6625,7 @@ const rawQuestions = [
       "D. (3)+(5)",
       "E. (2)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -6678,11 +6652,7 @@ const rawQuestions = [
     "no": 82,
     "question": "有關bilirubin 代謝及相關疾病之敘述,請問何者為正確的:",
     "statements": [
-      "(1) unconjugate bilirubin 是heme的代謝產物,為脂溶性必須由albumin 結合才 能進入肝臟",
-      "(2) unconjugate bilirubin 進入肝臟後,經由UDP glucuronyl transferase 代謝為 conjugated bilirubin 為水溶性,由膽汁排入腸道",
-      "(3) urobilinogen 是bilirubin 在肝臟代謝後之產物,經膽汁排入腸道,其中約 10-20%會被吸收回肝臟再代謝",
-      "(4) 在病人完全肝膽道阻塞時,urine中驗不到urobilinogen",
-      "(5) rotor syndrome及gilbert syndrome皆屬於conjugation enzymes defect,故 臨床上皆出現unconjugated hyperbilirubinemia"
+      "(1) unconjugate bilirubin 是heme的代謝產物,為脂溶性必須由albumin 結合才"
     ],
     "options": [
       "A. (1)+(2)+(4)",
@@ -6691,15 +6661,15 @@ const rawQuestions = [
       "D. (2)+(4)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "109年度",
     "no": 83,
     "question": "下列有關內視鏡逆行性膽胰管攝影術(ERCP)及其相關治療術(intervention) 之描述何者為是:",
     "statements": [
-      "(1) Post-ERCP pancreatitis",
-      "(2) 在做endoscopic sphincterotomy",
+      "(1) Post-ERCP pancreatitis(PEP)常發生在年紀大的男性",
+      "(2) 在做endoscopic sphincterotomy(EST)取石一週後,出現消化道出血(如 解黑便)應可排除是EST引起,反而要考慮是其他因素引起(如 Stress induced peptic ulcer)",
       "(3) EST 所造成的腸穿孔通常在後腹腔,須馬上開刀否則會造成病人生命危險",
       "(4) 研究顯示,較大的總膽管結石,經由多次膽管支架置換術可以使結石變小, 以利日後內視鏡取出",
       "(5) 肛門塞劑 indomethacin 證實可降低高危險群病人ERCP引起之急性胰臟炎"
@@ -6732,11 +6702,11 @@ const rawQuestions = [
     "no": 85,
     "question": "下列有關膽道結石的敘述何者為真?",
     "statements": [
-      "(1) 超音波影像下,若肝內膽管及膽管接無擴張現象,應可排除總膽管結石引起 之黃疸",
+      "(1) 超音波影像下,若肝內膽管及膽管接無擴張現象,應可排除總膽管結石引起 D 之黃疸",
       "(2) ERCP 以及其相關內視鏡治療術為診斷及治療總膽管結石的標準方式,故在 任何有懷疑之病人應立即實施ERCP",
       "(3) 總膽管結石引發之急性膽管炎,若ERCP術式無法進行或失敗,應做經皮穿 肝膽引流術,以緩解膽管炎",
       "(4) E. coli and Klebsiella pneumonias及Enterococcus是膽汁培養中最常見的細 菌",
-      "(5) 在某些高風險無法承受手術之病人"
+      "(5) 在某些高風險無法承受手術之病人(如心肺功能不佳),即便合併膽囊結石, 也可以進行ERCP 取石術,不用切除膽囊"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -6745,19 +6715,13 @@ const rawQuestions = [
       "D. (3)+(4)+(5)",
       "E. (2)+(3)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "109年度",
     "no": 86,
-    "question": "一位50歲女性至您的門診求診,主訴3天前因急性腹痛合併嘔吐至他院急診求 診,其生化檢查為AST 345 U/L ALT 570 U/L,病人在數週前亦有類似症狀, 經服用止痛藥而緩解,因肝功能異常,病人被告知要胃腸肝膽科求診,何種診斷 較為可能?",
-    "statements": [
-      "(1) 因台灣是 B肝盛行區,病人可能是急性B型肝炎",
-      "(2) 病人可能有膽囊結石合併總膽管結石",
-      "(3) 病人可能是藥物型肝炎",
-      "(4) 病人可能合併有急性胰臟炎",
-      "(5) 病人可能是其他病毒性腸炎"
-    ],
+    "question": "一位50歲女性至您的門診求診,主訴3天前因急性腹痛合併嘔吐至他院急診求 診,其生化檢查為AST 345 U/L ALT 570 U/L,病人在數週前亦有類似症狀,",
+    "statements": [],
     "options": [
       "A. (2)+(4)",
       "B. (1)+(2)+(3)",
@@ -6765,7 +6729,7 @@ const rawQuestions = [
       "D. (4)+(5)",
       "E. (2)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -6775,7 +6739,7 @@ const rawQuestions = [
       "(1) 由胃黏膜細胞合成,經服用食物刺激而分泌",
       "(2) CCK 亦可刺激胰臟分泌消化酵素",
       "(3) CCK 可促進食慾",
-      "(4) CCK 可使俄狄氏括約肌",
+      "(4) CCK 可使俄狄氏括約肌(sphincter of Oddi)收縮",
       "(5) 以上皆不對"
     ],
     "options": [
@@ -6792,8 +6756,8 @@ const rawQuestions = [
     "no": 88,
     "question": "ERCP檢查最常見的合併症為術後胰臟炎(PEP),有關下列降低 PEP之方式, 何者為有研究證實有效?",
     "statements": [
-      "(1) 術前給予肛門",
-      "(2) 術後給予肛門",
+      "(1) 術前給予肛門(indomethacin)塞劑",
+      "(2) 術後給予肛門(indomethacin)塞劑",
       "(3) 高風險病人術中置放胰臟支架",
       "(4) 術前給予類固醇注射",
       "(5) 術後給予類固醇注射"
@@ -6812,7 +6776,7 @@ const rawQuestions = [
     "no": 89,
     "question": "Periampullary tumor是指Ampulla of Vater 週邊所長出之腫瘤,通常為惡性. 有關Periampullary tumor 下列何者敘述為真?",
     "statements": [
-      "(1) 此類病人由於阻塞位置在Periampullary region,故影像檢查若無 double duct sign",
+      "(1) 此類病人由於阻塞位置在Periampullary region,故影像檢查若無 double duct sign(總膽管及胰管皆擴張),即可排除此診斷",
       "(2) 若腫瘤可以手術切除,其預後以 Ampulla of Vater tumor 為最佳",
       "(3) 腫瘤源於總膽管末端者,不能歸類為Periampullary tumor",
       "(4) 病人常以腹痛 黃疸 發燒為首要之臨床表現",
@@ -6874,7 +6838,7 @@ const rawQuestions = [
     "statements": [
       "(1) 生理食鹽水是最佳的晶體輸液",
       "(2) 常規預防性使用抗生素並無明確證據可降低胰臟感染及死亡率",
-      "(3) 膽石性胰臟炎患者,常規早期進行內視鏡逆行膽胰管造影術",
+      "(3) 膽石性胰臟炎患者,常規早期進行內視鏡逆行膽胰管造影術(endoscopic retrograde cholangiopancreatography, ERCP),可以減少併發症及死亡率",
       "(4) 感染性胰臟壞死應採取遞增式的治療,由經皮或內視鏡引流開始,接續微創 清創手術治療",
       "(5) 腸道灌食的比較,在併發症方面元素配方優於聚合配方"
     ],
@@ -6912,11 +6876,7 @@ const rawQuestions = [
     "no": 94,
     "question": "關於胰臟的生理,下列何者正確?",
     "statements": [
-      "(1) 腺泡細胞",
-      "(2) 腺泡細胞內有豐富的內質網,而管細胞內有大量粒線體",
-      "(3) 腺泡細胞的分泌主要由分泌素",
-      "(4) 澱粉酶",
-      "(5) 進食後的胰臟分泌,在食物進入十二指腸前主要是離子及水,而進入小腸後 主要是消化酵素"
+      "(1) 腺泡細胞(acinar cell)主要功能為合成及分泌消化酵素,而管細胞(duct cell)"
     ],
     "options": [
       "A. (1)+(2)",
@@ -6925,18 +6885,18 @@ const rawQuestions = [
       "D. (2)+(3)+(5)",
       "E. (1)+(2)+(3)+(5)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "109年度",
     "no": 95,
     "question": "關於慢性胰臟炎,下列何者錯誤?",
     "statements": [
-      "(1) 酒精導致慢性胰臟炎,主要是因為毒性代謝物乙醛",
-      "(2) 脂肪酶",
+      "(1) 酒精導致慢性胰臟炎,主要是因為毒性代謝物乙醛(acetaldehyde)的傷害",
+      "(2) 脂肪酶(lipase)少於最大排出量的一半時,就會發生脂肪下痢(steatorrhea)",
       "(3) 慢性胰臟炎造成的糖尿病,治療時比第一型糖尿病更容易發生低血糖的併發 症",
       "(4) 使用口服胰臟酵素,可以在遠端迴腸引起生理回饋而減少胰臟蛋白酶的分泌",
-      "(5) 偽動脈瘤"
+      "(5) 偽動脈瘤(pseudoaneurysm)最常發生於脾動脈,應積極治療"
     ],
     "options": [
       "A. (1)+(2)",
@@ -6952,11 +6912,11 @@ const rawQuestions = [
     "no": 96,
     "question": "關於胰臟的發育異常,下列何者錯誤?",
     "statements": [
-      "(1) 環形胰臟",
-      "(2) 胰臟分裂症",
-      "(3) 胃部的異位性胰臟",
-      "(4) 共同通道",
-      "(5) 膽管囊腫"
+      "(1) 環形胰臟(annular pancreas)於幼兒及成人皆以非膽汁性嘔吐為主要表現",
+      "(2) 胰臟分裂症(pancreas divisum)有三種型態,其中大部分為背管(dorsal duct) 與腹管(ventral duct)仍有部分融合",
+      "(3) 胃部的異位性胰臟(ectopic pancreas)超過80%有典型中央肚臍狀凹陷的 表現",
+      "(4) 共同通道(common channel)長度超過5mm 者,其膽管內amylase濃度較 高",
+      "(5) 膽管囊腫(choledochal cyst)與胰膽管畸形易同時出現,並增加後者發生膽 道癌症的風險"
     ],
     "options": [
       "A. (1)+(2)",
@@ -7000,11 +6960,7 @@ const rawQuestions = [
     "no": 99,
     "question": "關於胰臟癌,下列何者正確?",
     "statements": [
-      "(1) 胰臟的癌前病變",
-      "(2) 頭部與尾部胰臟癌的比較,診斷時後者更易屬於晚期癌",
-      "(3) 血液CA19-9是診斷胰臟癌很精準的腫瘤標記",
-      "(4) 可手術的患者術前常規性置放膽管支架,可改善術後的併發症及死亡率",
-      "(5) 術後復發大多數侷限於原先腫瘤所在處"
+      "(1) 胰臟的癌前病變(intraepithelial neoplasia),先發生KRAS 突變再發生"
     ],
     "options": [
       "A. (1)+(2)",
@@ -7013,7 +6969,7 @@ const rawQuestions = [
       "D. (2)+(4)+(5)",
       "E. (1)+(3)+(4)+(5)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "109年度",
@@ -7023,7 +6979,7 @@ const rawQuestions = [
       "(1) 兩者皆以女性居多",
       "(2) 囊腫內液體分析,兩者CEA 值皆易上升",
       "(3) 囊腫內液體分析,兩者amylase值皆易上升",
-      "(4) 病理診斷下MCN有卵巢樣基質",
+      "(4) 病理診斷下MCN有卵巢樣基質(ovarian-type stroma),但IMPN則無",
       "(5) 良性的MCN及IPMN手術後都極易復發"
     ],
     "options": [
@@ -7040,11 +6996,11 @@ const rawQuestions = [
     "no": 1,
     "question": "對於胃食道逆流性疾病(GERD)之敘述,何者不正確?",
     "statements": [
-      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD",
+      "(1)超過一半病例,內視鏡檢時無mucosal break,稱為NERD(Non Erosive E Reflux Disease)或ENRD(Endoscopic Negative Reflux Disease).",
       "(2) Ambulatory 24-hour esophageal PH monitoring 如為正常,則可確定排除 GERD之診斷.",
-      "(3) 西方國家常以PPI",
-      "(4) GERD之臨床症狀程度,常以LA分期",
-      "(5) 臨床上出現dysphagia 時即表示 GERD已進行成BE,很可能再惡化為 adenocarcinoma."
+      "(3)西方國家常以PPI(proton pump inhibitor)做2星期之empirical therapy, 依反應來認定是否GERD.",
+      "(4) GERD之臨床症狀程度,常以LA分期(A B C D)來判定,並可預測其 治療反應成效.",
+      "(5)臨床上出現dysphagia 時即表示 GERD已進行成BE,很可能再惡化為 adenocarcinoma."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -7053,18 +7009,18 @@ const rawQuestions = [
       "D. (1)+(3)+(5)",
       "E. (2)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "110年度",
     "no": 2,
     "question": "有關GERD(Gastro-Esophageal Reflux Disease)之描述,何者不正確?",
     "statements": [
-      "(1) 臨床上最常見症狀為胸口灼熱",
-      "(2) 內視鏡下 GERD 呈現NERD ERD",
+      "(1)臨床上最常見症狀為胸口灼熱(heartburn)及胃酸逆流(acid regurgitation).",
+      "(2) 內視鏡下 GERD 呈現NERD ERD(RE/EE Reflux/Erosive Esophagits) 及BE(Barrett's Esophagus)三種變化.",
       "(3) GERD 與H. pylori感染關係密切,幽門桿菌除菌成功,GERD隨之改善.",
-      "(4) 西方國家九十年代以來,食道鱗狀細胞癌",
-      "(5) GERD 若合併H. pylori感染,則不可給除菌治療,以免增加食道癌"
+      "(4)西方國家九十年代以來,食道鱗狀細胞癌(SCC)減少,腺癌增加,歸功於 PPI 對GERD療效佳.",
+      "(5) GERD 若合併H. pylori感染,則不可給除菌治療,以免增加食道癌(SCC) 之機率."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -7081,7 +7037,7 @@ const rawQuestions = [
     "question": "何者不會降低LESP(Lower Esophageal Sphincter Pressure)?",
     "statements": [
       "(1) Nitrates, Calcium channel blockers",
-      "(2) Progesterone, Sildenafil",
+      "(2) Progesterone, Sildenafil(Viagra)",
       "(3) Mosapride, Prucalopride",
       "(4) Gastrin",
       "(5) Smoking, alcohol, fat, coffee, chocolate, peppermint"
@@ -7100,11 +7056,11 @@ const rawQuestions = [
     "no": 4,
     "question": "關於Barrett's Esophagus(BE)之描述,何者不正確?",
     "statements": [
-      "(1) BE病患有較高的hiatal hernia 盛行率",
-      "(2) 長度大於 3mm 之BE稱為long segment BE",
-      "(3) LSBE 病例每年有10%會進展為adenocarcinoma",
+      "(1) BE病患有較高的hiatal hernia 盛行率(prevalence).",
+      "(2) 長度大於 3mm 之BE稱為long segment BE(LSBE).",
+      "(3) LSBE 病例每年有10%會進展為adenocarcinoma(annual incidence of adenocarcinoma).",
       "(4) Bile acid, bile salt 對BE之癌變扮演腫瘤促進之角色,因此口服 ursodeoxycholic acid 可防止BE 之進展或癌變.",
-      "(5) 使用PPI 或抗胃酸逆流手術,並無法防止BE癌變 adenocarcinoma 或改善 腸化生intestinal metaplasia"
+      "(5)使用PPI 或抗胃酸逆流手術,並無法防止BE癌變 adenocarcinoma 或改善 腸化生intestinal metaplasia(IM)."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -7120,11 +7076,11 @@ const rawQuestions = [
     "no": 5,
     "question": "有關食道動力學(esophageal motility)敍述何者正確?",
     "statements": [
-      "(1) 食道上1/3段是平滑肌 下1/3段是橫紋肌.",
-      "(2) 食道平滑肌由一氧化氮",
-      "(3) 食道次發性蠕動由周邊神經控制.",
-      "(4) 食道高壓性蠕動",
-      "(5) 全身性硬皮症"
+      "(1)食道上1/3段是平滑肌 下1/3段是橫紋肌.",
+      "(2) 食道平滑肌由一氧化氮(NO)或乙醯膽鹼(acetylcholine)釋放來調節.",
+      "(3)食道次發性蠕動由周邊神經控制.",
+      "(4)食道高壓性蠕動(Hypertensive esophagus 或nutcracker esophagus), 較常發生在年輕人.",
+      "(5)全身性硬皮症(scleroderma, systemic sclerosis)會減弱遠端 2/3的食道 蠕動壓力."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -7138,17 +7094,29 @@ const rawQuestions = [
   {
     "year": "110年度",
     "no": 6,
-    "question": "對於食道靜脈曲張(Esophageal varices)之敘述,何者不正確? A.血管活性(Vasoactive)藥物可以減少門脈血流,從而降低門脈壓,達到 出血時的止血效果. B.肝硬化病患食道靜脈曲張出血時可以口服quinolone 或ceftriaxone來預防 感染. C.內視鏡結紮可以預防食道靜脈曲張第一次出血. D. b-blocker 可以預防食道靜脈曲張第一次出血及預防再出血. E. b-blocker 可以預防食道靜脈曲張的生成.",
+    "question": "對於食道靜脈曲張(Esophageal varices)之敘述,何者不正確?",
     "statements": [],
-    "options": [],
+    "options": [
+      "A. 血管活性(Vasoactive)藥物可以減少門脈血流,從而降低門脈壓,達到 出血時的止血效果.",
+      "B. 肝硬化病患食道靜脈曲張出血時可以口服quinolone 或ceftriaxone來預防 感染.",
+      "C. 內視鏡結紮可以預防食道靜脈曲張第一次出血.",
+      "D. b-blocker 可以預防食道靜脈曲張第一次出血及預防再出血.",
+      "E. b-blocker 可以預防食道靜脈曲張的生成."
+    ],
     "answer": "E"
   },
   {
     "year": "110年度",
     "no": 7,
-    "question": "有關Drug-induced esophagitis(Pill-induced esophagitis),何者不正確? A.口服藥物NSAID, doxycycline, fosamax, quinidine, KCl, Fe是較為常見的 致病藥物. B.內視鏡下呈現不規則狀,淺而分散,有紅腫邊緣之潰瘍. C.停服藥物後,1至6星期病灶及症狀大部份病例可痊癒,加上防止胃酸逆 流治療可加速癒合. D.服藥時喝水100西西以上,至少 30秒內不立即躺臥是預防的不二法門. E.大部分發生在曾有吞嚥困難或構造上有異常的病人,所以在一般較健康的 年輕病人很罕見.",
+    "question": "有關Drug-induced esophagitis(Pill-induced esophagitis),何者不正確?",
     "statements": [],
-    "options": [],
+    "options": [
+      "A. 口服藥物NSAID, doxycycline, fosamax, quinidine, KCl, Fe是較為常見的 致病藥物.",
+      "B. 內視鏡下呈現不規則狀,淺而分散,有紅腫邊緣之潰瘍.",
+      "C. 停服藥物後,1至6星期病灶及症狀大部份病例可痊癒,加上防止胃酸逆 流治療可加速癒合.",
+      "D. 服藥時喝水100西西以上,至少 30秒內不立即躺臥是預防的不二法門.",
+      "E. 大部分發生在曾有吞嚥困難或構造上有異常的病人,所以在一般較健康的 年輕病人很罕見."
+    ],
     "answer": "E"
   },
   {
@@ -7156,11 +7124,11 @@ const rawQuestions = [
     "no": 8,
     "question": "有關食道賁門失弛緩症(賁門不張)(achalasia)的敘述,何者不正確?",
     "statements": [
-      "(1) Manometry常見aperistalsis,下食道括約肌resting LESP 高,relaxation 放鬆不全之變化.",
-      "(2) 病人固體及液體食物皆吞嚥困難,平躺時易有acid regurgitation及heart burn.",
-      "(3) 口服Nitrate或calcium channel blocker",
+      "(1) Manometry常見aperistalsis,下食道括約肌resting LESP 高,relaxation B 放鬆不全之變化.",
+      "(2)病人固體及液體食物皆吞嚥困難,平躺時易有acid regurgitation及heart burn.",
+      "(3)口服Nitrate或calcium channel blocker(nifedipine diltiazem verapamil) 可減緩輕症病人之症狀.",
       "(4) Barium esophagogram 可見食道擴大,”bird's beak”及air in stomach fundus 等情形.",
-      "(5) 近年來POEM"
+      "(5)近年來POEM(peroral endoscopic myotomy),Botox"
     ],
     "options": [
       "A. (1)+(3)",
@@ -7169,18 +7137,18 @@ const rawQuestions = [
       "D. (1)+(4)",
       "E. (4)+(5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "110年度",
     "no": 9,
     "question": "有關食道Caustic Injury(corrosive esophagitis)之描述,何者不正確?",
     "statements": [
-      "(1) 強鹼",
-      "(2) 強酸",
-      "(3) 內視鏡檢查",
-      "(4) 食道穿孔易於1-2星期時發生,而食道或胃之狹窄易於3-4星期以後產生.",
-      "(5) 曾有caustic esophageal injury 病人,30-40 年以後產生食道癌"
+      "(1)強鹼(lye. button battery)造成較深的 liquefactive necrosis,食道損傷較重, D 食道易狹窄.",
+      "(2)強酸(鹽酸 硫酸)造成較淺的 coagulation necrosis,胃損傷較重,胃竇幽 門部易狹窄,易acidosis,死亡率較強鹼高.",
+      "(3)內視鏡檢查(EGD)要在12至48小時以內進行,5至15 天時忌作內視鏡 檢查.",
+      "(4)食道穿孔易於1-2星期時發生,而食道或胃之狹窄易於3-4星期以後產生.",
+      "(5)曾有caustic esophageal injury 病人,30-40 年以後產生食道癌(SCC)的 機率會增加."
     ],
     "options": [
       "A. (1)+(2)",
@@ -7189,7 +7157,7 @@ const rawQuestions = [
       "D. 以上皆正確",
       "E. 以上皆不正確"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "110年度",
@@ -7198,7 +7166,7 @@ const rawQuestions = [
     "statements": [
       "(1) Helicobacter pylori infection",
       "(2) Long-standing caustic strictures due to lye ingestion",
-      "(3) 長期接觸香煙 檳榔 酒",
+      "(3)長期接觸香煙 檳榔 酒(tobacco betel nut alcohol)者",
       "(4) Laryngo-oropharyngeal cancer patient",
       "(5) Barrett's esophagus"
     ],
@@ -7230,11 +7198,11 @@ const rawQuestions = [
     "no": 12,
     "question": "依據台灣幽門螺旋桿菌之治療共識,在幽門螺旋桿菌clairthromycin 抗藥率15% 的地區,可選擇下列何除菌處方以達到良好之除菌率?",
     "statements": [
-      "(1) 7天之標準三合療法",
-      "(2) 14 天之標準三合療法",
-      "(3) 14 天之共伴療法",
-      "(4) 14 天之混合療法",
-      "(5) 14 天之鉍劑四合療法"
+      "(1) 7天之標準三合療法(standard triple therapy)",
+      "(2) 14 天之標準三合療法(standard triple therapy)",
+      "(3) 14 天之共伴療法(concomitant therapy)",
+      "(4) 14 天之混合療法(hybrid therapy)",
+      "(5) 14 天之鉍劑四合療法(bismuth quadruple therapy)"
     ],
     "options": [
       "A. (2)+(3)+(4)+(5)",
@@ -7248,9 +7216,15 @@ const rawQuestions = [
   {
     "year": "110年度",
     "no": 13,
-    "question": "根據台灣幽門螺旋桿菌之治療共識,有關胃內Helicobacter pylori(H. pylori)之 檢測之敘述式,下列敘述何者錯誤? A.服用PPI(Proton Pump Inhibitors)及抗生素會影響urea breath test, rapid urease test, stool antigen test 等之準確度 B.完成治療H. pylori後之檢測,建議暫時停用PPI(Proton Pump Inhibitors) 2週及抗生素4週 C.若病人有接受過gastrectomy,stool antigen test 比UBT檢測準確度差 D.若病人bleeding peptic ulcer 時,可做urea breath test 來檢測是否有H. pylori infection E.血清H. pylori之IgG antibody test 不適合用來判斷H. pylori根除治療之效果",
+    "question": "根據台灣幽門螺旋桿菌之治療共識,有關胃內Helicobacter pylori(H. pylori)之 檢測之敘述式,下列敘述何者錯誤?",
     "statements": [],
-    "options": [],
+    "options": [
+      "A. 服用PPI(Proton Pump Inhibitors)及抗生素會影響urea breath test, rapid urease test, stool antigen test 等之準確度",
+      "B. 完成治療H. pylori後之檢測,建議暫時停用PPI(Proton Pump Inhibitors) 2週及抗生素4週",
+      "C. 若病人有接受過gastrectomy,stool antigen test 比UBT檢測準確度差",
+      "D. 若病人bleeding peptic ulcer 時,可做urea breath test 來檢測是否有H. pylori infection",
+      "E. 血清H. pylori之IgG antibody test 不適合用來判斷H. pylori根除治療之效果"
+    ],
     "answer": "C"
   },
   {
@@ -7260,9 +7234,9 @@ const rawQuestions = [
     "statements": [
       "(1) Hydrid therapy 除菌失敗後,可以sequential therapy 作第二線治療",
       "(2) bismuth quadruple therapy 除菌失敗後,可以levofloxacin triple therapy 作第 二線治療",
-      "(3) 對於penicillin過敏者,可使用bismuth quadruple therapy或triple therapy with clarithromycin and metronidazole",
+      "(3)對於penicillin過敏者,可使用bismuth quadruple therapy或triple therapy with clarithromycin and metronidazole",
       "(4) standard triple therapy 除菌失敗後,可以bismuth quadruple therapy tetracycline-levofloxacin quadruple therapy 等作第二線治療",
-      "(5) 可反覆使用clarithromycin 及levofloxacin來治療"
+      "(5)可反覆使用clarithromycin 及levofloxacin來治療"
     ],
     "options": [
       "A. (1)+(2)",
@@ -7278,11 +7252,11 @@ const rawQuestions = [
     "no": 15,
     "question": "下列有關慢性萎縮性胃炎(Chronic atrophic gastritis)之敘述,下列何者為非?",
     "statements": [
-      "(1) 包含environmental metaplastic atrophic gastritis 與autoimmune metaplastic atrophic gastritis",
-      "(2) autoimmune metaplastic atrophic gastritis 之atrophic gastritis 主要發生於胃 竇部",
+      "(1)包含environmental metaplastic atrophic gastritis 與autoimmune metaplastic B atrophic gastritis",
+      "(2) autoimmune metaplastic atrophic gastritis 之atrophic gastritis 主要發生於胃 竇部(gastric antrum)",
       "(3) autoimmune metaplastic atrophic gastritis 是自身免疫破壞gastric corpus的 腺體",
       "(4) environmental metaplastic atrophic gastritis 常與幽門螺旋桿菌感染有關",
-      "(5) autoimmune metaplastic atrophic gastritis常合併其他自體免疫疾病,尤其是 autoimmune thyroiditis"
+      "(5) autoimmune metaplastic atrophic gastritis常合併其他自體免疫疾病,尤其是 autoimmune thyroiditis (6)可藉由OLGA(the Operative Link for Gastritis Assessment)system依據 atrophy 的程度來評估胃癌的風險"
     ],
     "options": [
       "A. (2)+(5)",
@@ -7291,7 +7265,7 @@ const rawQuestions = [
       "D. (2)+(3)+(5)",
       "E. (1)+(2)+(5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "110年度",
@@ -7316,9 +7290,15 @@ const rawQuestions = [
   {
     "year": "110年度",
     "no": 17,
-    "question": "有關降低/抑制胃酸藥物,下列何者為非? A.除了PPI(proton pump inhibitor)會影響到CYP system,cimetidine及 ranitidine 也會 B.進食時,60%-70%的proton pumps 分泌胃酸,所以建議飯前使用PPI 較佳 C. P-CAB(Potassium-competitive acid blocker)需要在酸性環境下作用 D. Vonoprazan之抑酸能力較PPI 不易受飲食之影響 E. Sucralfate在治療duodenal ulcer,和H2-blocker 效果相當",
+    "question": "有關降低/抑制胃酸藥物,下列何者為非?",
     "statements": [],
-    "options": [],
+    "options": [
+      "A. 除了PPI(proton pump inhibitor)會影響到CYP system,cimetidine及 ranitidine 也會",
+      "B. 進食時,60%-70%的proton pumps 分泌胃酸,所以建議飯前使用PPI 較佳",
+      "C. P-CAB(Potassium-competitive acid blocker)需要在酸性環境下作用",
+      "D. Vonoprazan之抑酸能力較PPI 不易受飲食之影響",
+      "E. Sucralfate在治療duodenal ulcer,和H2-blocker 效果相當"
+    ],
     "answer": "C"
   },
   {
@@ -7326,11 +7306,7 @@ const rawQuestions = [
     "no": 18,
     "question": "下列何者為H. pylori的pathogenesis?",
     "statements": [
-      "(1) Cag pathogenicity island",
-      "(2) HP-neutrophil activating protein",
-      "(3) Urease",
-      "(4) Vacuolating toxin A",
-      "(5) Lipopolysaccharide"
+      "(1) Cag pathogenicity island (PAI), including cag"
     ],
     "options": [
       "A. (1)+(2)+(5)",
@@ -7339,18 +7315,18 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "A"
+    "answer": "E"
   },
   {
     "year": "110年度",
     "no": 19,
     "question": "關於消化性潰瘍的敘述,下列何者是正確的?",
     "statements": [
-      "(1) 甲狀腺機能亢進會增加消化性潰瘍的罹患率",
+      "(1)甲狀腺機能亢進會增加消化性潰瘍的罹患率",
       "(2) 對於胃潰瘍都必須在潰瘍底部切片以排除惡性可能",
-      "(3) 十二指腸潰瘍病人的胃酸分泌較高,而胃潰瘍可能正常",
-      "(4) 十二指腸潰瘍病人的空腹胃泌素 Fasting gastrin 昇高",
-      "(5) 大部分的消化性潰瘍出血"
+      "(3)十二指腸潰瘍病人的胃酸分泌較高,而胃潰瘍可能正常",
+      "(4)十二指腸潰瘍病人的空腹胃泌素 Fasting gastrin 昇高",
+      "(5)大部分的消化性潰瘍出血(80%~90%)會自行停止出血"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -7366,10 +7342,10 @@ const rawQuestions = [
     "no": 20,
     "question": "下列有關質子幫浦抑制劑(proton pump inhibitor)之使用何者正確?",
     "statements": [
-      "(1) 長期使用質子幫浦抑制劑之患者不必例行追蹤血清magnesium或vitamin B12",
+      "(1)長期使用質子幫浦抑制劑之患者不必例行追蹤血清magnesium或vitamin B12",
       "(2) 長期使用質子幫浦抑制劑之患者不必例行追蹤 bone mineral density",
-      "(3) 長期使用質子幫浦抑制劑之患者不必例行給予 probiotics 以避免腸道感染",
-      "(4) 服用PPI 因pH值之變化會影響ketoconazole 或digoxin 等藥物"
+      "(3)長期使用質子幫浦抑制劑之患者不必例行給予 probiotics 以避免腸道感染",
+      "(4)服用PPI 因pH值之變化會影響ketoconazole 或digoxin 等藥物"
     ],
     "options": [
       "A. (1)+(4)",
@@ -7385,11 +7361,11 @@ const rawQuestions = [
     "no": 21,
     "question": "有關胃腸間質瘤(gastrointestinal stromal tumor-GIST)之敘述,何者為是?",
     "statements": [
-      "(1) 常有KIT基因突變",
+      "(1)常有KIT基因突變",
       "(2) 胃的間質瘤生長快速",
-      "(3) 胃腸間質瘤最常發生於小腸",
-      "(4) 有Platelet derived growth factor receptor",
-      "(5) 除手術外,目前有tyrosine Kinase inhibitor 可用於治療轉移性胃腸間質瘤"
+      "(3)胃腸間質瘤最常發生於小腸",
+      "(4)有Platelet derived growth factor receptor(PDGRA)基因突變的GIST較有 NF1基因突變的 GIST少",
+      "(5)除手術外,目前有tyrosine Kinase inhibitor 可用於治療轉移性胃腸間質瘤"
     ],
     "options": [
       "A. (1)+(2)",
@@ -7405,11 +7381,11 @@ const rawQuestions = [
     "no": 22,
     "question": "下列有關胃癌的敍述,何者為是?",
     "statements": [
-      "(1) 腸道型",
-      "(2) 腸道型胃癌患者之平均年齡較瀰漫型胃癌患者大",
-      "(3) 早期胃癌的定義是癌細胞侵犯之深度不超過粘膜下層,且沒有局部淋巴轉移",
-      "(4) 瀰漫型與環境和飲食因子的相關性較腸道型高",
-      "(5) 瀰漫型預後較差"
+      "(1)腸道型(intestinal type)和瀰漫型(diffuse type)胃癌皆與幽門螺旋桿菌感 D 染有關",
+      "(2)腸道型胃癌患者之平均年齡較瀰漫型胃癌患者大",
+      "(3)早期胃癌的定義是癌細胞侵犯之深度不超過粘膜下層,且沒有局部淋巴轉移",
+      "(4)瀰漫型與環境和飲食因子的相關性較腸道型高",
+      "(5)瀰漫型預後較差"
     ],
     "options": [
       "A. (1)+(2)+(3)+(5)",
@@ -7418,7 +7394,7 @@ const rawQuestions = [
       "D. (1)+(2)+(5)",
       "E. (2)+(3)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "110年度",
@@ -7428,7 +7404,7 @@ const rawQuestions = [
       "(1) Familiar adenomatous polyposis",
       "(2) Fundic gland polyp",
       "(3) Chronic atrophic gastritis",
-      "(4) HNPCC",
+      "(4) HNPCC(hereditary nonpolyposis colorectal cancer)",
       "(5) Helicobacter pylori infection"
     ],
     "options": [
@@ -7445,14 +7421,14 @@ const rawQuestions = [
     "no": 24,
     "question": "下列何種胃癌較不適合做內視鏡切除?",
     "statements": [
-      "(1) 大於2.5公分的瀰漫型",
+      "(1)大於2.5公分的瀰漫型(diffuse type)胃癌",
       "(2) 內視鏡超音波顯示為mucosal cancer,同時無明顯淋巴結腫大",
       "(3) 2公分之突起型腫瘤",
       "(4) 2公分之潰瘍結疤腫瘤"
     ],
     "options": [
       "A. (1)+(4)",
-      "B. (1)+(3)+(4)",
+      "B. (1)+(3)+ (4)",
       "C. (1)+(3)",
       "D. (1)",
       "E. (4)"
@@ -7464,11 +7440,11 @@ const rawQuestions = [
     "no": 25,
     "question": "有關胃腸淋巴瘤之敘述,何者為非?",
     "statements": [
-      "(1) 正常胃黏膜層不含有淋巴濾泡",
-      "(2) 幽門螺旋桿菌陰性之胃mucosa-associated lymphoid tissue lymphoma",
-      "(3) 幽門螺旋桿菌感染是引起胃MALToma之主因",
-      "(4) 根除幽門螺旋桿菌約可治癒70%至80%之stage I的胃MALToma",
-      "(5) 小腸是胃腸淋巴瘤的最好發部位"
+      "(1)正常胃黏膜層不含有淋巴濾泡(lymphoid follicle)",
+      "(2) 幽門螺旋桿菌陰性之胃mucosa-associated lymphoid tissue lymphoma (MALToma)患者不適合接受幽門螺旋桿菌除菌治療",
+      "(3)幽門螺旋桿菌感染是引起胃MALToma之主因",
+      "(4)根除幽門螺旋桿菌約可治癒70%至80%之stage I的胃MALToma",
+      "(5)小腸是胃腸淋巴瘤的最好發部位"
     ],
     "options": [
       "A. (1)+(2)",
@@ -7486,9 +7462,9 @@ const rawQuestions = [
     "statements": [
       "(1) Type II之Multiple endocrine neoplasia 易發生胃泌素瘤",
       "(2) 常以上腹痛 便秘為主要表現",
-      "(3) 患者可能發生反覆之消化性潰瘍",
-      "(4) 發生於胰臟者,轉移機率較高",
-      "(5) 胃泌素瘤好發於胃部"
+      "(3)患者可能發生反覆之消化性潰瘍",
+      "(4)發生於胰臟者,轉移機率較高",
+      "(5)胃泌素瘤好發於胃部"
     ],
     "options": [
       "A. (1)+(2)",
@@ -7504,11 +7480,11 @@ const rawQuestions = [
     "no": 27,
     "question": "關於十二指腸腺癌(adenocarcinoma)的危險因子,何者正確?",
     "statements": [
-      "(1) 和煙燻食物有關",
+      "(1)和煙燻食物有關",
       "(2) 和十二指腸腺瘤有關",
-      "(3) 和Cowden’s syndrome 有關",
-      "(4) 和Juvenile polyposis 有關",
-      "(5) 和Familial adenomatous polyposis"
+      "(3)和Cowden’s syndrome 有關",
+      "(4)和Juvenile polyposis 有關",
+      "(5)和Familial adenomatous polyposis(FAP)有關"
     ],
     "options": [
       "A. (1)+(2)",
@@ -7597,7 +7573,7 @@ const rawQuestions = [
       "(1) metronidazole po",
       "(2) vancomycin po",
       "(3) fidaxomicin po",
-      "(4) 糞菌移植",
+      "(4)糞菌移植(FMT)",
       "(5) levofloxacin po"
     ],
     "options": [
@@ -7743,21 +7719,27 @@ const rawQuestions = [
   {
     "year": "110年度",
     "no": 42,
-    "question": "一名25歲男性出現出血性腹瀉3個月.大腸鏡檢查顯示左側大腸有中度發炎, 從直腸(rectum)延伸至脾彎曲處(the splenic flexure).其餘大腸粘膜正常. 迴腸末端正常.大腸切片病理報告顯示隱窩結構不規則(crypt architectural irregularity),未發現肉芽腫(granulomas).糞便檢查對感染為陰性結果.以下 哪項為最可能的診斷? A.潰瘍性結腸炎(ulcerative colitis) B.克隆氏症(Crohn’s disease) C.乳糜瀉(celiac Disease) D.阿米巴大腸炎(Amebic colitis) E.困難梭狀芽孢桿菌感染症(Clostridium difficile infection)",
+    "question": "一名25歲男性出現出血性腹瀉3個月.大腸鏡檢查顯示左側大腸有中度發炎, 從直腸(rectum)延伸至脾彎曲處(the splenic flexure).其餘大腸粘膜正常.",
     "statements": [],
-    "options": [],
-    "answer": "A"
+    "options": [
+      "A. 潰瘍性結腸炎(ulcerative colitis)",
+      "B. 克隆氏症(Crohn’s disease)",
+      "C. 乳糜瀉(celiac Disease)",
+      "D. 阿米巴大腸炎(Amebic colitis)",
+      "E. 困難梭狀芽孢桿菌感染症(Clostridium difficile infection)"
+    ],
+    "answer": ""
   },
   {
     "year": "110年度",
     "no": 43,
     "question": "下列哪些飲食因素與腸激躁症(irritable bowel syndrome)的發生有關?",
     "statements": [
-      "(1) 高纖維飲食",
+      "(1)高纖維飲食",
       "(2) 多攝取紅肉的飲食",
-      "(3) 高精製糖",
-      "(4) 富含Omega-3脂肪酸的飲食",
-      "(5) 低飽和脂肪飲食"
+      "(3)高精製糖(refined sugar)飲食",
+      "(4)富含Omega-3脂肪酸的飲食",
+      "(5)低飽和脂肪飲食"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -7813,14 +7795,8 @@ const rawQuestions = [
   {
     "year": "110年度",
     "no": 47,
-    "question": "大腸癌發生的過程一般需經歷了兩個階段:腺瘤(adenoma)的形成,稱為腫瘤 起始(tumor initiation),以及腺瘤進展為大腸癌,稱為腫瘤進展(tumor progression).哪些基因改變被認為是腫瘤起始(tumor initiation)而不是腫瘤進 展(tumor progression)的重要步驟?",
-    "statements": [
-      "(1) Loss of adenomatous polyposis coli",
-      "(2) Loss of function of DCC",
-      "(3) Mutations in DNA mismatch repair",
-      "(4) Allelic deletion of chromosome 17p at the locus that contains the TP53 gene",
-      "(5) K-ras gene mutations"
-    ],
+    "question": "大腸癌發生的過程一般需經歷了兩個階段:腺瘤(adenoma)的形成,稱為腫瘤 起始(tumor initiation),以及腺瘤進展為大腸癌,稱為腫瘤進展(tumor",
+    "statements": [],
     "options": [
       "A. (1)",
       "B. (1)+(2)",
@@ -7828,7 +7804,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "110年度",
@@ -7865,9 +7841,9 @@ const rawQuestions = [
     "statements": [
       "(1) 糞便收集後延遲回醫療院所繳交可能會導致假陰性結果",
       "(2) FIT檢查需要請民眾連續採檢3天的糞便樣本",
-      "(3) FIT檢測糞便樣本中血紅素",
-      "(4) 富含維生素C的飲食會導致假陰性結果",
-      "(5) 美國預防照護專案小組"
+      "(3) FIT檢測糞便樣本中血紅素(heme)的存在",
+      "(4)富含維生素C的飲食會導致假陰性結果",
+      "(5)美國預防照護專案小組(U.S. Preventive Services Task Force, USPSTF)建 議FIT可作為高風險(high-risk)和一般風險(average-risk)民眾的大腸癌 篩檢工具"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -7883,11 +7859,11 @@ const rawQuestions = [
     "no": 51,
     "question": "李先生,55歲,本次因右上腹疼痛和發燒來院急診,腹部超音波檢查發現在肝右 葉有一顆6公分的低迴音/內部混合迴音(hypoechoic/mixed-echoic)陰影,電 腦斷層顯示肝陰影邊界不清而且陰影內有氣體存在.下列敘述與處置何者正確?",
     "statements": [
-      "(1) 李先生可能發生肝膿瘍",
-      "(2) 發生阿米巴性肝膿瘍可能性很高",
-      "(3) 應盡快給予metronidazole 治療",
-      "(4) 抽取引流可以幫忙診斷並加速肝膿瘍癒合",
-      "(5) 應同時蒐尋造成肝膿瘍的原因並加以處理"
+      "(1)李先生可能發生肝膿瘍",
+      "(2)發生阿米巴性肝膿瘍可能性很高",
+      "(3)應盡快給予metronidazole 治療",
+      "(4)抽取引流可以幫忙診斷並加速肝膿瘍癒合",
+      "(5)應同時蒐尋造成肝膿瘍的原因並加以處理"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -7930,9 +7906,9 @@ const rawQuestions = [
     "no": 54,
     "question": "HCV/HBV co-infection 的敘述,下列何者正確?",
     "statements": [
-      "(1) 相較於HBV或 HCV mono-infection,HCV/HBV co-infection 有較高發生肝細 胞癌的風險",
-      "(2) 在DAA 治療下,HBsAg陽性患者一年內發生 HBV reactivation",
-      "(3) 以DAA 治療,HCV SVR率很高,不會受到 HBV共同感染影響",
+      "(1)相較於HBV或 HCV mono-infection,HCV/HBV co-infection 有較高發生肝細 E 胞癌的風險",
+      "(2)在DAA 治療下,HBsAg陽性患者一年內發生 HBV reactivation(病毒濃度上 升>10X)的風險超過 50%",
+      "(3)以DAA 治療,HCV SVR率很高,不會受到 HBV共同感染影響",
       "(4) HCV/HBV co-infection 肝硬化族群以DAA治療C 型肝炎時,發生HBV reactivation 時可能導致肝衰竭,可以考慮同時採用B型肝炎口服藥預防B 型 肝炎復發"
     ],
     "options": [
@@ -7942,18 +7918,18 @@ const rawQuestions = [
       "D. (1)+(2)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "110年度",
     "no": 55,
     "question": "45歲女性病患來門診時,主訴疲倦(malaise),鞏膜汎黃(icteric sclera),急診 檢驗資料顯示血清albumin level: 3.6 g/dL (reference value >3.5),total bilirubin level: 5.6 mg/dL (reference value <1.0),direct bilirubin level: 2.4 mg/dL (reference value <0.3),ALT level 1240 U/L (reference value <40),AST level 1380 U/L (reference value <40),ALP level 89 U/L (reference value <100),PT INR 1.6 (reference value 0.9~1.1),以下何項訊息對病情診斷有幫忙?",
     "statements": [
-      "(1) 急性病毒性肝炎是可能診斷之一,建議檢測 HBsAg IgM anti-HBc 以及IgG anti-HAV",
-      "(2) 台灣為B型肝炎盛行國家,慢性B型肝炎急性發作相當常見,需列入鑑別診 斷,未來PT INR恢復正常之後,可以考慮肝穿刺檢查幫忙判斷",
-      "(3) 藥物引起的肝損傷是可能診斷之一,十二個月內曾經使用過的藥物都應該詳細 詢問調查",
-      "(4) 患者ALP數值在正常範圍之內,因急性膽道阻塞而引起肝炎的機會並不大",
-      "(5) 患者為中年女性,須考慮自體免疫性肝炎"
+      "(1)急性病毒性肝炎是可能診斷之一,建議檢測 HBsAg IgM anti-HBc 以及IgG anti-HAV",
+      "(2)台灣為B型肝炎盛行國家,慢性B型肝炎急性發作相當常見,需列入鑑別診 斷,未來PT INR恢復正常之後,可以考慮肝穿刺檢查幫忙判斷",
+      "(3)藥物引起的肝損傷是可能診斷之一,十二個月內曾經使用過的藥物都應該詳細 詢問調查",
+      "(4)患者ALP數值在正常範圍之內,因急性膽道阻塞而引起肝炎的機會並不大",
+      "(5)患者為中年女性,須考慮自體免疫性肝炎(autoimmune hepatitis),檢測 globulin 和 ANA level 可作為參考"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -7973,7 +7949,7 @@ const rawQuestions = [
       "(2) acetaminophen 服用的劑量不高,發生肝損傷的機會很小",
       "(3) amoxicillin/clavulanic acid 治療時間只有 3天,發生肝損傷的機會很小",
       "(4) B型肝炎帶原者與非帶原者相比,有比較高機會發生藥物性肝損傷",
-      "(5) 兩個星期以前曾經用過的藥物,不可能引發本次藥物性肝損傷的機會,不需詢 問記錄"
+      "(5)兩個星期以前曾經用過的藥物,不可能引發本次藥物性肝損傷的機會,不需詢 問記錄"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -7987,14 +7963,8 @@ const rawQuestions = [
   {
     "year": "110年度",
     "no": 57,
-    "question": "承上題,患者B型肝炎病毒濃度<10 IU/mL,B型肝炎急性發作機會不大,臨床 診斷傾向於藥物引發的肝損傷(drug-induced liver injury, DILI),下列有關於藥物 引發的肝損傷(DILI)之敘述,何者正確?",
-    "statements": [
-      "(1) acetaminophen 引起的肝損傷潛伏期較 amoxicillin/clavulanic acid 為短",
-      "(2) 此病人有可能發生藥物引發的肝損傷,應立即停止amoxicillin/clavulanic acid 的治療",
-      "(3) 此病人若給予口服類固醇可降低肝臟發炎,改善肝指數異常情形",
-      "(4) 此病人若給予注射acetylcysteine 可降低肝臟發炎,改善肝指數異常情形",
-      "(5) 為了證實是否為藥物引發的肝損傷,可以再次給予amoxicillin/clavulanic acid 測試"
-    ],
+    "question": "承上題,患者B型肝炎病毒濃度<10 IU/mL,B型肝炎急性發作機會不大,臨床 診斷傾向於藥物引發的肝損傷(drug-induced liver injury, DILI),下列有關於藥物",
+    "statements": [],
     "options": [
       "A. (1)+(2)",
       "B. (1)+(2)+(3)",
@@ -8002,17 +7972,17 @@ const rawQuestions = [
       "D. (1)+(2)+(4)+(5)",
       "E. (1)+(3)+(4)+(5)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "110年度",
     "no": 58,
     "question": "利用各種侵入性(invasive)或非侵入性(non-invasive)方法評估肝臟纖維化嚴 重程度時,下列敘述何者正確?",
     "statements": [
-      "(1) Liver biopsy",
-      "(2) FibroScan",
-      "(3) ARFI",
-      "(4) FIB-4",
+      "(1) Liver biopsy(肝穿刺)是金標準(gold standard),評估準確性 100%",
+      "(2) FibroScan(肝纖維檢測儀)檢測方便 快速,整體準確性 >0.80",
+      "(3) ARFI(Acoustic radiation force impulse)elastography 檢測方便,針對肥胖 或有腹水者失敗率較低",
+      "(4) FIB-4(Fibrosis-4)index方便使用,評估各種原因引起的纖維化準確性都很 高,適用於所有年齡層",
       "(5) MR elastography 檢查準確性高,缺點是耗時 昂貴 需要設備"
     ],
     "options": [
@@ -8029,11 +7999,11 @@ const rawQuestions = [
     "no": 59,
     "question": "50歲HBeAg陰性慢性B型肝炎男性病患在門診追蹤,初步檢驗資料顯示血清 albumin 4.2 g/dL (reference value >3.5), total bilirubin level: 0.7 mg/dL (reference value <1.0),ALT level 61 IU/L (reference value <40),AST level 50 IU/L (reference value <40),ALP level 97 IU/L (reference value <100),根據2019 年出版的臺灣慢性B型肝炎治療共識(Taiwan consensus statement on the management of chronic hepatitis B),以下何項針對病患治療之建議是不合理 的?",
     "statements": [
-      "(1) 尚未發生肝硬化時,當血清HBV DNA濃度高於 2000 IU/mL,不論ALT 值異 常與否,都應該考慮接受抗病毒治療",
-      "(2) 肝硬化",
-      "(3) 除了肝穿刺以外,可以考慮使用非侵入性方法",
+      "(1)尚未發生肝硬化時,當血清HBV DNA濃度高於 2000 IU/mL,不論ALT 值異 常與否,都應該考慮接受抗病毒治療",
+      "(2)肝硬化(cirrhosis)存在且發生肝功能失代償的情形下,只要病患血清HBV DNA濃度高於偵測值下限,不論 ALT值高低,都應該考慮給予抗病毒治療",
+      "(3)除了肝穿刺以外,可以考慮使用非侵入性方法(如FibroScan or APRI)評估 肝臟纖維化嚴重程度",
       "(4) e抗原陰性病患接受口服抗病毒藥物治療時,若血清 HBV DNA 偵測不到之狀 態持續3個月時,即可考慮停藥",
-      "(5) 非肝硬化患者經口服抗病毒藥物治療後不會有肝細胞癌發生的風險,不需要進 行肝細胞癌的監測"
+      "(5)非肝硬化患者經口服抗病毒藥物治療後不會有肝細胞癌發生的風險,不需要進 行肝細胞癌的監測"
     ],
     "options": [
       "A. (1)+(2)+(4)+(5)",
@@ -8049,11 +8019,11 @@ const rawQuestions = [
     "no": 60,
     "question": "有關預測與預防母嬰垂直感染B型肝炎病毒方面,下列何者為非?",
     "statements": [
-      "(1) 當孕婦血清中B型肝炎病毒超過200,000 IU/mL時,2020 WHO 建議懷孕第 三期使用口服抗病毒藥物可以有效降低母嬰垂直傳染B型肝炎病毒的機會",
-      "(2) 臺灣健保規定如下:孕婦血清中B型肝炎病毒超過1,000,000 IU/mL 時,可以 考慮在懷孕第三期使用口服抗病毒藥物,用藥期間為懷孕滿27週至產後4週",
-      "(3) 懷孕第三期可以考慮使用之口服抗病毒藥物包括entecavir 和lamivudine",
-      "(4) 生產後一個月內即可停止使用抗病毒藥物,不會發生肝炎復發",
-      "(5) 孕婦懷孕第三期使用口服抗病毒藥物抑制病毒複製,新生兒出生時就不需要接 種B型肝炎病毒疫苗"
+      "(1)當孕婦血清中B型肝炎病毒超過200,000 IU/mL時,2020 WHO 建議懷孕第 D 三期使用口服抗病毒藥物可以有效降低母嬰垂直傳染B型肝炎病毒的機會",
+      "(2)臺灣健保規定如下:孕婦血清中B型肝炎病毒超過1,000,000 IU/mL 時,可以 考慮在懷孕第三期使用口服抗病毒藥物,用藥期間為懷孕滿27週至產後4週",
+      "(3)懷孕第三期可以考慮使用之口服抗病毒藥物包括entecavir 和lamivudine",
+      "(4)生產後一個月內即可停止使用抗病毒藥物,不會發生肝炎復發",
+      "(5)孕婦懷孕第三期使用口服抗病毒藥物抑制病毒複製,新生兒出生時就不需要接 種B型肝炎病毒疫苗"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -8062,19 +8032,13 @@ const rawQuestions = [
       "D. (3)+(4)+(5)",
       "E. (4)+(5)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "110年度",
     "no": 61,
-    "question": "31歲女性病患來急診時,主訴最近一個星期茶色尿,嗜睡,無法清楚詢問疾病史, 家屬描述病患過去沒有肝臟病史,去年健康檢查肝功能正常.急診的檢驗資料顯 示血清albumin 2.6 g/dL (reference value >3.5),total bilirubin level: 23.5 mg/dL (reference value <1.0),direct bilirubin level: 11.4 mg/dl (reference value <0.3), ALT level 60 IU/L (reference value <40),AST level 45 IU/L (reference value <40),ALP level 94 IU/L (reference value <100),PT INR 2.8 (reference value <1.1),以下何項評估或描述是合理的?",
-    "statements": [
-      "(1) 病患可能發生急性肝衰竭",
-      "(2) 在亞太地區病毒性肝炎是造成急性肝衰竭最常見原因",
-      "(3) acetaminophen 過量服用則是西方國家造成急性肝衰竭常見原因",
-      "(4) 腦水腫和顱內高壓是急性肝衰竭特殊併發症",
-      "(5) 肝臟移植是最後一線治療方式"
-    ],
+    "question": "31歲女性病患來急診時,主訴最近一個星期茶色尿,嗜睡,無法清楚詢問疾病史, 家屬描述病患過去沒有肝臟病史,去年健康檢查肝功能正常.急診的檢驗資料顯",
+    "statements": [],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
       "B. (1)+(2)+(3)+(4)",
@@ -8082,18 +8046,18 @@ const rawQuestions = [
       "D. (1)+(2)+(4)+(5)",
       "E. (2)+(3)+(4)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "110年度",
     "no": 62,
     "question": "下列關於威爾森氏症(Wilson Disease, WD)說明,哪些描述是正確的?",
     "statements": [
-      "(1) 威爾森氏症是一種影響鐵離子代謝的遺傳性疾病,除了肝臟以外也會影響腦部 和眼睛",
-      "(2) 威爾森氏症是自體隱性遺傳性疾病,影響 ATP7B 基因",
-      "(3) 所有得到威爾森氏症的患者都要終身接受治療,包括沒有症狀的基因異常帶原 者",
-      "(4) 口服治療藥物包括D-penicillamine和 zinc salts",
-      "(5) 藥物治療無效或發生急性肝衰竭時應考慮肝移植"
+      "(1)威爾森氏症是一種影響鐵離子代謝的遺傳性疾病,除了肝臟以外也會影響腦部 D 和眼睛",
+      "(2)威爾森氏症是自體隱性遺傳性疾病,影響 ATP7B 基因",
+      "(3)所有得到威爾森氏症的患者都要終身接受治療,包括沒有症狀的基因異常帶原 者",
+      "(4)口服治療藥物包括D-penicillamine和 zinc salts",
+      "(5)藥物治療無效或發生急性肝衰竭時應考慮肝移植"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -8102,18 +8066,18 @@ const rawQuestions = [
       "D. (2)+(4)+(5)",
       "E. (2)+(5)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "110年度",
     "no": 63,
     "question": "下列各項有關酒精性肝病(alcoholic liver disease)的敘述,何者正確?",
     "statements": [
-      "(1) 酒精性肝病是西方國家常見造成肝硬化的原因",
+      "(1)酒精性肝病是西方國家常見造成肝硬化的原因",
       "(2) 合併C型肝炎會加速肝臟疾病惡化速度",
-      "(3) 戒酒是治療酒精性肝病最重要的步驟",
+      "(3)戒酒是治療酒精性肝病最重要的步驟",
       "(4) Pentoxifylline 被證實可以改善嚴重酒精性肝炎",
-      "(5) 發生失代償肝硬化,當戒酒六個月仍沒有改善時應評估肝移植需要性"
+      "(5)發生失代償肝硬化,當戒酒六個月仍沒有改善時應評估肝移植需要性"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -8127,9 +8091,14 @@ const rawQuestions = [
   {
     "year": "110年度",
     "no": 64,
-    "question": "下列有關於非酒精性脂肪肝病(non-alcoholic fatty liver disease, NAFLD)之敘 述,何者是不正確的? A.非酒精性脂肪肝病為一症候群,涵蓋單純脂肪變性(simple steatosis) 非酒 精性脂性肝炎(non-alcoholic steatohepatitis, NASH) 纖維化以及肝硬化 B.非酒精性脂肪肝病發生與肥胖以及胰島素抗性(insulin resistance)有密切相 關,體型瘦者也會得NAFLD C.非酒精性脂性肝炎(non-alcoholic steatohepatitis, NASH)的病理診斷要件包 括steatosis, ballooning and lobular inflammation D.非酒精性脂性肝炎(non-alcoholic steatohepatitis, NASH)存在時,患者有較 高機會得到肝硬化,但不會發生肝細胞癌",
+    "question": "下列有關於非酒精性脂肪肝病(non-alcoholic fatty liver disease, NAFLD)之敘 述,何者是不正確的?",
     "statements": [],
-    "options": [],
+    "options": [
+      "A. 非酒精性脂肪肝病為一症候群,涵蓋單純脂肪變性(simple steatosis) 非酒 精性脂性肝炎(non-alcoholic steatohepatitis, NASH) 纖維化以及肝硬化",
+      "B. 非酒精性脂肪肝病發生與肥胖以及胰島素抗性(insulin resistance)有密切相 關,體型瘦者也會得NAFLD",
+      "C. 非酒精性脂性肝炎(non-alcoholic steatohepatitis, NASH)的病理診斷要件包 括steatosis, ballooning and lobular inflammation",
+      "D. 非酒精性脂性肝炎(non-alcoholic steatohepatitis, NASH)存在時,患者有較 高機會得到肝硬化,但不會發生肝細胞癌"
+    ],
     "answer": "D"
   },
   {
@@ -8138,9 +8107,9 @@ const rawQuestions = [
     "question": "肝穿刺是診斷各種肝臟疾病的重要參考與標準,下列有關肝穿刺與病理檢查診斷 各種肝臟疾病的描述,何者為正確的?",
     "statements": [
       "(1) 肝穿刺檢體太小無法提供足夠的資訊,檢體長度應至少1.5~2cm",
-      "(2) 肝穿刺與病理檢查可以應用於診斷病因 評估嚴重度與治療反應",
-      "(3) 肝穿刺檢查的安全性很高,發生內出血的機會僅約5/100",
-      "(4) 肝穿刺與病理檢查診斷可以精準判斷藥物引發的肝損傷"
+      "(2)肝穿刺與病理檢查可以應用於診斷病因 評估嚴重度與治療反應",
+      "(3)肝穿刺檢查的安全性很高,發生內出血的機會僅約5/100",
+      "(4)肝穿刺與病理檢查診斷可以精準判斷藥物引發的肝損傷(drug-induced liver injury, DILI)"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -8159,7 +8128,7 @@ const rawQuestions = [
       "(1) KEYNOTE 240",
       "(2) RESORCE",
       "(3) REACH-2",
-      "(4) CELESTIAL 其中2線藥物相對於placebo,overall survival"
+      "(4) CELESTIAL 其中2線藥物相對於placebo,overall survival(OS)的Hazard ratio(HR)的 數值,由最低到最高排列順序為?"
     ],
     "options": [
       "A. (2)-(3)-(4)-(1)",
@@ -8179,7 +8148,7 @@ const rawQuestions = [
       "(2) LI-RADS 3 indicates a low probability of HCC",
       "(3) “a small nodular area of CT/MR arterial phase hyperenhancement, which is not present on other phases” is classified as LI-RADS 2",
       "(4) “a ≥2-cm encapsulated lesion with CT/MR arterial phase hyperenhancement, but without “washout” is classified as LI-RADS 4",
-      "(5) “a ≥2-cm lesion that enhances to the same degree as liver in the CT/MR arterial phase, but enhances less"
+      "(5) “a ≥2-cm lesion that enhances to the same degree as liver in the CT/MR arterial phase, but enhances less (i.e., is hypoenhanced) in the postarterial phases” is classified as LI-RADS 3"
     ],
     "options": [
       "A. (1)+(4)",
@@ -8209,10 +8178,7 @@ const rawQuestions = [
     "no": 69,
     "question": "依據2018 EASL Clinical Practice Guidelines 關於BCLC的敘述,下列何者錯 誤?",
     "statements": [
-      "(1) Very early HCC",
-      "(2) Early HCC",
-      "(3) Large solitary HCC beyond 5 cm should be classified as BCLC B",
-      "(4) Among BCLC B, Child-Pugh B patients with refractory ascites and hepatic encephalopathy, liver transplantation should not be considered"
+      "(1) Very early HCC (BCLC stage 0) is defined as the presence of a single tumor <2 cm in diameter without vascular invasion/satellites in patients with good health status (ECOG-0) and well-preserved liver function (Child-Pugh"
     ],
     "options": [
       "A. (3)",
@@ -8228,10 +8194,10 @@ const rawQuestions = [
     "no": 70,
     "question": "依據2018 HCC EASL Clinical Practice Guidelines,下列何者錯誤?",
     "statements": [
-      "(1) Liver resection is recommended for single HCC of any size and in particular for tumors >2 cm, when hepatic function is preserved, and sufficient remnant liver volume is maintained",
+      "(1) Liver resection is recommended for single HCC of any size and in particular B for tumors >2 cm, when hepatic function is preserved, and sufficient remnant liver volume is maintained",
       "(2) Assessment of response in HCC should be based on RECIST1.1 for loco-regional therapies",
       "(3) For systemic therapies both mRECIST and RECIST1.1 are recommended to assess the response",
-      "(4) HCC with tumor-related portal vein thrombosis",
+      "(4) HCC with tumor-related portal vein thrombosis (PVTT) can be graded as PV1 (segmentary), PV2 (secondary order branch), PV3 (first order branch), and PV4 (main trunk/contralateral branch)",
       "(5) Liver resection can be considered for PV1/2 extension of HCC"
     ],
     "options": [
@@ -8241,7 +8207,7 @@ const rawQuestions = [
       "D. (3)+(4)",
       "E. (2)+(5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "110年度",
@@ -8251,7 +8217,7 @@ const rawQuestions = [
       "(1) Liver transplantation is recommended as the first-line option for HCC within Milan criteria but unsuitable for resection",
       "(2) Consensus on expanded criteria for liver transplantation in HCC has not been reached",
       "(3) UCSF criteria include single nodule ≤5 cm or 2–3 nodules ≤3 cm and total tumor diameter ≤6.5 cm",
-      "(4) Total tumor volume"
+      "(4) Total tumor volume (TTV) criteria + alpha-fetoprotein (AFP) defined as TTV <115 cm3 and AFP <400 ng/ml"
     ],
     "options": [
       "A. (3)",
@@ -8267,11 +8233,7 @@ const rawQuestions = [
     "no": 72,
     "question": "依據2018 HCC EASL Clinical Practice Guidelines,Local ablation 的敘述下列 何者正確?",
     "statements": [
-      "(1) RFA is the standard of care for patients with BCLC 0 and A tumors not suitable for surgery",
-      "(2) For BCLC-0, RFA in favorable locations can be adopted as first-line therapy",
-      "(3) Ethanol injection is an option in some cases where RFA is not technically feasible, especially in tumors <2 cm",
-      "(4) For sub-capsular HCCs, the technical success and the risk of complications should be considered when applying RFA",
-      "(5) Tumor location has highly important consequences on the choice between RFA or surgery"
+      "(1) RFA is the standard of care for patients with BCLC 0 and"
     ],
     "options": [
       "A. (1)+(2)",
@@ -8306,8 +8268,8 @@ const rawQuestions = [
     "no": 74,
     "question": "關於HCC systemic therapy 的敘述下列何者正確?",
     "statements": [
-      "(1) Systemic chemotherapy with doxorubicin or FOLFOX did not demonstrate survival benefits",
-      "(2) Lenvatinib targets VEGFR1-3; fibroblast growth factor receptor",
+      "(1) Systemic chemotherapy with doxorubicin or FOLFOX did not demonstrate D survival benefits",
+      "(2) Lenvatinib targets VEGFR1-3; fibroblast growth factor receptor (FGFR1-4); platelet-derived growth factor receptor a, RET, and KIT",
       "(3) Cabozantinib is a MET, VEGFR2 and RET inhibitor approved for thyroid, renal cancer and HCC",
       "(4) Ramucirumab is a monoclonal antibody targeting VEGFR 1-3",
       "(5) Progression-free survival is a composite endpoint that includes two types of variables: death and evidence of radiological progression"
@@ -8319,17 +8281,16 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "110年度",
     "no": 75,
     "question": "依據2018 AASLD Guidelines for the Treatment of Hepatocellular Carcinoma, 下列何者敘述錯誤?",
     "statements": [
-      "(1) The AASLD suggests surveillance using ultrasound",
+      "(1) The AASLD suggests surveillance using ultrasound (US) and alpha-fetoprotein (AFP) every 6 months",
       "(2) The AASLD recommends diagnostic evaluation for HCC with either multiphasic CT or multiphasic MRI because of similar diagnostic performance characteristics",
-      "(3) The AASLD suggests that adults with Child-Pugh class A cirrhosis and resectable T1 or T2 HCC undergo resection over radiofrequency ablation",
-      "(4) The AASLD does not recommend one form of liver-directed therapy over another for the purposes of bridging to liver transplantation for patients within Milan criteria"
+      "(3) The AASLD suggests that adults with Child-Pugh class"
     ],
     "options": [
       "A. (1)",
@@ -8364,10 +8325,10 @@ const rawQuestions = [
     "no": 77,
     "question": "關於HCC systemic therapy,依據phase 3 clinical trials的結果,下列敘述何者 正確?",
     "statements": [
-      "(1) Atezolizumab + Bevacizumab 在一線systemic therapy,objective response rate",
-      "(2) Lenvatinib 在一線 systemic therapy,objective response rate",
+      "(1) Atezolizumab + Bevacizumab 在一線systemic therapy,objective response rate (ORR) >25%",
+      "(2) Lenvatinib 在一線 systemic therapy,objective response rate (ORR) >20%",
       "(3) Sorafenib在一線systemic therapy,最好的median overall survival可以超 過14個月",
-      "(4) Median progression-free survival"
+      "(4) Median progression-free survival (PFS),lenvatinib不輸於Atezolizumab + Bevacizumab"
     ],
     "options": [
       "A. (1)",
@@ -8402,9 +8363,9 @@ const rawQuestions = [
     "no": 79,
     "question": "關於Cholangiocarcinoma(CCA)的敘述,下列何者正確?",
     "statements": [
-      "(1) Adjuvant chemotherapy with capecitabine for 6 months after surgical resection with curative intent is recommended for intrahepatic CCA",
+      "(1) Adjuvant chemotherapy with capecitabine for 6 months after surgical D resection with curative intent is recommended for intrahepatic CCA",
       "(2) Liver transplantation is a potentially curative option for intrahepatic and perihilar CCA",
-      "(3) FOLFOX",
+      "(3) FOLFOX (folinic acid, fluorouracil and oxaliplatin) can be recommended as second- line standard of care chemotherapy",
       "(4) Combination of cisplatin and gemcitabine is the standard of care for patients with unresected tumors",
       "(5) Cirrhosis is one of the risk factors of intrahepatic CCA"
     ],
@@ -8415,14 +8376,14 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)+(5)",
       "E. (1)+(2)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "110年度",
     "no": 80,
     "question": "關於HCC image diagnostic performance 的敘述,下列何者正確?",
     "statements": [
-      "(1) Dynamic plus hepatobiliary phase MRI had a higher sensitivity and negative predictive value than multiphasic CT and dynamic phase MRI alone",
+      "(1) Dynamic plus hepatobiliary phase MRI had a higher sensitivity and negative B predictive value than multiphasic CT and dynamic phase MRI alone",
       "(2) Gadoxetic acid is unique in that approximately 50% of the administrated dose is taken up by the hepatocytes and excreted into the bile ducts",
       "(3) On gadoxetic acid enhanced MRI, hyper-intensity on hepatobiliary phase is regarded as an ancillary finding favoring malignancy",
       "(4) Gadoxetic acid-enhanced MRI has a higher sensitivity for detecting nodules that are either HCC not displaying the typical features of imaging hallmarks or high-grade dysplastic nodules"
@@ -8434,7 +8395,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)",
       "E. (2)+(4)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "110年度",
@@ -8455,11 +8416,11 @@ const rawQuestions = [
     "no": 82,
     "question": "下列何者不是Rome IV criteria(Clinical criteria for diagnosis of functional gallbladder and sphincter of Oddi disorders)中所描述的膽道型疼痛(biliary pain)?",
     "statements": [
-      "(1) 疼痛位於上腹部或右上腹",
-      "(2) 每次疼痛大於30分鐘",
-      "(3) 反覆發作但是不定間隔時間",
-      "(4) 嚴重疼痛影響日常生活,或需求助急診",
-      "(5) 疼痛常伴隨腹瀉"
+      "(1)疼痛位於上腹部或右上腹",
+      "(2)每次疼痛大於30分鐘",
+      "(3)反覆發作但是不定間隔時間",
+      "(4)嚴重疼痛影響日常生活,或需求助急診",
+      "(5)疼痛常伴隨腹瀉"
     ],
     "options": [
       "A. (2)+(4)",
@@ -8475,11 +8436,11 @@ const rawQuestions = [
     "no": 83,
     "question": "下列何者是黑色素結石(black pigment gallstones)的危險因子?",
     "statements": [
-      "(1) 肥胖",
+      "(1)肥胖",
       "(2) 肝硬化",
-      "(3) 慢性溶血",
-      "(4) 靜脈營養",
-      "(5) 快速體重下降"
+      "(3)慢性溶血",
+      "(4)靜脈營養",
+      "(5)快速體重下降"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -8495,11 +8456,11 @@ const rawQuestions = [
     "no": 84,
     "question": "有關阻塞性黃疸的描述何者為錯?",
     "statements": [
-      "(1) 膽道內正常壓力為15-25 cm H 2 O",
+      "(1)膽道內正常壓力為15-25 cm H 2 O",
       "(2) 膽道阻塞後壓力上升,會促進膽汁進一步分泌",
-      "(3) 阻塞後膽汁溢出會造成局部肝細胞壞死",
-      "(4) 壓力上升後只有膽紅素",
-      "(5) 長期膽管阻塞,會產生白色膽汁"
+      "(3)阻塞後膽汁溢出會造成局部肝細胞壞死",
+      "(4)壓力上升後只有膽紅素(bilirubin)會被抑制而膽鹽(bile salts)則正常分泌",
+      "(5)長期膽管阻塞,會產生白色膽汁(white bile)"
     ],
     "options": [
       "A. (2)+(5)",
@@ -8515,10 +8476,10 @@ const rawQuestions = [
     "no": 85,
     "question": "一位60歲病患,因為阻塞性黃疸住院,並無感染症狀,身體狀況良好,術前電 腦斷層檢查懷疑是胰臟頭部腫瘤,膽胰管擴張,並無明顯轉移,外科評估可以切 除,下列何者為是?",
     "statements": [
-      "(1) 術前檢查可檢查IgG4,以排除不典型的自體免疫胰臟炎",
-      "(2) 應進行ERCP/ERBD放置塑膠支架引流,等黃疸正常後再請外科施行胰十二 指腸切除術",
-      "(3) 術前如果外科或家屬要求需要病理診斷,可以施行EUS-FNA/B",
-      "(4) 行ERCP時如無特別需要,可以不必裝置胰管支架做胰管引流"
+      "(1)術前檢查可檢查IgG4,以排除不典型的自體免疫胰臟炎(autoimmune pancreatitis)",
+      "(2)應進行ERCP/ERBD放置塑膠支架引流,等黃疸正常後再請外科施行胰十二 指腸切除術(pancreaticoduodenectomy)",
+      "(3)術前如果外科或家屬要求需要病理診斷,可以施行EUS-FNA/B",
+      "(4)行ERCP時如無特別需要,可以不必裝置胰管支架做胰管引流"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)",
@@ -8534,11 +8495,11 @@ const rawQuestions = [
     "no": 86,
     "question": "下面那些是目前預防ERCP術後胰臟炎可行的方法?",
     "statements": [
-      "(1) 預防性類固醇注射",
+      "(1)預防性類固醇注射",
       "(2) 術前或術後馬上使用indomethacin 100mg塞劑",
-      "(3) 術前或術後馬上使用diclofenac 75mg 注射",
-      "(4) 高風險者預防性胰臟支架放置",
-      "(5) Lactated ringer 積極輸液"
+      "(3)術前或術後馬上使用diclofenac 75mg 注射",
+      "(4)高風險者預防性胰臟支架放置",
+      "(5) Lactated ringer 積極輸液(3ml/kg/hr)"
     ],
     "options": [
       "A. (2)+(3)+(4)+(5)",
@@ -8552,21 +8513,27 @@ const rawQuestions = [
   {
     "year": "110年度",
     "no": 87,
-    "question": "一位60歲女性病患,平時健康狀況良好,因急性上腹痛至急診住院.理學檢查, 病患並無發燒或黃膽,上腹壓痛明顯但無腹膜症候(peritoneal sign).生化檢查: ALT:740, AST:600, ALP:120, r-GT:100, Amylase:1400, Lipase:2000.腹部超音 波與電腦斷層顯示輕度脂肪肝,膽囊壁稍微增厚與數顆大於1公分的膽結石,膽 管未見擴張,胰臟稍腫但無週邊積水.兩天後病患症狀迅速改善,追蹤生化檢查 顯示:ALT:300, AST:150, ALP:100, rGT:60, Amylase:85, Lipase:200.追蹤腹超 胰臟未見周邊積水膽管也未見擴張和結石(附註:正常值(單位:IU/L):ALT:7-56, AST:5-35, ALP:38-126, r-GT:8-78, Amylase:30-110, Lipase:7-60).下列何者為 較適當的後續處理: A.照會外科行腹腔鏡膽囊切除術 B.照會外科行膽囊切除術與總膽管取石 C.施行ERCP,如有結石再施行 EST取石 D.不論總膽管是否有結石,直接施行ERCP/EST/膽管結石清除 E.症狀改善不需後續治療",
+    "question": "一位60歲女性病患,平時健康狀況良好,因急性上腹痛至急診住院.理學檢查, 病患並無發燒或黃膽,上腹壓痛明顯但無腹膜症候(peritoneal sign).生化檢查:",
     "statements": [],
-    "options": [],
-    "answer": "A"
+    "options": [
+      "A. 照會外科行腹腔鏡膽囊切除術",
+      "B. 照會外科行膽囊切除術與總膽管取石",
+      "C. 施行ERCP,如有結石再施行 EST取石",
+      "D. 不論總膽管是否有結石,直接施行ERCP/EST/膽管結石清除",
+      "E. 症狀改善不需後續治療"
+    ],
+    "answer": ""
   },
   {
     "year": "110年度",
     "no": 88,
     "question": "60歲男性病患因為懷疑膽管結石施行ERCP檢查與治療,術前腹部超音波檢查 膽囊未見結石.ERCP 檢查中發現膽胰管共同通道約1.5公分長,並未發現膽管 結石,膽管也未見擴大,下列何者為真?",
     "statements": [
-      "(1) 診斷為膽管囊腫",
-      "(2) 膽管癌的發生率較正常人高",
-      "(3) 膽囊癌的發生率較正常人高",
-      "(4) 建議施行膽囊切除",
-      "(5) 癌症發生的年紀和一般膽管癌,膽囊癌較早 10年以上"
+      "(1)診斷為膽管囊腫(choledochocyst)",
+      "(2)膽管癌的發生率較正常人高",
+      "(3)膽囊癌的發生率較正常人高",
+      "(4)建議施行膽囊切除",
+      "(5)癌症發生的年紀和一般膽管癌,膽囊癌較早 10年以上"
     ],
     "options": [
       "A. (1)+(2)+(5)",
@@ -8582,10 +8549,10 @@ const rawQuestions = [
     "no": 89,
     "question": "膽囊癌的描述何者為真?",
     "statements": [
-      "(1) 膽囊腺瘤",
-      "(2) 瓷器樣膽囊",
-      "(3) 膽結石和慢性膽囊炎,癌症風險增加,建議做膽囊切除",
-      "(4) 膽胰管合流異常",
+      "(1)膽囊腺瘤(adenoma)大於1公分,癌症風險增加,建議做膽囊切除",
+      "(2) 瓷器樣膽囊(porcelain gallbladder),癌症風險增加,建議做膽囊切除",
+      "(3)膽結石和慢性膽囊炎,癌症風險增加,建議做膽囊切除",
+      "(4)膽胰管合流異常(pancreaticobiliary maljunction),癌症風險增加,建議做 膽囊切除",
       "(5) 75%合併有慢性膽囊炎"
     ],
     "options": [
@@ -8602,11 +8569,11 @@ const rawQuestions = [
     "no": 90,
     "question": "ERCP關於膽管狹窄的組織取得(tissue acquisition)下列敘述何者為非?",
     "statements": [
-      "(1) 以細胞刷取抹片檢查是最方便的方式,陽性率高於切片夾採檢",
+      "(1)以細胞刷取抹片檢查是最方便的方式,陽性率高於切片夾採檢",
       "(2) 以內視鏡切片夾採檢大多需要切開乳突,風險較高",
-      "(3) 以經口膽道內視鏡",
-      "(4) 合併細胞刷取與切片可增加採檢的敏感度",
-      "(5) 以ERCP導引,近端膽管"
+      "(3)以經口膽道內視鏡(peroral cholangioscopy,如spyglass),內視鏡直視下採 檢,可得最高陽性率",
+      "(4)合併細胞刷取與切片可增加採檢的敏感度",
+      "(5)以ERCP導引,近端膽管(proximal bile duct)病變切片的陽性率高於遠端膽 管(distal bile duct)"
     ],
     "options": [
       "A. (1)+(5)",
@@ -8622,11 +8589,11 @@ const rawQuestions = [
     "no": 91,
     "question": "關於內視鏡超音波在胰臟腫瘤診斷的角色,以下何者為非?",
     "statements": [
-      "(1) 目前NCCN的臨床指引中已將內視鏡超音波導引下細針穿刺術列為建議首選 的取樣方法",
-      "(2) 可以使用 19G 到25G 的穿刺細針",
-      "(3) 在小型腫瘤",
-      "(4) 對於胰臟鉤突部",
-      "(5) 所有胰臟腫瘤不管影像分析可不可切除,都ㄧ律建議做內視鏡超音波導引下細 針穿刺"
+      "(1)目前NCCN的臨床指引中已將內視鏡超音波導引下細針穿刺術列為建議首選 E 的取樣方法",
+      "(2)可以使用 19G 到25G 的穿刺細針",
+      "(3)在小型腫瘤(小於3公分)的偵測 門靜脈的分期 鄰近轉移的淋巴結,電腦 斷層的表現優於內視鏡超音波",
+      "(4)對於胰臟鉤突部(uncinated process)之穿刺,電腦斷層導引下細針穿刺術安 全性優於內視鏡超音波導引下細針穿刺",
+      "(5)所有胰臟腫瘤不管影像分析可不可切除,都ㄧ律建議做內視鏡超音波導引下細 針穿刺"
     ],
     "options": [
       "A. (1)+(3)+(4)",
@@ -8635,17 +8602,17 @@ const rawQuestions = [
       "D. (3)+(5)",
       "E. (3)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "110年度",
     "no": 92,
     "question": "常見的胰臟實質性腫瘤在內視鏡超音波下的特徵,以下何者為非?",
     "statements": [
-      "(1) 腺癌",
-      "(2) 神經內分泌腫瘤",
-      "(3) 偽腫瘤性胰臟炎",
-      "(4) 淋巴瘤"
+      "(1)腺癌(adenocarcinoma)為hypoechoic-poorly vascularized",
+      "(2) 神經內分泌腫瘤(neuroendocrine tumor)為hyperechoic-highly vascularized",
+      "(3)偽腫瘤性胰臟炎(pseudotumoral pancreatitis)為hypoechoic-highly vascularized",
+      "(4)淋巴瘤(lymphoma)為hypoechoic-differently vascularized"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -8661,9 +8628,9 @@ const rawQuestions = [
     "no": 93,
     "question": "關於胰臟囊泡性腫瘤(cystic tumor),以下何者為非?",
     "statements": [
-      "(1) 胰臟囊泡性腫瘤其中無症狀意外發現的甚可達到五成的比例",
+      "(1)胰臟囊泡性腫瘤其中無症狀意外發現的甚可達到五成的比例",
       "(2) Solid Pseudopapillary Tumor 本身是高惡性度惡性腫瘤",
-      "(3) Mucinous Cystic Neoplasm 目前多認為屬於癌前病變",
+      "(3) Mucinous Cystic Neoplasm 目前多認為屬於癌前病變(premalignant lesions)",
       "(4) Serous Cystic Adenoma 則幾乎不會產生惡性轉變",
       "(5) Intraductal Papillary Mucinous Neoplasm 是高惡性度惡性腫瘤"
     ],
@@ -8712,9 +8679,15 @@ const rawQuestions = [
   {
     "year": "110年度",
     "no": 96,
-    "question": "關於Acute Pancreatitis何者為非? A.可分為兩個phase B.第一個phase通常為持續一週,主要是以systemic symptoms表現及可能造成 organ failure C.第二個phase大部分在七天以後,並主要是以local complication 表現 D. Acute Pancreatitis 會引發multiple cytokines,包括Platelet activating factor (PAF) TNF- NF-B E.大約40-50% Acute Pancreatitis的病人疾病過程會恢復(interstitial pancreatitis)同時不會進展到第二phase",
+    "question": "關於Acute Pancreatitis何者為非?",
     "statements": [],
-    "options": [],
+    "options": [
+      "A. 可分為兩個phase",
+      "B. 第一個phase通常為持續一週,主要是以systemic symptoms表現及可能造成 organ failure",
+      "C. 第二個phase大部分在七天以後,並主要是以local complication 表現",
+      "D. Acute Pancreatitis 會引發multiple cytokines,包括Platelet activating factor (PAF) TNF- NF-B",
+      "E. 大約40-50% Acute Pancreatitis的病人疾病過程會恢復(interstitial pancreatitis)同時不會進展到第二phase"
+    ],
     "answer": "E"
   },
   {
@@ -8736,10 +8709,10 @@ const rawQuestions = [
     "no": 98,
     "question": "關於Autoimmune Pancreatitis(AIP)以下何者為非?",
     "statements": [
-      "(1) 可分為Type 1 AIP及Type 2 AIP",
+      "(1)可分為Type 1 AIP及Type 2 AIP",
       "(2) Type 1 AIP在histological feature 中沒有IgG4-positive cells",
       "(3) Type 2 AIP主要發生年齡在60-70 歲",
-      "(4) Inflammatory Bowel Disease",
+      "(4) Inflammatory Bowel Disease(IBD)是Type 1 AIP的associated disease",
       "(5) Type 1 AIP主要發生在female"
     ],
     "options": [
@@ -8791,7 +8764,7 @@ const rawQuestions = [
     "question": "何者不會降低LESP(Lower Esophageal Sphincter Pressure)?",
     "statements": [
       "(1) Nitrates, Calcium channel blockers",
-      "(2) Progesterone, Sildenafil",
+      "(2) Progesterone, Sildenafil (Viagra)",
       "(3) Mosapride, Prucalopride, Domperidone",
       "(4) Gastrin",
       "(5) Smoking, alcohol, fat, coffee, chocolate, peppermint"
@@ -8810,10 +8783,10 @@ const rawQuestions = [
     "no": 2,
     "question": "對於胃食道逆流性疾病(GERD)之敘述,何者不正確?",
     "statements": [
-      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD",
+      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD(Non-Erosive E Reflux Disease)或ENRD(Endoscopic Negative Reflux Disease).",
       "(2) Ambulatory 24-hour esophageal PH monitoring 如為正常,則可確定排除 GERD之診斷.",
-      "(3) 西方國家常以PPI",
-      "(4) GERD 之臨床症狀程度,常以LA分期",
+      "(3) 西方國家常以PPI(proton pump inhibitor)做2星期之empirical therapy, 依反應來認定GERD.",
+      "(4) GERD 之臨床症狀程度,常以LA分期(A B C D)來判定,可預測其 治療反應成效.",
       "(5) 臨床上出現dysphagia 時即表示 GERD已進行成BE,很可能再惡化為 adenocarcinoma."
     ],
     "options": [
@@ -8823,18 +8796,18 @@ const rawQuestions = [
       "D. (1)+(3)+(5)",
       "E. (2)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "111年度",
     "no": 3,
     "question": "有關GERD(Gastro-Esophageal Reflux Disease)之描述,何者不正確?",
     "statements": [
-      "(1) 臨床上最常見症狀為胸口灼熱,火燒心",
-      "(2) 內視鏡下 GERD 呈現NERD,ERD",
+      "(1) 臨床上最常見症狀為胸口灼熱,火燒心(heartburn)及胃酸逆流,返酸(acid C regurgitation).",
+      "(2) 內視鏡下 GERD 呈現NERD,ERD(RE:Reflux Esophagitis EE:Erosive Esophagits)及BE(Barrett's Esophagus)三種變化.",
       "(3) GERD 與H. pylori感染關係密切,幽門桿菌除菌成功,GERD隨之改善.",
-      "(4) 西方國家九十年代以來,食道鱗狀細胞癌",
-      "(5) GERD 若合併H. pylori感染,則不可給除菌治療,以免增加食道癌"
+      "(4) 西方國家九十年代以來,食道鱗狀細胞癌(SCC)減少,腺癌增加,歸功於 PPI 對GERD療效佳.",
+      "(5) GERD 若合併H. pylori感染,則不可給除菌治療,以免增加食道癌(SCC) 之機率."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -8843,18 +8816,18 @@ const rawQuestions = [
       "D. (2)+(4)+(5)",
       "E. 以上皆非"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "111年度",
     "no": 4,
     "question": "關於Barrett's Esophagus(BE)之描述,何者不正確?",
     "statements": [
-      "(1) BE病患有較高的 hiatal hernia 盛行率",
-      "(2) 長度大於 3mm 之BE稱為long segment BE",
-      "(3) LSBE 病例每年有10%會進展為adenocarcinoma",
+      "(1) BE病患有較高的 hiatal hernia 盛行率(prevalence).",
+      "(2) 長度大於 3mm 之BE稱為long segment BE(LSBE).",
+      "(3) LSBE 病例每年有10%會進展為adenocarcinoma(annual incidence of adenocarcinoma).",
       "(4) Bile acid, bile salt 對BE之癌變扮演腫瘤促進之角色,因此口服 ursodeoxycholic acid 可防止BE 之進展或癌變.",
-      "(5) 使用PPI 或抗胃酸逆流手術,並無法防止癌變或改善腸化生intestinal metaplasia"
+      "(5) 使用PPI 或抗胃酸逆流手術,並無法防止癌變或改善腸化生intestinal metaplasia(IM)."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -8871,10 +8844,10 @@ const rawQuestions = [
     "question": "有關食道動力學(esophageal motility)敍述何者正確?",
     "statements": [
       "(1) 食道上1/3段是平滑肌 下1/3段是橫紋肌.",
-      "(2) 食道平滑肌由一氧化氮",
+      "(2) 食道平滑肌由一氧化氮(NO)或乙醯膽鹼(acetylcholine)釋放來調節.",
       "(3) 食道次發性蠕動由周邊神經控制.",
-      "(4) 食道高壓性蠕動",
-      "(5) 全身性硬皮症"
+      "(4) 食道高壓性蠕動(Hypertensive esophagus 或稱nutcracker esophagus), 較常發生在年輕人.",
+      "(5) 全身性硬皮症(scleroderma, systemic sclerosis)會減弱遠端 2/3的食道蠕 動壓力."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -8890,11 +8863,11 @@ const rawQuestions = [
     "no": 6,
     "question": "有關食道賁門失弛緩症(賁門不張)(achalasia)的敘述,何者不正確?",
     "statements": [
-      "(1) Manometry常見aperistalsis,下食道括約肌resting LESP 高,relaxation 放鬆不全之變化.",
+      "(1) Manometry常見aperistalsis,下食道括約肌resting LESP 高,relaxation B 放鬆不全之變化.",
       "(2) 病人固體及液體食物皆吞嚥困難,平躺時易有 acid regurgitation及heart burn.",
-      "(3) 口服Nitrate或calcium channel blocker",
+      "(3) 口服Nitrate或calcium channel blocker(nifedipine diltiazem verapamil) 可減緩輕症病人之症狀.",
       "(4) Barium esophagogram 可見食道擴大,”bird's beak”及air in stomach fundus 等情形.",
-      "(5) 近年來POEM"
+      "(5) 近年來POEM(peroral endoscopic myotomy),Botox"
     ],
     "options": [
       "A. (1)+(3)",
@@ -8903,7 +8876,7 @@ const rawQuestions = [
       "D. (1)+(4)",
       "E. (4)+(5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "111年度",
@@ -8938,11 +8911,11 @@ const rawQuestions = [
     "no": 9,
     "question": "有關食道Caustic injury(corrosive esophagitis)之描述,何者不正確?",
     "statements": [
-      "(1) 強鹼",
-      "(2) 強酸",
-      "(3) 內視鏡檢查",
+      "(1) 強鹼(lye.button battery)造成較深的liquefactive necrosis,皂化,食道損 D 傷較重,食道易狹窄.",
+      "(2) 強酸(鹽酸 硫酸)造成較淺的coagulative necrosis,形成eschar,胃損傷 較重,前庭幽門部易狹窄,易acidosis,死亡率較強鹼高.",
+      "(3) 內視鏡檢查(EGD)要在24至48小時以內進行,5至15 天時忌作內視鏡 檢查,以防破裂 穿孔.",
       "(4) 食道穿孔易於1-2星期時發生,而食道或胃之狹窄易於 3-4 星期以後產生.",
-      "(5) 曾有caustic esophageal injury 病人,30-40 年以後產生食道癌"
+      "(5) 曾有caustic esophageal injury 病人,30-40 年以後產生食道癌(SCC)的機 率會增加."
     ],
     "options": [
       "A. (1)+(2)",
@@ -8951,7 +8924,7 @@ const rawQuestions = [
       "D. 以上皆正確",
       "E. 以上皆不正確"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "111年度",
@@ -8960,9 +8933,9 @@ const rawQuestions = [
     "statements": [
       "(1) Helicobacter pylori infection",
       "(2) Long-standing caustic strictures due to lye ingestion",
-      "(3) 長期接觸香煙 檳榔 酒",
+      "(3) 長期接觸香煙 檳榔 酒(tobacco betel nut alcohol)者",
       "(4) Laryngo-oropharyngeal cancer patient",
-      "(5) Barrett's esophagus"
+      "(5) Barrett's esophagus(BE)"
     ],
     "options": [
       "A. (1)+(2)",
@@ -9080,10 +9053,10 @@ const rawQuestions = [
     "statements": [],
     "options": [
       "A. Non-selective NSAID",
-      "B. Non-selective NSAID+proton pump inhibitor",
+      "B. Non-selective NSAID + proton pump inhibitor",
       "C. Cycloxygenase-2 inhibitor",
-      "D. Cycloxygenase-2 inhibitor+proton pump inhibitor",
-      "E. Cycloxygenase-2 inhibitor+sucrafate"
+      "D. Cycloxygenase-2 inhibitor + proton pump inhibitor",
+      "E. Cycloxygenase-2 inhibitor + sucrafate"
     ],
     "answer": "D"
   },
@@ -9092,10 +9065,10 @@ const rawQuestions = [
     "no": 17,
     "question": "下列有關gastric polyps 之描述何者正確?",
     "statements": [
-      "(1) 腺性息肉",
-      "(2) 基底腺息肉",
+      "(1) 腺性息肉(adenomatous polyp)約佔胃部息肉的25%",
+      "(2) 基底腺息肉(fundic gland polyp)好發於胃體部",
       "(3) 基底腺息肉癌化機會不高,一般不需要切除",
-      "(4) 增生性息肉",
+      "(4) 增生性息肉(hyperplastic polyp)最常發生在胃竇部",
       "(5) 腺瘤性息肉是一種癌前病變,建議切除"
     ],
     "options": [
@@ -9152,7 +9125,7 @@ const rawQuestions = [
     "no": 20,
     "question": "下列有關Barrett’s esophagus 之描述何者正確?",
     "statements": [
-      "(1) 依照Monstreal Consensus 之標準,Barrett’s esophagus 系指食道的 squamous epithelium 產生gastric metaplasia 或intestinal metaplasia.",
+      "(1) 依照Monstreal Consensus 之標準,Barrett’s esophagus 系指食道的 B squamous epithelium 產生gastric metaplasia 或intestinal metaplasia.",
       "(2) Barrett’s esophagus 主要是因為慢性胃食道逆流而產生.",
       "(3) long segment Barrett’s esophagus 是指 esophageal metaplastic epithelium 之長度超過2公分.",
       "(4) Barrett’s esophagus 在追蹤過程中若發現產生high-grade dysplasia,建議以 內視鏡術根除.",
@@ -9165,7 +9138,7 @@ const rawQuestions = [
       "D. (2)+(4)+(5)",
       "E. (2)+(4)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "111年度",
@@ -9203,8 +9176,8 @@ const rawQuestions = [
       "(1) Differentiated type,沒有黏膜下侵犯,大小約2.5cm,沒有ulceration",
       "(2) Undifferentiated type,沒有黏膜下侵犯,大小約2.5cm,沒有ulceration",
       "(3) Differentiated type,沒有黏膜下侵犯,大小約2.5cm,有ulceration",
-      "(4) Differentiated type,超過三分之一",
-      "(5) Undifferentiated type,超過三分之一"
+      "(4) Differentiated type,超過三分之一(500um)黏膜下侵犯,大小約2.5cm",
+      "(5) Undifferentiated type,超過三分之一(500um)黏膜下侵犯,大小約2.5cm"
     ],
     "options": [
       "A. (5)",
@@ -9221,8 +9194,10 @@ const rawQuestions = [
     "question": "胃淋巴癌最常見的種類為何?",
     "statements": [],
     "options": [
-      "A. Marginal zone B cell lymphoma of mucosa-associated lymphoid tissue (MALToma or MALT lymphoma)",
-      "B. Diffuse large B cell lymphoma",
+      "A. Marginal zone",
+      "B. cell lymphoma of mucosa-associated lymphoid tissue (MALToma or MALT lymphoma)",
+      "B. Diffuse large",
+      "B. cell lymphoma",
       "C. Mantle cell lymphoma",
       "D. Burkitt lymphoma",
       "E. Follicular lymphoma"
@@ -9235,8 +9210,8 @@ const rawQuestions = [
     "question": "有關胃腸間質瘤(gastrointestinal stromal tumor, GIST)之敘述,何者為是?",
     "statements": [
       "(1) 胃腸間質瘤最常發生於小腸",
-      "(2) 常有KIT",
-      "(3) 有Platelet derived growth factor receptor",
+      "(2) 常有KIT(CD117)基因突變",
+      "(3) 有Platelet derived growth factor receptor(PDGRA)基因突變的 GIST較有 NF1基因突變的 GIST少",
       "(4) 胃腸間質瘤很少侵犯淋巴結,手術切除時通常不需做淋巴廓清",
       "(5) 對於無法手術切除或轉移性胃腸間質瘤,Imatinib 可做為第一線治療"
     ],
@@ -9314,11 +9289,11 @@ const rawQuestions = [
     "no": 29,
     "question": "以下有關十二指腸癌的敘說,何者不正確?",
     "statements": [
-      "(1) 原發性腺癌",
-      "(2) 轉移而來的較多見,在第二部分",
-      "(3) 原發的以壺腹周圍癌症",
-      "(4) 壺腹周圍癌中以胰臟頭部癌",
-      "(5) 壺腹周圍癌中以華特氏乳頭癌"
+      "(1) 原發性腺癌(adenocarcinoma)以球部(bulb)最為常見",
+      "(2) 轉移而來的較多見,在第二部分(2nd portion)為多",
+      "(3) 原發的以壺腹周圍癌症(periampullary cancer)較為常見",
+      "(4) 壺腹周圍癌中以胰臟頭部癌(pancreatic head cancer)最為常見",
+      "(5) 壺腹周圍癌中以華特氏乳頭癌(Vater’s papilla cancer, ampulla of Vater) 最為少見"
     ],
     "options": [
       "A. (1)+(2)",
@@ -9334,7 +9309,7 @@ const rawQuestions = [
     "no": 30,
     "question": "就胃癌的病理學而言,下列何者有誤?",
     "statements": [
-      "(1) Lauren 依組織型態而分為腸型及瀰漫型,前者預後較佳,與幽門桿菌感染較 有關係.",
+      "(1) Lauren 依組織型態而分為腸型及瀰漫型,前者預後較佳,與幽門桿菌感染較 B 有關係.",
       "(2) 早期癌定義為癌細胞只侵犯黏膜或黏膜下層,而無淋巴結移轉者.",
       "(3) 早期癌治療成果,5年存活率可大於90%,遠高於進行性癌的50%.",
       "(4) 早期癌的治療方式,依個案而定,可採用 EMR ESD或外科手術.",
@@ -9347,7 +9322,7 @@ const rawQuestions = [
       "D. (4)+(5)",
       "E. (5)+(1)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "111年度",
@@ -9427,7 +9402,8 @@ const rawQuestions = [
       "B. Men(男性)",
       "C. Obesity(肥胖)",
       "D. Smoking(抽煙)",
-      "E. Vitamin D deficiency(維他命D缺乏)"
+      "E. Vitamin",
+      "D. deficiency(維他命D缺乏)"
     ],
     "answer": "B"
   },
@@ -9466,7 +9442,7 @@ const rawQuestions = [
     "statements": [
       "(1) 家族性Peutz-Jeghers 症候群容易有消化道癌症 胰臟癌 乳癌.",
       "(2) 息肉可發現於胃 小腸 大腸,但以小腸最明顯.",
-      "(3) 患者常有皮膚黏膜色素沉著",
+      "(3) 患者常有皮膚黏膜色素沉著(Mucocutaneous pigmentation),常見於嘴 鼻 唇 頰黏膜 手與足.",
       "(4) Peutz-Jeghers 症候群有可能引起小腸阻塞.",
       "(5) Peutz-Jeghers 症候群有80%的家族都有PTEN 突變."
     ],
@@ -9484,11 +9460,11 @@ const rawQuestions = [
     "no": 39,
     "question": "(Familial adenomatous polyposis, FAP),以下敘述何者是正確的?",
     "statements": [
-      "(1) 典型的家族性腺息肉群症",
+      "(1) 典型的家族性腺息肉群症(Classic FAP)是APC 基因突變.",
       "(2) FAP最常見之胃息肉為 Fundic gland polyp.",
-      "(3) 當息肉較大或產生大腸癌時,病人易有血便",
+      "(3) 當息肉較大或產生大腸癌時,病人易有血便(Hematochezia) 腹瀉 (diarrhea) 和腹痛(Abdominal pain)症狀.",
       "(4) 90%的家族性腺息肉群症患者在50歲被診斷.",
-      "(5) GAPPS"
+      "(5) GAPPS(Gastric adenocarcinoma with proximal polyposis of the stomach) 和FAP不同,有很高的胃癌(Gastric adenocarcinoma)機率."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -9504,11 +9480,11 @@ const rawQuestions = [
     "no": 40,
     "question": "有關放射性腸炎(Radiation colitis),以下敘述何者是正確的?",
     "statements": [
-      "(1) 症狀包括腹瀉",
+      "(1) 症狀包括腹瀉(diarrhea) 急迫(Urgency) 裡急後重(Tenesmus) 失禁 E (Incontinence),及黏液狀或血性直腸分泌物(Mucoid or bloody rectal discharge).通常在接受放療後2到3周發生,在放療結束後數周到3個月 後結束.",
       "(2) 慢性變化可能在放療結束後6個月到2年內發生,如同急性症狀.",
-      "(3) 病患的症狀可能和發炎性腸道疾病",
-      "(4) 治療主要先症狀治療",
-      "(5) 短鏈脂肪酸"
+      "(3) 病患的症狀可能和發炎性腸道疾病(Inflammatory bowel disease)很像.",
+      "(4) 治療主要先症狀治療(symptom control),可以使用抗蠕動劑(Anti-motility agents)如Loperamide.含類固醇的栓劑(Glucocorticoid-containing suppositories)可能對直腸發炎患者有幫助.",
+      "(5) 短鏈脂肪酸(short-chain fatty acids)及胺基酸衍生物(amino acid derivatives)對急性直腸炎患者的大腸黏膜滋養與保護有幫助."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -9517,7 +9493,7 @@ const rawQuestions = [
       "D. (1)+(2)+(4)+(5)",
       "E. 以上皆正確 第41-43 題為題組"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "111年度",
@@ -9572,9 +9548,9 @@ const rawQuestions = [
     "no": 44,
     "question": "關於大腸直腸癌的描述,下列何者正確?",
     "statements": [
-      "(1) 於50歲以上所發生的大腸直腸癌中,因 Lynch syndrome 所造成的大腸癌約 佔3%.",
-      "(2) 於50歲以上所發生的大腸直腸癌中,90%屬於偶發性大腸癌,與生殖系基因 突變",
-      "(3) 於小於50歲所發生的年輕型大腸直腸癌中,只有40%屬於偶發性大腸直腸 癌,與生殖系基因突變",
+      "(1) 於50歲以上所發生的大腸直腸癌中,因 Lynch syndrome 所造成的大腸癌約 D 佔3%.",
+      "(2) 於50歲以上所發生的大腸直腸癌中,90%屬於偶發性大腸癌,與生殖系基因 突變(germline variants)無關.",
+      "(3) 於小於50歲所發生的年輕型大腸直腸癌中,只有40%屬於偶發性大腸直腸 癌,與生殖系基因突變(germline variants)無關.",
       "(4) 於小於50歲所發生的大腸直腸癌中,因 Lynch syndrome 所造成的大腸癌約 佔30%.",
       "(5) 於50歲以上所發生的大腸直腸癌中,因 Lynch syndrome 所造成的大腸癌約 佔10%."
     ],
@@ -9585,7 +9561,7 @@ const rawQuestions = [
       "D. (1)+(2)+(5)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "111年度",
@@ -9612,11 +9588,11 @@ const rawQuestions = [
     "no": 46,
     "question": "下列描述小於50歲所發生的年輕型大腸直腸癌(early-age onset CRC)何者正 確?",
     "statements": [
-      "(1) 年輕型大腸直腸癌最常造成的症狀為便血",
+      "(1) 年輕型大腸直腸癌最常造成的症狀為便血(hematochezia).",
       "(2) 相較於50歲以上所發生的大腸直腸癌,年輕型大腸直腸癌的晚期大腸癌比例 較高.",
       "(3) 相較於50歲以上所發生的大腸直腸癌,年輕型大腸直腸癌的存活預後較差.",
       "(4) 年輕型大腸直腸癌相較於50歲以上所發生的大腸直腸癌有較高的比例發生 在右側大腸.",
-      "(5) 在年輕型大腸直腸癌的組織型態中,為黏液細胞癌"
+      "(5) 在年輕型大腸直腸癌的組織型態中,為黏液細胞癌(Mucinous carcinoma) 或是戒指細胞癌(signet ring cell carcinoma)的比例較低."
     ],
     "options": [
       "A. (1)",
@@ -9633,7 +9609,7 @@ const rawQuestions = [
     "question": "對於T1大腸直腸癌(colorectal cancer)的描述,下列何者正確?",
     "statements": [
       "(1) 在所有被診斷的大腸直腸癌中,大約15-30%為T1 大腸直腸癌.",
-      "(2) 癌侵犯先端的細胞數",
+      "(2) 癌侵犯先端的細胞數(tumor budding)若大於五個,則有較高的淋巴結轉移 風險.",
       "(3) T1大腸直腸癌中有淋巴結轉移的比例不到5%.",
       "(4) 癌細胞侵犯深度不超過黏膜下5,000 um,則淋巴結轉移風險較低."
     ],
@@ -9653,7 +9629,7 @@ const rawQuestions = [
     "statements": [
       "(1) 分為Interval type 和non-interval type.",
       "(2) Interval type PCCRC 主要和大腸鏡品質有關.",
-      "(3) 發炎性腸道疾病",
+      "(3) 發炎性腸道疾病(Inflammatory bowel disease)和遺傳性大腸癌症候群 (hereditary colorectal cancer syndrome)皆為PCCRC 的高風險族群.",
       "(4) 至少50%的PCCRC是因為不良的大腸鏡品質所遺漏的病灶所造成."
     ],
     "options": [
@@ -9698,8 +9674,8 @@ const rawQuestions = [
     "question": "下列針對C型肝炎病毒感染之再次治療,全口服藥物治療之選擇評估,何者為 是?",
     "statements": [
       "(1) 病毒耐藥性發生是DAA治療失敗的主要原因之一",
-      "(2) 針對使用第一代protease inhibitor",
-      "(3) 針對使用 glecaprevir/pibrentasvir",
+      "(2) 針對使用第一代protease inhibitor(PI)聯合第一代NS5A抑制劑治療失敗 患者,再次治療選擇包括velpatasvir/sofosbuvir.",
+      "(3) 針對使用 glecaprevir/pibrentasvir(G/P)治療失敗患者,再次治療選擇包括 12週velpatasvir/sofosbuvir/voxilaprevir 治療.",
       "(4) 針對使用 glecaprevir/pibrentasvir 治療失敗患者,再次治療選擇也可以考慮 G/P+sofosbuvir+ribavirin.",
       "(5) 針對使用 sofosbuvir 聯合 NS5A抑制劑治療失敗患者,再次治療主要選擇是 velpatasvir/sofosbuvir/voxilaprevir."
     ],
@@ -9717,7 +9693,7 @@ const rawQuestions = [
     "no": 52,
     "question": "下列有關B型病毒感染,治療本身可否降低肝細胞癌發生風險之描述,何者正確?",
     "statements": [
-      "(1) 已經發生肝硬化的慢性B型肝炎患者,長期使用口服抗病毒藥物可以降低肝 細胞癌發生的風險.",
+      "(1) 已經發生肝硬化的慢性B型肝炎患者,長期使用口服抗病毒藥物可以降低肝 B 細胞癌發生的風險.",
       "(2) 無肝硬化存在的慢性B型肝炎患者,短期使用口服抗病毒藥物是否可以降低 肝細胞癌發生的風險仍有爭議,歐洲的臨床觀察發現持續使用口服抗病毒藥 物五年內肝細胞癌風險並未降低.",
       "(3) 抗病毒藥物選擇本身是否與肝細胞癌風險降低程度有關仍有爭議.",
       "(4) 慢性B型肝炎患者長期使用口服抗病毒藥物時,與肝細胞癌發生風險有關的 因子包括age, gender, MELD score, FIB-4 score, DM等.",
@@ -9730,7 +9706,7 @@ const rawQuestions = [
       "D. (1)+(4)+(5)",
       "E. (1)+(3)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "111年度",
@@ -9741,7 +9717,7 @@ const rawQuestions = [
       "(2) 存在肝細胞癌",
       "(3) 缺乏依從性",
       "(4) 特殊的HCV基因型亞型",
-      "(5) 特殊的C型肝炎病毒耐藥相關突變"
+      "(5) 特殊的C型肝炎病毒耐藥相關突變(resistance-associated substitutions, RASs)"
     ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
@@ -9777,7 +9753,7 @@ const rawQuestions = [
     "no": 55,
     "question": "下列有關肝膿瘍(liver abscess)的臨床診斷與處置,何者為非?",
     "statements": [
-      "(1) Klebsiella pneumonia 是東南亞地區造成肝膿瘍的獨特致病細菌,可能會導 致嚴重的肝臟外併發症.",
+      "(1) Klebsiella pneumonia 是東南亞地區造成肝膿瘍的獨特致病細菌,可能會導 D 致嚴重的肝臟外併發症.",
       "(2) 肝臟膿瘍若是因細菌感染引起,除了給予抗生素以外,應進行引流以加速癒 合.",
       "(3) 肝臟膿瘍若是因細菌感染引起,施予靜脈注射第一代頭孢子素即可以完全控 制感染.",
       "(4) 除了處理肝臟膿瘍以外,要注意肝外併發症的發生.",
@@ -9790,14 +9766,14 @@ const rawQuestions = [
       "D. (3)+(5)",
       "E. (3)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "111年度",
     "no": 56,
     "question": "七十歲男性,有C型肝炎病史三十年合併肝硬化十年,最近一年出現腹水.主訴 最近一個月腹部腫脹加重微感疼痛,最近兩天體溫38°C.試問下列敘述,何者為 是?",
     "statements": [
-      "(1) 病人極有可能肝硬化合併腹水,併發自發性細菌性腹膜炎",
+      "(1) 病人極有可能肝硬化合併腹水,併發自發性細菌性腹膜炎(spontaneous bacterial peritonitis, SBP).",
       "(2) 應進行腹水檢查,檢測白血球數目,>500 PMNs/microliter 是診斷SBP 的重 要依據.",
       "(3) 應排除次發性細菌性腹膜炎的可能性,如盲腸炎.",
       "(4) 自發性細菌性腹膜炎與次發性細菌性腹膜炎的致病細菌種類類似,可以採用 相同的抗生素治療.",
@@ -9818,7 +9794,7 @@ const rawQuestions = [
     "question": "六十歲男性,有 B型肝炎病史三十年,未定期追蹤檢查.主訴最近一個星期疲倦 胃口變差,體重增加10公斤.理學檢查發現腹側部腫脹肚臍外凸,右側肋骨下 觸摸不到肝臟邊緣;上軀幹有明顯蜘蛛痣(spider nevi),兩側手掌有紅斑(palmar erythema).試問下列敘述,何者為是?",
     "statements": [
       "(1) 病人極有可能產生肝硬化合併腹水.",
-      "(2) 若是第一次發現腹水,應進行腹水檢查,檢測 serum-ascites albumin gradient",
+      "(2) 若是第一次發現腹水,應進行腹水檢查,檢測 serum-ascites albumin gradient (SAAG)以鑑別診斷並排除其他原因.",
       "(3) 若已經進展至失代償肝硬化,口服抗B型肝炎病毒藥物沒有任何效果.",
       "(4) 檢測B型肝炎病毒濃度,有助於評估治療效果以及預後.",
       "(5) 應照會肝臟移植小組,評估肝臟移植的可行性."
@@ -9837,10 +9813,10 @@ const rawQuestions = [
     "no": 58,
     "question": "四十歲肥胖婦女於健康檢查時,腹部超音波發現有脂肪肝.試問下列敘述或處 置,何者為是?",
     "statements": [
-      "(1) 若無飲酒情形,有可能是非酒精性脂肪肝病",
-      "(2) 非酒精性脂肪肝病有超過50%機率會進展成非酒精性脂性肝炎",
+      "(1) 若無飲酒情形,有可能是非酒精性脂肪肝病(non-alcoholic fatty liver disease, NAFLD).",
+      "(2) 非酒精性脂肪肝病有超過50%機率會進展成非酒精性脂性肝炎 (non-alcoholic steatohepatitis, NASH).",
       "(3) 非酒精性脂性肝炎的確診可以依賴一般腹部超音波檢查.",
-      "(4) 非酒精性脂肪肝常伴隨肥胖或糖尿病,目前又稱為代謝異常相關脂肪肝",
+      "(4) 非酒精性脂肪肝常伴隨肥胖或糖尿病,目前又稱為代謝異常相關脂肪肝 (metabolic dysfunction associated fatty liver disease, MAFLD).",
       "(5) 瘦子族群不會發生脂肪肝."
     ],
     "options": [
@@ -9859,7 +9835,7 @@ const rawQuestions = [
     "statements": [
       "(1) 臨床觀察以中年男性居多",
       "(2) 病理上可以觀察到中大型膽管細胞的發炎壞死",
-      "(3) UDCA",
+      "(3) UDCA(ursodeoxycholic acid)被證實可以減緩PBC的惡化",
       "(4) 末期進展至失代償肝硬化的PBC患者,換肝手術是唯一有效的治療",
       "(5) Anti-mitochondrial antibody 檢測對疾病診斷有幫忙,但5-10%患者此 antibody 檢測結果是陰性的"
     ],
@@ -9877,8 +9853,8 @@ const rawQuestions = [
     "no": 60,
     "question": "有關懷孕期間出現的肝臟疾病處置,下列描述何者為非?",
     "statements": [
-      "(1) AFLP",
-      "(2) HELLP",
+      "(1) AFLP(acute fatty liver of pregnancy)主要發生在懷孕第三期(third E trimester),肝臟病理主要呈現為peri-portal zone (zone 1) microvesicular fatty infiltration,盡快 delivery 是主要的治療方法.",
+      "(2) HELLP(Hemolysis, Elevated Liver enzymes, Low Platelets syndrome)主 要發生在懷孕第三期(third trimester),盡快delivery 是主要的治療方法.",
       "(3) 懷孕期間,慢性B型肝炎可以考慮使用之口服抗病毒藥物包括entecavir 和 telbivudine.",
       "(4) 預防母嬰垂直感染B型肝炎病毒,臺灣健保規定如下:孕婦血清中 B型肝炎 病毒超過1,000,000 IU/mL 時,可以考慮在懷孕第三期使用口服抗病毒藥物, 用藥期間為懷孕滿27週至產後4週.",
       "(5) 慢性C型肝炎孕婦若肝功能異常且血清病毒RNA含量高,可以使用口服全 基因型抗病毒藥物治療C型肝炎."
@@ -9890,7 +9866,7 @@ const rawQuestions = [
       "D. (1)+(2)+(4)",
       "E. (2)+(4)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "111年度",
@@ -9920,7 +9896,7 @@ const rawQuestions = [
       "(1) 失代償肝硬化病患,反覆發生嚴重腹水以及食道靜脈瘤出血是接受肝移植的 條件之一.",
       "(2) 失代償肝硬化病患,發生肝細胞癌是接受肝移植的禁忌症之一.",
       "(3) 嚴重心血管疾病以及肝外癌症存在也是肝移植的禁忌症.",
-      "(4) Model for End-Stage Liver Disease",
+      "(4) Model for End-Stage Liver Disease(MELD)可以協助評估肝病嚴重度,常 用來決定肝移植的優先順序.",
       "(5) 在台灣最常見肝移植的原因是病毒性肝炎導致失代償肝硬化."
     ],
     "options": [
@@ -9977,10 +9953,10 @@ const rawQuestions = [
     "no": 65,
     "question": "下列關於核(苷)酸類似物(nucleoside or nucleotide analogs)在慢性 B型肝炎之 治療,何者描述正確?",
     "statements": [
-      "(1) 針對HBeAg陽性患者須長期使用,直到 e抗原血清陰轉,再施予鞏固療法一 年,可以降低停藥後復發",
+      "(1) 針對HBeAg陽性患者須長期使用,直到 e抗原血清陰轉,再施予鞏固療法一 年,可以降低停藥後復發(relapse)的機率.",
       "(2) 針對HBeAg陰性患者須終身使用口服藥,因為停藥後病毒學復發與臨床復發 的機率非常高.",
       "(3) 針對肝硬化患者須避免終身使用口服藥,因為會降低功能性痊癒的機會.",
-      "(4) 準備停藥當下可以檢測血清HBsAg濃度,一般而言 HBsAg 濃度越低",
+      "(4) 準備停藥當下可以檢測血清HBsAg濃度,一般而言 HBsAg 濃度越低(例如 小於100 ng/mL)停藥後復發機率愈低.",
       "(5) 停藥後一旦發生病毒學復發,應馬上給予抗病毒藥物治療避免肝失代償風險."
     ],
     "options": [
@@ -10017,8 +9993,8 @@ const rawQuestions = [
     "no": 67,
     "question": "依據2018 AASLD Guidelines for the Treatment of Hepatocellular Carcinoma, 下列何者敘述正確?",
     "statements": [
-      "(1) The AASLD suggests that patients beyond the Milan criteria",
-      "(2) The AASLD recommends LRT over no treatment in adults with cirrhosis and HCC",
+      "(1) The AASLD suggests that patients beyond the Milan criteria (T3) should be considered for liver trans-plantation after successful downstaging into the Milan criteria.",
+      "(2) The AASLD recommends LRT over no treatment in adults with cirrhosis and HCC (T2 or T3, no vascular involvement) who are not candidates for resection or transplantation.",
       "(3) The AASLD suggests routine use of adjuvant therapy for patients with HCC following successful resection or ablation.",
       "(4) The AASLD suggests not performing surveillance of patients with Child-Pugh class C cirrhosis unless they are on the transplant waiting list."
     ],
@@ -10040,7 +10016,7 @@ const rawQuestions = [
       "(2) LI-RADS 5 indicates definite HCC.",
       "(3) “a small nodular area of CT/MR arterial phase hyperenhancement, which is not present on other phases” is classified as LI-RADS 2.",
       "(4) “a ≥2-cm encapsulated lesion with CT/MR arterial phase hyperenhancement, but without “washout” is classified as LI-RADS 4.",
-      "(5) “a ≥2-cm lesion that enhances to the same degree as liver in the CT/MR arterial phase, but enhances less"
+      "(5) “a ≥2-cm lesion that enhances to the same degree as liver in the CT/MR arterial phase, but enhances less (i.e., is hypoenhanced) in the postarterial phases” is classified as LI-RADS 4."
     ],
     "options": [
       "A. (1)+(4)",
@@ -10055,13 +10031,7 @@ const rawQuestions = [
     "year": "111年度",
     "no": 69,
     "question": "關於Liver Imaging Reporting and Data System (LI-RADS) system,下列敘述何 者錯誤?",
-    "statements": [
-      "(1) A LI-RADS 2 lesion has an average probability of HCC of 33%.",
-      "(2) A LI-RADS 4 lesion has an average probability of HCC of 80%.",
-      "(3) For LI-RADS M lesions, 42% had HCC and 57% had another tumor besides HCC.",
-      "(4) 6%-15% of LI-RADS 3 lesions followed prospectively were diagnosed as HCC or other malignancy by 24 months.",
-      "(5) Threshold growth"
-    ],
+    "statements": [],
     "options": [
       "A. (1)+(5)",
       "B. (1)",
@@ -10076,10 +10046,8 @@ const rawQuestions = [
     "no": 70,
     "question": "依據2018 AASLD practice guidance,關於HCC診斷,下列敘述何者正確?",
     "statements": [
-      "(1) Diagnosis of HCC can be made by imaging in patients without cirrhosis, if enhancement and washout are present.",
-      "(2) Histological markers GPC3, HSP70, and GS can be assessed to distinguish high-grade dysplasia from HCC on histology if HCC cannot be diagnosed based on routine histology.",
-      "(3) A lesion of >1 cm on ultrasound",
-      "(4) If using AFP with US, then an AFP >20 ng/mL should trigger recall procedures for diagnosis of HCC."
+      "(1) Diagnosis of HCC can be made by imaging in patients without cirrhosis, if D enhancement and washout are present.",
+      "(2) Histological markers GPC3, HSP70, and GS can be assessed to distinguish high-grade dysplasia from HCC on histology if HCC cannot be diagnosed based on routine histology."
     ],
     "options": [
       "A. (1)",
@@ -10088,7 +10056,7 @@ const rawQuestions = [
       "D. (2)+(3)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "111年度",
@@ -10109,10 +10077,7 @@ const rawQuestions = [
     "no": 72,
     "question": "依據BCLC 2022 update,下列何者錯誤?",
     "statements": [
-      "(1) For solitary HCC, the presence of CSPH",
-      "(2) For BCLC A, multifocal disease still within the Milan criteria is better served by liver transplantation",
-      "(3) For BCLC 0, LT is not considered.",
-      "(4) BCLC A is defined as solitary HCC irrespective of size or as a multifocal HCC up to 3 nodules"
+      "(1) For solitary HCC, the presence of CSPH (defined by a hepatic venous"
     ],
     "options": [
       "A. (3)",
@@ -10121,7 +10086,7 @@ const rawQuestions = [
       "D. (3)+(4)",
       "E. (2)+(5)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "111年度",
@@ -10130,7 +10095,7 @@ const rawQuestions = [
     "statements": [
       "(1) The treatment options include LT, TACE and systemic therapy.",
       "(2) AFP higher than 1,000 ng/dl is currently applied as an exclusion criterion of LT in BCLC B HCC.",
-      "(3) BCLC B patients with an AFP >1,000 ng/ml who experienced biochemical response",
+      "(3) BCLC B patients with an AFP >1,000 ng/ml who experienced biochemical response (at least a decrease to less than 500 ng/ml) to locoregional therapies have post-LT outcomes inferior to those reported for patients within Milan criteria.",
       "(4) For patients to be candidates for TACE, increased bilirubin beyond 2 mg or slight fluid retention requiring diuretic treatment are suboptimal survival after TACE."
     ],
     "options": [
@@ -10166,11 +10131,11 @@ const rawQuestions = [
     "no": 75,
     "question": "關於HCC systemic therapy 的敘述下列何者正確?",
     "statements": [
-      "(1) Systemic chemotherapy with doxorubicin or FOLFOX did not demonstrate survival benefits.",
-      "(2) Lenvatinib targets VEGFR1-3; fibroblast growth factor receptor",
+      "(1) Systemic chemotherapy with doxorubicin or FOLFOX did not demonstrate D survival benefits.",
+      "(2) Lenvatinib targets VEGFR1-3; fibroblast growth factor receptor (FGFR1-4); platelet-derived growth factor receptor a, RET, and KIT.",
       "(3) Cabozantinib is a MET, VEGFR2 and RET inhibitor approved for thyroid, renal cancer and HCC.",
       "(4) Ramucirumab is a monoclonal antibody targeting VEGFR 1-3.",
-      "(5) Atezolizumab plus cabozantinib showed a superiority to sorafenib in median progression-free survival"
+      "(5) Atezolizumab plus cabozantinib showed a superiority to sorafenib in median progression-free survival (PFS)."
     ],
     "options": [
       "A. (1)+(2)",
@@ -10179,17 +10144,16 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "111年度",
     "no": 76,
     "question": "依據2018 AASLD Guidelines for the Treatment of Hepatocellular Carcinoma, 下列何者敘述正確?",
     "statements": [
-      "(1) The AASLD suggests surveillance using ultrasound",
+      "(1) The AASLD suggests surveillance using ultrasound (US) with or without alpha-fetoprotein (AFP) every 6 months.",
       "(2) The AASLD suggests observation with follow-up imaging over treatment for patients with cirrhosis awaiting liver transplantation who develop T1 HCC.",
-      "(3) The AASLD suggests that adults with Child-Pugh class A cirrhosis and resectable T1 or T2 HCC undergo resection over radiofrequency ablation.",
-      "(4) The AASLD suggests bridging to transplant in patients listed for liver transplantation within OPTN T2"
+      "(3) The AASLD suggests that adults with Child-Pugh class"
     ],
     "options": [
       "A. (2)+(3)+(4)",
@@ -10205,10 +10169,10 @@ const rawQuestions = [
     "no": 77,
     "question": "關於HCC systemic therapy,依據phase 3 clinical trials的結果,下列敘述何者 正確?",
     "statements": [
-      "(1) Atezolizumab + Bevacizumab 在一線systemic therapy,objective response rate",
+      "(1) Atezolizumab + Bevacizumab 在一線systemic therapy,objective response rate (ORR) >30%.",
       "(2) Himalaya trial受試者,non-viral HCC比例>40%.",
-      "(3) Tremelimumab",
-      "(4) Median progression-free survival"
+      "(3) Tremelimumab (300 mg, one dose) plus durvalumab (1500 mg every 4 weeks; STRIDE)的median progression-free survival (PFS)超越sorafenib.",
+      "(4) Median progression-free survival (PFS),lenvatinib不亞於Atezolizumab + Bevacizumab."
     ],
     "options": [
       "A. (1)",
@@ -10243,10 +10207,10 @@ const rawQuestions = [
     "no": 79,
     "question": "關於Cholangiocarconoma(CCA)的敘述,下列何者正確?",
     "statements": [
-      "(1) Adjuvant chemotherapy with capecitabine for 6 months after surgical resection with curative intent is recommended for intrahepatic CCA, S-1 is an alternative option.",
+      "(1) Adjuvant chemotherapy with capecitabine for 6 months after surgical D resection with curative intent is recommended for intrahepatic CCA, S-1 is an alternative option.",
       "(2) Liver transplantation is a potentially curative option for intrahepatic and perihilar CCA.",
-      "(3) FOLFOX",
-      "(4) Durvalumab plus Gemcitabine and Cisplatin significantly improved overall survival",
+      "(3) FOLFOX (folinic acid, fluorouracil and oxaliplatin) can be recommended as second- line standard of care chemotherapy.",
+      "(4) Durvalumab plus Gemcitabine and Cisplatin significantly improved overall survival (OS) versus Gemcitabine plus Cisplatin for advanced biliary tract cancer.",
       "(5) Cirrhosis is one of the risk factors of intrahepatic CCA."
     ],
     "options": [
@@ -10256,14 +10220,14 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)+(5)",
       "E. (1)+(2)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "111年度",
     "no": 80,
     "question": "關於HCC image diagnostic performance 的敘述,下列何者正確?",
     "statements": [
-      "(1) Dynamic plus hepatobiliary phase MRI had a higher sensitivity and negative predictive value than multiphasic CT and dynamic phase MRI alone.",
+      "(1) Dynamic plus hepatobiliary phase MRI had a higher sensitivity and negative D predictive value than multiphasic CT and dynamic phase MRI alone.",
       "(2) Gadoxetic acid is unique in that approximately 50% of the administrated dose is taken up by the hepatocytes and excreted into the bile ducts.",
       "(3) On gadoxetic acid enhanced MRI, hypo-intensity on hepatobiliary phase is regarded as an ancillary finding favoring malignancy.",
       "(4) Gadoxetic acid-enhanced MRI has a higher sensitivity for detecting nodules that are either HCC not displaying the typical features of imaging hallmarks or high-grade dysplastic nodules."
@@ -10275,7 +10239,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)",
       "E. (2)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "111年度",
@@ -10286,7 +10250,7 @@ const rawQuestions = [
       "(2) 照會外科行膽囊切除術與總膽管取石.",
       "(3) 偕同麻醉科施行ERCP,如有結石再施行 EST取石.",
       "(4) 偕同麻醉科不論總膽管是否有結石,直接施行 ERCP/EST/膽管結石清除.",
-      "(5) 症狀改善不需後續治療. 正常值"
+      "(5) 症狀改善不需後續治療. 正常值(單位:IU/L):ALT:7-56,AST:5-35,ALP:38-126,r-GT:8-78, Amylase:30-110,Lipase:7-60."
     ],
     "options": [
       "A. (2)或(4)",
@@ -10304,8 +10268,8 @@ const rawQuestions = [
     "statements": [
       "(1) 在亞洲肝外膽管癌盛行率較肝內膽管癌高.",
       "(2) 晚期癌症目前以gemcitabine and cisplatin 化療為有效的第一線的治療.",
-      "(3) 肝內膽管癌中fibroblast growth factor receptor 2",
-      "(4) 免疫檢查點抑制劑"
+      "(3) 肝內膽管癌中fibroblast growth factor receptor 2 (FGFR2) fusion 和 isocitrate dehydrogenase (IDH)1/2 mutations 驅動因子突變(driver mutation),目前有標靶藥物抑制.",
+      "(4) 免疫檢查點抑制劑(immune check point inhibitor)在Programmed death ligand 1 (PD-L1) protein expression, mismatch repair deficiency (dMMR)/microsatellite instability high (MSI-H), high tumor mutational burden (TMB),預期有較佳療效."
     ],
     "options": [
       "A. (2)+(4)",
@@ -10322,7 +10286,7 @@ const rawQuestions = [
     "question": "關於原發性硬化膽管炎(primary sclerosing cholangitis)的描述,下列何者為真:",
     "statements": [
       "(1) 好發於年輕男性.",
-      "(2) 高達50-75%合併有潰瘍性大腸炎",
+      "(2) 高達50-75%合併有潰瘍性大腸炎(ulcerative colitis).",
       "(3) 以肝臟切片後確診後開始治療.",
       "(4) 在病患開始有食道靜脈瘤出血,膽紅素4倍上升,腹水或腹膜炎,反覆膽管 炎,就應該轉介病患接受肝臟移植."
     ],
@@ -10341,7 +10305,7 @@ const rawQuestions = [
     "question": "膽道結石常繼發於膽囊結石掉落膽管(secondary bile duct stones).以下有關原 發膽管結石(primary bile duct stones)的描述何者為真:",
     "statements": [
       "(1) 主要成分為calcium bilirubinate.",
-      "(2) 外觀為黃色較軟結石",
+      "(2) 外觀為黃色較軟結石(muddy stones).",
       "(3) 結石的形成和膽汁滯留與細菌分解膽只有關.",
       "(4) 十二指腸乳突旁憩室也因為容易發生細菌增生而發生膽管結石."
     ],
@@ -10361,8 +10325,8 @@ const rawQuestions = [
     "statements": [
       "(1) 懷孕時膽囊排空受到影響,容易形成結石.",
       "(2) 因膽結石發生疼痛病患,建議懷孕前將膽囊切除.",
-      "(3) ERCP 相關治療還是可以在中期妊娠",
-      "(4) 急性膽囊炎在懷孕初期"
+      "(3) ERCP 相關治療還是可以在中期妊娠(second trimester)減少輻射傷害下執 行.",
+      "(4) 急性膽囊炎在懷孕初期(first trimester),還是可以安全的施行膽囊切除."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -10381,7 +10345,7 @@ const rawQuestions = [
       "(1) 膽道內正常壓力為15-25cm H 2 O.",
       "(2) 膽道阻塞後壓力上升,膽紅素分泌會被抑制,膽鹽仍正常分泌.",
       "(3) 阻塞後膽汁溢出會造成局部肝細胞壞死.",
-      "(4) 長期膽管阻塞會產生白色膽汁"
+      "(4) 長期膽管阻塞會產生白色膽汁(white bile)."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -10397,9 +10361,9 @@ const rawQuestions = [
     "no": 87,
     "question": "關於IgG4相關疾病的敘述何者為真:",
     "statements": [
-      "(1) 幾乎全身器官都會影響,85%集中於以下器官:胰臟,膽管,唾腺,淚腺, 後腹腔,肺臟,腎臟.",
+      "(1) 幾乎全身器官都會影響,85%集中於以下器官:胰臟,膽管,唾腺,淚腺, D 後腹腔,肺臟,腎臟.",
       "(2) 胰臟為最常受影響的器官約佔45%.",
-      "(3) IgG4相關膽管炎,如發生於肝門或肝內膽管,膽管影像會和膽管癌與原發性 膽汁性硬化",
+      "(3) IgG4相關膽管炎,如發生於肝門或肝內膽管,膽管影像會和膽管癌與原發性 膽汁性硬化(primary biliary cirrhosis)相似.",
       "(4) 超過一半的病人仔細檢查會有兩個以上器官受到影響."
     ],
     "options": [
@@ -10409,14 +10373,14 @@ const rawQuestions = [
       "D. (1)+(2)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "111年度",
     "no": 88,
     "question": "對於ERCP術後相關胰臟炎(post-ERCP pancreatitis, PEP)的描述,何者為真:",
     "statements": [
-      "(1) 困難插管",
+      "(1) 困難插管(difficult cannulation)為重要的危險因子.",
       "(2) 預防性胰管支架放置可有效預防 PEP.",
       "(3) Diclofenac 50mg 經肛門塞劑可有效預防PEP.",
       "(4) 術中生理食鹽水輸液可以有效預防PEP."
@@ -10435,7 +10399,7 @@ const rawQuestions = [
     "no": 89,
     "question": "關於胰膽管匯流異常(pancreaticobiliary maljunction, PBM)的描述,下列何者 為真:",
     "statements": [
-      "(1) 膽管囊腫",
+      "(1) 膽管囊腫(choledochocyst)病患常見.",
       "(2) 研究發現成人PBM 合併膽道擴張者,膽管癌/膽囊的發生率為6.9/13.4%.",
       "(3) 研究發現成人PBM 未合併膽道擴張者,膽管癌/膽囊的發生率為3.1/37.4%.",
       "(4) PBM 未合併膽道擴張者建議切除膽囊,PBM 合併膽道擴張者,建議切除膽 囊與擴張的膽管."
@@ -10454,9 +10418,9 @@ const rawQuestions = [
     "no": 90,
     "question": "關於膽管囊腫(bile duct cyst)Todani分類為大家所接受,分為5 型.下列何者 為真:",
     "statements": [
-      "(1) 以第一型總膽管囊腫",
-      "(2) 第五型也成為",
-      "(3) 第二型與第三型不會有膽胰匯流異常",
+      "(1) 以第一型總膽管囊腫(choledochocyst)最常見.",
+      "(2) 第五型也成為(Carlori’s disease).",
+      "(3) 第二型與第三型不會有膽胰匯流異常(pancreaticobiliary maljunction, PBM).",
       "(4) PBM 為第五型重要診斷依據."
     ],
     "options": [
@@ -10531,7 +10495,8 @@ const rawQuestions = [
     "statements": [],
     "options": [
       "A. 攝取量減少",
-      "B. 胃的內在因子(intrinsic factor)與維他命 B 12的結合物無法被不足量的胰臟 酵素分解",
+      "B. 胃的內在因子(intrinsic factor)與維他命",
+      "B. 12的結合物無法被不足量的胰臟 酵素分解",
       "C. 胃的內在因子減少的關係",
       "D. 維他命B 12是由空腸吸收的原因",
       "E. 以上皆是"
@@ -10619,10 +10584,10 @@ const rawQuestions = [
     "no": 1,
     "question": "何者不是食道鱗狀細胞癌(squamous cell carcinoma, SCC)之危險因子?",
     "statements": [
-      "(1) 長期接觸香 檳 酒",
+      "(1) 長期接觸香 檳 酒(tobacco betel nut alcohol)者",
       "(2) Long-standing caustic strictures due to lye ingestion",
       "(3) Laryngo-oropharyngeal cancer patient",
-      "(4) Barrett's esophagus",
+      "(4) Barrett's esophagus (BE)",
       "(5) Helicobacter pylori infection"
     ],
     "options": [
@@ -10639,11 +10604,11 @@ const rawQuestions = [
     "no": 2,
     "question": "有關食道Caustic Injury(corrosive esophagitis)之描述,何者不正確?",
     "statements": [
-      "(1) 強鹼",
-      "(2) 強酸",
-      "(3) 內視鏡檢查",
+      "(1) 強鹼(lye. button battery)造成較深的liquefactive necrosis,食道損傷較重, D 食道易狹窄.",
+      "(2) 強酸(鹽酸 硫酸)造成較淺的coagulative necrosis,形成eschar胃損傷 較重,胃竇幽門部易狹窄,易acidosis,死亡率較強鹼高.",
+      "(3) 內視鏡檢查(EGD)要在12 至48 小時以內進行,5 至15 天時忌作內視鏡 檢查,以防破裂穿孔.",
       "(4) 食道穿孔易於1-2 星期時發生,而食道或胃之狹窄易於3-4 星期以後產生.",
-      "(5) 曾有caustic esophageal injury病人,30-40 年以後產生食道癌"
+      "(5) 曾有caustic esophageal injury病人,30-40 年以後產生食道癌(SCC)的機 率會增加."
     ],
     "options": [
       "A. (1)+(2)",
@@ -10652,7 +10617,7 @@ const rawQuestions = [
       "D. 以上皆正確",
       "E. 以上皆不正確"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -10660,7 +10625,7 @@ const rawQuestions = [
     "question": "何者不會降低LESP(Lower Esophageal Sphincter Pressure)?",
     "statements": [
       "(1) Nitrates, Calcium channel blockers",
-      "(2) Progesterone, Sildenafil",
+      "(2) Progesterone, Sildenafil (Viagra)",
       "(3) Mosapride, Domperidone, Prucalopride",
       "(4) Gastrin",
       "(5) Smoking, alcohol, fat, coffee, chocolate, peppermint"
@@ -10679,11 +10644,11 @@ const rawQuestions = [
     "no": 4,
     "question": "關於Barrett's Esophagus(BE)之描述,何者不正確?",
     "statements": [
-      "(1) BE 病患有較高的hiatal hernia 盛行率",
-      "(2) 長度大於3mm 之BE 稱為long segment BE",
-      "(3) LSBE 病例每年有接近10%會進展為adenocarcinoma",
+      "(1) BE 病患有較高的hiatal hernia 盛行率(prevalence).",
+      "(2) 長度大於3mm 之BE 稱為long segment BE(LSBE).",
+      "(3) LSBE 病例每年有接近10%會進展為adenocarcinoma(annual incidence of adenocarcinoma).",
       "(4) Bile acid, bile salt對BE 之癌變扮演腫瘤促進之角色,因此口服 ursodeoxycholic acid可防止BE 之進展或癌變.",
-      "(5) 使用PPI 或抗胃酸逆流手術,並無法防止BE 癌變adenocarcinoma 或改善 腸化生intestinal metaplasia"
+      "(5) 使用PPI 或抗胃酸逆流手術,並無法防止BE 癌變adenocarcinoma 或改善 腸化生intestinal metaplasia(IM)."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -10700,10 +10665,10 @@ const rawQuestions = [
     "question": "有關食道動力學(esophageal motility)敍述何者正確?",
     "statements": [
       "(1) 食道上1/3 段是平滑肌 下1/3 段是橫紋肌.",
-      "(2) 食道平滑肌由一氧化氮",
+      "(2) 食道平滑肌由一氧化氮(NO)或乙醯膽鹼(acetylcholine)釋放來調節.",
       "(3) 食道次發性蠕動由周邊神經控制.",
-      "(4) 食道高壓性蠕動",
-      "(5) 全身性硬皮症"
+      "(4) 食道高壓性蠕動(Hypertensive esophagus 或稱nutcracker esophagus), 較常發生在年輕人.",
+      "(5) 全身性硬皮症(scleroderma systemic sclerosis)會減弱遠端2/3 的食道蠕動 壓力."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -10733,10 +10698,10 @@ const rawQuestions = [
     "no": 7,
     "question": "對於胃食道逆流性疾病(GERD)之敘述,何者不正確?",
     "statements": [
-      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD",
+      "(1) 超過一半病例,內視鏡檢時無mucosal break,稱為NERD(Non-Erosive E Reflux Disease)或ENRD(Endoscopic Negative Reflux Disease).",
       "(2) Ambulatory 24-hour esophageal PH monitoring 如為正常,則可確定排除 GERD之診斷.",
-      "(3) 西方國家常以PPI",
-      "(4) GERD之臨床症狀程度,常以LA 分期",
+      "(3) 西方國家常以PPI(proton pump inhibitor)做2 星期之empirical therapy, 依反應來認定是否GERD.",
+      "(4) GERD之臨床症狀程度,常以LA 分期(A B C D)來判定,並可預測其 治療反應成效.",
       "(5) 臨床上出現dysphagia 時即表示GERD已進行成BE,很可能再惡化為 adenocarcinoma."
     ],
     "options": [
@@ -10746,18 +10711,18 @@ const rawQuestions = [
       "D. (1)+(3)+(5)",
       "E. (2)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "112年度",
     "no": 8,
     "question": "有關GERD(Gastro-Esophageal Reflux Disease)之描述,何者不正確?",
     "statements": [
-      "(1) 臨床上最常見症狀為胸口灼熱",
-      "(2) 內視鏡下GERD呈現NERD,ERD",
+      "(1) 臨床上最常見症狀為胸口灼熱(heartburn)及胃酸逆流(acid regurgitation).",
+      "(2) 內視鏡下GERD呈現NERD,ERD(RE/EE Reflux/Erosive Esophagits) 及BE(Barrett's Esophagus)三種變化.",
       "(3) GERD與H. pylori感染關係密切,幽門桿菌除菌成功,GERD隨之改善.",
-      "(4) 西方國家九十年代以來,食道腺癌增加,鱗狀細胞癌",
-      "(5) GERD若合併H. pylori感染,則不可給除菌治療,以免增加食道癌"
+      "(4) 西方國家九十年代以來,食道腺癌增加,鱗狀細胞癌(SCC)減少,可歸因 於PPI 對GERD療效佳.",
+      "(5) GERD若合併H. pylori感染,則不可給除菌治療,以免增加食道癌(SCC) 之機率."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -10787,11 +10752,11 @@ const rawQuestions = [
     "no": 10,
     "question": "有關食道賁門失弛緩症(賁門不張)(achalasia)的敘述,何者不正確?",
     "statements": [
-      "(1) Manometry常見aperistalsis,下食道括約肌resting LESP 高,relaxation 放 鬆不全之變化.",
+      "(1) Manometry常見aperistalsis,下食道括約肌resting LESP 高,relaxation 放 B 鬆不全之變化.",
       "(2) 病人固體及液體食物皆吞嚥困難,平躺時易有acid regurgitation及heart burn.",
-      "(3) 口服Nitrate 或calcium channel blocker",
+      "(3) 口服Nitrate 或calcium channel blocker(nifedipine diltiazem verapamil) 可減緩輕症病人之症狀.",
       "(4) Barium esophagogram 可見食道擴大,”bird's beak”及air in stomach fundus 等情形.",
-      "(5) 近年來POEM"
+      "(5) 近年來POEM(peroral endoscopic myotomy),Botox"
     ],
     "options": [
       "A. (1)+(3)",
@@ -10800,15 +10765,15 @@ const rawQuestions = [
       "D. (1)+(4)",
       "E. (4)+(5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "112年度",
     "no": 11,
     "question": "下列有關Barrett’s esophagus之描述何者錯誤?",
     "statements": [
-      "(1) 依照Monstreal Consensus之標準,食道的squamous epithelium產生gastric metaplasia 時,不能判定有Barrett’s esophagus.",
-      "(2) 以西雅圖採樣步驟",
+      "(1) 依照Monstreal Consensus之標準,食道的squamous epithelium產生gastric B metaplasia 時,不能判定有Barrett’s esophagus.",
+      "(2) 以西雅圖採樣步驟(Seattle protocol)作Barrett’s esophagus之採樣時,是 每隔1 公分長度作採樣.",
       "(3) long segment Barrett’s esophagus是指esophageal metaplastic epithelium 之長度超過2 公分.",
       "(4) Barrett’s esophagus 若產生high-grade dysplasia,建議以內視鏡術根除.",
       "(5) Barrett’s esophagus 若產生low-grade dysplasia,建議以內視鏡術根除."
@@ -10820,7 +10785,7 @@ const rawQuestions = [
       "D. (2)+(3)+(5)",
       "E. (1)+(3)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -10888,7 +10853,7 @@ const rawQuestions = [
     "question": "下列有關Menetrier’s disease的敘述何者正確?",
     "statements": [
       "(1) 患者可能出現上腹痛",
-      "(2) 胃竇部",
+      "(2) 胃竇部(antrum)常可見到giant folds",
       "(3) 患者之胃酸分泌量減少",
       "(4) 患者可能出現hypoalbuminemia",
       "(5) 幽門螺旋桿菌感染是造成Menetrier’s disease的原因之一"
@@ -10907,11 +10872,11 @@ const rawQuestions = [
     "no": 16,
     "question": "依據台灣幽門螺旋桿菌之治療共識,在幽門螺旋桿菌clairthromycin抗藥率20% 的地區,可選擇下列何除菌處方以達到良好之除菌率?",
     "statements": [
-      "(1) 7 天之標準三合療法",
-      "(2) 14 天之混合療法",
-      "(3) 14 天之標準三合療法",
-      "(4) 10 天之高劑量二合療法",
-      "(5) 14 天之鉍劑四合療法"
+      "(1) 7 天之標準三合療法(standard triple therapy)",
+      "(2) 14 天之混合療法(hybrid therapy)",
+      "(3) 14 天之標準三合療法(standard triple therapy)",
+      "(4) 10 天之高劑量二合療法(high-dose dual therapy)",
+      "(5) 14 天之鉍劑四合療法(bismuth quadruple therapy)"
     ],
     "options": [
       "A. (2)+(4)+(5)",
@@ -10981,10 +10946,10 @@ const rawQuestions = [
     "no": 20,
     "question": "下列有關gastric polyps之描述何者正確?",
     "statements": [
-      "(1) 腺性息肉",
-      "(2) 基底腺息肉",
+      "(1) 腺性息肉(adenomatous polyp)約佔胃部息肉的30%",
+      "(2) 基底腺息肉(fundic gland polyp)好發於胃竇部",
       "(3) 基底腺息肉是一種癌前病變,建議切除",
-      "(4) 增生性息肉",
+      "(4) 增生性息肉(hyperplastic polyp)最常發生在胃竇部",
       "(5) 腺瘤性息肉是一種癌前病變,建議切除"
     ],
     "options": [
@@ -11001,10 +10966,10 @@ const rawQuestions = [
     "no": 21,
     "question": "有關十二指腸神經內分泌瘤的敘述下列何者錯誤?",
     "statements": [
-      "(1) 十二指腸神經內分泌瘤約佔胃腸神經內分泌瘤",
-      "(2) 十二指腸神經內分泌瘤好發於十二指腸第一 二部分,且以胃泌素瘤",
+      "(1) 十二指腸神經內分泌瘤約佔胃腸神經內分泌瘤(GI-NET)5%-10%",
+      "(2) 十二指腸神經內分泌瘤好發於十二指腸第一 二部分,且以胃泌素瘤 (Gastrinoma)最為常見",
       "(3) 十二指腸神經內分泌瘤大小通常小於2 公分,且少於1 成機會發生肝轉移",
-      "(4) 其臨床表徵多半呈現類癌症後群",
+      "(4) 其臨床表徵多半呈現類癌症後群(Carcinoid symdrome),可由內視鏡切片診 斷",
       "(5) 小於2 公分的十二指腸神經內分泌瘤可藉由內視鏡切除,且預後良好,五年 存活率可達8 成"
     ],
     "options": [
@@ -11050,10 +11015,10 @@ const rawQuestions = [
     "question": "關於胃腸道基質瘤(gastrointestinal stromal tumor, GIST),何者錯誤:",
     "statements": [
       "(1) 台灣小腸腫瘤中第二常見的類型",
-      "(2) 最好發在胃",
-      "(3) 治療藥物Imatinib",
+      "(2) 最好發在胃(60%-70%),多於小腸,再來是食道及大腸等等",
+      "(3) 治療藥物Imatinib(Glivec)是一種tyrosine-kinase inhibitor",
       "(4) 診斷上無論期數皆需先取得切片的病理報告",
-      "(5) 有Platelet derived growth factor receptor"
+      "(5) 有Platelet derived growth factor receptor(PDGRA)基因突變的GIST 較 KIT gene 者多"
     ],
     "options": [
       "A. (1)+(2)",
@@ -11083,11 +11048,11 @@ const rawQuestions = [
     "no": 26,
     "question": "關於胃部淋巴瘤的表現何者錯誤:",
     "statements": [
-      "(1) 大約佔胃部腫瘤的5%,主要是mucosal associated lymphoid tissue",
+      "(1) 大約佔胃部腫瘤的5%,主要是mucosal associated lymphoid tissue C (MALT)lymphoma及diffuse large B cell lymphoma 的表現為主",
       "(2) 根據Lugano stage,MALT lymphoma 第一期的患者建議開刀切除",
-      "(3) PGIL",
-      "(4) 臨床上同淋巴瘤常見B symptoms",
-      "(5) MALT lymphoma 的預後"
+      "(3) PGIL(Primary GI tract lymphoma)最常見於胃(60%)",
+      "(4) 臨床上同淋巴瘤常見B symptoms(發燒,夜間盜汗,體重減輕)",
+      "(5) MALT lymphoma 的預後(MALT IPI)與年紀,LDH高低,期別有關"
     ],
     "options": [
       "A. (1)+(4)",
@@ -11096,7 +11061,7 @@ const rawQuestions = [
       "D. (3)+(5)",
       "E. (3)+(4)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -11106,7 +11071,7 @@ const rawQuestions = [
       "(1) EBV, HSV",
       "(2) 抽菸,菸草使用",
       "(3) atrophic gastritis, Intestinal metaplasia",
-      "(4) 黑斑息肉症候群",
+      "(4) 黑斑息肉症候群(Peutz-Jeghers Syndrome),Ménétrier disease",
       "(5) 酗酒,吃NSAID 止痛藥"
     ],
     "options": [
@@ -11142,11 +11107,11 @@ const rawQuestions = [
     "no": 29,
     "question": "關於小腸腺癌(adenocarcinoma),下列何者錯誤?",
     "statements": [
-      "(1) 腺癌",
-      "(2) 腺癌",
-      "(3) 小腸腺癌",
-      "(4) 小腸腺癌",
-      "(5) Lynch syndrome 相關腺癌預後比家族性腺瘤性息肉症"
+      "(1) 腺癌(adenocarcinoma)是最常見的小腸原發性惡性腫瘤",
+      "(2) 腺癌(adenocarcinoma)由腺瘤(adenomas)或化生不良(dysplasia)而 來",
+      "(3) 小腸腺癌(adenocarcinoma)危險因子包含Acquired immunodeficiency syndrome 及Type 1 neurofibromatosis",
+      "(4) 小腸腺癌(adenocarcinoma)常與家族性腺瘤性息肉症(Familial adenomatous polyposis)相關",
+      "(5) Lynch syndrome 相關腺癌預後比家族性腺瘤性息肉症(Familial adenomatous polyposis)相關腺癌更差"
     ],
     "options": [
       "A. (3)+(4)",
@@ -11165,8 +11130,8 @@ const rawQuestions = [
       "(1) 腸型胃癌盛行率有下降的趨勢,並且以男性較常發生",
       "(2) signet-ring cell是腸型胃癌的特殊表現",
       "(3) 腸型胃癌與慢性萎縮性胃炎和腸上皮化生有關",
-      "(4) 瀰漫型胃癌會形成皮革胃",
-      "(5) 瀰漫型胃癌常有染色體不穩定性"
+      "(4) 瀰漫型胃癌會形成皮革胃(linitis plastica),並且與幽門螺旋桿菌(H. pylori) 感染高度相關",
+      "(5) 瀰漫型胃癌常有染色體不穩定性(chromosomal instability)並與家族發生性 (familial occurrence)相關"
     ],
     "options": [
       "A. (1)+(4)",
@@ -11182,9 +11147,9 @@ const rawQuestions = [
     "no": 31,
     "question": "下列關於腸道吸收與分泌的描述,何者正確?",
     "statements": [
-      "(1) serotonin reuptake transporter may be decreased in patients with diarrhea-predominant IBS",
+      "(1) serotonin reuptake transporter may be decreased in patients with E diarrhea-predominant IBS (IBS-D).",
       "(2) Bile acid associated fluid loss is linked to the diarrhea of IBD and IBS-D, involve the inhibition of NaCl absorption, and/or stimulation Cl− secretion.",
-      "(3) Supplementation of zinc in oral rehydration solution",
+      "(3) Supplementation of zinc in oral rehydration solution (ORS) was observed to decrease the number of diarrheal episodes and stool volume.",
       "(4) Glucocorticoids are potent stimulators of Na+ absorption in both the small intestine and colon."
     ],
     "options": [
@@ -11194,7 +11159,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -11230,7 +11195,7 @@ const rawQuestions = [
     "question": "下列關於Short bowel syndrome(SBS)的敘述,何者為非?",
     "statements": [],
     "options": [
-      "A. Ca2+and Mg2+absorption decrease on a low-fat diet in patients with small intestinal resections.",
+      "A. Ca2+ and Mg2+ absorption decrease on a low-fat diet in patients with small intestinal resections.",
       "B. Vitamin B12 malabsorption usually is demonstrable when more than 60 cm of ileum has been resected.",
       "C. More extensive ileal resections (>100 cm) cause severe bile acid malabsorption, which can result steatorrhea.",
       "D. Patients with SBS and a preserved colon have increased GLP-1 and GLP-2 concentrations and demonstrate normal gastric emptying.",
@@ -11257,10 +11222,10 @@ const rawQuestions = [
     "no": 36,
     "question": "針對Small intestinal bacterial overgrowth(SIBO),下列敘述何者正確?",
     "statements": [
-      "(1) 傳統SIBO診斷標準是在迴腸進行aspirate and quantitative culture,細菌數 量超過100000 cfu/ml,但是花費昂貴,且屬於侵入性檢查",
+      "(1) 傳統SIBO診斷標準是在迴腸進行aspirate and quantitative culture,細菌數 C 量超過100000 cfu/ml,但是花費昂貴,且屬於侵入性檢查",
       "(2) 現在最常使用C13-d-xylose breath test 診斷,但是有偽陽性的問題,且遠端 小腸細菌增生可能無法偵測到",
       "(3) 可能和Gastroparesis Hypothyroidism irritable bowel syndrome Long-term high dose acid suppression 有關",
-      "(4) SIBO 會產生secondary bile salts",
+      "(4) SIBO 會產生secondary bile salts(如lithocholic acid),直接抑制脂肪吸收, 導致脂溶性維生素缺乏",
       "(5) SIBO可能導致Megaloblastic anemia 以及Protein-losing enteropathy"
     ],
     "options": [
@@ -11270,18 +11235,14 @@ const rawQuestions = [
       "D. (1)+(2)+(4)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "112年度",
     "no": 37,
     "question": "關於IBD(inflammatory bowel disease)敘述何者正確?",
     "statements": [
-      "(1) 即使Ulcerative colitis沒有侵犯到盲腸,periappendiceal inflammation",
-      "(2) 克隆氏症",
-      "(3) 目前評估Ulcerative colitis嚴重度的Mayo score 評估指標有4項,包括stool frequency Rectal bleeding mucosal appearance distribution,每項0-3 分,最高12 分",
-      "(4) 經診斷為Ulcerative colitis廣泛性腸炎者,應立即開始每2~3 年篩檢大腸癌",
-      "(5) Vedolizumab 為一種anti-TNF-a製劑,研究顯示可能可以提高克隆氏症臨床 緩解率"
+      "(1) 即使Ulcerative colitis沒有侵犯到盲腸,periappendiceal inflammation"
     ],
     "options": [
       "A. (1)+(2)",
@@ -11290,7 +11251,7 @@ const rawQuestions = [
       "D. (3)+(5)",
       "E. (4)+(5)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -11300,8 +11261,8 @@ const rawQuestions = [
       "(1) 可以減少Necrotizing enterocolitis 發生率 死亡率 住院時間",
       "(2) 可以預防antibiotics-associated diarrhea以及Clostridioides difficile-associated diarrhea 復發",
       "(3) 可以降低嬰幼兒急性腸胃炎進展至中重度與住院的機率",
-      "(4) 糞菌移植",
-      "(5) 克隆氏症"
+      "(4) 糞菌移植(FMT)有對於輕度至中度的克隆氏症誘發緩解有效",
+      "(5) 克隆氏症(CD)和潰瘍性結腸炎(UC)患者的腸道微生物群中特別缺乏 Faecalibacterium prausnitzii,這種細菌被認為具有潛在的抗發炎特性"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -11319,7 +11280,7 @@ const rawQuestions = [
     "statements": [
       "(1) 大腸結核病患者常見胸部X 光有活動性結核病灶",
       "(2) 肺外結核中,消化道結核較淋巴結核 骨及關節結核少見",
-      "(3) 腸結核內視鏡下表現可分為ulcerative lesions",
+      "(3) 腸結核內視鏡下表現可分為ulcerative lesions(占60%) ulcerohypertrophic lesion(占30%)以及Hypertrophic lesions(占10%)",
       "(4) 結核性腸炎組織學下50%~80%可看見肉芽腫,典型肉芽腫在結節中央有乾 酪性壞死,但不一定會以典型來表現,需要與其他疾病來鑑別診斷",
       "(5) Crohn’s disease內視鏡下常有Linear ulcer,ileocecal valve incompetence, cobble stones,可以和TB colitis做鑑別診斷"
     ],
@@ -11337,11 +11298,8 @@ const rawQuestions = [
     "no": 40,
     "question": "下列有關艱難梭菌感染(Clostridium difficile infection)的敘述,何者正確?",
     "statements": [
-      "(1) 常見引起CDI的抗生素有ampicillin, amoxicillin, cephalosporins,但是 fluoroquinolones 或trimethoprim-sulfamethoxazole 則比較少見",
-      "(2) Clostridium difficile致病位址",
-      "(3) 2023 年,FDA 核准了第一個經由口服的FMT新藥VOWST",
-      "(4) FMT減少Clostridium difficile infection 復發的機轉,可能跟short chain fatty acid 以及secondary bile acid下降有關",
-      "(5) Clostridium innocuum diarrhea 可能在CDI治療後產生,通常對Vancomycin 治療反應佳"
+      "(1) 常見引起CDI的抗生素有ampicillin, amoxicillin, cephalosporins,但是 B fluoroquinolones 或trimethoprim-sulfamethoxazole 則比較少見",
+      "(2) Clostridium difficile致病位址(Pathogenicity locus)長度約19.6Kb,包含五 個基因(Tcd A-E),Tcd"
     ],
     "options": [
       "A. (1)",
@@ -11350,7 +11308,7 @@ const rawQuestions = [
       "D. (4)",
       "E. (5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -11386,9 +11344,9 @@ const rawQuestions = [
     "question": "有關腸內菌以及消化器官癌的關係,以下敘述組合何者皆正確?",
     "statements": [
       "(1) 腸道中Fusobacterium nucleatum 的增加可能導致大腸癌生成",
-      "(2) 腸內菌失調導致於腸道內產生的某些代謝物",
-      "(3) 腸內菌於腸道產生的SCFA",
-      "(4) 腸內菌失調改變gut barrier,導致lipopolysaccharide",
+      "(2) 腸內菌失調導致於腸道內產生的某些代謝物(如butyrate)增加,可能導致 大腸癌產生",
+      "(3) 腸內菌於腸道產生的SCFA(short-chain fatty acid)可透過 G-protein-coupled receptors(GPCRs)促使黏膜往大腸癌變化",
+      "(4) 腸內菌失調改變gut barrier,導致lipopolysaccharide(LPS)滲漏,此物質 與HCC及胰臟癌高度相關",
       "(5) 腸內菌失調會使宿主體內呈現低度發炎症狀,此症狀與多種癌症生成有關"
     ],
     "options": [
@@ -11419,7 +11377,7 @@ const rawQuestions = [
     "no": 45,
     "question": "關於小腸惡性腫瘤的敘述,以下組合何者正確?",
     "statements": [
-      "(1) 在台灣2020 年的資料中,小腸惡性腫瘤最常見的種類是adenocarcinoma, 第二常見是GIST",
+      "(1) 在台灣2020 年的資料中,小腸惡性腫瘤最常見的種類是adenocarcinoma, E 第二常見是GIST",
       "(2) 小腸adenocarcinoma 最常侵犯的區域為distal jejunum",
       "(3) 小腸adenocarcinoma的危險因子包括:高齡 克隆氏症以及Lynch syndrome 等",
       "(4) 小腸惡性腫瘤約占所有消化道惡性腫瘤的3%",
@@ -11432,7 +11390,7 @@ const rawQuestions = [
       "D. (2)+(4)+(5)",
       "E. (3)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -11515,7 +11473,7 @@ const rawQuestions = [
     "no": 51,
     "question": "關於B 型肝炎之傳染途徑,何者最正確?",
     "statements": [
-      "(1) 型肝炎病毒主要經由體液",
+      "(1) B 型肝炎病毒主要經由體液(包括血液及生殖液)傳染",
       "(2) 在臺灣水平感染為主要傳染途徑",
       "(3) 垂直感染在盛行區較為重要",
       "(4) 共用牙刷 刮鬍刀 打針 輸血 血液透析 性行為 穿耳洞 刺青 針炙 等亦為傳染途徑"
@@ -11526,7 +11484,7 @@ const rawQuestions = [
       "C. (1)+(2)",
       "D. (1)+(2)+(4)"
     ],
-    "answer": "B"
+    "answer": "A"
   },
   {
     "year": "112年度",
@@ -11547,11 +11505,11 @@ const rawQuestions = [
     "no": 53,
     "question": "關於e 抗原陽性慢性B型肝炎之治療,以下何者為錯誤?",
     "statements": [
-      "(1) 長效型干擾素",
-      "(2) 合併長效型干擾素和貝樂克",
-      "(3) 核苷酸類似物",
-      "(4) 治療前ALT 值是核苷酸類似物",
-      "(5) e 抗原血清陰轉比例與貝樂克"
+      "(1) 長效型干擾素(pegylated interferon)對於e 抗原陽性慢性B 型肝炎的治療 E 效果較傳統型干擾素為佳",
+      "(2) 合併長效型干擾素和貝樂克(Entecavir)會增加患者之持久反應率",
+      "(3) 核苷酸類似物(nucleoside or nucleotide analogs)可抑制DNA聚合酶,而 終止B 型肝炎病毒的複製",
+      "(4) 治療前ALT 值是核苷酸類似物(nucleoside or nucleotide analogs)治療反 應的最佳預測指標",
+      "(5) e 抗原血清陰轉比例與貝樂克(Entecavir)治療期間成反比"
     ],
     "options": [
       "A. (1)+(2)+(5)",
@@ -11560,19 +11518,13 @@ const rawQuestions = [
       "D. (2)+(4)+(5)",
       "E. (2)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "112年度",
     "no": 54,
     "question": "關於A 型肝炎,以下何者最正確?",
-    "statements": [
-      "(1) 型肝炎在第二次世界大戰期間稱為\"傳染性肝炎\" A",
-      "(2) 基因體為單股RNA,分類為小RNA病毒科",
-      "(3) A 型肝炎病毒IgM 抗體",
-      "(4) A 型肝炎病毒主要是經口傳染,潛伏期為2 到6 週.年幼者感染A 型肝炎病 毒之症狀較成年人明顯",
-      "(5) A 型肝炎之預防目前只有主動免疫,即疫苗接種"
-    ],
+    "statements": [],
     "options": [
       "A. (1)+(3)",
       "B. (1)+(2)+(3)",
@@ -11607,11 +11559,11 @@ const rawQuestions = [
     "no": 56,
     "question": "關於原發性膽道性肝硬化症(PBC),以下何者最正確?",
     "statements": [
-      "(1) 組織學上稱為急性非化膿性破壞性肉芽組織性膽管炎",
+      "(1) 組織學上稱為急性非化膿性破壞性肉芽組織性膽管炎(acute nonsuppurative E destructive granulomatous cholangitis)",
       "(2) 絕大多數發生在中年女性,患病之女男比率約十比一",
       "(3) 血清生化檢查,主要顯示典型膽汁滯留的變化,ALP 及GGT 明顯升高,AST ALT 僅呈輕度升高,膽紅素升高以間接型膽紅素為主",
       "(4) 90%患者的AMA 抗體皆呈陽性,可與自體免疫肝炎及原發性硬化性膽道炎 作鑑別",
-      "(5) 目前認為唯一能延長PBC 患者壽命,且延遲肝移植的藥物是UDCA"
+      "(5) 目前認為唯一能延長PBC 患者壽命,且延遲肝移植的藥物是UDCA (Ursodeoxycholic acid)"
     ],
     "options": [
       "A. (2)+(3)+(5)",
@@ -11620,7 +11572,7 @@ const rawQuestions = [
       "D. (2)+(3)+(4)",
       "E. (2)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -11666,11 +11618,7 @@ const rawQuestions = [
     "no": 59,
     "question": "關於B 型肝炎病毒(HBV)基因型(genotype)的敘述何者為是?",
     "statements": [
-      "(1) 基因型的分法是以病毒完整nucleotide 序列比對,若岐異率大於或等於8% 則為不同基因型",
-      "(2) 目前為止共有7 種基因型",
-      "(3) 基因型B",
-      "(4) 基因型B",
-      "(5) 基因型B"
+      "(1) 基因型的分法是以病毒完整nucleotide 序列比對,若岐異率大於或等於8%"
     ],
     "options": [
       "A. (1)+(3)",
@@ -11679,7 +11627,7 @@ const rawQuestions = [
       "D. (1)+(3)+(4)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -11733,7 +11681,7 @@ const rawQuestions = [
     "no": 63,
     "question": "有關肝臟內各細胞之敘述,何者為是?",
     "statements": [
-      "(1) 肝臟內各細胞中之parenchyma cells包括hepatocytes 及sinusoidal endothelial cells",
+      "(1) 肝臟內各細胞中之parenchyma cells包括hepatocytes 及sinusoidal C endothelial cells",
       "(2) stellate cells位於space of Disse 中",
       "(3) hepatocytes 之大小約在20 至30 μm 間",
       "(4) hepatocytes 約佔成人肝臟各細胞的60%"
@@ -11745,7 +11693,7 @@ const rawQuestions = [
       "D. (1)+(3)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -11803,14 +11751,8 @@ const rawQuestions = [
   {
     "year": "112年度",
     "no": 67,
-    "question": "關於中期肝癌TACE unsuitable的範圍,2020 APPLE Expert Consensus Statement 與2023 AASLD Practice Guidance 比較,其中包括下列何種共同項 目?",
-    "statements": [
-      "(1) > 50% liver involvement",
-      "(2) Infiltrative type",
-      "(3) Bilobar extensive HCC",
-      "(4) Extranodular growth type HCC",
-      "(5) Poorly differentiated HCC"
-    ],
+    "question": "關於中期肝癌TACE unsuitable的範圍,2020 APPLE Expert Consensus Statement 與2023 AASLD Practice Guidance 比較,其中包括下列何種共同項",
+    "statements": [],
     "options": [
       "A. (2)+(3)",
       "B. (1)+(2)+(3)",
@@ -11818,7 +11760,7 @@ const rawQuestions = [
       "D. (2)+(3)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -11882,8 +11824,8 @@ const rawQuestions = [
     "no": 71,
     "question": "依據IMbrave050 Phase III clinical trial,下列何者為High Risk features?",
     "statements": [
-      "(1) Surgical resection: 3 tumors, the largest one 4.5cm, no vascular invasion, Grade 2 tumor differentiation",
-      "(2) Radiofrequency ablation",
+      "(1) Surgical resection: 3 tumors, the largest one 4.5cm, no vascular invasion, E Grade 2 tumor differentiation",
+      "(2) Radiofrequency ablation (RFA): Single tumor, 2.5cm",
       "(3) Surgical resection: single tumor, 4cm, no vascular invasion, Grade 3 tumor differentiation",
       "(4) Surgical resection: single tumor, 6cm, no vascular invasion, Grade 2 tumor differentiation"
     ],
@@ -11894,17 +11836,17 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)",
       "E. (2)+(3)+(4)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "112年度",
     "no": 72,
     "question": "關於HCC systemic therapy,依據phase 3 clinical trials的結果,下列敘述何者 正確?",
     "statements": [
-      "(1) Atezolizumab + Bevacizumab 在一線systemic therapy,objective response rate",
+      "(1) Atezolizumab + Bevacizumab 在一線systemic therapy,objective response rate (ORR) >30%",
       "(2) Himalaya trial 受試者,viral HCC比例>70%",
-      "(3) Tremelimumab",
-      "(4) Median progression-free survival"
+      "(3) Tremelimumab (300 mg, one dose) plus durvalumab (1500 mg every 4 weeks; STRIDE)的ORR 為25%",
+      "(4) Median progression-free survival (PFS),lenvatinib 不亞於Atezolizumab + Bevacizumab"
     ],
     "options": [
       "A. (1)",
@@ -11920,10 +11862,7 @@ const rawQuestions = [
     "no": 73,
     "question": "依據2023 AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma,下列何者敘述正確?",
     "statements": [
-      "(1) Patients with advanced HCC who have Child-Turcotte-Pugh A cirrhosis should be offered atezolizumab plus bevacizumab or durvalumab plus tremelimumab as preferred first-line therapy options",
-      "(2) Patients with recent GI bleeding within 6 months and those with high-risk stigmata for bleeding on EGD should have varices adequately treated prior to atezolizumab plus bevacizumab initiation, or these patients may be considered for durvalumab plus tremelimumab",
-      "(3) AASLD advises sorafenib or lenvatinib as preferred agents after first-line durvalumab plus tremelimumab if patients are not eligible for clinical trials",
-      "(4) Well-selected patients with Child-Turcotte-Pugh B cirrhosis may be offered sorafenib, lenvatinib, or single-agent anti-PD1 or anti-PDL1 ICI therapy"
+      "(1) Patients with advanced HCC who have Child-Turcotte-Pugh"
     ],
     "options": [
       "A. (3)+(4)",
@@ -11979,11 +11918,11 @@ const rawQuestions = [
     "no": 76,
     "question": "關於HCC systemic therapy 的敘述下列何者正確?",
     "statements": [
-      "(1) Systemic chemotherapy with doxorubicin or FOLFOX did not demonstrate survival benefits",
-      "(2) Lenvatinib targets VEGFR1-3; fibroblast growth factor receptor",
+      "(1) Systemic chemotherapy with doxorubicin or FOLFOX did not demonstrate E survival benefits",
+      "(2) Lenvatinib targets VEGFR1-3; fibroblast growth factor receptor (FGFR1-4); platelet-derived growth factor receptor a, RET, and KIT",
       "(3) Cabozantinib is a MET, VEGFR2 and RET inhibitor approved for thyroid, renal cancer and HCC",
       "(4) Ramucirumab is a monoclonal antibody targeting VEGFR 2",
-      "(5) Atezolizumab plus cabozantinib showed a superiority to sorafenib in median progression-free survival"
+      "(5) Atezolizumab plus cabozantinib showed a superiority to sorafenib in median progression-free survival (PFS)"
     ],
     "options": [
       "A. (1)+(2)",
@@ -11992,17 +11931,15 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "112年度",
     "no": 77,
     "question": "依據BCLC 2022 update,下列何者正確?",
     "statements": [
-      "(1) For solitary HCC, the presence of CSPH",
-      "(2) BCLC A is defined as solitary HCC irrespective of size or as a multifocal HCC up to 3 nodules",
-      "(3) The 2022 version of the BCLC staging system does not recommend resection for multinodular HCC within Milan criteria",
-      "(4) MW"
+      "(1) For solitary HCC, the presence of CSPH (defined by a hepatic venous D pressure gradient [HVPG] > 10 mmHg) is the key consideration to decide treatment option",
+      "(2) BCLC"
     ],
     "options": [
       "A. (1)",
@@ -12011,17 +11948,17 @@ const rawQuestions = [
       "D. (1)+(2)+(3)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "112年度",
     "no": 78,
-    "question": "依據BCLC 2022 update,BCLC 下列何者錯誤?",
+    "question": "依據BCLC 2022 update,BCLC B 下列何者錯誤?",
     "statements": [
-      "(1) The treatment options include LT, TACE and systemic therapy B",
+      "(1) The treatment options include LT, TACE and systemic therapy",
       "(2) Compared to conventional TACE, DEB-TACE has higher tumor response rates and survival",
       "(3) AFP higher than 1,000 ng/dl is currently applied as an exclusion criterion of LT in BCLC B HCC",
-      "(4) \"BCLC upon progression\""
+      "(4) \"BCLC upon progression\"(BCLCp) classifies as BCLCp-B those patients who present radiological progression due to growth of existing nodules (≥20%) or new intrahepatic sites but are still within BCLC-B"
     ],
     "options": [
       "A. (3)",
@@ -12038,7 +11975,7 @@ const rawQuestions = [
     "question": "關於HCC免疫治療相關生物標記敘述,下列何者錯誤?",
     "statements": [
       "(1) CRP及AFP 組成的CRAFITY score是預測tumor response的指標",
-      "(2) ABRS",
+      "(2) ABRS (atezolizumab-bevacizumab response signature)由10 個gene 組成, 包括CD274",
       "(3) Gut microbiota 中Lachnoclostridium 可能與PFS 及OS 相關",
       "(4) NASH may limit antitumor surveillance in HCC immunotherapy"
     ],
@@ -12056,10 +11993,10 @@ const rawQuestions = [
     "no": 80,
     "question": "關於Cholangiocarconoma (CCA)的敘述,下列何者正確?",
     "statements": [
-      "(1) Adjuvant chemotherapy with capecitabine for 6 months after surgical resection with curative intent is recommended for intrahepatic CCA, S-1 is an alternative option",
+      "(1) Adjuvant chemotherapy with capecitabine for 6 months after surgical D resection with curative intent is recommended for intrahepatic CCA, S-1 is an alternative option",
       "(2) Liver transplantation is a potentially curative option for intrahepatic and perihilar CCA",
       "(3) Entrectinib can be recommended as second- line treatment for NTRK gene fusion-positive tumors",
-      "(4) Durvalumab plus Gemcitabine and Cisplatin significantly improved overall survival",
+      "(4) Durvalumab plus Gemcitabine and Cisplatin significantly improved overall survival (OS) versus Gemcitabine plus Cisplatin for advanced biliary tract cancer",
       "(5) Cirrhosis is one of the risk factors of intrahepatic CCA"
     ],
     "options": [
@@ -12069,7 +12006,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)+(5)",
       "E. (1)+(2)+(4)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -12077,9 +12014,9 @@ const rawQuestions = [
     "question": "關於膽管癌治療敘述,下列何者為真?",
     "statements": [
       "(1) 目前取得健保之FGFR inhibitors 的pemigatinib 是pan-FGFR inhibitors",
-      "(2) 免疫節點抑制劑",
+      "(2) 免疫節點抑制劑(immune check point inhibitor)合併化學治療gemcitabine plus cisplatin,已取得膽管癌第一線治療的適應症",
       "(3) 肝內膽管癌的發生率為所有膽道腫瘤中最高",
-      "(4) isocitrate dehydrogenase"
+      "(4) isocitrate dehydrogenase(IDH 1/2 mutations)驅動因子突變(driver mutation),目前已經標靶藥物的臨床試驗成功"
     ],
     "options": [
       "A. (1)+(2)",
@@ -12109,11 +12046,11 @@ const rawQuestions = [
     "no": 83,
     "question": "下列有關Mirizzi syndrome 之敘述何者為真?",
     "statements": [
-      "(1) Mirizzi syndrome是慢性膽結石疾病的併發症.通常因為膽囊漏斗",
+      "(1) Mirizzi syndrome是慢性膽結石疾病的併發症.通常因為膽囊漏斗 B (infundibulum)或頸部(neck)內的受阻結石間接施加的壓力對膽管的外部 壓迫",
       "(2) Mirizzi syndrome常以膽管炎的形式為臨床表現",
       "(3) Mirizzi syndrome腹部超音波上典型表現為:肝內肝外膽管都擴大,膽囊也 較一般病人脹大",
       "(4) Mirizzi syndrome治療以手術為主,手術難度與一般腹腔鏡膽囊摘除術相當",
-      "(5) 膽囊管較長且較低位匯入"
+      "(5) 膽囊管較長且較低位匯入(low insertion)總膽管為Mirizzi syndrome 的重要 危險因子之一"
     ],
     "options": [
       "A. (1)+(3)+(5)",
@@ -12122,7 +12059,7 @@ const rawQuestions = [
       "D. (2)+(3)+(4)",
       "E. (2)+(4)+(5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -12143,10 +12080,10 @@ const rawQuestions = [
     "no": 85,
     "question": "關於膽管癌的基因突變敘述,下列何者為真?",
     "statements": [
-      "(1) FGFR 1-3 mutations在肝內膽管癌",
-      "(2) IDH1/IDH2 mutations 在遠端膽管癌",
+      "(1) FGFR 1-3 mutations在肝內膽管癌(Intrahepatic holangiocarcinoma)居多",
+      "(2) IDH1/IDH2 mutations 在遠端膽管癌(Distal cholangiocarcinoma)居多",
       "(3) KRAS mutation 可發生在各個位置的膽管癌",
-      "(4) HER-2 amplifications 在肝內膽管癌"
+      "(4) HER-2 amplifications 在肝內膽管癌(Intrahepatic cholangiocarcinoma) 居多"
     ],
     "options": [
       "A. (1)+(2)+(4)",
@@ -12163,9 +12100,9 @@ const rawQuestions = [
     "question": "下列有關外科手術治療下段膽管癌(distal bile duct cancer)的描述何者為真:",
     "statements": [
       "(1) 膽管癌症的手術治療以達到R0 切除為目標",
-      "(2) 下段膽管癌症切除採用肝外膽管部分切除",
-      "(3) 保留幽門的胰十二指腸切除術",
-      "(4) 一般切除還要包括清除肝門淋巴結"
+      "(2) 下段膽管癌症切除採用肝外膽管部分切除(segmental bile duct resection), 只有10%可達R0 切除,所以不為大部分外科醫師所接受",
+      "(3) 保留幽門的胰十二指腸切除術(pylorus-preserving pancreaticoduodenectomy, PPPD)比傳統的胰十二指腸切除術 (pancreaticoduodenectomy, PD),更能達到R0 切除",
+      "(4) 一般切除還要包括清除肝門淋巴結(porta hepatis lymphadenectomy)但是 擴大淋巴結切除術含主動脈旁淋巴結(extended lymphadenectomy including the para-aortic nodes)並無好處"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -12181,10 +12118,7 @@ const rawQuestions = [
     "no": 87,
     "question": "下列有關外科手術治療肝門膽管癌(hilar cholangiocarcinoma)的描述何者為真:",
     "statements": [
-      "(1) 由於腫瘤容易浸潤附近肝臟,要達到R0 切除的目標,肝門必須和附近肝臟 一起切除,所以除左或右肝切除外,尾葉",
-      "(2) 廣泛肝臟切除",
-      "(3) PTCD或ENBD 是比較接受的術前引流方式",
-      "(4) 廣泛肝臟切除"
+      "(1) 由於腫瘤容易浸潤附近肝臟,要達到R0 切除的目標,肝門必須和附近肝臟"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -12193,12 +12127,12 @@ const rawQuestions = [
       "D. (1)+(2)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "112年度",
     "no": 88,
-    "question": "一位50 歲男性病患,因肺炎至急診住院.病人為愛滋病患,因故未接受治療, 血液檢查:血紅素10gm/dL,白血球5,000/uL,血小板110,000/uL,麩胺酸丙 酮酸轉胺基酶(ALT)80U/L,鹼性磷酸酶(ALP)400U/L,總膽紅素(T-Bil) 5.5mg/dL,HIV 抗體陽性,CD4淋巴球數為9 cells/uL,HIV 病毒負荷量(HIV viral load)為2 x 107/mL,核磁共振膽胰道攝影(MRCP)發現近端總膽管擴張而末 端平滑變細,肝內膽管有不規則的狹窄與擴張.下列何者為最常見的伺機感染 (opportunistic infection)?",
+    "question": "一位50 歲男性病患,因肺炎至急診住院.病人為愛滋病患,因故未接受治療, 血液檢查:血紅素10gm/dL,白血球5,000/uL,血小板110,000/uL,麩胺酸丙",
     "statements": [],
     "options": [
       "A. Cryptosporidium parvum",
@@ -12207,12 +12141,12 @@ const rawQuestions = [
       "D. Giardia intestinalis",
       "E. Pneumocystis jirovecii"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "112年度",
     "no": 89,
-    "question": "60 歲女性健康狀況良好,在健診時,腹部超音波發現膽囊結石且膽囊壁上呈現連 續鈣化點,病患並無症狀,門診安排腹部電腦斷層發現膽結石,膽囊壁內點狀鈣 化.以下何者為最恰當的下一步處理?",
+    "question": "60 歲女性健康狀況良好,在健診時,腹部超音波發現膽囊結石且膽囊壁上呈現連 續鈣化點,病患並無症狀,門診安排腹部電腦斷層發現膽結石,膽囊壁內點狀鈣",
     "statements": [],
     "options": [
       "A. 轉介外科行膽囊切除",
@@ -12221,18 +12155,18 @@ const rawQuestions = [
       "D. 安排半年後腹超追蹤",
       "E. 有症狀再回診治療"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "112年度",
     "no": 90,
     "question": "關於經口膽道內視鏡(peroral choangioscopy)的組織敘述何者為真?",
     "statements": [
-      "(1) 可以提高原因不明的膽道狹窄",
-      "(2) 導管式膽道內視鏡",
+      "(1) 可以提高原因不明的膽道狹窄(indeterminate bililary stricture)的診斷率",
+      "(2) 導管式膽道內視鏡(catheter cholangioscopy 如Spyglass),不需要切開或 擴張乳突,可以降低出血風險",
       "(3) 和傳統的ERCP 碎石與取石比較,經口膽道鏡的碎石與取石,結石的清除率 較高,術後發生膽管炎的機會相當",
-      "(4) 導管式膽道內視鏡,因為膽道空氣壓力增加,增加術後發生空氣栓塞",
-      "(5) 以超細鏡內視鏡"
+      "(4) 導管式膽道內視鏡,因為膽道空氣壓力增加,增加術後發生空氣栓塞(air embolism)的併發症",
+      "(5) 以超細鏡內視鏡(ultrathin endoscope),施行經口膽道內視鏡的影像品質, 較導管式膽道內視鏡為佳"
     ],
     "options": [
       "A. (1)+(5)",
@@ -12251,7 +12185,7 @@ const rawQuestions = [
       "(1) 胰臟腺癌",
       "(2) 胰臟淋巴癌",
       "(3) 神經內分泌瘤",
-      "(4) 胰管內乳突黏液性腫瘤-混和型",
+      "(4) 胰管內乳突黏液性腫瘤-混和型(IPMN-main pancreatic duct type)",
       "(5) 發炎偽性腫瘤"
     ],
     "options": [
@@ -12335,8 +12269,8 @@ const rawQuestions = [
     "no": 96,
     "question": "Which of following statements are correct?",
     "statements": [
-      "(1) The initial step in the pathogenesis of AP is conversion of trypsinogen to phospholipase A2 within acinar cells",
-      "(2) Pancreatic secretory trypsin inhibitor",
+      "(1) The initial step in the pathogenesis of AP is conversion of trypsinogen to B phospholipase A2 within acinar cells",
+      "(2) Pancreatic secretory trypsin inhibitor (now called SPINK1) is a protective intrapancreatic mechanisms",
       "(3) The first phase of acute pancreatitis usually lasts a week and is characterized by systemic symptoms that may result in organ failure",
       "(4) Approximately 75% to 80%, of patients with AP have a resolution of the disease process"
     ],
@@ -12347,14 +12281,14 @@ const rawQuestions = [
       "D. (1)+(2)+(3)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "112年度",
     "no": 97,
     "question": "Which statements about chronic pancreatitis is/are incorrect?",
     "statements": [
-      "(1) Tobacco use is one very important cofactor for the development of alcoholic chronic pancreatitis",
+      "(1) Tobacco use is one very important cofactor for the development of alcoholic E chronic pancreatitis",
       "(2) Men are more likely than women to develop alcoholic chronic pancreatitis",
       "(3) some cases with pancreatitis attack due to hypertriglyceridemia will ultimately develop chronic pancreatitis",
       "(4) The response to sphincter ablation in patients with chronic pancreatitis and presumed sphincter of Oddi dysfunction is predictable"
@@ -12366,7 +12300,7 @@ const rawQuestions = [
       "D. (1)",
       "E. (4)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "112年度",
@@ -12377,7 +12311,8 @@ const rawQuestions = [
       "A. For pain relief, most of patients with chronic pancreatitis require more potent narcotic agents",
       "B. Narcotics should not be withheld in patients with severe pain",
       "C. High dosages of tramadol are equivalent to oral morphine in treating chronic pancreatitis, with fewer effects on gut motility",
-      "D. A trial of enzymes for pain is usually successful in those with advanced chronic pancreatitis with diffuse calcifications or a dilated pancreatic duct",
+      "D. ",
+      "A. trial of enzymes for pain is usually successful in those with advanced chronic pancreatitis with diffuse calcifications or a dilated pancreatic duct",
       "E. The primary goal of endoscopic therapy is to improve drainage of the pancreatic duct by relieving ductal obstruction"
     ],
     "answer": "D"
@@ -12420,11 +12355,11 @@ const rawQuestions = [
     "no": 1,
     "question": "以下關於吞嚥困難常用檢查工具之描述何者正確?",
     "statements": [
-      "(1) 面對吞嚥困難症狀之患者,最常用且最直接的方法就是用上消化道內視鏡檢 查排除結構上之異常",
+      "(1) 面對吞嚥困難症狀之患者,最常用且最直接的方法就是用上消化道內視鏡檢 C 查排除結構上之異常",
       "(2) 鋇劑食道攝影之功能可被內視鏡檢查完全取代,在評估食道運動功能已沒有 角色",
-      "(3) 高解析度食道壓力檢查",
-      "(4) 多管腔食道內阻抗併酸鹼度檢測",
-      "(5) 食道穿流閃爍造影"
+      "(3) 高解析度食道壓力檢查(esophageal manometry)可用於評估非結構性阻塞 性疾病(non-obstructive dysphagia)所引起的吞嚥困難及非心臟疾病所引起 的胸痛(non-cardiac chest pain)",
+      "(4) 多管腔食道內阻抗併酸鹼度檢測(Multi-channel Intraluminal Impedance-pH, MII-pH)有助於排除胃食道逆流的可能性",
+      "(5) 食道穿流閃爍造影(esophageal transit scintigraphy)不具侵入性,敏感度 及專一性高,常用於評估食道蠕動異常"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -12433,18 +12368,18 @@ const rawQuestions = [
       "D. (1)+(3)+(5)",
       "E. (3)+(4)+(5)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "113年度",
     "no": 2,
     "question": "以下關於食道蠕動功能異常疾病之描述何者正確?",
     "statements": [
-      "(1) 食道弛緩不能症",
+      "(1) 食道弛緩不能症(achalasia)依照芝加哥分類可再分為三種亞型,其中以第 D 二型治療效果最好",
       "(2) 硬皮症患者在高解析度食道壓力檢查下,依據芝加哥分類法4.0最常見的診 斷為hypercontractile esophagus",
-      "(3) Ineffective esophageal motility",
-      "(4) Hypercontractile esophagus特徵在於高解析度食道壓力檢查時 >= 20%的 遠端食道收縮屬於未成熟收縮",
-      "(5) Distal esophageal spasm"
+      "(3) Ineffective esophageal motility(IEM)之患者常同時合併有胃食道逆流疾病, 可以考慮使用質子幫浦抑制劑抑制胃酸分泌",
+      "(4) Hypercontractile esophagus特徵在於高解析度食道壓力檢查時 >= 20%的 遠端食道收縮屬於未成熟收縮(premature contraction, distal latency <4.5 sec)",
+      "(5) Distal esophageal spasm(DES)臨床上會出現吞嚥困難 胸痛等症狀, 治療藥物常用的是鈣離子阻斷劑 硝酸鹽"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -12453,18 +12388,18 @@ const rawQuestions = [
       "D. (1)+(3)+(5)",
       "E. (3)+(4)+(5)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "113年度",
     "no": 3,
     "question": "以下關於食道弛緩不能症(achalasia)之描述何者正確?",
     "statements": [
-      "(1) 患者主要是漸進式的吞嚥困難,有時也會感覺胸痛 食物逆流等不適,上消 化道內視鏡檢查下不易被診斷出來,胃鏡通常仍能順利通過下食道括約肌, 除非食道已相當擴大或有食物經禁食6-8 小時後仍殘留於食道",
-      "(2) 鋇劑食道攝影可以發現食道上端明顯變寬,食道與胃交接處狹窄,看起來「鳥 嘴」的形狀",
-      "(3) 依照芝加哥分類,高解析度食道壓力檢測的結果將食道弛緩不能分為三種亞 型,其中第一型特色為遠端食道痙攣收縮",
+      "(1) 患者主要是漸進式的吞嚥困難,有時也會感覺胸痛 食物逆流等不適,上消 E 化道內視鏡檢查下不易被診斷出來,胃鏡通常仍能順利通過下食道括約肌, 除非食道已相當擴大或有食物經禁食6-8 小時後仍殘留於食道",
+      "(2) 鋇劑食道攝影可以發現食道上端明顯變寬,食道與胃交接處狹窄,看起來「鳥 嘴」的形狀(bird's beak)",
+      "(3) 依照芝加哥分類,高解析度食道壓力檢測的結果將食道弛緩不能分為三種亞 型,其中第一型特色為遠端食道痙攣收縮(spastic contractions)比例達到 20%以上,最少見,治療效果也最差",
       "(4) 當患者吞嚥困難症狀持續時間較短或合併顯著體重減輕時,必須考慮假性食 道弛緩不能的可能性",
-      "(5) 經口內視鏡食道肌肉切開術"
+      "(5) 經口內視鏡食道肌肉切開術(Peroral Endoscopic Myotomy, POEM)目前在 國內外已成為治療主流,治療食道弛緩不能之效果顯著,安全性亦高"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -12473,7 +12408,7 @@ const rawQuestions = [
       "D. (1)+(3)+(4)+(5)",
       "E. (1)+(2)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "113年度",
@@ -12495,10 +12430,10 @@ const rawQuestions = [
     "question": "以下關於胃食道逆流疾病之描述何者正確?",
     "statements": [
       "(1) 巴瑞特氏食道患者有時因食道敏感性降低,患者的症狀不一定很明顯",
-      "(2) 糜爛性食道炎患者在食道酸鹼測定檢查之下食道通常有較高的酸暴露時間",
+      "(2) 糜爛性食道炎患者在食道酸鹼測定檢查之下食道通常有較高的酸暴露時間 (acid exposure time, AET)",
       "(3) 非糜爛性逆流疾病則是多見於年輕女性,對制酸藥物治療的反應佳,所需的 治療療程也較短",
       "(4) 高解析度食道壓力檢查可能發現食道胃交接處壓力較低 食道裂孔疝氣或食 道體蠕動力低下",
-      "(5) 過去有確切診斷證據"
+      "(5) 過去有確切診斷證據(AET >6%)之胃食道逆流病患,若是質子幫浦抑制劑 治療無效,多管腔食道內阻抗併酸鹼度檢測時必須停用質子幫浦抑制劑至少 兩周,才能做出鑑別診斷"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -12515,7 +12450,7 @@ const rawQuestions = [
     "question": "以下關於胃食道逆流疾病治療之描述何者正確?",
     "statements": [
       "(1) 除了減肥與體重控制之外,務必建議患者配合改變生活型態",
-      "(2) 鉀離子競爭性酸阻斷劑",
+      "(2) 鉀離子競爭性酸阻斷劑(Potassium-competitive acid blocker, P-CAB)是最 新類型的治療藥物,對於功能性心灼熱(functional heartburn)特別有效",
       "(3) 對於合併食道裂孔疝氣的病患,可以考慮外科抗逆流手術治療",
       "(4) 內視鏡抗逆流治療在近期的系統性文獻回顧及統合分析顯示,逆流相關症狀 有顯著改善,效果持久性佳,可媲美外科抗逆流手術",
       "(5) 內視鏡抗逆流治療雖然侵入性較低,術前仍然必須接受嚴謹的評估,包括食 道酸鹼測定 食道機能檢查"
@@ -12534,10 +12469,10 @@ const rawQuestions = [
     "no": 7,
     "question": "以下關於台灣常見食道癌之描述何者正確?",
     "statements": [
-      "(1) 鱗狀細胞癌",
-      "(2) 根據癌域理論",
+      "(1) 鱗狀細胞癌(squamous cell carcinoma,SCC)占多數",
+      "(2) 根據癌域理論(field cancerization),鱗狀細胞癌可能與頭頸癌同時出現",
       "(3) 食道癌危險因子因為癌細胞型態會有所不同",
-      "(4) 食道弛緩不能症",
+      "(4) 食道弛緩不能症(achalasia)是食道腺癌的常見危險因子之一",
       "(5) 發現時大多為早期,可用內視鏡切除"
     ],
     "options": [
@@ -12582,10 +12517,10 @@ const rawQuestions = [
     "no": 10,
     "question": "以下關於食道靜脈曲張(esophageal varices)之描述何者正確?",
     "statements": [
-      "(1) 食道靜脈曲張出血的機率與靜脈曲張大小 肝硬化程度及靜脈表面的赤色徵 象",
-      "(2) 面對新診斷之肝硬化患者,建議使用非專一性貝它阻斷劑",
-      "(3) 肝硬化患者,不管Child 等級,若內視鏡發現大型食道靜脈曲張,可以考慮 預防性經內視鏡食道靜脈曲張結紮術",
-      "(4) 急性出血時,優先穩定病患之生命徵象,並應儘速投予促使腸道血管收縮的 藥物",
+      "(1) 食道靜脈曲張出血的機率與靜脈曲張大小 肝硬化程度及靜脈表面的赤色徵 C 象(red color sign)有關",
+      "(2) 面對新診斷之肝硬化患者,建議使用非專一性貝它阻斷劑(non-selective beta blockers, NSBB),降低發生食道靜脈曲張的風險",
+      "(3) 肝硬化患者,不管Child 等級,若內視鏡發現大型食道靜脈曲張,可以考慮 預防性經內視鏡食道靜脈曲張結紮術(endoscopic variceal ligation, EVL)或 口服NSBB,降低首次出血的風險",
+      "(4) 急性出血時,優先穩定病患之生命徵象,並應儘速投予促使腸道血管收縮的 藥物(vasoactive drugs)及抗生素,並於到院12 小時之內進行經內視鏡靜 脈曲張結紮術",
       "(5) 食道靜脈曲張初次出血穩定後,應儘速進行次級預防,將靜脈曲張結紮完畢, 通常不須同時投予NSBB"
     ],
     "options": [
@@ -12595,14 +12530,14 @@ const rawQuestions = [
       "D. (1)+(3)+(5)",
       "E. (3)+(4)+(5)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "113年度",
     "no": 11,
     "question": "關於消化性潰瘍的描述,何者正確?",
     "statements": [
-      "(1) Ulcer潰瘍的定義就病理組織切片而言,深度要到黏膜with depth to mucosa layer",
+      "(1) Ulcer潰瘍的定義就病理組織切片而言,深度要到黏膜with depth to mucosa B layer",
       "(2) 內視鏡底下為mucosal break > 5mm in size",
       "(3) 幽門螺旋桿菌Helicobacter pylori為主要病因,它是格蘭氏陽性微嗜氧桿菌",
       "(4) 殺死幽門螺旋桿菌可以減少約80%消化性潰瘍的復發",
@@ -12615,7 +12550,7 @@ const rawQuestions = [
       "D. (1)+(2)+(4)+(5)",
       "E. (1)+(3)+(4)+(5)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "113年度",
@@ -12676,7 +12611,7 @@ const rawQuestions = [
     "no": 15,
     "question": "病人因嚴重逆流性食道炎,需使用PPI proton pumper inhibitor,有效但無法減量 或停用,你在門診續開PPI 給他,要注意什麼?",
     "statements": [
-      "(1) 注意有無腹瀉,必要時要驗有無困難梭菌",
+      "(1) 注意有無腹瀉,必要時要驗有無困難梭菌(Clostridium difficile)感染",
       "(2) PPI 可能增加老年人hip fracture 風險",
       "(3) PPI 會造成hypermagnesemia 要測血中鎂離子",
       "(4) PPI 會增加acute kidney disease 及chronic kidney disease風險",
@@ -12700,7 +12635,7 @@ const rawQuestions = [
       "(2) 幽門桿菌最重要的傳染路徑是經口傳染,家庭內,人與人的傳染是重要的來 源之一",
       "(3) 一等親屬有胃癌病史 50 歲以上或居住在胃癌中高風險地區民眾罹患胃癌的 風險較高,建議接受幽門桿菌篩檢",
       "(4) 以鄰里為單位進行幽門桿菌篩檢及治療,可以檢測出較高比例的帶菌者,並 提高除菌治療的順應性,也可降低後續再感染的風險",
-      "(5) 第一線治療建議使用四合一治療"
+      "(5) 第一線治療建議使用四合一治療(包括10-14 天之鉍劑四合一治療或14 天之 非鉍劑四合一治療).Clarithromycin 抗藥性較低的地區,14 天之三合一治療 為可接受之替代療法"
     ],
     "options": [
       "A. (2)+(4)+(5)",
@@ -12719,7 +12654,8 @@ const rawQuestions = [
     "options": [
       "A. Acute respiratory failure with ventilator",
       "B. Heart failure with normal renal function, need oxygen by nasal cannula",
-      "C. Child A cirrhotic patients",
+      "C. Child",
+      "A. cirrhotic patients",
       "D. High dose steroid usage",
       "E. Acute renal failure"
     ],
@@ -12733,9 +12669,9 @@ const rawQuestions = [
     "options": [
       "A. Any NSAID at the lowest effective dose alone",
       "B. Celecoxib alone",
-      "C. Naproxen alone+H2RA",
-      "D. Naproxen or celecoxib+PPI",
-      "E. morphine+PPI"
+      "C. Naproxen alone + H2RA",
+      "D. Naproxen or celecoxib+ PPI",
+      "E. morphine + PPI"
     ],
     "answer": "D"
   },
@@ -12746,7 +12682,7 @@ const rawQuestions = [
     "statements": [
       "(1) 用完抗生素殺菌後要檢測有無成功要4 周再行幽門桿菌檢測才準確",
       "(2) 執行幽門桿菌檢測前,PPI 至少要停7 天",
-      "(3) UBT",
+      "(3) UBT(urea breath test)吹氣運用的碳13有輻射性,小孩及孕婦應使用C14 的UBT 較安全",
       "(4) 用完抗生素殺菌後要檢測有無成功,不建議使用血清學檢驗",
       "(5) 糞便幽門螺旋桿菌抗體檢測stool Hp antibody test 為非侵入性有效檢測方法"
     ],
@@ -12800,7 +12736,7 @@ const rawQuestions = [
       "(1) 常有KIT 基因突變",
       "(2) 胃的間質瘤生長快速",
       "(3) 胃腸間質瘤最常發生於大腸",
-      "(4) 10-15%之GIST 有Platelet derived growth factor receptor",
+      "(4) 10-15%之GIST 有Platelet derived growth factor receptor(PDGRA)基因 突變",
       "(5) tyrosine Kinase inhibitor 可用於治療轉移性胃腸間質瘤"
     ],
     "options": [
@@ -12817,8 +12753,8 @@ const rawQuestions = [
     "no": 23,
     "question": "下列有關胃癌的敍述,何者為是?",
     "statements": [
-      "(1) 腸道型",
-      "(2) 瀰漫型",
+      "(1) 腸道型(intestinal type)胃癌與幽門螺旋桿菌感染有關",
+      "(2) 瀰漫型(diffuse type)胃癌與幽門螺旋桿菌感染有關",
       "(3) 腸道型胃癌患者之平均年齡較瀰漫型胃癌患者大",
       "(4) 瀰漫型預後較佳"
     ],
@@ -12855,7 +12791,7 @@ const rawQuestions = [
     "no": 25,
     "question": "有關胃腸淋巴瘤之敘述,何者為非?",
     "statements": [
-      "(1) 幽門螺旋桿菌陽性之胃mucosa-associated lymphoid tissue lymphoma",
+      "(1) 幽門螺旋桿菌陽性之胃mucosa-associated lymphoid tissue lymphoma C (MALToma)患者適合接受幽門螺旋桿菌除菌治療",
       "(2) 幽門螺旋桿菌陰性之胃MALToma 患者不適合接受幽門螺旋桿菌除菌治療",
       "(3) 幽門螺旋桿菌感染是引起胃MALToma 之主因",
       "(4) 根除幽門螺旋桿菌約可治癒70%至80%之stage I 的胃MALToma",
@@ -12868,7 +12804,7 @@ const rawQuestions = [
       "D. (4)+(5)",
       "E. (1)+(2)+(5)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "113年度",
@@ -12949,10 +12885,7 @@ const rawQuestions = [
     "no": 30,
     "question": "下列有關於十二指腸腺癌(adenocarcinoma)的描述何者為誤?",
     "statements": [
-      "(1) Familial adenomatous polyposis",
-      "(2) Familial adenomatous polyposis",
-      "(3) Crohn’s disease 患者發生小腸腺癌之機率較常人為高",
-      "(4) Peutz-Jeghers syndrome 患者發生小腸腺癌之機率較常人為高"
+      "(1) Familial adenomatous polyposis(FAP)患者發生小腸腺癌之機率較常人為"
     ],
     "options": [
       "A. (2)",
@@ -12961,7 +12894,7 @@ const rawQuestions = [
       "D. (1)+(2)+(4)",
       "E. (1)+(2)+(3)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "113年度",
@@ -13057,7 +12990,7 @@ const rawQuestions = [
       "(2) Integrin",
       "(3) IL23",
       "(4) IL-17",
-      "(5) JAK"
+      "(5) JAK (Janus Kinase)"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -13072,7 +13005,7 @@ const rawQuestions = [
     "no": 37,
     "question": "關於Diverticulitis的診斷與處理,何者正確?",
     "statements": [
-      "(1) 初次發生diverticulitis如果之前沒有接受過大腸鏡,應在住院中儘早完成 大腸鏡檢查以排除大腸直腸癌",
+      "(1) 初次發生diverticulitis如果之前沒有接受過大腸鏡,應在住院中儘早完成 E 大腸鏡檢查以排除大腸直腸癌",
       "(2) 抗生素治療是必須的,不論是uncomplicated/complicated; immunocompetent/immunocompromised",
       "(3) 抽菸及肥胖為復發因子",
       "(4) 水果含有small seeds,如草莓藍莓,會增加復發風險",
@@ -13085,7 +13018,7 @@ const rawQuestions = [
       "D. (2)+(4)",
       "E. (3)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "113年度",
@@ -13093,8 +13026,8 @@ const rawQuestions = [
     "question": "關於缺鐵性貧血的腸胃道評估處置,何者為適當?",
     "statements": [
       "(1) 上下消化道內視鏡為初步應進行之檢查",
-      "(2) 應例行性進行胃生檢",
-      "(3) 應例行性進行小腸生檢",
+      "(2) 應例行性進行胃生檢(biopsy)以排除atrophic gastritis",
+      "(3) 應例行性進行小腸生檢(biopsy)以排除Celiac disease",
       "(4) 當上下消化道內視鏡為初步正常時,鐵劑補充優先於膠囊內視鏡"
     ],
     "options": [
@@ -13111,8 +13044,8 @@ const rawQuestions = [
     "question": "依據AGA 的recommendation,建議用於irritable bowel syndrome with diarrhea (IBS-D)的藥物包括:",
     "statements": [
       "(1) Loperamide",
-      "(2) Tricyclic antidepressants",
-      "(3) Serotonin reuptake inhibitors",
+      "(2) Tricyclic antidepressants(TCAs)",
+      "(3) Serotonin reuptake inhibitors(SSRIs)",
       "(4) Antispasmodics"
     ],
     "options": [
@@ -13195,9 +13128,9 @@ const rawQuestions = [
     "question": "對於不同型態之大腸腫瘤(colorectal neoplasia)之治療策略下列何者正確?",
     "statements": [
       "(1) 對於小於一公分之息肉可用cold snare polypectomy當作第一線治療",
-      "(2) 對於有莖",
-      "(3) 對於大型",
-      "(4) 若透過內視鏡切除之腫瘤經病理檢查後有黏膜下層侵犯",
+      "(2) 對於有莖(pedunculated)之一公分以下息肉可以考慮用hot snare polypectomy當作第一線治療",
+      "(3) 對於大型(>兩公分)之laterally spreading tumor 若endoscopic mucosal resection 無法完整切除,則應該考慮endoscopic submucosal dissection",
+      "(4) 若透過內視鏡切除之腫瘤經病理檢查後有黏膜下層侵犯(submucosal layer invasion),則應該追加手術",
       "(5) 對於小於3mm 的微小息肉可以使用cold forceps polypectomy"
     ],
     "options": [
@@ -13282,11 +13215,11 @@ const rawQuestions = [
     "no": 49,
     "question": "臨床醫師常常使用Ulcerative Colitis Disease Activity Index(UCDAI)來判斷UC 患者的嚴重程度,請問以下何者屬於UCDAI 的評分項目?",
     "statements": [
-      "(1) 排便頻率",
-      "(2) 糞便性狀",
-      "(3) 直腸出血",
-      "(4) 內視鏡發現",
-      "(5) 患者主觀感受"
+      "(1) 排便頻率(Stool frequency)",
+      "(2) 糞便性狀(Stool character)",
+      "(3) 直腸出血(Rectal bleeding)",
+      "(4) 內視鏡發現(Mucosal appearance at endoscopy)",
+      "(5) 患者主觀感受(Subjective rating of disease activity)"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -13341,11 +13274,11 @@ const rawQuestions = [
     "no": 52,
     "question": "有關C肝患者DAA治療達成SVR後,哪些族群具高C肝病毒再感染(reinfection) 風險?",
     "statements": [
-      "(1) 人類免疫缺乏病毒感染",
+      "(1) 人類免疫缺乏病毒感染(HIV)",
       "(2) 受刑人",
       "(3) 女女同性戀",
       "(4) 男男同性戀",
-      "(5) 靜脈注射毒癮者"
+      "(5) 靜脈注射毒癮者(PWID)"
     ],
     "options": [
       "A. (1)+(2)+(4)",
@@ -13362,8 +13295,8 @@ const rawQuestions = [
     "question": "下列何者關於B 肝抗病毒藥物的描述,何者為正確?",
     "statements": [
       "(1) Entecavir對有慢性腎病患者需調整劑量",
-      "(2) Tenofovir dipovoxil fumarate",
-      "(3) Tenofovir alafenamide",
+      "(2) Tenofovir dipovoxil fumarate(TDF)須定期監測腎功能",
+      "(3) Tenofovir alafenamide(TAF)可以使用於所有慢性腎病患者",
       "(4) TAF 比TDF有較高的血中濃度"
     ],
     "options": [
@@ -13420,7 +13353,7 @@ const rawQuestions = [
     "question": "有關原發性膽汁性膽管炎(primary biliary cholangitis),下列敘述何者為正確?",
     "statements": [
       "(1) 好發於中年女性",
-      "(2) 肝生檢",
+      "(2) 肝生檢(liver biopsy)很少用於診斷",
       "(3) Immunoglobulin大部分是IgG",
       "(4) 95%患者會出現anti-mitochondrial Ab",
       "(5) 最常見的症狀是疲勞Fatigue"
@@ -13470,7 +13403,7 @@ const rawQuestions = [
       "(1) 通常出現e 抗原陰性",
       "(2) 有較為嚴重的肝臟傷害",
       "(3) 年紀較輕",
-      "(4) B 型肝炎病毒複製能力與出現突變",
+      "(4) B 型肝炎病毒複製能力與出現突變(mutation)無關",
       "(5) 是最常見發生慢性B 型肝炎的分期"
     ],
     "options": [
@@ -13490,7 +13423,7 @@ const rawQuestions = [
       "(1) 會發生於正常藥物使用劑量",
       "(2) 常出現於藥物使用六個月以後",
       "(3) acetaminophen 與methotrexate 引發肝毒性與使用劑量相關",
-      "(4) 大部分的藥物肝臟傷害為特異性",
+      "(4) 大部分的藥物肝臟傷害為特異性(idiosyncratic)肝毒性",
       "(5) 藥物引發肝臟傷害可出現於停藥後"
     ],
     "options": [
@@ -13521,10 +13454,10 @@ const rawQuestions = [
     "no": 62,
     "question": "有關D型肝炎病毒感染,下列描述何者為正確?",
     "statements": [
-      "(1) 重複感染",
-      "(2) 重複感染",
-      "(3) 同時感染",
-      "(4) 重複感染",
+      "(1) 重複感染(superinfection)發生於B 型肝炎病毒感染後",
+      "(2) 重複感染(superinfection)患者會呈現核心抗IgM(IgM anti-HBc)",
+      "(3) 同時感染(coinfection)患者出現兩個丙胺酸轉胺酶(Alanine transaminase, ALT)高峰(peak),第二個高峰代表B 肝病毒肝炎高峰",
+      "(4) 重複感染(superinfection)患者較同時感染(coinfection)患者有肝硬化 風險",
       "(5) 靜脈藥物毒癮者是感染高風險族群"
     ],
     "options": [
@@ -13542,7 +13475,7 @@ const rawQuestions = [
     "question": "肝性腦病變(hepatic encephalopathy)使用不吸收雙醣類(nonabsorbable disaccharides)如lactulose 等,下列描述何者為正確?",
     "statements": [
       "(1) 使腸道酸鹼值提高",
-      "(2) 抑制腸道氨",
+      "(2) 抑制腸道氨(ammonia)吸收",
       "(3) 可改善肝性腦病變症狀與死亡率",
       "(4) 副作用包括腹瀉 脹氣 與電解質不平衡",
       "(5) 作用主要是經由腸道細菌代謝不吸收雙醣類後的產物"
@@ -13576,7 +13509,7 @@ const rawQuestions = [
     "question": "下列有關E 型肝炎病毒感染的描述何者正確?",
     "statements": [
       "(1) 經由糞口傳染",
-      "(2) 自限性疾病",
+      "(2) 自限性疾病(self-limited)",
       "(3) 不會變成慢性疾病",
       "(4) 孕婦有高嚴重肝病風險",
       "(5) 可能經由胎盤傳染給胎兒"
@@ -13651,8 +13584,8 @@ const rawQuestions = [
     "statements": [
       "(1) 可包含加強已存在或刺激新的免疫反應",
       "(2) Check point inhibitors包含針對PD-1, PD-L1 和CTLA-1 等抑制",
-      "(3) T-cell immunoglobin and mucin-domain containing-3",
-      "(4) 可與其他藥物如TKI",
+      "(3) T-cell immunoglobin and mucin-domain containing-3(TIM-3)及Lymphocyte activation gene-3(LAG-3)屬於antigen targeting antibodies 之機轉",
+      "(4) 可與其他藥物如TKI(Tyrosine kinase inhibitor)合併使用",
       "(5) 腫瘤疫苗為針對腫瘤抗原增強特定免疫反應之物質,方法包含dendritic cells, peptide vaccines, and oncolytic viruses"
     ],
     "options": [
@@ -13692,7 +13625,8 @@ const rawQuestions = [
     "options": [
       "A. 男性或高齡",
       "B. 吸菸或欠缺運動",
-      "C. A 型肝炎抗體或B型肝炎帶原或C型肝炎抗體陽性",
+      "C. ",
+      "A. 型肝炎抗體或B型肝炎帶原或C型肝炎抗體陽性",
       "D. 大量飲酒或非酒精性脂肪肝疾病(NAFLD)",
       "E. 糖尿病或黃麴毒素(aflatoxin)暴露"
     ],
@@ -13703,10 +13637,10 @@ const rawQuestions = [
     "no": 72,
     "question": "下列關於HBV 的肝細胞癌(HCC)風險何者為非:",
     "statements": [
-      "(1) AASLD指引建議未注射出生HB 疫苗之高危險成人應注射HB 疫苗以降低 HCC風險",
+      "(1) AASLD指引建議未注射出生HB 疫苗之高危險成人應注射HB 疫苗以降低 E HCC風險",
       "(2) HCC風險並未隨年齡增加",
       "(3) 肝硬化患者比無肝硬化患者有更高的HCC風險",
-      "(4) 口服抗病毒藥",
+      "(4) 口服抗病毒藥(NA)與CHB患者降低HCC的風險有關",
       "(5) AASLD指引建議使用statins, aspirin, and metformin 來chemo prevention 以降低HCC風險"
     ],
     "options": [
@@ -13716,17 +13650,17 @@ const rawQuestions = [
       "D. (4)+(5)",
       "E. (2)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "113年度",
     "no": 73,
     "question": "有關肝癌的肝移植治療中,下列敘述何者是正確的?",
     "statements": [
-      "(1) 米蘭",
-      "(2) 血清AFP尚未確立其作為HCC重要預後指標的作用,主因為大約1/3的HCC 腫瘤是非AFP 產生者",
-      "(3) 局部治療",
-      "(4) 化學栓塞",
+      "(1) 米蘭(Milan)標準取決於腫瘤的大小和數量(1 個病灶5≤cm 或2–3 個病灶, E 且不超過4cm)",
+      "(2) 血清AFP尚未確立其作為HCC重要預後指標的作用,主因為大約1/3的HCC 腫瘤是非AFP 產生者(non-AFP producers)",
+      "(3) 局部治療(loco-reginal therapy)導致腫瘤壞死後可Downstaging 至Milan 標準使部分患者獲得肝移植的機會增加",
+      "(4) 化學栓塞(Chemoembolization)與放射治療(Radiotherapy)皆可是 Downstaging 替代治療選擇",
       "(5) AASLD不建議常規使用全身性治療作為移植的bridging therapy"
     ],
     "options": [
@@ -13736,7 +13670,7 @@ const rawQuestions = [
       "D. (2)+(3)+(4)",
       "E. (3)+(4)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "113年度",
@@ -13761,7 +13695,8 @@ const rawQuestions = [
       "A. 熱消融(thermal ablation)術相較於開刀,對於< 2 cm 的HCC患者,具有 相似的生存率並且具有成本效益",
       "B. 熱消融(thermal ablation)術處理直徑小於10 公分的腫瘤,適用於無法開刀 病患",
       "C. 熱消融(thermal ablation)術後患者復發的風險高,應每12 個月用造影劑增 強CT或MRI進行追蹤監測",
-      "D. BCLC stage B HCC 病患,局部治療比不治療有較佳之預後,TACE 是最佳 實證之治療方式",
+      "D. BCLC stage",
+      "B. HCC 病患,局部治療比不治療有較佳之預後,TACE 是最佳 實證之治療方式",
       "E. 病患不適合TACE / TARE 或TACE / TARE 治療後惡化者,應考慮使用全身性 治療(systemic therapy)"
     ],
     "answer": "B"
@@ -13771,11 +13706,7 @@ const rawQuestions = [
     "no": 76,
     "question": "有關肝癌之2022 BCLC(Barcelona Clinic Liver Cancer)分期系統何者正確?",
     "statements": [
-      "(1) 主要分為stage 0, ,B, C, D A",
-      "(2) ECOG Performance status 1-2 分的病患為stage C期肝癌,3-4 分的病患為 stage D期肝癌",
-      "(3) Italian Liver Cancer",
-      "(4) Stage B 肝癌之病患應積極治療,尚不建議使用systemic treatment",
-      "(5) Stage 0是指單一腫瘤小3公分,ECOG Performance status 0分之very early HCC"
+      "(1) 主要分為stage 0,"
     ],
     "options": [
       "A. (1)+(2)",
@@ -13791,11 +13722,7 @@ const rawQuestions = [
     "no": 77,
     "question": "針對栓塞術治療肝細胞癌的敘述何者有誤?",
     "statements": [
-      "(1) TACE 對於BCLC 病患為標準治療",
-      "(2) TACE 在肝功能Child C 級原則上不可接受治療",
-      "(3) 栓塞後病人可能會有發燒 右上腹痛及肝指數上升等副作用",
-      "(4) Radioembolization 如Y90 對於門脈栓塞肝細胞癌不能改善存活",
-      "(5) 一般來說,Radioembolization 如Y90 與TACE 比較起來存活率"
+      "(1) TACE 對於BCLC"
     ],
     "options": [
       "A. (1)+(2)",
@@ -13804,7 +13731,7 @@ const rawQuestions = [
       "D. (1)+(2)+(5)",
       "E. (1)+(4)+(5)"
     ],
-    "answer": "A"
+    "answer": "E"
   },
   {
     "year": "113年度",
@@ -13812,7 +13739,7 @@ const rawQuestions = [
     "question": "下列何項敘述何者錯誤?",
     "statements": [
       "(1) AFP > 1000 ng/mL 是肝癌病患肝臟移植術後不良結果的獨立預測因子",
-      "(2) 血管肉瘤",
+      "(2) 血管肉瘤(angiosarcoma)與多種環境致癌物有關,例如工業暴露於氯乙烯 單體(vinyl chloride monomers),長期暴露於砷化合物(arsenical compounds)等",
       "(3) 經過二次TACE 失敗之肝癌病患可接受台灣健保給付atezolizumab 加 bevacizumab 合併治療",
       "(4) 如果肝癌腫瘤負荷超過米蘭標準,則必須對最大病灶進行活檢,以排除無法 肝移植之poorly differentiated HCC",
       "(5) 糖尿病和肥胖會增加肝癌風險,如第2 型糖尿病的HCC風險增加10 倍以上"
@@ -13851,11 +13778,11 @@ const rawQuestions = [
     "no": 80,
     "question": "下列有關肝細胞癌的敘述,何者為非?",
     "statements": [
-      "(1) AFP 與AFP-L3%或des-γ-羧基凝血酶原的組合可改善AFP 對早期HCC診 斷的能力",
+      "(1) AFP 與AFP-L3%或des-γ-羧基凝血酶原的組合可改善AFP 對早期HCC診 E 斷的能力",
       "(2) Glypican 3,GP73,osteopontin,squamous cell carcinoma antigen,PIVKAII 和insulin growth factor-1 是目前正在評估尚未應用的生物標記",
       "(3) 幾種與HCC相關的生物標記,包括DNA,messenger RNAs, non-coding RNAs等已進入臨床phase 3 期試驗",
       "(4) 每6 個月接受一次監測肝癌的患者,許多研究結論比接受年度監測的患者, 較容易發現早期腫瘤,也有較好的總生存率",
-      "(5) GALAD的預測模型,評估了包括性別 AFP-L3 AFP des-γ-羧基凝血酶 原"
+      "(5) GALAD的預測模型,評估了包括性別 AFP-L3 AFP des-γ-羧基凝血酶 原(Des-carboxy-prothrombin; DCP)和喝酒有無等"
     ],
     "options": [
       "A. (1)+(2)",
@@ -13864,16 +13791,16 @@ const rawQuestions = [
       "D. (3)+(5)",
       "E. (2)+(5)"
     ],
-    "answer": "E"
+    "answer": ""
   },
   {
     "year": "113年度",
     "no": 81,
     "question": "臨床推理過程中,病史的詢問雖然常常受到臨床情境不同的影響,病史可能會有 不確定性,可是臨床研究發現典型的biliary colic(pain)對於臨床決策具有關鍵 性的角色.下列病人情境其診斷與治療策略何者比較恰當:一位58歲女性BMI 35 Kg/M2,育有五名兒女,右上腹部疼痛,間斷性發作一年,持續時間約十五分鐘 到半小時,大多在飯後,疼痛性質為絞痛,疼痛有時會傳導到左上腹或是左下腹, 發作時無合併症狀列如噁心嘔吐,發燒;但是有時候會出現腹瀉.",
     "statements": [
-      "(1) 病人是典型的膽道疼痛",
+      "(1) 病人是典型的膽道疼痛(Biliary colic),如果腹部超音波未能檢查出膽囊結 石,可以安排MRCP 或是EUS 檢查是否有膽道微小結石或是膽砂(bile sludge).",
       "(2) 病人右上腹痛症狀不是典型的biliary colic,如果腹部超音波檢查出膽囊結石 ,仍不應建議病人進行膽囊切除手術,因為症狀是膽道以外的病因可能性很 高,需再探討其他病因的可能性.",
-      "(3) 病人右上腹痛症狀不是典型的biliary colic,但是肥胖多產是膽結石的高風險 因子,如果腹部超音波檢查沒有膽囊結石與膽道沒有擴張,如果生化檢測出 現Alk-P 與bili-T上升,仍需考慮膽管結石或是超音波未能檢出小膽結石引起 疼痛,可以安排MRCP 或是EUS 檢查是否有微小結石或是膽砂",
+      "(3) 病人右上腹痛症狀不是典型的biliary colic,但是肥胖多產是膽結石的高風險 因子,如果腹部超音波檢查沒有膽囊結石與膽道沒有擴張,如果生化檢測出 現Alk-P 與bili-T上升,仍需考慮膽管結石或是超音波未能檢出小膽結石引起 疼痛,可以安排MRCP 或是EUS 檢查是否有微小結石或是膽砂(bile sludge).",
       "(4) 病人右上腹痛症狀不是典型的biliary colic,如果病人曾經因為膽結石接受過 膽囊切除術治療,腹部超音波檢查出現膽道擴張與ALK-P, serum Bili-T上升 ,仍應考慮sphincter Oddi dysfunction.",
       "(5) 病人右上腹痛症狀是典型的biliary colic,如果病人曾經因為膽結石接受過膽 囊切除術治療,腹部超音波檢查出現膽道擴張,ALK-P, serum Bili-T 雖正常, 仍應考慮sphincter Oddi dysfunction,可考慮進行乳頭切開術治療."
     ],
@@ -13891,11 +13818,11 @@ const rawQuestions = [
     "no": 82,
     "question": "有關膽囊結石與膽道感染的自然病程下列何者為正確?",
     "statements": [
-      "(1) 根據歐美前瞻性研究,無症狀膽結石病人長期追蹤的結果,七成以上病人保 持無症狀,發生膽石痛或是併發症",
+      "(1) 根據歐美前瞻性研究,無症狀膽結石病人長期追蹤的結果,七成以上病人保 D 持無症狀,發生膽石痛或是併發症(如膽囊發炎等)也是症狀輕微,因此無 症狀膽結石病人建議追蹤即可.",
       "(2) 雖然一般認為膽結石病人如合併有糖尿病,產生併發症的時候會有比較大的 風險,前瞻性的研究發現有糖尿病的膽結石病人須進行預防性的膽囊切除.",
-      "(3) biliary colic的典型症狀為上腹或右上腹部疼痛,疼痛可能傳導到背部肩胛骨 部位,或兩側肩胛骨中間;疼痛性質並非絞痛",
-      "(4) 一旦膽結石發生biliary colic,有很高的比例會重複出現,甚至演變成併發症",
-      "(5) biliary colic疼痛超過六小時需考慮膽囊炎.持續高燒需考慮膽囊gangrene 或是perforation,如果有黃疸則可能是膽道炎.如果病人出現Reynolds pentad"
+      "(3) biliary colic的典型症狀為上腹或右上腹部疼痛,疼痛可能傳導到背部肩胛骨 部位,或兩側肩胛骨中間;疼痛性質並非絞痛(colic),可能因進食而加重, 通常無發燒現象,有時會有噁心嘔吐的情形.",
+      "(4) 一旦膽結石發生biliary colic,有很高的比例會重複出現,甚至演變成併發症 (膽囊炎,膽道阻塞,膽道炎,胰臟炎等),因此膽結石病人有嚴重的膽石痛 或是有合併症情況,建議接受膽囊切除術治療.",
+      "(5) biliary colic疼痛超過六小時需考慮膽囊炎.持續高燒需考慮膽囊gangrene 或是perforation,如果有黃疸則可能是膽道炎.如果病人出現Reynolds pentad(五徵)[Charcot tirad: RUQ pain, fever, jaundice] + mental confusion, hypotension,需緊急進行膽道引流解壓,並治療敗血症."
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -13904,16 +13831,16 @@ const rawQuestions = [
       "D. (1)+(3)+(4)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "113年度",
     "no": 83,
     "question": "關於影像學檢查於膽道疾病的應用上,下列敘述何者為真?",
     "statements": [
-      "(1) Mirizzi syndrome在超音波檢查時會呈現膽囊擴大,膽石在cystic duct接近 common hepatic duct的地方,肝內膽管呈現擴大.",
+      "(1) Mirizzi syndrome在超音波檢查時會呈現膽囊擴大,膽石在cystic duct接近 B common hepatic duct的地方,肝內膽管呈現擴大.",
       "(2) sonographic Murphy sign 合併膽結石的存在,加上膽囊附近積水,膽囊壁厚 度超過4mm;可用於確定診斷急性膽囊炎.當有腹水與低白蛋白血症時,膽 囊附近積水,膽囊壁厚度超過4mm 這兩項準則會失去其特異性.",
-      "(3) 超音波對於總膽管結石的敏感度差,而EUS 則很好",
+      "(3) 超音波對於總膽管結石的敏感度差,而EUS 則很好(敏感度與特異度90% 以上).",
       "(4) CT可用於懷疑膽囊壁壞死或是穿孔時,或是懷疑其他腹腔內的急症,例如急 性胰臟炎或是膿瘍.",
       "(5) 在總膽管結石可能性較低的時候,使用MRCP 或是EUS 去排除是否有總膽 管結石,相對於ERCP 是較好的選擇."
     ],
@@ -13924,16 +13851,16 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)",
       "E. (1)+(2)+(4)"
     ],
-    "answer": "B"
+    "answer": ""
   },
   {
     "year": "113年度",
     "no": 84,
     "question": "關於膽囊結石的內科治療,下列何者為正確?",
     "statements": [
-      "(1) 藥物溶解膽結石只適用於少數的病人,例如小的膽固醇結石,KUB 上面可見 的膽結石並不適合藥物溶解治療.",
-      "(2) 膽結石的成分",
-      "(3) 膽固醇結石混合有色素型膽結石",
+      "(1) 藥物溶解膽結石只適用於少數的病人,例如小的膽固醇結石,KUB 上面可見 C 的膽結石並不適合藥物溶解治療.",
+      "(2) 膽結石的成分(例如膽固醇成分為主的膽結石)決定藥物治療的成敗,當前 用於溶解膽結石的主要的藥物是chenodeoxycholic acid 和UDCA.",
+      "(3) 膽固醇結石混合有色素型膽結石(pigment stone)的病人不適合藥物治療.",
       "(4) 膽囊功能正常與膽道的暢通是溶石的必備條件,因此適當的評估膽囊功能是 必要的,文獻證明使用domperidone 可增加膽囊的收縮,因此有助膽囊結石 的溶解.",
       "(5) 藥物溶石的成功在形成膽結石的成因是短時間的情形下,可用於預防,或是 治療成功後較不易復發,例如在TPN,急速體重下降,用Octreotide 藥物, spinal cord injury的情況下."
     ],
@@ -13944,15 +13871,15 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "113年度",
     "no": 85,
     "question": "下列有關內視鏡逆行性膽胰管攝影術(ERCP)及其相關治療術(intervention) 之描述何者為是?",
     "statements": [
-      "(1) Post-ERCP pancreatitis",
-      "(2) Post-ERCP pancreatitis",
+      "(1) Post-ERCP pancreatitis(PEP)常發生在胰臟主要管道壓力上升的情況,例 如物理因素造成periampulla inflammation,或是器械造成胰臟管道損傷.",
+      "(2) Post-ERCP pancreatitis(PEP)可以使用術前NSAID 肛門塞劑與pancreatic duct stent預防.",
       "(3) 術前NSAID 肛門塞劑與術後使用效果相當.",
       "(4) ERCP with biliary or pancreatic sphincterotomy 是術後出血高於1%的高風 險手術,如果病人有使用抗血小板製劑需考慮停用,然而停用抗血小板製劑 如屬於thromboembolism 的高風險,則考慮延後手術.",
       "(5) ERCP sphincterotomy後出現後腹腔free air,病人無症狀,因爲疑似穿孔需 緊急手術."
@@ -13971,11 +13898,7 @@ const rawQuestions = [
     "no": 86,
     "question": "Periampullary惡性腫瘤引起的膽道阻塞,引流的方法包含有哪些?",
     "statements": [
-      "(1) ERBD",
-      "(2) PTCD",
-      "(3) PTGBD",
-      "(4) EUS-CDS",
-      "(5) EUS- GBD"
+      "(1) ERBD(endoscopic retrograde biliary drainage)with plastic stent or metallic"
     ],
     "options": [
       "A. (1)+(2)+(4)",
@@ -13984,17 +13907,17 @@ const rawQuestions = [
       "D. (1)+(2)+(5)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": "A"
+    "answer": ""
   },
   {
     "year": "113年度",
     "no": 87,
     "question": "關於膽管癌目前的治療,下列何者為真?",
     "statements": [
-      "(1) Bismuth type IV pCCA",
+      "(1) Bismuth type IV pCCA(左右肝內膽管都有腫瘤)如能完全切除並不是手術 D 的絕對禁忌症",
       "(2) 無法手術病人ECOG-PS = 2 不適合palliative chemotherapy",
       "(3) 晚期癌症目前以gemcitabine and cisplatin化療為有效的第一線的治療",
-      "(4) 肝內膽管癌中fibroblast growth factor receptor 2",
+      "(4) 肝內膽管癌中fibroblast growth factor receptor 2 (FGFR2) fusion 和 isocitrate dehydrogenase (IDH) 1/2 mutations驅動因子突變(driver mutation),目前有標靶藥物抑制",
       "(5) 多處轉移病人並不適合palliative treatment"
     ],
     "options": [
@@ -14004,7 +13927,7 @@ const rawQuestions = [
       "D. (1)+(3)+(4)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "D"
+    "answer": ""
   },
   {
     "year": "113年度",
@@ -14013,7 +13936,7 @@ const rawQuestions = [
     "statements": [
       "(1) B 型和C型肝炎病毒感染是肝臟原發性腫瘤的風險因子,也包括膽道癌",
       "(2) 膽管癌,IgG4 cholangiopathy,膽固醇結石阻塞併膽道炎均可造成這樣的表 現",
-      "(3) 若內視鏡切片為膽道發炎",
+      "(3) 若內視鏡切片為膽道發炎(massive lymphocyte and IgG4 plasma cell infiltration)與Storiform fibrosis可懷疑為IgG4 cholangiopathy",
       "(4) 若為可完全切除的膽管癌,因爲黃疸高的病人術後的合併症較多,因此必須 先引流到Bilirubin 正常,再進行手術治療",
       "(5) 若病人沒有合併發燒,在進行逆行性膽管攝影術檢查之前施打預防性抗生素 可預防術後感染"
     ],
@@ -14031,9 +13954,9 @@ const rawQuestions = [
     "no": 89,
     "question": "關於胰膽管匯流異常(pancreaticobiliary maljunction, PBM)的描述,下列何者 為真?",
     "statements": [
-      "(1) 膽管囊腫",
-      "(2) 研究發現成人PBM 的情況中,合併膽道擴張者與未合併膽道擴張者比較,有 膽道擴張情況下,膽管癌或膽囊癌的發生率都增加但以膽管癌比率最高",
-      "(3) 關於膽管囊腫",
+      "(1) 膽管囊腫(choledochal cyst)病患常見,無膽管囊腫(choledochal cyst) 也可見到這種異常",
+      "(2) 研究發現成人PBM 的情況中,合併膽道擴張者與未合併膽道擴張者比較,有 膽道擴張情況下,膽管癌或膽囊癌的發生率都增加但以膽管癌比率最高(比 膽囊癌高)",
+      "(3) 關於膽管囊腫(choledochal cyst)Todani分類為大家所接受,分為5 型,第 5 型為Carlori’s disease 與PMB 無相關",
       "(4) 基於膽道癌症風險增加,PBM 未合併膽道擴張者建議切除膽囊,PBM 合併 膽道擴張者,建議切除膽囊與擴張的膽管"
     ],
     "options": [
