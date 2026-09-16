@@ -172,7 +172,7 @@ const rawQuestions = [
     "no": 10,
     "question": "有關食道Caustic injury(corrosive esophagitis)之描述,何者不正確?",
     "statements": [
-      "(1) 強鹼(lye.button battery)造成較深的liquefaction necrosis,食道損傷較重, D 食道易狹窄.",
+      "(1) 強鹼(lye.button battery)造成較深的liquefaction necrosis,食道損傷較重, 食道易狹窄.",
       "(2) 強酸(鹽酸 硫酸)造成較淺的coagulation necrosis,胃損傷較重,前庭幽 門部易狹窄,易acidosis,死亡率較強鹼高.",
       "(3) 內視鏡檢查(EGD)要在24至48小時以內進行,可評估黏膜受損程度.",
       "(4) 食道穿孔易於1-2星期時發生,而食道或胃之狹窄易於3-4星期以後產生.",
@@ -185,7 +185,7 @@ const rawQuestions = [
       "D. 以上皆正確",
       "E. 以上皆不正確"
     ],
-    "answer": ""
+    "answer": "D"
   },
   {
     "year": "106年度",
@@ -8383,7 +8383,7 @@ const rawQuestions = [
     "no": 80,
     "question": "關於HCC image diagnostic performance 的敘述,下列何者正確?",
     "statements": [
-      "(1) Dynamic plus hepatobiliary phase MRI had a higher sensitivity and negative B predictive value than multiphasic CT and dynamic phase MRI alone",
+      "(1) Dynamic plus hepatobiliary phase MRI had a higher sensitivity and negative predictive value than multiphasic CT and dynamic phase MRI alone",
       "(2) Gadoxetic acid is unique in that approximately 50% of the administrated dose is taken up by the hepatocytes and excreted into the bile ducts",
       "(3) On gadoxetic acid enhanced MRI, hyper-intensity on hepatobiliary phase is regarded as an ancillary finding favoring malignancy",
       "(4) Gadoxetic acid-enhanced MRI has a higher sensitivity for detecting nodules that are either HCC not displaying the typical features of imaging hallmarks or high-grade dysplastic nodules"
@@ -8395,7 +8395,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)",
       "E. (2)+(4)"
     ],
-    "answer": ""
+    "answer": "B"
   },
   {
     "year": "110年度",
@@ -8571,8 +8571,7 @@ const rawQuestions = [
     "statements": [
       "(1)以細胞刷取抹片檢查是最方便的方式,陽性率高於切片夾採檢",
       "(2) 以內視鏡切片夾採檢大多需要切開乳突,風險較高",
-      "(3)以經口膽道內視鏡（peroral cholangioscopy，如 spyglass），內視鏡直視下採
-檢，可得最高陽性率",
+      "(3)以經口膽道內視鏡(peroral cholangioscopy,如spyglass),內視鏡直視下採 檢,可得最高陽性率",
       "(4)合併細胞刷取與切片可增加採檢的敏感度",
       "(5)以ERCP導引,近端膽管(proximal bile duct)病變切片的陽性率高於遠端膽 管(distal bile duct)"
     ],
@@ -11236,7 +11235,7 @@ const rawQuestions = [
       "D. (1)+(2)+(4)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": "C"
+    "answer": ""
   },
   {
     "year": "112年度",
