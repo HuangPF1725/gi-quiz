@@ -8571,7 +8571,8 @@ const rawQuestions = [
     "statements": [
       "(1)以細胞刷取抹片檢查是最方便的方式,陽性率高於切片夾採檢",
       "(2) 以內視鏡切片夾採檢大多需要切開乳突,風險較高",
-      "(3)以經口膽道內視鏡(peroral cholangioscopy,如spyglass),內視鏡直視下採 檢,可得最高陽性率",
+      "(3)以經口膽道內視鏡（peroral cholangioscopy，如 spyglass），內視鏡直視下採
+檢，可得最高陽性率",
       "(4)合併細胞刷取與切片可增加採檢的敏感度",
       "(5)以ERCP導引,近端膽管(proximal bile duct)病變切片的陽性率高於遠端膽 管(distal bile duct)"
     ],
