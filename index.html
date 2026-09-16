@@ -221,7 +221,7 @@
             background-color: var(--primary);
             color: white;
             border: none;
-            padding: 9px 20px;
+            padding: 9px 18px;
             font-size: 0.95rem;
             border-radius: 6px;
             cursor: pointer;
@@ -256,6 +256,67 @@
             color: #64748b;
             display: flex;
             justify-content: space-between;
+        }
+
+        /* 題目編輯器 Modal 彈窗樣式 */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(15, 23, 42, 0.6);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 16px;
+            box-sizing: border-box;
+        }
+
+        .modal-content {
+            background: #fff;
+            width: 100%;
+            max-width: 650px;
+            max-height: 90vh;
+            border-radius: 12px;
+            padding: 20px;
+            overflow-y: auto;
+            box-sizing: border-box;
+        }
+
+        .modal-title {
+            font-size: 1.15rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+
+        .form-group {
+            margin-bottom: 14px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #475569;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 8px 10px;
+            border-radius: 6px;
+            border: 1px solid #cbd5e1;
+            font-size: 0.9rem;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 60px;
         }
     </style>
     <script src="questions.js"></script>
@@ -306,6 +367,7 @@
         <button class="btn-tool" onclick="exportMistakes()" title="下載錯題紀錄備份">匯出錯題</button>
         <button class="btn-tool" onclick="document.getElementById('import-file').click()" title="載入錯題備份檔">匯入錯題</button>
         <input type="file" id="import-file" style="display: none;" accept=".json" onchange="importMistakes(event)">
+        <button class="btn-tool" onclick="exportUpdatedBank()" title="下載包含線上所有修改的最新題庫檔案">匯出新題庫(JS)</button>
         <button class="btn-tool danger" onclick="clearAllMistakes()">清空錯題</button>
     </div>
 
@@ -320,6 +382,8 @@
     </div>
 
     <div class="actions">
+        <!-- 核心新增：直接編輯目前題目按鈕 -->
+        <button class="action-btn secondary" id="edit-btn" onclick="openEditModal()" style="border-color: #94a3b8; color: #0f172a;">✏️ 編輯此題</button>
         <button class="action-btn secondary" id="skip-btn" onclick="skipQuestion()">跳過此題</button>
         <button class="action-btn" id="submit-btn" disabled>送出答案</button>
         <button class="action-btn" id="next-btn" style="display: none;">下一題</button>
@@ -331,15 +395,87 @@
     </div>
 </div>
 
+<!-- 編輯題目彈窗 Modal -->
+<div class="modal" id="edit-modal">
+    <div class="modal-content">
+        <div class="modal-title" id="modal-header">編輯題目</div>
+        
+        <div class="form-group">
+            <label>題目文字 (Question Body)</label>
+            <textarea class="form-control" id="edit-q-text" rows="3"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>子敘述 (1~5) (一行一個，無則留空)</label>
+            <textarea class="form-control" id="edit-q-stmts" rows="4" placeholder="例如：&#10;(1) 極有可能出現黃疸。&#10;(2) 六十歲男性新發生黃疸..."></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>選項 (A~E) (一行一個)</label>
+            <textarea class="form-control" id="edit-q-opts" rows="5" placeholder="例如：&#10;A. (1)+(2)&#10;B. (2)+(3)&#10;C. (3)+(4)..."></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>正解 (Answer)</label>
+            <select class="form-control" id="edit-q-ans" style="width: 120px;">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+            </select>
+        </div>
+
+        <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 18px;">
+            <button class="btn-tool" onclick="closeEditModal()">取消</button>
+            <button class="action-btn" onclick="saveEditedQuestion()">儲存並立即更新</button>
+        </div>
+    </div>
+</div>
+
 <script>
-let currentPool = [];          // 當前範圍所有題目
-let remainingIndices = [];     // 牌堆：本輪尚未抽過的題目索引
+// 全域題庫管理：優先套用本機的修改紀錄
+let questionsBank = [];
+let currentPool = [];
+let remainingIndices = [];
 let currentQuestion = null;
 let selectedOption = null;
 let stats = { total: 0, correct: 0 };
 
 const STORAGE_KEY = "GI_EXAM_MISTAKES";
+const OVERRIDES_KEY = "GI_EXAM_OVERRIDES";
 
+// 載入本機自訂修改紀錄
+function loadOverrides() {
+    try {
+        return JSON.parse(localStorage.getItem(OVERRIDES_KEY)) || {};
+    } catch {
+        return {};
+    }
+}
+
+function saveOverrides(data) {
+    localStorage.setItem(OVERRIDES_KEY, JSON.stringify(data));
+}
+
+function getQuestionKey(q) {
+    return `${q.year}_${q.no}`;
+}
+
+// 組合原始題庫與已儲存的修改
+function buildMergedBank() {
+    if (typeof rawQuestions === "undefined" || !rawQuestions.length) return [];
+    const overrides = loadOverrides();
+    return rawQuestions.map(q => {
+        const key = getQuestionKey(q);
+        if (overrides[key]) {
+            return { ...q, ...overrides[key] };
+        }
+        return q;
+    });
+}
+
+// 錯題本相關
 function getMistakeKeys() {
     try {
         return JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
@@ -353,10 +489,6 @@ function saveMistakeKeys(keys) {
     updateMistakesOptionText();
 }
 
-function getQuestionKey(q) {
-    return `${q.year}_${q.no}`;
-}
-
 function isBookmarked(q) {
     if (!q) return false;
     const list = getMistakeKeys();
@@ -367,7 +499,6 @@ function toggleCurrentBookmark() {
     if (!currentQuestion) return;
     const key = getQuestionKey(currentQuestion);
     let list = getMistakeKeys();
-    
     if (list.includes(key)) {
         list = list.filter(k => k !== key);
     } else {
@@ -470,8 +601,75 @@ function updateStarUI() {
     }
 }
 
+// 核心功能：開啟編輯目前題目視窗
+function openEditModal() {
+    if (!currentQuestion) return;
+    document.getElementById("modal-header").innerText = `✏️ 編輯 ${currentQuestion.year} 第 ${currentQuestion.no} 題`;
+    document.getElementById("edit-q-text").value = currentQuestion.question || "";
+    document.getElementById("edit-q-stmts").value = (currentQuestion.statements || []).join("\n");
+    document.getElementById("edit-q-opts").value = (currentQuestion.options || []).join("\n");
+    document.getElementById("edit-q-ans").value = (currentQuestion.answer || "A").trim().toUpperCase();
+
+    document.getElementById("edit-modal").style.display = "flex";
+}
+
+function closeEditModal() {
+    document.getElementById("edit-modal").style.display = "none";
+}
+
+// 儲存修改內容
+function saveEditedQuestion() {
+    if (!currentQuestion) return;
+    const key = getQuestionKey(currentQuestion);
+
+    const newQuestion = document.getElementById("edit-q-text").value.trim();
+    const newStatements = document.getElementById("edit-q-stmts").value.split("\n").map(s => s.trim()).filter(Boolean);
+    const newOptions = document.getElementById("edit-q-opts").value.split("\n").map(s => s.trim()).filter(Boolean);
+    const newAnswer = document.getElementById("edit-q-ans").value.trim().toUpperCase();
+
+    if (!newQuestion || newOptions.length < 2) {
+        alert("請至少填寫題目文字與 2 個以上的選項！");
+        return;
+    }
+
+    // 儲存至本機 overrides
+    const overrides = loadOverrides();
+    overrides[key] = {
+        question: newQuestion,
+        statements: newStatements,
+        options: newOptions,
+        answer: newAnswer
+    };
+    saveOverrides(overrides);
+
+    // 同步更新當前題目與題庫
+    Object.assign(currentQuestion, overrides[key]);
+    const idx = questionsBank.findIndex(q => getQuestionKey(q) === key);
+    if (idx !== -1) {
+        Object.assign(questionsBank[idx], overrides[key]);
+    }
+
+    closeEditModal();
+    renderCurrentQuestionUI();
+    alert("修改已儲存！該題目在您的瀏覽器中已立即更新為正確版本。");
+}
+
+// 一鍵匯出修改後的完整 questions.js
+function exportUpdatedBank() {
+    if (!questionsBank.length) return;
+    const jsContent = "const rawQuestions = " + JSON.stringify(questionsBank, null, 2) + ";\n";
+    const dataStr = "data:text/javascript;charset=utf-8," + encodeURIComponent(jsContent);
+    const downloadAnchor = document.createElement("a");
+    downloadAnchor.setAttribute("href", dataStr);
+    downloadAnchor.setAttribute("download", `questions.js`);
+    document.body.appendChild(downloadAnchor);
+    downloadAnchor.click();
+    downloadAnchor.remove();
+}
+
 function initBank() {
-    if (typeof rawQuestions === "undefined" || !rawQuestions.length) {
+    questionsBank = buildMergedBank();
+    if (!questionsBank.length) {
         alert("找不到 questions.js 或題庫內容為空！請確保 questions.js 與此 html 放在同一資料夾中。");
         return;
     }
@@ -491,22 +689,21 @@ function onFilterChange() {
     loadRandomQuestion();
 }
 
-// 建立題目池並執行 Fisher-Yates 洗牌
 function filterPool() {
     const mode = document.getElementById("mode-select").value;
 
     if (mode === "all") {
-        currentPool = [...rawQuestions];
+        currentPool = [...questionsBank];
     } else if (mode === "mistakes") {
         const mistakeKeys = getMistakeKeys();
-        currentPool = rawQuestions.filter(q => mistakeKeys.includes(getQuestionKey(q)));
+        currentPool = questionsBank.filter(q => mistakeKeys.includes(getQuestionKey(q)));
     } else if (mode === "range") {
         const y1 = parseInt(document.getElementById("start-year").value, 10);
         const y2 = parseInt(document.getElementById("end-year").value, 10);
         const minYear = Math.min(y1, y2);
         const maxYear = Math.max(y1, y2);
 
-        currentPool = rawQuestions.filter(q => {
+        currentPool = questionsBank.filter(q => {
             const m = q.year.match(/\d{3}/);
             if (!m) return false;
             const y = parseInt(m[0], 10);
@@ -514,7 +711,6 @@ function filterPool() {
         });
     }
 
-    // 重設牌堆並進行隨機洗牌
     shuffleRemaining();
     updateProgressUI();
 }
@@ -538,43 +734,8 @@ function skipQuestion() {
     loadRandomQuestion();
 }
 
-function loadRandomQuestion() {
-    if (currentPool.length === 0) {
-        const mode = document.getElementById("mode-select").value;
-        document.getElementById("question-text").innerText = (mode === "mistakes")
-            ? "太棒了！錯題本內目前沒有任何題目。"
-            : "所選年份區間內目前無符合之題目。";
-        document.getElementById("question-statements").style.display = "none";
-        document.getElementById("options-container").innerHTML = "";
-        document.getElementById("source-badge").innerText = "無題目";
-        document.getElementById("submit-btn").style.display = "none";
-        document.getElementById("skip-btn").style.display = "none";
-        document.getElementById("next-btn").style.display = "none";
-        document.getElementById("result-box").style.display = "none";
-        updateStarUI();
-        updateProgressUI();
-        return;
-    }
-
-    // 本輪題目全部抽完時的處理
-    if (remainingIndices.length === 0) {
-        alert("🎉 太強了！所選範圍內的題目已全數刷完一輪！系統已為您重新洗牌，即將展開新的一輪。");
-        shuffleRemaining();
-    }
-
-    selectedOption = null;
-    document.getElementById("submit-btn").disabled = true;
-    document.getElementById("submit-btn").style.display = "inline-block";
-    document.getElementById("skip-btn").style.display = "inline-block";
-    document.getElementById("next-btn").style.display = "none";
-    document.getElementById("result-box").style.display = "none";
-
-    // 從洗好的牌堆中取出一張，保證當輪絕不重複
-    const nextIdx = remainingIndices.pop();
-    currentQuestion = currentPool[nextIdx];
-
-    updateStarUI();
-    updateProgressUI();
+function renderCurrentQuestionUI() {
+    if (!currentQuestion) return;
 
     document.getElementById("source-badge").innerText = `${currentQuestion.year} 第 ${currentQuestion.no} 題`;
     document.getElementById("question-text").innerText = currentQuestion.question;
@@ -605,6 +766,46 @@ function loadRandomQuestion() {
 
         optContainer.appendChild(btn);
     });
+}
+
+function loadRandomQuestion() {
+    if (currentPool.length === 0) {
+        const mode = document.getElementById("mode-select").value;
+        document.getElementById("question-text").innerText = (mode === "mistakes")
+            ? "太棒了！錯題本內目前沒有任何題目。"
+            : "所選年份區間內目前無符合之題目。";
+        document.getElementById("question-statements").style.display = "none";
+        document.getElementById("options-container").innerHTML = "";
+        document.getElementById("source-badge").innerText = "無題目";
+        document.getElementById("submit-btn").style.display = "none";
+        document.getElementById("skip-btn").style.display = "none";
+        document.getElementById("next-btn").style.display = "none";
+        document.getElementById("edit-btn").style.display = "none";
+        document.getElementById("result-box").style.display = "none";
+        updateStarUI();
+        updateProgressUI();
+        return;
+    }
+
+    if (remainingIndices.length === 0) {
+        alert("🎉 太強了！所選範圍內的題目已全數刷完一輪！系統已為您重新洗牌，即將展開新的一輪。");
+        shuffleRemaining();
+    }
+
+    selectedOption = null;
+    document.getElementById("submit-btn").disabled = true;
+    document.getElementById("submit-btn").style.display = "inline-block";
+    document.getElementById("skip-btn").style.display = "inline-block";
+    document.getElementById("edit-btn").style.display = "inline-block";
+    document.getElementById("next-btn").style.display = "none";
+    document.getElementById("result-box").style.display = "none";
+
+    const nextIdx = remainingIndices.pop();
+    currentQuestion = currentPool[nextIdx];
+
+    updateStarUI();
+    updateProgressUI();
+    renderCurrentQuestionUI();
 }
 
 function checkAnswer() {
