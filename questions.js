@@ -10604,7 +10604,7 @@ const rawQuestions = [
     "no": 2,
     "question": "有關食道Caustic Injury(corrosive esophagitis)之描述,何者不正確?",
     "statements": [
-      "(1) 強鹼(lye. button battery)造成較深的liquefactive necrosis,食道損傷較重, D 食道易狹窄.",
+      "(1) 強鹼(lye. button battery)造成較深的liquefactive necrosis,食道損傷較重,食道易狹窄.",
       "(2) 強酸(鹽酸 硫酸)造成較淺的coagulative necrosis,形成eschar胃損傷 較重,胃竇幽門部易狹窄,易acidosis,死亡率較強鹼高.",
       "(3) 內視鏡檢查(EGD)要在12 至48 小時以內進行,5 至15 天時忌作內視鏡 檢查,以防破裂穿孔.",
       "(4) 食道穿孔易於1-2 星期時發生,而食道或胃之狹窄易於3-4 星期以後產生.",
@@ -10617,7 +10617,7 @@ const rawQuestions = [
       "D. 以上皆正確",
       "E. 以上皆不正確"
     ],
-    "answer": ""
+    "answer": "D"
   },
   {
     "year": "112年度",
@@ -11147,7 +11147,7 @@ const rawQuestions = [
     "no": 31,
     "question": "下列關於腸道吸收與分泌的描述,何者正確?",
     "statements": [
-      "(1) serotonin reuptake transporter may be decreased in patients with E diarrhea-predominant IBS (IBS-D).",
+      "(1) serotonin reuptake transporter may be decreased in patients with diarrhea-predominant IBS (IBS-D).",
       "(2) Bile acid associated fluid loss is linked to the diarrhea of IBD and IBS-D, involve the inhibition of NaCl absorption, and/or stimulation Cl− secretion.",
       "(3) Supplementation of zinc in oral rehydration solution (ORS) was observed to decrease the number of diarrheal episodes and stool volume.",
       "(4) Glucocorticoids are potent stimulators of Na+ absorption in both the small intestine and colon."
@@ -11159,7 +11159,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": ""
+    "answer": "E"
   },
   {
     "year": "112年度",
@@ -11222,7 +11222,7 @@ const rawQuestions = [
     "no": 36,
     "question": "針對Small intestinal bacterial overgrowth(SIBO),下列敘述何者正確?",
     "statements": [
-      "(1) 傳統SIBO診斷標準是在迴腸進行aspirate and quantitative culture,細菌數 C 量超過100000 cfu/ml,但是花費昂貴,且屬於侵入性檢查",
+      "(1) 傳統SIBO診斷標準是在迴腸進行aspirate and quantitative culture,細菌數量超過100000 cfu/ml,但是花費昂貴,且屬於侵入性檢查",
       "(2) 現在最常使用C13-d-xylose breath test 診斷,但是有偽陽性的問題,且遠端 小腸細菌增生可能無法偵測到",
       "(3) 可能和Gastroparesis Hypothyroidism irritable bowel syndrome Long-term high dose acid suppression 有關",
       "(4) SIBO 會產生secondary bile salts(如lithocholic acid),直接抑制脂肪吸收, 導致脂溶性維生素缺乏",
@@ -11235,7 +11235,7 @@ const rawQuestions = [
       "D. (1)+(2)+(4)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": ""
+    "answer": "C"
   },
   {
     "year": "112年度",
@@ -11298,8 +11298,20 @@ const rawQuestions = [
     "no": 40,
     "question": "下列有關艱難梭菌感染(Clostridium difficile infection)的敘述,何者正確?",
     "statements": [
-      "(1) 常見引起CDI的抗生素有ampicillin, amoxicillin, cephalosporins,但是 B fluoroquinolones 或trimethoprim-sulfamethoxazole 則比較少見",
-      "(2) Clostridium difficile致病位址(Pathogenicity locus)長度約19.6Kb,包含五 個基因(Tcd A-E),Tcd"
+      "(1) 常見引起CDI的抗生素有ampicillin, amoxicillin, cephalosporins，但是",
+      "fluoroquinolones 或 trimethoprim-sulfamethoxazole 則比較少見",
+      "(2) Clostridium difficile 致病位址（Pathogenicity locus）長度約 19.6Kb，包含五",
+      "個基因（Tcd A-E），Tcd A、Tcd B轉譯成Toxin A、Toxin B，Tcd D基因產物",
+      "會正向調節Toxin A、B轉譯，Tcd C則負向調節Toxin製造，Tcd E可能和毒",
+      "素釋放有關",
+      "(3) 2023 年，FDA核准了第一個經由口服的FMT新藥VOWST（Seres",
+      "Therapeutics），將健康人工糞便經由加工處理留下Bifidobacteriaceae 的孢",
+      "子，製成口服膠囊，目前FDA僅核可治療recurrent CDI，並不適用於primary",
+      "CDI",
+      "(4) FMT 減少Clostridium difficile infection 復發的機轉，可能跟 short chain fatty",
+      "acid 以及secondary bile acid 下降有關",
+      "(5) Clostridium innocuum diarrhea 可能在 CDI 治療後產生，通常對Vancomycin",
+      "治療反應佳"
     ],
     "options": [
       "A. (1)",
@@ -11308,7 +11320,7 @@ const rawQuestions = [
       "D. (4)",
       "E. (5)"
     ],
-    "answer": ""
+    "answer": "B"
   },
   {
     "year": "112年度",
@@ -11505,7 +11517,7 @@ const rawQuestions = [
     "no": 53,
     "question": "關於e 抗原陽性慢性B型肝炎之治療,以下何者為錯誤?",
     "statements": [
-      "(1) 長效型干擾素(pegylated interferon)對於e 抗原陽性慢性B 型肝炎的治療 E 效果較傳統型干擾素為佳",
+      "(1) 長效型干擾素(pegylated interferon)對於e 抗原陽性慢性B 型肝炎的治療 效果較傳統型干擾素為佳",
       "(2) 合併長效型干擾素和貝樂克(Entecavir)會增加患者之持久反應率",
       "(3) 核苷酸類似物(nucleoside or nucleotide analogs)可抑制DNA聚合酶,而 終止B 型肝炎病毒的複製",
       "(4) 治療前ALT 值是核苷酸類似物(nucleoside or nucleotide analogs)治療反 應的最佳預測指標",
@@ -11518,13 +11530,22 @@ const rawQuestions = [
       "D. (2)+(4)+(5)",
       "E. (2)+(5)"
     ],
-    "answer": ""
+    "answer": "E"
   },
   {
     "year": "112年度",
     "no": 54,
     "question": "關於A 型肝炎,以下何者最正確?",
-    "statements": [],
+    "statements": [
+      "(1) A 型肝炎在第二次世界大戰期間稱為\"傳染性肝炎\"",
+      "(2) 基因體為單股RNA，分類為小RNA病毒科（Picornaviridae），並定為第71",
+      "型腸病毒",
+      "(3) A 型肝炎病毒IgM抗體（IgM anti-HAV）為診斷急性A型肝炎的血清標記，",
+      "敏感度極高，很少有偽陽性",
+      "(4) A 型肝炎病毒主要是經口傳染，潛伏期為2到6週。年幼者感染A型肝炎病",
+      "毒之症狀較成年人明顯",
+      "(5) A 型肝炎之預防目前只有主動免疫，即疫苗接種"
+    ],
     "options": [
       "A. (1)+(3)",
       "B. (1)+(2)+(3)",
@@ -11824,7 +11845,7 @@ const rawQuestions = [
     "no": 71,
     "question": "依據IMbrave050 Phase III clinical trial,下列何者為High Risk features?",
     "statements": [
-      "(1) Surgical resection: 3 tumors, the largest one 4.5cm, no vascular invasion, E Grade 2 tumor differentiation",
+      "(1) Surgical resection: 3 tumors, the largest one 4.5cm, no vascular invasion, Grade 2 tumor differentiation",
       "(2) Radiofrequency ablation (RFA): Single tumor, 2.5cm",
       "(3) Surgical resection: single tumor, 4cm, no vascular invasion, Grade 3 tumor differentiation",
       "(4) Surgical resection: single tumor, 6cm, no vascular invasion, Grade 2 tumor differentiation"
@@ -11836,7 +11857,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)",
       "E. (2)+(3)+(4)"
     ],
-    "answer": ""
+    "answer": "E"
   },
   {
     "year": "112年度",
@@ -11862,7 +11883,17 @@ const rawQuestions = [
     "no": 73,
     "question": "依據2023 AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma,下列何者敘述正確?",
     "statements": [
-      "(1) Patients with advanced HCC who have Child-Turcotte-Pugh"
+      "(1) Patients with advanced HCC who have Child-Turcotte-Pugh A cirrhosis",
+      "should be offered atezolizumab plus bevacizumab or durvalumab plus",
+      "tremelimumab as preferred first-line therapy options",
+      "(2) Patients with recent GI bleeding within 6 months and those with high-risk",
+      "stigmata for bleeding on EGD should have varices adequately treated prior",
+      "to atezolizumab plus bevacizumab initiation, or these patients may be",
+      "considered for durvalumab plus tremelimumab",
+      "(3) AASLD advises sorafenib or lenvatinib as preferred agents after first-line",
+      "durvalumab plus tremelimumab if patients are not eligible for clinical trials",
+      "(4) Well-selected patients with Child-Turcotte-Pugh B cirrhosis may be offered",
+      "sorafenib, lenvatinib, or single-agent anti-PD1 or anti-PDL1 ICI therapy"
     ],
     "options": [
       "A. (3)+(4)",
@@ -11918,7 +11949,7 @@ const rawQuestions = [
     "no": 76,
     "question": "關於HCC systemic therapy 的敘述下列何者正確?",
     "statements": [
-      "(1) Systemic chemotherapy with doxorubicin or FOLFOX did not demonstrate E survival benefits",
+      "(1) Systemic chemotherapy with doxorubicin or FOLFOX did not demonstrate survival benefits",
       "(2) Lenvatinib targets VEGFR1-3; fibroblast growth factor receptor (FGFR1-4); platelet-derived growth factor receptor a, RET, and KIT",
       "(3) Cabozantinib is a MET, VEGFR2 and RET inhibitor approved for thyroid, renal cancer and HCC",
       "(4) Ramucirumab is a monoclonal antibody targeting VEGFR 2",
@@ -11931,7 +11962,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(5)",
       "E. (1)+(2)+(3)+(4)+(5)"
     ],
-    "answer": ""
+    "answer": "E"
   },
   {
     "year": "112年度",
@@ -12046,7 +12077,7 @@ const rawQuestions = [
     "no": 83,
     "question": "下列有關Mirizzi syndrome 之敘述何者為真?",
     "statements": [
-      "(1) Mirizzi syndrome是慢性膽結石疾病的併發症.通常因為膽囊漏斗 B (infundibulum)或頸部(neck)內的受阻結石間接施加的壓力對膽管的外部 壓迫",
+      "(1) Mirizzi syndrome是慢性膽結石疾病的併發症.通常因為膽囊漏斗 (infundibulum)或頸部(neck)內的受阻結石間接施加的壓力對膽管的外部 壓迫",
       "(2) Mirizzi syndrome常以膽管炎的形式為臨床表現",
       "(3) Mirizzi syndrome腹部超音波上典型表現為:肝內肝外膽管都擴大,膽囊也 較一般病人脹大",
       "(4) Mirizzi syndrome治療以手術為主,手術難度與一般腹腔鏡膽囊摘除術相當",
@@ -12059,7 +12090,7 @@ const rawQuestions = [
       "D. (2)+(3)+(4)",
       "E. (2)+(4)+(5)"
     ],
-    "answer": ""
+    "answer": "B"
   },
   {
     "year": "112年度",
@@ -12118,7 +12149,14 @@ const rawQuestions = [
     "no": 87,
     "question": "下列有關外科手術治療肝門膽管癌(hilar cholangiocarcinoma)的描述何者為真:",
     "statements": [
-      "(1) 由於腫瘤容易浸潤附近肝臟,要達到R0 切除的目標,肝門必須和附近肝臟"
+      "(1) 由於腫瘤容易浸潤附近肝臟，要達到R0切除的目標，肝門必須和附近肝臟",
+      "一起切除，所以除左或右肝切除外，尾葉（caudate lobe）也一定要一併切",
+      "除",
+      "(2) 廣泛肝臟切除（extended hepatectomy）術前，建議膽道引流直到膽紅素",
+      "2 mg%以下，再進行手術",
+      "(3) PTCD 或ENBD是比較接受的術前引流方式",
+      "(4) 廣泛肝臟切除（extended hepatectomy）術前如評估剩餘肝臟太小，有肝功",
+      "能不足疑慮時，可以先進行經導管肝動脈栓塞"
     ],
     "options": [
       "A. (1)+(2)+(3)",
@@ -12127,7 +12165,7 @@ const rawQuestions = [
       "D. (1)+(2)+(4)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": ""
+    "answer": "A"
   },
   {
     "year": "112年度",
@@ -12269,7 +12307,7 @@ const rawQuestions = [
     "no": 96,
     "question": "Which of following statements are correct?",
     "statements": [
-      "(1) The initial step in the pathogenesis of AP is conversion of trypsinogen to B phospholipase A2 within acinar cells",
+      "(1) The initial step in the pathogenesis of AP is conversion of trypsinogen to phospholipase A2 within acinar cells",
       "(2) Pancreatic secretory trypsin inhibitor (now called SPINK1) is a protective intrapancreatic mechanisms",
       "(3) The first phase of acute pancreatitis usually lasts a week and is characterized by systemic symptoms that may result in organ failure",
       "(4) Approximately 75% to 80%, of patients with AP have a resolution of the disease process"
@@ -12281,14 +12319,14 @@ const rawQuestions = [
       "D. (1)+(2)+(3)",
       "E. (1)+(2)+(3)+(4)"
     ],
-    "answer": ""
+    "answer": "B"
   },
   {
     "year": "112年度",
     "no": 97,
     "question": "Which statements about chronic pancreatitis is/are incorrect?",
     "statements": [
-      "(1) Tobacco use is one very important cofactor for the development of alcoholic E chronic pancreatitis",
+      "(1) Tobacco use is one very important cofactor for the development of alcoholic chronic pancreatitis",
       "(2) Men are more likely than women to develop alcoholic chronic pancreatitis",
       "(3) some cases with pancreatitis attack due to hypertriglyceridemia will ultimately develop chronic pancreatitis",
       "(4) The response to sphincter ablation in patients with chronic pancreatitis and presumed sphincter of Oddi dysfunction is predictable"
@@ -12300,7 +12338,7 @@ const rawQuestions = [
       "D. (1)",
       "E. (4)"
     ],
-    "answer": ""
+    "answer": "E"
   },
   {
     "year": "112年度",
@@ -12311,8 +12349,7 @@ const rawQuestions = [
       "A. For pain relief, most of patients with chronic pancreatitis require more potent narcotic agents",
       "B. Narcotics should not be withheld in patients with severe pain",
       "C. High dosages of tramadol are equivalent to oral morphine in treating chronic pancreatitis, with fewer effects on gut motility",
-      "D. ",
-      "A. trial of enzymes for pain is usually successful in those with advanced chronic pancreatitis with diffuse calcifications or a dilated pancreatic duct",
+      "D. A trial of enzymes for pain is usually successful in those with advanced chronic pancreatitis with diffuse calcifications or a dilated pancreatic duct",
       "E. The primary goal of endoscopic therapy is to improve drainage of the pancreatic duct by relieving ductal obstruction"
     ],
     "answer": "D"
@@ -12885,7 +12922,11 @@ const rawQuestions = [
     "no": 30,
     "question": "下列有關於十二指腸腺癌(adenocarcinoma)的描述何者為誤?",
     "statements": [
-      "(1) Familial adenomatous polyposis(FAP)患者發生小腸腺癌之機率較常人為"
+      "(1) Familial adenomatous polyposis（FAP）患者發生小腸腺癌之機率較常人為",
+      "(2) Familial adenomatous polyposis（FAP）患者若發生小腸腺癌，發生部位多",
+      "在空腸",
+      "(3) Crohn’s disease 患者發生小腸腺癌之機率較常人為高",
+      "(4) Peutz-Jeghers syndrome 患者發生小腸腺癌之機率較常人為高"
     ],
     "options": [
       "A. (2)",
@@ -12894,7 +12935,7 @@ const rawQuestions = [
       "D. (1)+(2)+(4)",
       "E. (1)+(2)+(3)"
     ],
-    "answer": ""
+    "answer": "A"
   },
   {
     "year": "113年度",
