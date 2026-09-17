@@ -210,7 +210,6 @@
             border: 1px solid #fecaca;
         }
 
-        /* 隨題小筆記樣式：預設 display: none 隱藏 */
         .note-box {
             display: none;
             margin-top: 16px;
@@ -297,7 +296,6 @@
             border-color: #94a3b8;
         }
 
-        /* 筆記鈕高亮狀態（當該題已有筆記時） */
         .action-btn.has-note {
             background-color: #fef3c7;
             border-color: #f59e0b;
@@ -312,7 +310,6 @@
             justify-content: space-between;
         }
 
-        /* Modal 彈窗樣式 */
         .modal {
             display: none;
             position: fixed;
@@ -389,12 +386,13 @@
     <div class="filter-row">
         <label for="mode-select">練習範圍：</label>
         <select id="mode-select" onchange="onModeChange()">
+            <option value="unanswered" style="color: #0284c7; font-weight: bold;">🆕 未寫過的題目 (優先)</option>
             <option value="range">自訂年份區間</option>
             <option value="all">全部年度 (106 ~ 113)</option>
             <option value="mistakes" style="color: #b45309; font-weight: bold;">★ 我的錯題本</option>
         </select>
 
-        <div class="range-container" id="range-box">
+        <div class="range-container" id="range-box" style="display: none;">
             <select id="start-year" onchange="onFilterChange()">
                 <option value="106">106 年</option>
                 <option value="107">107 年</option>
@@ -418,7 +416,7 @@
             </select>
         </div>
 
-        <button class="btn-tool" onclick="exportBackupData()" title="下載包含錯題與個人筆記的備份檔">備份紀錄(含筆記)</button>
+        <button class="btn-tool" onclick="exportBackupData()" title="下載包含錯題、筆記與做題紀錄的備份檔">備份紀錄</button>
         <button class="btn-tool" onclick="document.getElementById('import-file').click()" title="載入備份紀錄">匯入備份</button>
         <input type="file" id="import-file" style="display: none;" accept=".json" onchange="importBackupData(event)">
         <button class="btn-tool" onclick="exportUpdatedBank()" title="下載包含線上所有修改的最新題庫檔案">匯出新題庫(JS)</button>
@@ -435,7 +433,6 @@
         <div id="result-msg"></div>
     </div>
 
-    <!-- 隨題小筆記區塊 (預設隱藏) -->
     <div class="note-box" id="note-container">
         <div class="note-header">
             <span>📝 本題重點筆記 (輸入後自動儲存)</span>
@@ -445,7 +442,6 @@
     </div>
 
     <div class="actions">
-        <!-- 點擊展開/收合筆記 -->
         <button class="action-btn secondary" id="toggle-note-btn" onclick="toggleNoteBox()">📝 本題筆記</button>
         <button class="action-btn secondary" id="edit-btn" onclick="openEditModal()">✏️ 編輯此題</button>
         <button class="action-btn secondary" id="skip-btn" onclick="skipQuestion()">跳過此題</button>
@@ -459,7 +455,6 @@
     </div>
 </div>
 
-<!-- 編輯題目彈窗 Modal -->
 <div class="modal" id="edit-modal">
     <div class="modal-content">
         <div class="modal-title" id="modal-header">編輯題目</div>
@@ -508,12 +503,43 @@ let stats = { total: 0, correct: 0 };
 const STORAGE_KEY = "GI_EXAM_MISTAKES";
 const OVERRIDES_KEY = "GI_EXAM_OVERRIDES";
 const NOTES_KEY = "GI_EXAM_NOTES";
+const ANSWERED_KEY = "GI_EXAM_ANSWERED_KEYS"; // 儲存所有已寫過的題目 key
 
 function getQuestionKey(q) {
     return `${q.year}_${q.no}`;
 }
 
-// 筆記儲存與切換顯示
+// 已作答記錄存取
+function getAnsweredKeys() {
+    try {
+        return JSON.parse(localStorage.getItem(ANSWERED_KEY)) || [];
+    } catch {
+        return [];
+    }
+}
+
+function recordQuestionAnswered(q) {
+    if (!q) return;
+    const key = getQuestionKey(q);
+    let list = getAnsweredKeys();
+    if (!list.includes(key)) {
+        list.push(key);
+        localStorage.setItem(ANSWERED_KEY, JSON.stringify(list));
+        updateUnansweredOptionText();
+    }
+}
+
+function updateUnansweredOptionText() {
+    if (!questionsBank.length) return;
+    const answeredKeys = getAnsweredKeys();
+    const unCount = questionsBank.filter(q => !answeredKeys.includes(getQuestionKey(q))).length;
+    const opt = document.querySelector("#mode-select option[value='unanswered']");
+    if (opt) {
+        opt.innerText = `🆕 未寫過的題目 (剩 ${unCount} 題)`;
+    }
+}
+
+// 筆記存取邏輯
 function loadAllNotes() {
     try {
         return JSON.parse(localStorage.getItem(NOTES_KEY)) || {};
@@ -643,14 +669,16 @@ function addCurrentToMistakes() {
     }
 }
 
-// 備份與匯入
+// 備份與匯入（整合錯題、筆記、已做題紀錄）
 function exportBackupData() {
     const mistakes = getMistakeKeys();
     const notes = loadAllNotes();
+    const answered = getAnsweredKeys();
     
     const backupObj = {
         mistakes: mistakes,
         notes: notes,
+        answered: answered,
         exportedAt: new Date().toISOString()
     };
     
@@ -673,36 +701,37 @@ function importBackupData(event) {
             const imported = JSON.parse(e.target.result);
             let importedMistakes = [];
             let importedNotes = {};
+            let importedAnswered = [];
 
             if (Array.isArray(imported)) {
                 importedMistakes = imported;
             } else if (imported && typeof imported === "object") {
                 importedMistakes = imported.mistakes || [];
                 importedNotes = imported.notes || {};
+                importedAnswered = imported.answered || [];
             }
 
             const currentMistakes = getMistakeKeys();
             const currentNotes = loadAllNotes();
+            const currentAnswered = getAnsweredKeys();
 
-            const shouldMerge = confirm(`成功讀取備份檔！\n錯題：${importedMistakes.length} 筆\n筆記：${Object.keys(importedNotes).length} 筆\n\n按「確定」與目前資料【合併】\n按「取消」將【覆蓋】目前資料`);
+            const shouldMerge = confirm(`成功讀取備份檔！\n錯題：${importedMistakes.length} 筆\n筆記：${Object.keys(importedNotes).length} 筆\n已做題記錄：${importedAnswered.length} 筆\n\n按「確定」與目前資料【合併】\n按「取消」將【覆蓋】目前資料`);
 
             if (shouldMerge) {
                 saveMistakeKeys(Array.from(new Set([...currentMistakes, ...importedMistakes])));
                 saveAllNotes({ ...currentNotes, ...importedNotes });
+                localStorage.setItem(ANSWERED_KEY, JSON.stringify(Array.from(new Set([...currentAnswered, ...importedAnswered]))));
             } else {
                 saveMistakeKeys(importedMistakes);
                 saveAllNotes(importedNotes);
+                localStorage.setItem(ANSWERED_KEY, JSON.stringify(importedAnswered));
             }
 
+            updateUnansweredOptionText();
             alert("備份資料載入完成！");
             
-            if (document.getElementById("mode-select").value === "mistakes") {
-                filterPool();
-                loadRandomQuestion();
-            } else {
-                updateStarUI();
-                renderCurrentQuestionUI();
-            }
+            filterPool();
+            loadRandomQuestion();
         } catch (err) {
             alert("匯入失敗：請確認檔案格式是否正確！");
         }
@@ -712,7 +741,7 @@ function importBackupData(event) {
 }
 
 function clearAllMistakes() {
-    if (confirm("確定要清空所有已收藏的錯題嗎？(您的個人小筆記仍會妥善保留)")) {
+    if (confirm("確定要清空所有已收藏的錯題嗎？(您的個人小筆記與作答進度仍會保留)")) {
         localStorage.removeItem(STORAGE_KEY);
         updateMistakesOptionText();
         if (document.getElementById("mode-select").value === "mistakes") {
@@ -812,6 +841,7 @@ function initBank() {
         return;
     }
     updateMistakesOptionText();
+    updateUnansweredOptionText();
     onModeChange();
 }
 
@@ -827,10 +857,15 @@ function onFilterChange() {
     loadRandomQuestion();
 }
 
+// 核心題庫篩選與洗牌
 function filterPool() {
     const mode = document.getElementById("mode-select").value;
 
-    if (mode === "all") {
+    if (mode === "unanswered") {
+        // 從從未寫過的題目開始篩選
+        const answeredKeys = getAnsweredKeys();
+        currentPool = questionsBank.filter(q => !answeredKeys.includes(getQuestionKey(q)));
+    } else if (mode === "all") {
         currentPool = [...questionsBank];
     } else if (mode === "mistakes") {
         const mistakeKeys = getMistakeKeys();
@@ -905,7 +940,6 @@ function renderCurrentQuestionUI() {
         optContainer.appendChild(btn);
     });
 
-    // 載入筆記內容（預設收合框隱藏）
     const key = getQuestionKey(currentQuestion);
     const allNotes = loadAllNotes();
     document.getElementById("question-note").value = allNotes[key] || "";
@@ -917,9 +951,13 @@ function renderCurrentQuestionUI() {
 function loadRandomQuestion() {
     if (currentPool.length === 0) {
         const mode = document.getElementById("mode-select").value;
-        document.getElementById("question-text").innerText = (mode === "mistakes")
-            ? "太棒了！錯題本內目前沒有任何題目。"
-            : "所選年份區間內目前無符合之題目。";
+        let emptyMsg = "所選範圍內目前無題目。";
+        if (mode === "mistakes") {
+            emptyMsg = "太棒了！錯題本內目前沒有任何題目。";
+        } else if (mode === "unanswered") {
+            emptyMsg = "太神了！所有題目您都已經至少作答過一次囉！若想重新複習，可切換至「全部年度」或「自訂年份區間」。";
+        }
+        document.getElementById("question-text").innerText = emptyMsg;
         document.getElementById("question-statements").style.display = "none";
         document.getElementById("options-container").innerHTML = "";
         document.getElementById("source-badge").innerText = "無題目";
@@ -936,8 +974,16 @@ function loadRandomQuestion() {
     }
 
     if (remainingIndices.length === 0) {
-        alert("🎉 太強了！所選範圍內的題目已全數刷完一輪！系統已為您重新洗牌，即將展開新的一輪。");
-        shuffleRemaining();
+        const mode = document.getElementById("mode-select").value;
+        if (mode === "unanswered") {
+            alert("🎉 恭喜您！此輪未寫過的題目已全部完成作答！");
+            filterPool();
+            loadRandomQuestion();
+            return;
+        } else {
+            alert("🎉 太強了！所選範圍內的題目已全數刷完一輪！系統已為您重新洗牌，即將展開新的一輪。");
+            shuffleRemaining();
+        }
     }
 
     selectedOption = null;
@@ -963,6 +1009,9 @@ function checkAnswer() {
     stats.total++;
     const isCorrect = (selectedOption === currentQuestion.answer.toUpperCase());
     if (isCorrect) stats.correct++;
+
+    // 核心新增：只要作答送出，標記此題為「已寫過」
+    recordQuestionAnswered(currentQuestion);
 
     if (!isCorrect) {
         addCurrentToMistakes();
