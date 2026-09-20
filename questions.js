@@ -172,7 +172,7 @@ const rawQuestions = [
     "no": 10,
     "question": "有關食道Caustic injury(corrosive esophagitis)之描述,何者不正確?",
     "statements": [
-      "(1) 強鹼(lye.button battery)造成較深的liquefaction necrosis,食道損傷較重, D 食道易狹窄.",
+      "(1) 強鹼(lye.button battery)造成較深的liquefaction necrosis,食道損傷較重,食道易狹窄.",
       "(2) 強酸(鹽酸 硫酸)造成較淺的coagulation necrosis,胃損傷較重,前庭幽 門部易狹窄,易acidosis,死亡率較強鹼高.",
       "(3) 內視鏡檢查(EGD)要在24至48小時以內進行,可評估黏膜受損程度.",
       "(4) 食道穿孔易於1-2星期時發生,而食道或胃之狹窄易於3-4星期以後產生.",
@@ -185,7 +185,7 @@ const rawQuestions = [
       "D. 以上皆正確",
       "E. 以上皆不正確"
     ],
-    "answer": ""
+    "answer": "D"
   },
   {
     "year": "106年度",
@@ -1861,7 +1861,7 @@ const rawQuestions = [
     "no": 8,
     "question": "有關食道Caustic injury(corrosive esophagitis)之描述,何者不正確?",
     "statements": [
-      "(1) 強鹼(如lye.button battery)造成較深的 liquefactive necrosis,及皂化,食 D 道損傷較重,食道易狹窄",
+      "(1) 強鹼(如lye.button battery)造成較深的 liquefactive necrosis,及皂化,食道損傷較重,食道易狹窄",
       "(2) 強酸(如鹽酸 硫酸)造成較淺的coagulative necrosis,形成eschar,胃損 傷較重,前庭幽門部易狹窄,易acidosis,死亡率較強鹼高",
       "(3) 內視鏡檢查(EGD)要在12至48小時以內進行,可評估黏膜受損程度",
       "(4) 食道穿孔易於數日至一~二星期時發生,而食道或胃之狹窄易於 3至4星期 以後發生,80%在8星期內發生",
@@ -1874,7 +1874,7 @@ const rawQuestions = [
       "D. 以上皆正確",
       "E. 以上皆不正確"
     ],
-    "answer": ""
+    "answer": "D"
   },
   {
     "year": "107年度",
@@ -3197,7 +3197,7 @@ const rawQuestions = [
     "no": 84,
     "question": "膽固醇結石發生的機轉大致分為三類,以下的描述下列何者為真?",
     "statements": [
-      "(1) 過多的膽固醇分泌與正常的膽鹽(bile salt)和磷脂(phospholipid)分泌, D 常見於肥胖者",
+      "(1) 過多的膽固醇分泌與正常的膽鹽(bile salt)和磷脂(phospholipid)分泌, 常見於肥胖者",
       "(2) 正常的膽固醇分泌與膽鹽分泌下降,常見非肥胖者,膽鹽流失病患",
       "(3) 過多的膽固醇與膽鹽分泌下降,如祕魯人",
       "(4) 膽鹽的來源全部來自肝臟的合成"
@@ -3209,7 +3209,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)",
       "E. (1)+(4)"
     ],
-    "answer": ""
+    "answer": "D"
   },
   {
     "year": "107年度",
@@ -5698,7 +5698,7 @@ const rawQuestions = [
     "no": 28,
     "question": "下列關於胃腺癌的敘述,何者為非?",
     "statements": [
-      "(1) CEA及CA19-9在胃癌的診斷及預後預測上敏感度及特異度皆很低,不具臨 D 床用途,不需檢測",
+      "(1) CEA及CA19-9在胃癌的診斷及預後預測上敏感度及特異度皆很低,不具臨床用途,不需檢測",
       "(2) CA72-4在胃癌的診斷特異度與敏感度不高",
       "(3) 大多數的胃腺癌對F-18 fiuorodeoxyglucose(FDG)的uptake偏低",
       "(4) 磁振造影(MRI)對於胃癌T及N的分期優於電腦斷層,因此手術前分期宜 優先選擇MRI",
@@ -5711,7 +5711,7 @@ const rawQuestions = [
       "D. (1)+(4)+(5)",
       "E. (1)+(4)"
     ],
-    "answer": ""
+    "answer": "D"
   },
   {
     "year": "109年度",
@@ -7003,7 +7003,7 @@ const rawQuestions = [
     "no": 1,
     "question": "對於胃食道逆流性疾病(GERD)之敘述,何者不正確?",
     "statements": [
-      "(1)超過一半病例,內視鏡檢時無mucosal break,稱為NERD(Non Erosive E Reflux Disease)或ENRD(Endoscopic Negative Reflux Disease).",
+      "(1)超過一半病例,內視鏡檢時無mucosal break,稱為NERD(Non Erosive Reflux Disease)或ENRD(Endoscopic Negative Reflux Disease).",
       "(2) Ambulatory 24-hour esophageal PH monitoring 如為正常,則可確定排除 GERD之診斷.",
       "(3)西方國家常以PPI(proton pump inhibitor)做2星期之empirical therapy, 依反應來認定是否GERD.",
       "(4) GERD之臨床症狀程度,常以LA分期(A B C D)來判定,並可預測其 治療反應成效.",
@@ -7016,7 +7016,7 @@ const rawQuestions = [
       "D. (1)+(3)+(5)",
       "E. (2)+(4)+(5)"
     ],
-    "answer": ""
+    "answer": "E"
   },
   {
     "year": "110年度",
@@ -13775,7 +13775,14 @@ const rawQuestions = [
     "no": 76,
     "question": "有關肝癌之2022 BCLC(Barcelona Clinic Liver Cancer)分期系統何者正確?",
     "statements": [
-      "(1) 主要分為stage 0,"
+      "(1) 主要分為 stage 0, A ,B, C, D",
+      "(2) ECOG Performance status 1-2 分的病患為 stage C 期肝癌，3-4 分的病患為",
+      "stage D 期肝癌",
+      "(3) Italian Liver Cancer (ITA.LI.CA) system 將 BCLC Stage B 次分群為 Stages",
+      "B1, B2, B3 及 B4",
+      "(4) Stage B 肝癌之病患應積極治療，尚不建議使用 systemic treatment",
+      "(5) Stage 0是指單一腫瘤小3公分，ECOG Performance status 0分之very early",
+      "HCC"
     ],
     "options": [
       "A. (1)+(2)",
@@ -13791,7 +13798,12 @@ const rawQuestions = [
     "no": 77,
     "question": "針對栓塞術治療肝細胞癌的敘述何者有誤?",
     "statements": [
-      "(1) TACE 對於BCLC"
+      "(1) TACE 對於 BCLC A 病患為標準治療（standard of care）",
+      "(2) TACE 在肝功能 Child C 級原則上不可接受治療",
+      "(3) 栓塞後病人可能會有發燒、右上腹痛及肝指數上升等副作用",
+      "(4) Radioembolization 如 Y90 對於門脈栓塞肝細胞癌不能改善存活",
+      "(5) 一般來說，Radioembolization 如 Y90 與 TACE 比較起來存活率（survival）",
+      "與 time to progression 類似並無差別"
     ],
     "options": [
       "A. (1)+(2)",
