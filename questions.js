@@ -950,8 +950,14 @@ const rawQuestions = [
   {
     "year": "106年度",
     "no": 56,
-    "question": "45歲女性病患來門診時,主訴疲倦(malaise),鞏膜汎黃(icteric sclera),急診 檢驗資料顯示血清albumin level: 3.6 g/dL(reference value > 3.5),total bilirubin",
-    "statements": [],
+    "question": "45 歲女性病患來門診時，主訴疲倦（malaise），鞏膜汎黃（icteric sclera），急診\n檢驗資料顯示血清albumin level: 3.6 g/dL（reference value > 3.5），total bilirubin level: 5.6 mg/dL（reference value < 1.0），direct bilirubin level: 2.4 mg/dL\n（reference value < 0.3），ALT level 1240 U/L（reference value < 40），AST level\n1380 U/L（reference value < 40），ALP level 89 U/L（reference value < 100），\nPT INR 1.6（reference value 0.9~1.1），以下何項訊息對病情診斷有幫忙？",
+    "statements": [
+      "(1) 藥物史（drug history）",
+      "(2) 喝酒史（alcohol intake history）",
+      "(3) 過去肝炎病史（previous hepatitis history）",
+      "(4) 疫苗接種史（viral hepatitis vaccination history）",
+      "(5) 接觸危險行為史（exposure to risk behavior history）"
+    ],
     "options": [
       "A. (1)+(2)+(3)+(4)+(5)",
       "B. (1)+(2)+(3)+(4)",
@@ -959,7 +965,7 @@ const rawQuestions = [
       "D. (1)+(3)+(4)+(5)",
       "E. (1)+(2)+(3)+(5)"
     ],
-    "answer": ""
+    "answer": "A"
   },
   {
     "year": "106年度",
@@ -5428,7 +5434,13 @@ const rawQuestions = [
     "no": 14,
     "question": "下列有關慢性萎縮性胃炎(Chronic atrophic gastritis)之敘述,下列何者為非?",
     "statements": [
-      "(1) 包含environmental metaplastic atrophic gastritis 與autoimmune"
+      "(1) 包含environmental metaplastic atrophic gastritis 與autoimmune metaplastic atrophic gastritis",
+      "(2) autoimmune metaplastic atrophic gastritis 之atrophic gastritis 主要發生於胃",
+      "竇部（gastric antrum）",
+      "(3) autoimmune metaplastic atrophic gastritis 常與anti-parietal cell antibody 的",
+      "產生有關",
+      "(4) environmental metaplastic atrophic gastritis 常與幽門螺旋桿菌感染有關",
+      "(5) autoimmune metaplastic atrophic gastritis 患者少有hypergastrinemia 之情形"
     ],
     "options": [
       "A. (2)+(5)",
@@ -5437,7 +5449,7 @@ const rawQuestions = [
       "D. (2)+(3)+(5)",
       "E. (1)+(2)+(5)"
     ],
-    "answer": ""
+    "answer": "A"
   },
   {
     "year": "109年度",
@@ -5578,7 +5590,7 @@ const rawQuestions = [
     "no": 22,
     "question": "關於胃腺癌的臨床病理表徵,下列何者為非?",
     "statements": [
-      "(1) 瀰漫性胃腺癌(diffuse type)的預後與腸型胃腺癌(intestinal type)沒有 E 差別",
+      "(1) 瀰漫性胃腺癌(diffuse type)的預後與腸型胃腺癌(intestinal type)沒有差別",
       "(2) 腸型胃腺癌是經過慢性胃炎 萎縮性胃炎 胃腸上皮化生等過程逐漸癌化而 成,目前每個階段的相關基因突變已經確立",
       "(3) DNA damage repair(DDR)pathway 與瀰漫型及腸型胃癌的發生皆有相關",
       "(4) 依Siewert 分類(Siewert classification),EG junction 的junctional cancer 可分成三類,其中第三型(junction 以下2-5公分的胃腺癌)與幽門螺旋桿菌 有相關",
@@ -5591,7 +5603,7 @@ const rawQuestions = [
       "D. (2)+(3)+(4)",
       "E. (1)+(2)"
     ],
-    "answer": ""
+    "answer": "E"
   },
   {
     "year": "109年度",
@@ -7392,7 +7404,7 @@ const rawQuestions = [
     "no": 22,
     "question": "下列有關胃癌的敍述,何者為是?",
     "statements": [
-      "(1)腸道型(intestinal type)和瀰漫型(diffuse type)胃癌皆與幽門螺旋桿菌感 D 染有關",
+      "(1)腸道型(intestinal type)和瀰漫型(diffuse type)胃癌皆與幽門螺旋桿菌感染有關",
       "(2)腸道型胃癌患者之平均年齡較瀰漫型胃癌患者大",
       "(3)早期胃癌的定義是癌細胞侵犯之深度不超過粘膜下層,且沒有局部淋巴轉移",
       "(4)瀰漫型與環境和飲食因子的相關性較腸道型高",
@@ -7405,7 +7417,7 @@ const rawQuestions = [
       "D. (1)+(2)+(5)",
       "E. (2)+(3)+(4)"
     ],
-    "answer": ""
+    "answer": "D"
   },
   {
     "year": "110年度",
@@ -8374,7 +8386,7 @@ const rawQuestions = [
     "no": 79,
     "question": "關於Cholangiocarcinoma(CCA)的敘述,下列何者正確?",
     "statements": [
-      "(1) Adjuvant chemotherapy with capecitabine for 6 months after surgical D resection with curative intent is recommended for intrahepatic CCA",
+      "(1) Adjuvant chemotherapy with capecitabine for 6 months after surgical resection with curative intent is recommended for intrahepatic CCA",
       "(2) Liver transplantation is a potentially curative option for intrahepatic and perihilar CCA",
       "(3) FOLFOX (folinic acid, fluorouracil and oxaliplatin) can be recommended as second- line standard of care chemotherapy",
       "(4) Combination of cisplatin and gemcitabine is the standard of care for patients with unresected tumors",
@@ -8387,7 +8399,7 @@ const rawQuestions = [
       "D. (1)+(2)+(3)+(4)+(5)",
       "E. (1)+(2)+(4)"
     ],
-    "answer": ""
+    "answer": "D"
   },
   {
     "year": "110年度",
@@ -9706,7 +9718,7 @@ const rawQuestions = [
     "no": 52,
     "question": "下列有關B型病毒感染,治療本身可否降低肝細胞癌發生風險之描述,何者正確?",
     "statements": [
-      "(1) 已經發生肝硬化的慢性B型肝炎患者,長期使用口服抗病毒藥物可以降低肝 B 細胞癌發生的風險.",
+      "(1) 已經發生肝硬化的慢性B型肝炎患者,長期使用口服抗病毒藥物可以降低肝細胞癌發生的風險.",
       "(2) 無肝硬化存在的慢性B型肝炎患者,短期使用口服抗病毒藥物是否可以降低 肝細胞癌發生的風險仍有爭議,歐洲的臨床觀察發現持續使用口服抗病毒藥 物五年內肝細胞癌風險並未降低.",
       "(3) 抗病毒藥物選擇本身是否與肝細胞癌風險降低程度有關仍有爭議.",
       "(4) 慢性B型肝炎患者長期使用口服抗病毒藥物時,與肝細胞癌發生風險有關的 因子包括age, gender, MELD score, FIB-4 score, DM等.",
@@ -9719,7 +9731,7 @@ const rawQuestions = [
       "D. (1)+(4)+(5)",
       "E. (1)+(3)"
     ],
-    "answer": ""
+    "answer": "B"
   },
   {
     "year": "111年度",
@@ -9766,7 +9778,7 @@ const rawQuestions = [
     "no": 55,
     "question": "下列有關肝膿瘍(liver abscess)的臨床診斷與處置,何者為非?",
     "statements": [
-      "(1) Klebsiella pneumonia 是東南亞地區造成肝膿瘍的獨特致病細菌,可能會導 D 致嚴重的肝臟外併發症.",
+      "(1) Klebsiella pneumonia 是東南亞地區造成肝膿瘍的獨特致病細菌,可能會導致嚴重的肝臟外併發症.",
       "(2) 肝臟膿瘍若是因細菌感染引起,除了給予抗生素以外,應進行引流以加速癒 合.",
       "(3) 肝臟膿瘍若是因細菌感染引起,施予靜脈注射第一代頭孢子素即可以完全控 制感染.",
       "(4) 除了處理肝臟膿瘍以外,要注意肝外併發症的發生.",
@@ -9779,7 +9791,7 @@ const rawQuestions = [
       "D. (3)+(5)",
       "E. (3)"
     ],
-    "answer": ""
+    "answer": "D"
   },
   {
     "year": "111年度",
@@ -9866,7 +9878,7 @@ const rawQuestions = [
     "no": 60,
     "question": "有關懷孕期間出現的肝臟疾病處置,下列描述何者為非?",
     "statements": [
-      "(1) AFLP(acute fatty liver of pregnancy)主要發生在懷孕第三期(third E trimester),肝臟病理主要呈現為peri-portal zone (zone 1) microvesicular fatty infiltration,盡快 delivery 是主要的治療方法.",
+      "(1) AFLP(acute fatty liver of pregnancy)主要發生在懷孕第三期(third trimester),肝臟病理主要呈現為peri-portal zone (zone 1) microvesicular fatty infiltration,盡快 delivery 是主要的治療方法.",
       "(2) HELLP(Hemolysis, Elevated Liver enzymes, Low Platelets syndrome)主 要發生在懷孕第三期(third trimester),盡快delivery 是主要的治療方法.",
       "(3) 懷孕期間,慢性B型肝炎可以考慮使用之口服抗病毒藥物包括entecavir 和 telbivudine.",
       "(4) 預防母嬰垂直感染B型肝炎病毒,臺灣健保規定如下:孕婦血清中 B型肝炎 病毒超過1,000,000 IU/mL 時,可以考慮在懷孕第三期使用口服抗病毒藥物, 用藥期間為懷孕滿27週至產後4週.",
@@ -9879,7 +9891,7 @@ const rawQuestions = [
       "D. (1)+(2)+(4)",
       "E. (2)+(4)"
     ],
-    "answer": ""
+    "answer": "E"
   },
   {
     "year": "111年度",
